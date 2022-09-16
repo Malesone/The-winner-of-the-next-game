@@ -4,80 +4,69 @@
 2,D. Zapata,Out,Atalanta
 3,J. Palomino,Out,Atalanta
 4,J. Boga,Out,Atalanta
-5,N. Dominguez,Out,Bologna
-6,N. Sansone,Out,Bologna
-7,A. Soumaoro,Out,Bologna
-8,P. Ghiglione,Out,Cremonese
-9,M. Carnesecchi,Out,Cremonese
-10,M. Ndiaye,Out,Cremonese
-11,M. Bianchetti,Out,Cremonese
-12,M. Destro,Out,Empoli
-13,L. Tonelli,Out,Empoli
-14,T. Baldanzi,Out,Empoli
-15,J. Akpa Akpro,Banned,Empoli
-16,R. Sottil,Out,Fiorentina
-17,N. Milenkovic,Out,Fiorentina
-18,G. Castrovilli,Out,Fiorentina
-19,N. Gonzalez,Out,Fiorentina
-20,Dodo,Out,Fiorentina
-21,Igor,Banned,Fiorentina
-22,Dalbert,Out,Inter
-23,R. Lukaku,Out,Inter
-24,F. Chiesa,Out,Juventus
-25,A. Rabiot,Out,Juventus
-26,A. Sandro,Out,Juventus
-27,W. Szczesny,Out,Juventus
-28,M. Locatelli,Out,Juventus
-29,P. Pogba,Out,Juventus
-30,M. Ake,Out,Juventus
-31,Kaio Jorge,Out,Juventus
-32,J. Cuadrado,Banned,Juventus
-33,A. Milik,Banned,Juventus
-34,M. Lazzari,Out,Lazio
-35,F. Brancolini,Out,Lecce
-36,G. Strefezza,Out,Lecce
-37,J. Voelkerling Persson,Out,Lecce
-38,A. Rebic,Out,Milan
-39,D. Origi,Out,Milan
-40,Z. Ibrahimovic,Out,Milan
-41,R. Leao,Banned,Milan
-42,A. Ranocchia,Out,Monza
-43,M. D'Alessandro,Out,Monza
-44,H. Lozano,Out,Napoli
-45,D. Demme,Out,Napoli
-46,V. Osimhen,Out,Napoli
-47,M. Kumbulla,Out,Roma
-48,G. Wijnaldum,Out,Roma
-49,E. Darboe,Out,Roma
-50,R. Karsdorp,Out,Roma
-51,N. Zalewski,Out,Roma
-52,S. El Shaarawy,Out,Roma
-53,F. Ribery,Out,Salernitana
-54,I. Radovanovic,Out,Salernitana
-55,M. Lovato,Out,Salernitana
-56,E. Bohinen,Out,Salernitana
-57,A. Micai,Out,Salernitana
-58,F. Fazio,Banned,Salernitana
-59,O. Colley,Out,Sampdoria
-60,H. Winks,Out,Sampdoria
-61,M. De Luca,Out,Sampdoria
-62,S. Trimboli,Out,Sampdoria
-63,G. Defrel,Out,Sassuolo
-64,M. Muldur,Out,Sassuolo
-65,H. Traore,Out,Sassuolo
-66,D. Berardi,Out,Sassuolo
-67,M. Erlic,Out,Sassuolo
-68,Ruan,Banned,Sassuolo
-69,D. Maldini,Out,Spezia
-70,A. Ekdal,Out,Spezia
-71,Salvador Ferrer,Out,Spezia
-72,D. Verde,Out,Spezia
-73,K. Amian,Out,Spezia
-74,E. Berisha,Out,Torino
-75,A. Miranchuk,Out,Torino
-76,S. Ricci,Out,Torino
-77,A. Masina,Out,Udinese
-78,J. Bijol,Out,Udinese
-79,Leonardo Buta,Out,Udinese
-80,F. Ceccherini,Out,Verona
-81,M. Veloso,Out,Verona
+5,N. Sansone,Out,Bologna
+6,A. Soumaoro,Out,Bologna
+7,M. Carnesecchi,Out,Cremonese
+8,M. Destro,Out,Empoli
+9,L. Tonelli,Out,Empoli
+10,T. Baldanzi,Out,Empoli
+11,J. Akpa Akpro,Banned,Empoli
+12,N. Milenkovic,Out,Fiorentina
+13,G. Castrovilli,Out,Fiorentina
+14,N. Gonzalez,Out,Fiorentina
+15,Dodo,Out,Fiorentina
+16,Igor,Banned,Fiorentina
+17,H. Calhanoglu,Out,Inter
+18,Dalbert,Out,Inter
+19,R. Lukaku,Out,Inter
+20,F. Chiesa,Out,Juventus
+21,A. Rabiot,Out,Juventus
+22,A. Sandro,Out,Juventus
+23,M. Locatelli,Out,Juventus
+24,P. Pogba,Out,Juventus
+25,M. Ake,Out,Juventus
+26,Kaio Jorge,Out,Juventus
+27,J. Cuadrado,Banned,Juventus
+28,A. Milik,Banned,Juventus
+29,M. Lazzari,Out,Lazio
+30,F. Brancolini,Out,Lecce
+31,J. Voelkerling Persson,Out,Lecce
+32,A. Rebic,Out,Milan
+33,A. Florenzi,Out,Milan
+34,D. Origi,Out,Milan
+35,Z. Ibrahimovic,Out,Milan
+36,R. Leao,Banned,Milan
+37,A. Ranocchia,Out,Monza
+38,M. D'Alessandro,Out,Monza
+39,D. Demme,Out,Napoli
+40,V. Osimhen,Out,Napoli
+41,M. Kumbulla,Out,Roma
+42,G. Wijnaldum,Out,Roma
+43,E. Darboe,Out,Roma
+44,N. Zalewski,Out,Roma
+45,S. El Shaarawy,Out,Roma
+46,F. Ribery,Out,Salernitana
+47,I. Radovanovic,Out,Salernitana
+48,M. Lovato,Out,Salernitana
+49,E. Bohinen,Out,Salernitana
+50,A. Micai,Out,Salernitana
+51,F. Fazio,Banned,Salernitana
+52,H. Winks,Out,Sampdoria
+53,M. De Luca,Out,Sampdoria
+54,S. Trimboli,Out,Sampdoria
+55,G. Defrel,Out,Sassuolo
+56,M. Muldur,Out,Sassuolo
+57,H. Traore,Out,Sassuolo
+58,D. Berardi,Out,Sassuolo
+59,M. Erlic,Out,Sassuolo
+60,Ruan,Banned,Sassuolo
+61,D. Maldini,Out,Spezia
+62,Salvador Ferrer,Out,Spezia
+63,D. Verde,Out,Spezia
+64,K. Amian,Out,Spezia
+65,E. Berisha,Out,Torino
+66,A. Miranchuk,Out,Torino
+67,S. Ricci,Out,Torino
+68,A. Masina,Out,Udinese
+69,Leonardo Buta,Out,Udinese
+70,F. Ceccherini,Out,Verona
