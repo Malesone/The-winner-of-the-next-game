@@ -1,0 +1,39 @@
+,Data,Ora,Competizione,Girone,Giorno,Stadio,Risultato,Rf,Rs,Avversario,Reti,Tiri,Tiri.1,% TiP,G/Tiri,G/TiP,Dist.,Pun.,Rigori,Rig T,xG,npxG,npxG/Sh,G-xG,np:G-xG,Report partita
+0,22-08-2021,20:45,Serie A,Giornata n. 1,Dom,Casa,V,2,0,Venezia,2,11,3,273,9,33,206.0,3.0,1,2,2.3,0.8,7.0,-0.3,0.2,Report partita
+1,29-08-2021,18:30,Serie A,Giornata n. 2,Dom,Ospiti,V,2,1,Genoa,2,13,8,615,15,25,179.0,1.0,0,0,1.1,1.1,9.0,0.9,0.9,Report partita
+2,11-09-2021,18:00,Serie A,Giornata n. 3,Sab,Casa,V,2,1,Juventus,2,25,7,280,8,29,174.0,1.0,0,0,2.1,2.1,8.0,-0.1,-0.1,Report partita
+4,20-09-2021,20:45,Serie A,Giornata n. 4,Lun,Ospiti,V,4,0,Udinese,4,18,8,444,22,50,154.0,2.0,0,0,2.4,2.4,15.0,1.6,1.6,Report partita
+5,23-09-2021,18:30,Serie A,Giornata n. 5,Gio,Ospiti,V,4,0,Sampdoria,4,17,9,529,24,44,194.0,0.0,0,0,2.2,2.2,13.0,1.8,1.8,Report partita
+6,26-09-2021,20:45,Serie A,Giornata n. 6,Dom,Casa,V,2,0,Cagliari,2,16,6,375,6,17,223.0,1.0,1,1,1.8,1.1,7.0,0.2,-0.1,Report partita
+8,03-10-2021,18:00,Serie A,Giornata n. 7,Dom,Ospiti,V,2,1,Fiorentina,2,11,4,364,18,50,158.0,1.0,0,1,1.7,0.8,7.0,0.3,1.2,Report partita
+9,17-10-2021,18:00,Serie A,Giornata n. 8,Dom,Casa,V,1,0,Torino,1,10,2,200,10,50,182.0,0.0,0,1,1.6,0.9,9.0,-0.6,0.1,Report partita
+11,24-10-2021,18:00,Serie A,Giornata n. 9,Dom,Ospiti,N,0,0,Roma,0,11,2,182,0,0,188.0,1.0,0,0,0.9,0.9,9.0,-0.9,-0.9,Report partita
+12,28-10-2021,20:45,Serie A,Giornata n. 10,Gio,Casa,V,3,0,Bologna,3,16,4,250,6,25,190.0,0.0,2,2,2.6,1.1,7.0,0.4,-0.1,Report partita
+13,31-10-2021,18:00,Serie A,Giornata n. 11,Dom,Ospiti,V,1,0,Salernitana,1,18,4,222,6,25,170.0,0.0,0,0,1.4,1.4,8.0,-0.4,-0.4,Report partita
+15,07-11-2021,18:00,Serie A,Giornata n. 12,Dom,Casa,N,1,1,Hellas Verona,1,16,1,63,6,100,202.0,3.0,0,0,0.8,0.8,5.0,0.2,0.2,Report partita
+16,21-11-2021,18:00,Serie A,Giornata n. 13,Dom,Ospiti,P,2,3,Inter,2,9,3,333,22,67,150.0,0.0,0,0,1.1,1.1,12.0,0.9,0.9,Report partita
+18,28-11-2021,20:45,Serie A,Giornata n. 14,Dom,Casa,V,4,0,Lazio,4,18,8,444,22,50,202.0,1.0,0,0,1.2,1.2,7.0,2.8,2.8,Report partita
+19,01-12-2021,20:45,Serie A,Giornata n. 15,Mer,Ospiti,N,2,2,Sassuolo,2,9,4,444,22,50,158.0,0.0,0,0,0.8,0.8,8.0,1.2,1.2,Report partita
+20,04-12-2021,20:45,Serie A,Giornata n. 16,Sab,Casa,P,2,3,Atalanta,2,15,4,267,13,50,177.0,1.0,0,0,1.2,1.2,8.0,0.8,0.8,Report partita
+22,12-12-2021,18:00,Serie A,Giornata n. 17,Dom,Casa,P,0,1,Empoli,0,30,6,200,0,0,177.0,0.0,0,0,1.7,1.7,6.0,-1.7,-1.7,Report partita
+23,19-12-2021,20:45,Serie A,Giornata n. 18,Dom,Ospiti,V,1,0,Milan,1,11,2,182,9,50,153.0,0.0,0,0,0.9,0.9,8.0,0.1,0.1,Report partita
+24,22-12-2021,20:45,Serie A,Giornata n. 19,Mer,Casa,P,0,1,Spezia,0,27,6,222,0,0,158.0,0.0,0,0,2.0,2.0,8.0,-2.0,-2.0,Report partita
+25,06-01-2022,20:45,Serie A,Giornata n. 20,Gio,Ospiti,N,1,1,Juventus,1,16,4,250,6,25,209.0,1.0,0,0,0.7,0.7,4.0,0.3,0.3,Report partita
+26,09-01-2022,16:30,Serie A,Giornata n. 21,Dom,Casa,V,1,0,Sampdoria,1,22,5,227,5,20,171.0,1.0,0,0,1.5,1.5,7.0,-0.5,-0.5,Report partita
+28,17-01-2022,18:30,Serie A,Giornata n. 22,Lun,Ospiti,V,2,0,Bologna,2,14,5,357,14,40,171.0,1.0,0,0,2.1,2.1,15.0,-0.1,-0.1,Report partita
+29,23-01-2022,15:00,Serie A,Giornata n. 23,Dom,Casa,V,4,1,Salernitana,4,24,12,500,8,17,175.0,2.0,2,2,4.1,2.7,11.0,-0.1,-0.7,Report partita
+30,06-02-2022,15:00,Serie A,Giornata n. 24,Dom,Ospiti,V,2,0,Venezia,2,16,6,375,13,33,163.0,0.0,0,0,1.6,1.6,11.0,0.4,0.4,Report partita
+31,12-02-2022,18:00,Serie A,Giornata n. 25,Sab,Casa,N,1,1,Inter,1,12,3,250,0,0,142.0,0.0,1,1,1.7,1.0,8.0,-0.7,-1.0,Report partita
+33,21-02-2022,19:00,Serie A,Giornata n. 26,Lun,Ospiti,N,1,1,Cagliari,1,7,3,429,14,33,170.0,1.0,0,0,0.9,0.9,13.0,0.1,0.1,Report partita
+35,27-02-2022,20:50,Serie A,Giornata n. 27,Dom,Ospiti,V,2,1,Lazio,2,14,7,500,14,29,177.0,0.0,0,0,1.4,1.4,10.0,0.6,0.6,Report partita
+36,06-03-2022,20:45,Serie A,Giornata n. 28,Dom,Casa,P,0,1,Milan,0,10,3,300,0,0,189.0,0.0,0,0,0.5,0.5,5.0,-0.5,-0.5,Report partita
+37,13-03-2022,15:00,Serie A,Giornata n. 29,Dom,Ospiti,V,2,1,Hellas Verona,2,13,4,308,15,50,156.0,0.0,0,0,1.5,1.5,12.0,0.5,0.5,Report partita
+38,19-03-2022,15:00,Serie A,Giornata n. 30,Sab,Casa,V,2,1,Udinese,2,20,8,400,10,25,179.0,1.0,0,0,1.1,1.1,5.0,0.9,0.9,Report partita
+39,03-04-2022,15:00,Serie A,Giornata n. 31,Dom,Ospiti,V,3,1,Atalanta,3,5,4,800,40,50,203.0,0.0,1,1,1.5,0.8,15.0,1.5,1.2,Report partita
+40,10-04-2022,15:00,Serie A,Giornata n. 32,Dom,Casa,P,2,3,Fiorentina,2,15,3,200,13,67,171.0,2.0,0,0,1.1,1.1,7.0,0.9,0.9,Report partita
+41,18-04-2022,19:00,Serie A,Giornata n. 33,Lun,Casa,N,1,1,Roma,1,8,3,375,0,0,196.0,0.0,1,1,1.4,0.6,8.0,-0.4,-0.6,Report partita
+42,24-04-2022,15:00,Serie A,Giornata n. 34,Dom,Ospiti,P,2,3,Empoli,2,16,2,125,13,100,149.0,0.0,0,0,1.3,1.3,8.0,0.7,0.7,Report partita
+43,30-04-2022,15:00,Serie A,Giornata n. 35,Sab,Casa,V,6,1,Sassuolo,6,18,8,444,33,75,126.0,0.0,0,0,2.8,2.8,16.0,3.2,3.2,Report partita
+44,07-05-2022,15:00,Serie A,Giornata n. 36,Sab,Ospiti,V,1,0,Torino,1,10,4,400,10,25,192.0,1.0,0,1,1.4,0.6,6.0,-0.4,0.4,Report partita
+45,15-05-2022,15:00,Serie A,Giornata n. 37,Dom,Casa,V,3,0,Genoa,3,16,8,500,13,25,176.0,0.0,1,1,2.2,1.4,9.0,0.8,0.6,Report partita
+46,22-05-2022,12:30,Serie A,Giornata n. 38,Dom,Ospiti,V,3,0,Spezia,3,10,4,400,30,75,192.0,0.0,0,0,1.0,1.0,10.0,2.0,2.0,Report partita
