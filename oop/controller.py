@@ -66,7 +66,7 @@ class Controller:
         os.chdir(folder+'/shots/')
         for file in glob.glob("*.csv"):
             name = file.replace('.csv', '')
-            team = Team(name=name, scores=None, season=folder)
+            team = Team(name=name, scores=None, season=self.season)
             team.shot = pd.read_csv(file)
             team.match = pd.read_csv('../matches/'+file)
 

@@ -1,0 +1,39 @@
+,Data,Ora,Competizione,Girone,Giorno,Stadio,Risultato,Rf,Rs,Avversario,xG,xGA,Poss.,Spettatori,Capitano,Formazione,Arbitro,Report partita,Note,Reti,Tiri,Tiri.1,% TiP,G/Tiri,G/TiP,Dist.,Pun.,Rigori,Rig T,npxG,npxG/Sh,G-xG,np:G-xG
+0,23-08-2021,20:45,Serie A,Giornata n. 1,Lun,Ospiti,V,1,0,Sampdoria,1.1,1.0,51,5.0,Davide Calabria,4-2-3-1,Marco Guida,Report partita,,1,11,4,364,9,25,193.0,0.0,0,0,1.1,10.0,-0.1,-0.1
+1,29-08-2021,20:45,Serie A,Giornata n. 2,Dom,Casa,V,4,1,Cagliari,2.7,0.4,57,31.946,Davide Calabria,4-2-3-1,Marco Serra,Report partita,,4,17,4,235,18,75,184.0,1.0,1,1,2.0,12.0,1.3,1.0
+2,12-09-2021,18:00,Serie A,Giornata n. 3,Dom,Casa,V,2,0,Lazio,3.0,0.3,47,36.207,Alessio Romagnoli,4-2-3-1,Daniele Chiffi,Report partita,,2,20,3,150,10,67,190.0,0.0,0,1,2.3,11.0,-1.0,-0.3
+3,19-09-2021,20:45,Serie A,Giornata n. 4,Dom,Ospiti,N,1,1,Juventus,0.7,1.0,56,18.785,Alessio Romagnoli,4-2-3-1,Daniele Doveri,Report partita,,1,13,3,231,8,33,227.0,1.0,0,0,0.7,5.0,0.3,0.3
+4,22-09-2021,20:45,Serie A,Giornata n. 5,Mer,Casa,V,2,0,Venezia,1.7,0.7,67,26.185,Alessio Romagnoli,4-2-3-1,Ivan Pezzuto,Report partita,,2,14,4,286,14,50,174.0,1.0,0,0,1.7,12.0,0.3,0.3
+5,25-09-2021,15:00,Serie A,Giornata n. 6,Sab,Ospiti,V,2,1,Spezia,1.9,0.9,64,3.618,Alessio Romagnoli,4-2-3-1,Gianluca Manganiello,Report partita,,2,18,5,278,11,40,171.0,1.0,0,0,1.9,11.0,0.1,0.1
+6,03-10-2021,20:45,Serie A,Giornata n. 7,Dom,Ospiti,V,3,2,Atalanta,3.0,2.1,44,9.363,Davide Calabria,4-2-3-1,Marco Di Bello,Report partita,,3,13,7,538,23,43,167.0,0.0,0,0,3.0,24.0,0.0,0.0
+7,16-10-2021,20:45,Serie A,Giornata n. 8,Sab,Casa,V,3,2,Hellas Verona,1.5,1.4,53,40.128,Alessio Romagnoli,4-2-3-1,Alessandro Prontera,Report partita,,2,16,3,188,6,33,203.0,0.0,1,1,0.8,5.0,0.5,0.2
+8,23-10-2021,20:45,Serie A,Giornata n. 9,Sab,Ospiti,V,4,2,Bologna,0.9,0.7,62,22.167,Davide Calabria,4-2-3-1,Paolo Valeri,Report partita,,4,15,7,467,27,57,176.0,1.0,0,0,0.9,6.0,3.1,3.1
+9,26-10-2021,20:45,Serie A,Giornata n. 10,Mar,Casa,V,1,0,Torino,0.9,0.8,44,35.929,Alessio Romagnoli,4-2-3-1,Gianluca Aureliano,Report partita,,1,10,2,200,10,50,197.0,0.0,0,0,0.9,9.0,0.1,0.1
+10,31-10-2021,20:45,Serie A,Giornata n. 11,Dom,Ospiti,V,2,1,Roma,1.9,1.2,50,51.001,Davide Calabria,4-2-3-1,Fabio Maresca,Report partita,,2,7,2,286,14,50,183.0,2.0,1,1,1.1,16.0,0.1,-0.1
+11,07-11-2021,20:45,Serie A,Giornata n. 12,Dom,Casa,N,1,1,Inter,0.9,2.6,51,56.608,Simon Kjær,4-2-3-1,Daniele Doveri,Report partita,,0,16,4,250,0,0,189.0,1.0,0,0,0.9,6.0,-0.9,-0.9
+12,20-11-2021,20:45,Serie A,Giornata n. 13,Sab,Ospiti,P,3,4,Fiorentina,2.1,1.8,55,32.567,Franck Kessié,4-2-3-1,Marco Guida,Report partita,,2,16,6,375,13,33,158.0,0.0,0,0,2.1,13.0,-0.1,-0.1
+13,28-11-2021,15:00,Serie A,Giornata n. 14,Dom,Casa,P,1,3,Sassuolo,1.1,1.1,50,52.824,Alessio Romagnoli,4-2-3-1,Gianluca Manganiello,Report partita,,1,15,2,133,7,50,159.0,0.0,0,0,1.1,7.0,-0.1,-0.1
+14,01-12-2021,20:45,Serie A,Giornata n. 15,Mer,Ospiti,V,3,0,Genoa,1.0,0.5,58,14.0,Franck Kessié,4-2-3-1,Juan Sacchi,Report partita,,3,18,5,278,17,60,193.0,1.0,0,0,1.0,6.0,2.0,2.0
+15,04-12-2021,15:00,Serie A,Giornata n. 16,Sab,Casa,V,2,0,Salernitana,2.9,0.3,70,43.609,Alessio Romagnoli,4-2-3-1,Antonio Giua,Report partita,,2,22,7,318,9,29,172.0,0.0,0,0,2.9,13.0,-0.9,-0.9
+16,11-12-2021,20:45,Serie A,Giornata n. 17,Sab,Ospiti,N,1,1,Udinese,1.1,1.7,66,16.385,Alessio Romagnoli,4-2-3-1,Francesco Fourneau,Report partita,,1,12,1,83,8,100,144.0,0.0,0,0,1.1,9.0,-0.1,-0.1
+17,19-12-2021,20:45,Serie A,Giornata n. 18,Dom,Casa,P,0,1,Napoli,0.5,0.9,48,54.647,Alessio Romagnoli,4-2-3-1,Davide Massa,Report partita,,0,12,2,167,0,0,187.0,0.0,0,0,0.5,4.0,-0.5,-0.5
+18,22-12-2021,20:45,Serie A,Giornata n. 19,Mer,Ospiti,V,4,2,Empoli,1.4,1.7,44,10.596,Alessio Romagnoli,4-2-3-1,Marco Di Bello,Report partita,,4,18,8,444,22,50,176.0,2.0,0,0,1.4,8.0,2.6,2.6
+19,06-01-2022,18:30,Serie A,Giornata n. 20,Gio,Casa,V,3,1,Roma,2.9,0.8,55,35.87,Theo Hernández,4-2-3-1,Daniele Chiffi,Report partita,,3,17,3,176,12,67,227.0,1.0,1,2,1.3,8.0,0.1,0.7
+20,09-01-2022,12:30,Serie A,Giornata n. 21,Dom,Ospiti,V,3,0,Venezia,2.8,0.4,62,5.0,Theo Hernández,4-2-3-1,Massimiliano Irrati,Report partita,,3,17,6,353,12,33,173.0,0.0,1,1,2.6,16.0,0.2,-0.6
+21,17-01-2022,18:30,Serie A,Giornata n. 22,Lun,Casa,P,1,2,Spezia,2.5,1.4,60,5.0,Theo Hernández,4-2-3-1,Marco Serra,Report partita,,1,24,8,333,4,13,174.0,1.0,0,1,1.8,7.0,-1.5,-0.8
+22,23-01-2022,20:45,Serie A,Giornata n. 23,Dom,Casa,N,0,0,Juventus,0.6,0.4,47,5.0,Alessio Romagnoli,4-2-3-1,Marco Di Bello,Report partita,,0,14,4,286,0,0,207.0,1.0,0,0,0.6,5.0,-0.6,-0.6
+23,05-02-2022,18:00,Serie A,Giornata n. 24,Sab,Ospiti,V,2,1,Inter,1.2,0.8,54,37.918,Alessio Romagnoli,4-2-3-1,Marco Guida,Report partita,,2,10,3,300,20,67,203.0,1.0,0,0,1.2,12.0,0.8,0.8
+24,13-02-2022,12:30,Serie A,Giornata n. 25,Dom,Casa,V,1,0,Sampdoria,1.4,0.2,50,35.71,Alessio Romagnoli,4-2-3-1,Daniele Chiffi,Report partita,,1,15,7,467,7,14,142.0,0.0,0,0,1.4,10.0,-0.4,-0.4
+25,19-02-2022,20:45,Serie A,Giornata n. 26,Sab,Ospiti,N,2,2,Salernitana,1.3,1.4,60,18.449,Davide Calabria,4-2-3-1,Michael Fabbri,Report partita,,2,13,5,385,15,40,190.0,1.0,0,0,1.3,10.0,0.7,0.7
+26,25-02-2022,18:45,Serie A,Giornata n. 27,Ven,Casa,N,1,1,Udinese,0.8,1.0,62,44.588,Alessio Romagnoli,4-2-3-1,Matteo Marchetti,Report partita,,1,9,3,333,11,33,175.0,0.0,0,0,0.8,9.0,0.2,0.2
+27,06-03-2022,20:45,Serie A,Giornata n. 28,Dom,Ospiti,V,1,0,Napoli,1.2,0.5,40,42.0,Davide Calabria,4-3-3,Daniele Orsato,Report partita,,1,12,7,583,8,14,184.0,0.0,0,0,1.2,10.0,-0.2,-0.2
+28,12-03-2022,20:45,Serie A,Giornata n. 29,Sab,Casa,V,1,0,Empoli,0.7,0.2,52,48.801,Davide Calabria,4-2-3-1,Daniele Chiffi,Report partita,,1,15,5,333,7,20,156.0,1.0,0,0,0.7,4.0,0.3,0.3
+29,19-03-2022,20:45,Serie A,Giornata n. 30,Sab,Ospiti,V,1,0,Cagliari,2.4,1.1,57,12.309,Davide Calabria,4-2-3-1,Marco Di Bello,Report partita,,1,21,5,238,5,20,158.0,0.0,0,0,2.4,12.0,-1.4,-1.4
+30,04-04-2022,20:45,Serie A,Giornata n. 31,Lun,Casa,N,0,0,Bologna,2.2,0.6,53,68.136,Davide Calabria,4-2-3-1,Livio Marinelli,Report partita,,0,33,7,212,0,0,168.0,0.0,0,0,2.2,7.0,-2.2,-2.2
+31,10-04-2022,20:45,Serie A,Giornata n. 32,Dom,Ospiti,N,0,0,Torino,0.8,1.0,57,23.472,Davide Calabria,4-2-3-1,Daniele Doveri,Report partita,,0,14,4,286,0,0,195.0,0.0,0,0,0.8,6.0,-0.8,-0.8
+32,15-04-2022,21:00,Serie A,Giornata n. 33,Ven,Casa,V,2,0,Genoa,1.6,0.3,58,70.259,Franck Kessié,4-3-3,Daniele Chiffi,Report partita,,2,10,5,500,20,40,133.0,0.0,0,0,1.6,17.0,0.4,0.4
+33,24-04-2022,20:45,Serie A,Giornata n. 34,Dom,Ospiti,V,2,1,Lazio,2.1,0.6,53,25.0,Davide Calabria,4-2-3-1,Marco Guida,Report partita,,2,25,8,320,8,25,182.0,2.0,0,0,2.1,8.0,-0.1,-0.1
+34,01-05-2022,15:00,Serie A,Giornata n. 35,Dom,Casa,V,1,0,Fiorentina,1.3,0.5,49,71.542,Davide Calabria,4-2-3-1,Paolo Valeri,Report partita,,1,13,2,154,8,50,148.0,0.0,0,0,1.3,10.0,-0.3,-0.3
+35,08-05-2022,20:45,Serie A,Giornata n. 36,Dom,Ospiti,V,3,1,Hellas Verona,2.9,1.2,53,30.154,Davide Calabria,4-2-3-1,Daniele Doveri,Report partita,,3,18,8,444,17,38,170.0,0.0,0,0,2.9,16.0,0.1,0.1
+36,15-05-2022,18:00,Serie A,Giornata n. 37,Dom,Casa,V,2,0,Atalanta,1.5,0.9,45,73.304,Davide Calabria,4-3-3,Daniele Orsato,Report partita,,2,12,6,500,17,33,210.0,1.0,0,0,1.5,12.0,0.5,0.5
+37,22-05-2022,18:00,Serie A,Giornata n. 38,Dom,Ospiti,V,3,0,Sassuolo,3.1,0.4,48,21.584,Davide Calabria,4-2-3-1,Daniele Doveri,Report partita,,3,18,11,611,17,27,134.0,0.0,0,0,3.1,17.0,-0.1,-0.1

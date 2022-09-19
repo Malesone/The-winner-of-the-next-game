@@ -14,6 +14,7 @@ class Team:
         self.dataset = self.match[self.match['Competizione'] == 'Serie A'] #filtro per Serie A, devo salvare solo la serie A, non mi interessa di Champions e altre partite
         
     def save_csv(self, folder): #salva il dataFrame in csv
+        #print(self.season.name+folder+self.name+'.csv')
         self.dataset.to_csv(self.season.name+folder+self.name+'.csv')
 
     def get_shots_for_match(self): #ottiene i tiri fatti in ciascuna partita giocata dalla squadra
@@ -32,8 +33,6 @@ class Team:
         #self.save_csv('/shots/')
         
     def merge_scores_shots(self):
-        #self.dataset = pd.merge(self.match, self.shot, on = id, how='inner')
-        #self.save_csv('/merge_stats_shots/')
-        print("merge")
-        #self.dataset = self.match.merge(self.shot[["Data", "Sh", "SoT", "Dist", "FK", "PK", "PKatt"]], on="Date")      
-        #self.save_csv('/merge_stats_shots/')
+        #self.dataset = pd.merge(self.match, self.shot, on = ["Data","Ora","Competizione"])
+        #print(self.dataset)
+        self.save_csv('/merge_stats_shots/')

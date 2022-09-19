@@ -1,0 +1,39 @@
+,Data,Ora,Competizione,Girone,Giorno,Stadio,Risultato,Rf,Rs,Avversario,xG,xGA,Poss.,Spettatori,Capitano,Formazione,Arbitro,Report partita,Note,Reti,Tiri,Tiri.1,% TiP,G/Tiri,G/TiP,Dist.,Pun.,Rigori,Rig T,npxG,npxG/Sh,G-xG,np:G-xG
+0,21-08-2021,20:45,Serie A,Giornata n. 1,Sab,Ospiti,V,2,1,Torino,1.0,1.3,53,3.475,José Luis Palomino,3-4-3,Daniele Chiffi,Report partita,,2,7,2,286,29,100,146.0,0.0,0,0,1.0,14.0,1.0,1.0
+1,28-08-2021,18:30,Serie A,Giornata n. 2,Sab,Casa,N,0,0,Bologna,1.0,0.3,59,7.912,Rafael Tolói,3-4-3,Daniele Orsato,Report partita,,0,22,3,136,0,0,190.0,2.0,0,0,1.0,5.0,-1.0,-1.0
+2,11-09-2021,20:45,Serie A,Giornata n. 3,Sab,Casa,P,1,2,Fiorentina,2.5,1.7,55,9.162,Rafael Tolói,3-4-3,Valerio Marini,Report partita,,1,12,4,333,0,0,101.0,0.0,1,1,1.7,15.0,-1.5,-1.7
+3,18-09-2021,20:45,Serie A,Giornata n. 4,Sab,Ospiti,V,1,0,Salernitana,1.4,0.9,57,11.949,Rafael Tolói,3-4-3,Paolo Valeri,Report partita,,1,10,3,300,10,33,147.0,1.0,0,0,1.4,15.0,-0.4,-0.4
+4,21-09-2021,20:45,Serie A,Giornata n. 5,Mar,Casa,V,2,1,Sassuolo,1.6,0.7,47,7.353,Rafael Tolói,3-4-1-2,Davide Massa,Report partita,,2,14,5,357,14,40,167.0,1.0,0,0,1.6,11.0,0.4,0.4
+5,25-09-2021,18:00,Serie A,Giornata n. 6,Sab,Ospiti,N,2,2,Inter,2.1,3.9,50,36.517,Rafael Tolói,3-4-1-2,Fabio Maresca,Report partita,,2,21,5,238,10,40,148.0,1.0,0,0,2.1,10.0,-0.1,-0.1
+6,03-10-2021,20:45,Serie A,Giornata n. 7,Dom,Casa,P,2,3,Milan,2.1,3.0,56,9.363,Remo Freuler,3-4-1-2,Marco Di Bello,Report partita,,2,16,4,250,6,25,175.0,1.0,1,1,1.4,9.0,-0.1,-0.4
+7,17-10-2021,15:00,Serie A,Giornata n. 8,Dom,Ospiti,V,4,1,Empoli,4.2,0.7,52,6.214,Rafael Tolói,3-4-1-2,Marco Serra,Report partita,,3,21,7,333,14,43,171.0,0.0,0,1,3.5,17.0,-1.2,-0.5
+8,24-10-2021,12:30,Serie A,Giornata n. 9,Dom,Casa,N,1,1,Udinese,0.5,0.9,67,9.951,Remo Freuler,3-4-3,Livio Marinelli,Report partita,,1,8,3,375,13,33,194.0,0.0,0,0,0.5,6.0,0.5,0.5
+9,27-10-2021,18:30,Serie A,Giornata n. 10,Mer,Ospiti,V,3,1,Sampdoria,1.1,1.3,60,5.462,Remo Freuler,3-4-3,Alessandro Prontera,Report partita,,2,13,4,308,15,50,146.0,0.0,0,0,1.1,8.0,0.9,0.9
+10,30-10-2021,15:00,Serie A,Giornata n. 11,Sab,Casa,N,2,2,Lazio,0.9,1.4,56,11.981,Remo Freuler,3-4-3,Marco Guida,Report partita,,2,17,3,176,12,67,168.0,0.0,0,0,0.9,5.0,1.1,1.1
+11,06-11-2021,20:45,Serie A,Giornata n. 12,Sab,Ospiti,V,2,1,Cagliari,2.8,0.9,62,6.976,Remo Freuler,3-4-3,Marco Piccinini,Report partita,,2,20,8,400,10,25,135.0,1.0,0,0,2.8,14.0,-0.8,-0.8
+12,20-11-2021,15:00,Serie A,Giornata n. 13,Sab,Casa,V,5,2,Spezia,2.5,1.0,50,10.744,Rafael Tolói,3-4-3,Rosario Abisso,Report partita,,5,17,8,471,24,50,183.0,0.0,1,1,1.8,11.0,2.5,2.2
+13,27-11-2021,18:00,Serie A,Giornata n. 14,Sab,Ospiti,V,1,0,Juventus,0.4,0.9,41,29.886,Rafael Tolói,3-4-3,Giovanni Ayroldi,Report partita,,1,7,1,143,14,100,175.0,0.0,0,0,0.4,6.0,0.6,0.6
+14,30-11-2021,18:30,Serie A,Giornata n. 15,Mar,Casa,V,4,0,Venezia,2.7,0.7,58,8.667,José Luis Palomino,3-4-3,Alberto Santoro,Report partita,,4,19,6,316,21,67,152.0,0.0,0,0,2.7,14.0,1.3,1.3
+15,04-12-2021,20:45,Serie A,Giornata n. 16,Sab,Ospiti,V,3,2,Napoli,1.6,1.2,45,30.0,Rafael Tolói,3-4-3,Maurizio Mariani,Report partita,,3,21,7,333,14,43,156.0,0.0,0,0,1.6,8.0,1.4,1.4
+16,12-12-2021,15:00,Serie A,Giornata n. 17,Dom,Ospiti,V,2,1,Hellas Verona,1.7,1.1,47,15.0,Rafael Tolói,3-4-3,Juan Sacchi,Report partita,,2,14,6,429,14,33,177.0,0.0,0,0,1.7,12.0,0.3,0.3
+17,18-12-2021,15:00,Serie A,Giornata n. 18,Sab,Casa,P,1,4,Roma,1.3,1.2,71,14.469,Rafael Tolói,3-4-3,Massimiliano Irrati,Report partita,,0,17,6,353,0,0,171.0,1.0,0,0,1.3,8.0,-1.3,-1.3
+18,21-12-2021,20:45,Serie A,Giornata n. 19,Mar,Ospiti,N,0,0,Genoa,1.2,0.0,67,6.0,Remo Freuler,3-4-3,Paolo Valeri,Report partita,,0,17,3,176,0,0,163.0,0.0,0,0,1.2,7.0,-1.2,-1.2
+19,09-01-2022,16:30,Serie A,Giornata n. 21,Dom,Ospiti,V,6,2,Udinese,3.1,0.5,60,8.679,Rafael Tolói,3-4-3,Michael Fabbri,Report partita,,6,21,7,333,29,86,147.0,0.0,0,0,3.1,15.0,2.9,2.9
+20,16-01-2022,20:45,Serie A,Giornata n. 22,Dom,Casa,N,0,0,Inter,1.6,1.5,37,5.0,Remo Freuler,4-3-3,Davide Massa,Report partita,,0,12,6,500,0,0,137.0,0.0,0,0,1.6,13.0,-1.6,-1.6
+21,22-01-2022,20:45,Serie A,Giornata n. 23,Sab,Ospiti,N,0,0,Lazio,0.4,0.2,39,4.0,Remo Freuler,3-4-1-2,Simone Sozza,Report partita,,0,6,2,333,0,0,172.0,0.0,0,0,0.4,6.0,-0.4,-0.4
+22,06-02-2022,12:30,Serie A,Giornata n. 24,Dom,Casa,P,1,2,Cagliari,1.1,1.1,61,7.868,Remo Freuler,4-2-3-1,Alessandro Prontera,Report partita,,1,10,4,400,10,25,177.0,1.0,0,0,1.1,11.0,-0.1,-0.1
+23,13-02-2022,20:45,Serie A,Giornata n. 25,Dom,Casa,N,1,1,Juventus,2.1,0.7,52,9.731,Rafael Tolói,3-4-1-2,Maurizio Mariani,Report partita,,1,21,3,143,5,33,168.0,1.0,0,0,2.1,11.0,-1.1,-1.1
+24,20-02-2022,12:30,Serie A,Giornata n. 26,Dom,Ospiti,P,0,1,Fiorentina,0.5,0.6,51,18.056,Rafael Tolói,3-4-1-2,Daniele Doveri,Report partita,,0,7,1,143,0,0,188.0,0.0,0,0,0.5,8.0,-0.5,-0.5
+25,28-02-2022,20:50,Serie A,Giornata n. 27,Lun,Casa,V,4,0,Sampdoria,2.1,0.5,56,10.245,Rafael Tolói,4-2-3-1,Simone Sozza,Report partita,,4,19,9,474,21,44,154.0,0.0,0,0,2.1,11.0,1.9,1.9
+26,05-03-2022,18:00,Serie A,Giornata n. 28,Sab,Ospiti,P,0,1,Roma,0.8,1.2,64,42.303,Remo Freuler,4-2-3-1,Davide Massa,Report partita,,0,7,4,571,0,0,139.0,0.0,0,0,0.8,12.0,-0.8,-0.8
+27,13-03-2022,18:00,Serie A,Giornata n. 29,Dom,Casa,N,0,0,Genoa,1.2,1.0,59,9.14,José Luis Palomino,3-4-1-2,Rosario Abisso,Report partita,,0,12,2,167,0,0,168.0,1.0,0,0,1.2,10.0,-1.2,-1.2
+28,20-03-2022,20:45,Serie A,Giornata n. 30,Dom,Ospiti,V,1,0,Bologna,1.2,1.3,40,1.323,Remo Freuler,3-4-3,Fabio Maresca,Report partita,,1,15,2,133,7,50,177.0,0.0,0,0,1.2,8.0,-0.2,-0.2
+29,03-04-2022,15:00,Serie A,Giornata n. 31,Dom,Casa,P,1,3,Napoli,1.4,1.5,55,17.709,Remo Freuler,3-4-1-2,Marco Di Bello,Report partita,,1,19,3,158,5,33,147.0,1.0,0,0,1.4,8.0,-0.4,-0.4
+30,10-04-2022,15:00,Serie A,Giornata n. 32,Dom,Ospiti,P,1,2,Sassuolo,1.8,1.2,49,7.842,Rafael Tolói,3-4-3,Juan Sacchi,Report partita,,1,15,4,267,7,25,135.0,0.0,0,0,1.8,12.0,-0.8,-0.8
+31,18-04-2022,21:00,Serie A,Giornata n. 33,Lun,Casa,P,1,2,Hellas Verona,1.5,3.2,56,14.537,Marten de Roon,3-4-3,Marco Piccinini,Report partita,,1,17,4,235,6,25,148.0,0.0,0,0,1.5,9.0,-0.5,-0.5
+32,23-04-2022,15:00,Serie A,Giornata n. 34,Sab,Ospiti,V,3,1,Venezia,3.6,0.9,61,6.132,Remo Freuler,3-4-1-2,Francesco Fourneau,Report partita,,3,19,4,211,16,75,109.0,0.0,0,0,3.6,19.0,-0.6,-0.6
+33,27-04-2022,20:15,Serie A,Giornata n. 20,Mer,Casa,N,4,4,Torino,2.7,2.4,49,,Remo Freuler,3-4-3,Rosario Abisso,Report partita,,4,15,3,200,13,67,157.0,1.0,2,2,1.2,8.0,1.3,0.8
+34,02-05-2022,20:45,Serie A,Giornata n. 35,Lun,Casa,N,1,1,Salernitana,1.6,1.2,61,17.011,Remo Freuler,3-4-3,Marco Guida,Report partita,,1,20,5,250,5,20,164.0,1.0,0,0,1.6,8.0,-0.6,-0.6
+35,08-05-2022,12:30,Serie A,Giornata n. 36,Dom,Ospiti,V,3,1,Spezia,2.1,1.0,66,9.0,Remo Freuler,3-4-3,Fabio Maresca,Report partita,,3,17,6,353,18,50,166.0,1.0,0,0,2.1,12.0,0.9,0.9
+36,15-05-2022,18:00,Serie A,Giornata n. 37,Dom,Ospiti,P,0,2,Milan,0.9,1.5,55,73.304,Remo Freuler,3-4-1-2,Daniele Orsato,Report partita,,0,12,2,167,0,0,153.0,0.0,0,0,0.9,8.0,-0.9,-0.9
+37,21-05-2022,20:45,Serie A,Giornata n. 38,Sab,Casa,P,0,1,Empoli,3.8,0.4,61,17.654,Remo Freuler,3-4-1-2,Rosario Abisso,Report partita,,0,40,9,225,0,0,154.0,0.0,0,0,3.8,10.0,-3.8,-3.8
