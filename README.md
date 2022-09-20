@@ -1,4 +1,4 @@
-# The winner of the newxt match
+# The winner of the next match
 Football (aka soccer) is one of the most popular sports worldwide. There are plenty of press sources, newspaper articles, news, tweets etc. that discuss football on a daily basis and before matches.
 
 The aim of the project is to define an automatic system to **predict the outcome of the matches** starting from the news concerning the teams involved in the match published in the days and weeks preceding the match. It is also possible to use other statistical data to make predictions regarding matches.
