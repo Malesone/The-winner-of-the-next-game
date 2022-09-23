@@ -23,35 +23,36 @@ Uno sviluppo futuro è la possibilità da parte dell'utente di scegliere il camp
 Una volta che i dati vengono scaricati, vengono salvati in una cartella il cui path è Lega/Stagione ad esempio "Serie A/Season21_22/dataset.csv".
 Il dataset è organizzato secondo le squadre che giocano in casa.
 Nel dataset ci sono i seguenti dati: 
-| Campo | Descrizione |
-| ------ | ------ | ------ |
-| h_team | Squadra di casa |
-| result | Risultato finale della partita (V=vittoria, P=sconfitta, N=pareggio) |
-| h_goals | Goal effettuati dalla squadra di casa |
-| a_team | Squadra ospite |
-| a_goals | Goal effettuati dalla squadra ospite |
-| h_total_shots | Tiri totali casa |
-| h_shots_on_target | Tiri nello specchio casa |
-| h_goals_on_penalty | Goal su rigore casa |
-| h_total_penalties | Rigori totali casa |
-| h_corners | Corner casa |
-| h_completed_passings | Passaggi completati casa |
-| h_total_passings | Passaggi totali casa |
-| h_fouls | Falli effettuati casa |
-| h_yellow_cards | Cartellini gialli casa |
-| h_red_cards | Cartellini rossi casa |
-| h_percentage_possession | Percentuale possesso casa |
-| a_total_shots | Tiri totali ospiti |
-| a_shots_on_target | Tiri nello specchio ospiti |
-| a_goals_on_penalty | Goal su rigore ospiti |
-| a_total_penalties | Rigori totali ospiti |
-| a_corners | Corner ospiti  |
-| a_completed_passings | Passaggi completati ospiti |
-| a_total_passings | Passaggi totali ospiti |
-| a_yellow_cards | Cartellini gialli ospiti |
-| a_red_cards | Cartellini rossi ospiti |
-| a_fouls | Falli effettuati ospiti |
-| a_percentage_possession | Percentuale possesso ospiti |
+
+Campo | Descrizione
+--- | ---
+`h_team` | Squadra di casa
+`result` | Risultato finale della partita (V=vittoria, P=sconfitta, N=pareggio)
+`h_goals` | Goal effettuati dalla squadra di casa
+`a_team` | Squadra ospite
+`a_goals` | Goal effettuati dalla squadra ospite
+`h_total_shots` | Tiri totali casa
+`h_shots_on_target` | Tiri nello specchio casa
+`h_goals_on_penalty` | Goal su rigore casa
+`h_total_penalties` | Rigori totali casa
+`h_corners` | Corner casa
+`h_completed_passings` | Passaggi completati casa
+`h_total_passings` | Passaggi totali casa
+`h_fouls` | Falli effettuati casa
+`h_yellow_cards` | Cartellini gialli casa
+`h_red_cards` | Cartellini rossi casa
+`h_percentage_possession` | Percentuale possesso casa
+`a_total_shots` | Tiri totali ospiti
+`a_shots_on_target` | Tiri nello specchio ospiti
+`a_goals_on_penalty` | Goal su rigore ospiti
+`a_total_penalties` | Rigori totali ospiti
+`a_corners` | Corner ospiti
+`a_completed_passings` | Passaggi completati ospiti
+`a_total_passings` | Passaggi totali ospiti
+`a_yellow_cards` | Cartellini gialli ospiti
+`a_red_cards` | Cartellini rossi ospiti
+`a_fouls` | Falli effettuati ospiti
+`a_percentage_possession` | Percentuale possesso ospiti
 
 ### Normalizzazione dati
 I dati devono essere normalizzati, perché alcuni modelli di ML non possono accettare stringhe. Per questo vengono normalizzati i dati.
