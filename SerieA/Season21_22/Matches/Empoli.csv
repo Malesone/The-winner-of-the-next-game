@@ -1,0 +1,39 @@
+,Squadra,Data,Girone,Stadio,Risultato,Rf,Avversario,Rs,Tiri,Tiri.1,Rigori,Rig T,Compl,Tent,Angoli,Poss.,Falli,Amm.,Esp.
+0,Empoli,21-08-2021,Giornata n. 1,Casa,P,1,Lazio,3,17,4,0,0,410.0,496.0,5.0,46.0,15,2,0
+1,Empoli,28-08-2021,Giornata n. 2,Ospiti,V,1,Juventus,0,12,3,0,0,292.0,397.0,9.0,46.0,8,3,0
+2,Empoli,11-09-2021,Giornata n. 3,Casa,P,1,Venezia,2,21,5,1,1,499.0,607.0,8.0,69.0,13,2,0
+3,Empoli,19-09-2021,Giornata n. 4,Casa,P,0,Sampdoria,3,15,4,0,0,349.0,456.0,8.0,53.0,11,2,0
+4,Empoli,22-09-2021,Giornata n. 5,Ospiti,V,2,Cagliari,0,18,5,0,0,394.0,499.0,4.0,51.0,14,1,0
+5,Empoli,26-09-2021,Giornata n. 6,Casa,V,4,Bologna,2,14,6,1,1,219.0,299.0,2.0,37.0,16,2,0
+6,Empoli,03-10-2021,Giornata n. 7,Ospiti,P,0,Roma,2,12,3,0,0,304.0,368.0,5.0,36.0,17,3,0
+7,Empoli,17-10-2021,Giornata n. 8,Casa,P,1,Atalanta,4,13,4,0,0,355.0,459.0,5.0,48.0,11,3,0
+8,Empoli,23-10-2021,Giornata n. 9,Ospiti,V,4,Salernitana,2,9,4,1,1,268.0,371.0,2.0,41.0,17,3,0
+9,Empoli,27-10-2021,Giornata n. 10,Casa,P,0,Inter,2,9,1,0,0,235.0,301.0,5.0,31.0,22,1,1
+10,Empoli,31-10-2021,Giornata n. 11,Ospiti,V,2,Sassuolo,1,13,4,1,1,323.0,418.0,6.0,43.0,15,2,0
+11,Empoli,05-11-2021,Giornata n. 12,Casa,N,2,Genoa,2,10,2,0,0,341.0,467.0,4.0,53.0,9,0,0
+12,Empoli,22-11-2021,Giornata n. 13,Ospiti,P,1,Hellas Verona,2,9,3,0,0,278.0,401.0,3.0,44.0,14,3,0
+13,Empoli,27-11-2021,Giornata n. 14,Casa,V,2,Fiorentina,1,17,5,0,0,374.0,475.0,8.0,51.0,18,1,0
+14,Empoli,02-12-2021,Giornata n. 15,Ospiti,N,2,Torino,2,17,5,0,0,372.0,480.0,11.0,59.0,17,3,0
+15,Empoli,06-12-2021,Giornata n. 16,Casa,V,3,Udinese,1,22,8,0,0,442.0,536.0,8.0,57.0,15,4,0
+16,Empoli,12-12-2021,Giornata n. 17,Ospiti,V,1,Napoli,0,12,5,0,0,334.0,418.0,3.0,40.0,14,1,0
+17,Empoli,19-12-2021,Giornata n. 18,Ospiti,N,1,Spezia,1,22,7,0,0,490.0,590.0,5.0,66.0,12,2,0
+18,Empoli,22-12-2021,Giornata n. 19,Casa,P,2,Milan,4,15,4,1,1,415.0,513.0,6.0,56.0,18,1,0
+19,Empoli,06-01-2022,Giornata n. 20,Ospiti,N,3,Lazio,3,10,3,1,1,278.0,360.0,2.0,38.0,12,4,0
+20,Empoli,09-01-2022,Giornata n. 21,Casa,P,1,Sassuolo,5,15,4,0,0,398.0,485.0,5.0,45.0,13,2,1
+21,Empoli,16-01-2022,Giornata n. 22,Ospiti,N,1,Venezia,1,18,6,0,0,347.0,439.0,5.0,50.0,19,5,0
+22,Empoli,23-01-2022,Giornata n. 23,Casa,P,2,Roma,4,16,7,0,0,455.0,551.0,2.0,58.0,14,2,0
+23,Empoli,06-02-2022,Giornata n. 24,Ospiti,N,0,Bologna,0,15,4,0,0,279.0,383.0,5.0,41.0,15,4,0
+24,Empoli,13-02-2022,Giornata n. 25,Casa,N,1,Cagliari,1,15,6,0,0,253.0,369.0,6.0,45.0,19,1,0
+25,Empoli,19-02-2022,Giornata n. 26,Ospiti,P,0,Sampdoria,2,10,2,0,0,435.0,538.0,6.0,58.0,12,2,0
+26,Empoli,26-02-2022,Giornata n. 27,Casa,P,2,Juventus,3,11,2,0,0,419.0,519.0,7.0,53.0,18,2,0
+27,Empoli,06-03-2022,Giornata n. 28,Ospiti,N,0,Genoa,0,8,2,0,0,276.0,422.0,2.0,48.0,22,3,0
+28,Empoli,12-03-2022,Giornata n. 29,Ospiti,P,0,Milan,1,5,3,0,0,397.0,492.0,4.0,48.0,12,0,0
+29,Empoli,20-03-2022,Giornata n. 30,Casa,N,1,Hellas Verona,1,7,2,0,0,213.0,332.0,3.0,38.0,17,2,0
+30,Empoli,03-04-2022,Giornata n. 31,Ospiti,P,0,Fiorentina,1,4,1,0,0,294.0,361.0,0.0,39.0,19,3,1
+31,Empoli,09-04-2022,Giornata n. 32,Casa,N,0,Spezia,0,15,4,0,0,364.0,477.0,5.0,57.0,10,2,0
+32,Empoli,16-04-2022,Giornata n. 33,Ospiti,P,1,Udinese,4,14,3,1,1,394.0,489.0,7.0,61.0,13,4,0
+33,Empoli,24-04-2022,Giornata n. 34,Casa,V,3,Napoli,2,17,7,0,0,305.0,404.0,10.0,42.0,13,4,0
+34,Empoli,01-05-2022,Giornata n. 35,Casa,P,1,Torino,3,11,4,0,0,223.0,309.0,5.0,39.0,16,4,2
+35,Empoli,06-05-2022,Giornata n. 36,Ospiti,P,2,Inter,4,4,2,0,0,289.0,360.0,2.0,36.0,10,0,0
+36,Empoli,14-05-2022,Giornata n. 37,Casa,N,1,Salernitana,1,16,6,0,0,308.0,390.0,3.0,45.0,18,3,0
+37,Empoli,21-05-2022,Giornata n. 38,Ospiti,V,1,Atalanta,0,7,3,0,0,321.0,407.0,2.0,39.0,9,1,0

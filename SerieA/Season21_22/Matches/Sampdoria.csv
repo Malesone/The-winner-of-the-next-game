@@ -1,0 +1,39 @@
+,Squadra,Data,Girone,Stadio,Risultato,Rf,Avversario,Rs,Tiri,Tiri.1,Rigori,Rig T,Compl,Tent,Angoli,Poss.,Falli,Amm.,Esp.
+0,Sampdoria,23-08-2021,Giornata n. 1,Casa,P,0,Milan,1,16,3,0,0,334.0,432.0,8.0,49.0,20,3,0
+1,Sampdoria,29-08-2021,Giornata n. 2,Ospiti,N,0,Sassuolo,0,11,2,0,0,261.0,371.0,6.0,37.0,17,2,0
+2,Sampdoria,12-09-2021,Giornata n. 3,Casa,N,2,Inter,2,14,2,0,0,360.0,455.0,4.0,52.0,14,4,0
+3,Sampdoria,19-09-2021,Giornata n. 4,Ospiti,V,3,Empoli,0,14,8,0,0,294.0,400.0,8.0,47.0,15,2,0
+4,Sampdoria,23-09-2021,Giornata n. 5,Casa,P,0,Napoli,4,13,5,0,0,414.0,509.0,5.0,48.0,11,2,0
+5,Sampdoria,26-09-2021,Giornata n. 6,Ospiti,P,2,Juventus,3,6,3,0,0,391.0,487.0,2.0,50.0,18,3,0
+6,Sampdoria,03-10-2021,Giornata n. 7,Casa,N,3,Udinese,3,11,2,1,1,365.0,450.0,6.0,54.0,14,4,0
+7,Sampdoria,17-10-2021,Giornata n. 8,Ospiti,P,1,Cagliari,3,17,3,0,0,391.0,507.0,9.0,61.0,18,2,0
+8,Sampdoria,22-10-2021,Giornata n. 9,Casa,V,2,Spezia,1,6,2,0,0,195.0,302.0,0.0,30.0,10,3,0
+9,Sampdoria,27-10-2021,Giornata n. 10,Casa,P,1,Atalanta,3,8,3,0,0,282.0,414.0,3.0,40.0,16,4,0
+10,Sampdoria,30-10-2021,Giornata n. 11,Ospiti,P,0,Torino,3,5,1,0,0,238.0,359.0,5.0,37.0,10,4,1
+11,Sampdoria,07-11-2021,Giornata n. 12,Casa,P,1,Bologna,2,10,4,0,0,317.0,455.0,6.0,47.0,16,4,0
+12,Sampdoria,21-11-2021,Giornata n. 13,Ospiti,V,2,Salernitana,0,13,6,0,0,301.0,405.0,3.0,45.0,22,3,0
+13,Sampdoria,27-11-2021,Giornata n. 14,Casa,V,3,Hellas Verona,1,15,6,0,0,246.0,365.0,4.0,42.0,16,4,0
+14,Sampdoria,30-11-2021,Giornata n. 15,Ospiti,P,1,Fiorentina,3,11,4,0,0,311.0,411.0,6.0,40.0,17,3,0
+15,Sampdoria,05-12-2021,Giornata n. 16,Casa,P,1,Lazio,3,18,5,0,0,443.0,560.0,7.0,48.0,16,4,0
+16,Sampdoria,10-12-2021,Giornata n. 17,Ospiti,V,3,Genoa,1,14,5,0,0,284.0,423.0,3.0,46.0,18,2,0
+17,Sampdoria,19-12-2021,Giornata n. 18,Casa,N,1,Venezia,1,18,7,0,0,324.0,440.0,4.0,50.0,10,2,0
+18,Sampdoria,22-12-2021,Giornata n. 19,Ospiti,N,1,Roma,1,9,2,0,0,389.0,493.0,2.0,46.0,10,3,0
+19,Sampdoria,06-01-2022,Giornata n. 20,Casa,P,1,Cagliari,2,4,2,0,0,369.0,496.0,0.0,49.0,14,1,1
+20,Sampdoria,09-01-2022,Giornata n. 21,Ospiti,P,0,Napoli,1,11,1,0,0,272.0,346.0,0.0,31.0,12,2,0
+21,Sampdoria,15-01-2022,Giornata n. 22,Casa,P,1,Torino,2,11,3,0,0,211.0,332.0,3.0,37.0,13,0,0
+22,Sampdoria,23-01-2022,Giornata n. 23,Ospiti,P,0,Spezia,1,8,0,0,0,439.0,557.0,4.0,60.0,11,4,1
+23,Sampdoria,06-02-2022,Giornata n. 24,Casa,V,4,Sassuolo,0,10,6,1,1,262.0,356.0,3.0,40.0,17,2,0
+24,Sampdoria,13-02-2022,Giornata n. 25,Ospiti,P,0,Milan,1,4,1,0,0,410.0,505.0,0.0,50.0,14,1,0
+25,Sampdoria,19-02-2022,Giornata n. 26,Casa,V,2,Empoli,0,8,3,0,0,296.0,391.0,3.0,42.0,17,4,0
+26,Sampdoria,28-02-2022,Giornata n. 27,Ospiti,P,0,Atalanta,4,6,1,0,0,407.0,514.0,1.0,44.0,8,2,0
+27,Sampdoria,05-03-2022,Giornata n. 28,Ospiti,P,1,Udinese,2,8,3,0,0,413.0,535.0,4.0,57.0,15,2,0
+28,Sampdoria,12-03-2022,Giornata n. 29,Casa,P,1,Juventus,3,16,4,0,1,490.0,561.0,9.0,49.0,7,0,0
+29,Sampdoria,20-03-2022,Giornata n. 30,Ospiti,V,2,Venezia,0,8,4,0,0,348.0,457.0,4.0,53.0,24,1,0
+30,Sampdoria,03-04-2022,Giornata n. 31,Casa,P,0,Roma,1,8,3,0,0,379.0,483.0,4.0,49.0,16,2,0
+31,Sampdoria,11-04-2022,Giornata n. 32,Ospiti,P,0,Bologna,2,9,2,0,0,403.0,495.0,0.0,47.0,12,2,0
+32,Sampdoria,16-04-2022,Giornata n. 33,Casa,P,1,Salernitana,2,5,1,0,0,537.0,652.0,5.0,67.0,18,1,0
+33,Sampdoria,23-04-2022,Giornata n. 34,Ospiti,N,1,Hellas Verona,1,3,2,0,1,271.0,394.0,5.0,43.0,16,3,0
+34,Sampdoria,30-04-2022,Giornata n. 35,Casa,V,1,Genoa,0,10,2,0,0,261.0,374.0,1.0,48.0,19,3,0
+35,Sampdoria,07-05-2022,Giornata n. 36,Ospiti,P,0,Lazio,2,9,2,0,0,411.0,515.0,0.0,40.0,10,1,0
+36,Sampdoria,16-05-2022,Giornata n. 37,Casa,V,4,Fiorentina,1,13,5,0,0,232.0,309.0,4.0,37.0,19,3,1
+37,Sampdoria,22-05-2022,Giornata n. 38,Ospiti,P,0,Inter,3,8,3,0,0,445.0,498.0,2.0,42.0,13,2,0

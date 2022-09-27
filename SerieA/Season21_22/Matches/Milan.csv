@@ -1,0 +1,39 @@
+,Squadra,Data,Girone,Stadio,Risultato,Rf,Avversario,Rs,Tiri,Tiri.1,Rigori,Rig T,Compl,Tent,Angoli,Poss.,Falli,Amm.,Esp.
+0,Milan,23-08-2021,Giornata n. 1,Ospiti,V,1,Sampdoria,0,11,4,0,0,349.0,442.0,3.0,51.0,15,1,0
+1,Milan,29-08-2021,Giornata n. 2,Casa,V,4,Cagliari,1,17,4,1,1,495.0,562.0,8.0,57.0,15,1,0
+2,Milan,12-09-2021,Giornata n. 3,Casa,V,2,Lazio,0,20,3,0,1,416.0,503.0,5.0,47.0,12,1,0
+3,Milan,19-09-2021,Giornata n. 4,Ospiti,N,1,Juventus,1,13,3,0,0,459.0,528.0,4.0,56.0,16,1,0
+4,Milan,22-09-2021,Giornata n. 5,Casa,V,2,Venezia,0,14,4,0,0,587.0,677.0,4.0,67.0,15,0,0
+5,Milan,25-09-2021,Giornata n. 6,Ospiti,V,2,Spezia,1,18,5,0,0,461.0,557.0,4.0,64.0,12,2,0
+6,Milan,03-10-2021,Giornata n. 7,Ospiti,V,3,Atalanta,2,13,7,0,0,311.0,397.0,5.0,44.0,16,4,0
+7,Milan,16-10-2021,Giornata n. 8,Casa,V,3,Hellas Verona,2,16,3,1,1,338.0,451.0,5.0,53.0,11,1,0
+8,Milan,23-10-2021,Giornata n. 9,Ospiti,V,4,Bologna,2,15,7,0,0,561.0,636.0,1.0,62.0,17,3,0
+9,Milan,26-10-2021,Giornata n. 10,Casa,V,1,Torino,0,10,2,0,0,316.0,412.0,2.0,44.0,15,3,0
+10,Milan,31-10-2021,Giornata n. 11,Ospiti,V,2,Roma,1,7,2,1,1,357.0,431.0,2.0,50.0,14,7,1
+11,Milan,07-11-2021,Giornata n. 12,Casa,N,1,Inter,1,16,4,0,0,356.0,436.0,4.0,51.0,17,1,0
+12,Milan,20-11-2021,Giornata n. 13,Ospiti,P,3,Fiorentina,4,16,6,0,0,452.0,542.0,6.0,55.0,13,1,0
+13,Milan,28-11-2021,Giornata n. 14,Casa,P,1,Sassuolo,3,15,2,0,0,357.0,452.0,7.0,50.0,15,4,1
+14,Milan,01-12-2021,Giornata n. 15,Ospiti,V,3,Genoa,0,18,5,0,0,518.0,604.0,6.0,58.0,16,1,0
+15,Milan,04-12-2021,Giornata n. 16,Casa,V,2,Salernitana,0,22,7,0,0,668.0,749.0,9.0,70.0,11,1,0
+16,Milan,11-12-2021,Giornata n. 17,Ospiti,N,1,Udinese,1,12,1,0,0,572.0,687.0,5.0,66.0,11,2,0
+17,Milan,19-12-2021,Giornata n. 18,Casa,P,0,Napoli,1,12,2,0,0,400.0,518.0,5.0,48.0,16,0,0
+18,Milan,22-12-2021,Giornata n. 19,Ospiti,V,4,Empoli,2,18,8,0,0,324.0,409.0,3.0,44.0,16,2,0
+19,Milan,06-01-2022,Giornata n. 20,Casa,V,3,Roma,1,17,3,1,2,347.0,441.0,3.0,55.0,6,2,0
+20,Milan,09-01-2022,Giornata n. 21,Ospiti,V,3,Venezia,0,17,6,1,1,584.0,670.0,7.0,62.0,15,3,0
+21,Milan,17-01-2022,Giornata n. 22,Casa,P,1,Spezia,2,24,8,0,1,448.0,540.0,10.0,60.0,13,2,0
+22,Milan,23-01-2022,Giornata n. 23,Casa,N,0,Juventus,0,14,4,0,0,392.0,497.0,4.0,47.0,18,2,0
+23,Milan,05-02-2022,Giornata n. 24,Ospiti,V,2,Inter,1,10,3,0,0,375.0,457.0,4.0,54.0,14,4,1
+24,Milan,13-02-2022,Giornata n. 25,Casa,V,1,Sampdoria,0,15,7,0,0,418.0,510.0,4.0,50.0,14,3,0
+25,Milan,19-02-2022,Giornata n. 26,Ospiti,N,2,Salernitana,2,13,5,0,0,430.0,532.0,7.0,60.0,13,4,0
+26,Milan,25-02-2022,Giornata n. 27,Casa,N,1,Udinese,1,9,3,0,0,445.0,535.0,5.0,62.0,14,2,0
+27,Milan,06-03-2022,Giornata n. 28,Ospiti,V,1,Napoli,0,12,7,0,0,310.0,392.0,7.0,40.0,20,4,0
+28,Milan,12-03-2022,Giornata n. 29,Casa,V,1,Empoli,0,15,5,0,0,451.0,543.0,5.0,52.0,7,1,0
+29,Milan,19-03-2022,Giornata n. 30,Ospiti,V,1,Cagliari,0,21,5,0,0,397.0,494.0,5.0,57.0,16,0,0
+30,Milan,04-04-2022,Giornata n. 31,Casa,N,0,Bologna,0,33,7,0,0,377.0,484.0,9.0,53.0,11,0,0
+31,Milan,10-04-2022,Giornata n. 32,Ospiti,N,0,Torino,0,14,4,0,0,365.0,472.0,5.0,57.0,8,2,0
+32,Milan,15-04-2022,Giornata n. 33,Casa,V,2,Genoa,0,10,5,0,0,442.0,536.0,3.0,58.0,11,1,0
+33,Milan,24-04-2022,Giornata n. 34,Ospiti,V,2,Lazio,1,25,8,0,0,389.0,501.0,8.0,53.0,16,4,0
+34,Milan,01-05-2022,Giornata n. 35,Casa,V,1,Fiorentina,0,13,2,0,0,341.0,437.0,2.0,49.0,18,1,0
+35,Milan,08-05-2022,Giornata n. 36,Ospiti,V,3,Hellas Verona,1,18,8,0,0,355.0,450.0,8.0,53.0,7,1,0
+36,Milan,15-05-2022,Giornata n. 37,Casa,V,2,Atalanta,0,12,6,0,0,314.0,401.0,4.0,45.0,12,3,0
+37,Milan,22-05-2022,Giornata n. 38,Ospiti,V,3,Sassuolo,0,18,11,0,0,311.0,387.0,7.0,48.0,15,1,0

@@ -1,0 +1,39 @@
+,Squadra,Data,Girone,Stadio,Risultato,Rf,Avversario,Rs,Tiri,Tiri.1,Rigori,Rig T,Compl,Tent,Angoli,Poss.,Falli,Amm.,Esp.
+0,Venezia,22-08-2021,Giornata n. 1,Ospiti,P,0,Napoli,2,8,4,0,0,395.0,454.0,2.0,44.0,23,7,0
+1,Venezia,27-08-2021,Giornata n. 2,Ospiti,P,0,Udinese,3,11,3,0,0,473.0,556.0,2.0,55.0,9,3,0
+2,Venezia,11-09-2021,Giornata n. 3,Ospiti,V,2,Empoli,1,10,3,0,0,199.0,275.0,2.0,31.0,25,5,0
+3,Venezia,19-09-2021,Giornata n. 4,Casa,P,1,Spezia,2,14,3,0,0,320.0,425.0,3.0,45.0,15,4,0
+4,Venezia,22-09-2021,Giornata n. 5,Ospiti,P,0,Milan,2,8,2,0,0,257.0,340.0,4.0,33.0,14,2,0
+5,Venezia,27-09-2021,Giornata n. 6,Casa,N,1,Torino,1,6,0,1,1,300.0,404.0,4.0,44.0,9,1,0
+6,Venezia,01-10-2021,Giornata n. 7,Ospiti,N,1,Cagliari,1,12,4,0,0,455.0,548.0,4.0,58.0,20,5,0
+7,Venezia,18-10-2021,Giornata n. 8,Casa,V,1,Fiorentina,0,4,2,0,0,294.0,396.0,2.0,39.0,16,2,0
+8,Venezia,23-10-2021,Giornata n. 9,Ospiti,P,1,Sassuolo,3,7,1,0,0,304.0,388.0,4.0,37.0,17,2,0
+9,Venezia,26-10-2021,Giornata n. 10,Casa,P,1,Salernitana,2,8,4,0,0,347.0,441.0,4.0,45.0,19,3,1
+10,Venezia,31-10-2021,Giornata n. 11,Ospiti,N,0,Genoa,0,6,2,0,0,235.0,328.0,4.0,38.0,16,3,0
+11,Venezia,07-11-2021,Giornata n. 12,Casa,V,3,Roma,2,12,6,1,1,269.0,348.0,4.0,39.0,13,2,0
+12,Venezia,21-11-2021,Giornata n. 13,Ospiti,V,1,Bologna,0,8,6,0,0,282.0,353.0,0.0,33.0,11,3,0
+13,Venezia,27-11-2021,Giornata n. 14,Casa,P,0,Inter,2,6,1,0,0,412.0,492.0,3.0,44.0,13,2,0
+14,Venezia,30-11-2021,Giornata n. 15,Ospiti,P,0,Atalanta,4,8,4,0,0,372.0,461.0,2.0,42.0,12,1,0
+15,Venezia,05-12-2021,Giornata n. 16,Casa,P,3,Hellas Verona,4,9,5,0,0,281.0,384.0,1.0,44.0,12,2,1
+16,Venezia,11-12-2021,Giornata n. 17,Casa,N,1,Juventus,1,13,4,0,0,302.0,404.0,3.0,40.0,20,4,0
+17,Venezia,19-12-2021,Giornata n. 18,Ospiti,N,1,Sampdoria,1,12,1,0,0,339.0,448.0,3.0,50.0,20,1,0
+18,Venezia,22-12-2021,Giornata n. 19,Casa,P,1,Lazio,3,10,2,0,0,446.0,525.0,4.0,47.0,13,3,1
+19,Venezia,09-01-2022,Giornata n. 21,Casa,P,0,Milan,3,10,3,0,0,332.0,418.0,1.0,38.0,11,1,1
+20,Venezia,16-01-2022,Giornata n. 22,Casa,N,1,Empoli,1,14,3,0,0,333.0,434.0,6.0,50.0,16,3,0
+21,Venezia,22-01-2022,Giornata n. 23,Ospiti,P,1,Inter,2,3,3,0,0,219.0,311.0,0.0,29.0,10,4,0
+22,Venezia,06-02-2022,Giornata n. 24,Casa,P,0,Napoli,2,7,3,0,0,306.0,397.0,2.0,34.0,12,2,1
+23,Venezia,12-02-2022,Giornata n. 25,Ospiti,V,2,Torino,1,6,2,0,0,151.0,258.0,4.0,33.0,13,3,1
+24,Venezia,20-02-2022,Giornata n. 26,Casa,N,1,Genoa,1,15,4,0,0,218.0,369.0,6.0,47.0,14,2,0
+25,Venezia,27-02-2022,Giornata n. 27,Ospiti,P,1,Hellas Verona,3,9,3,0,0,249.0,389.0,5.0,43.0,14,1,0
+26,Venezia,06-03-2022,Giornata n. 28,Casa,P,1,Sassuolo,4,15,4,0,1,342.0,431.0,8.0,45.0,18,4,0
+27,Venezia,14-03-2022,Giornata n. 29,Ospiti,P,0,Lazio,1,7,2,0,0,315.0,387.0,4.0,34.0,13,1,0
+28,Venezia,20-03-2022,Giornata n. 30,Casa,P,0,Sampdoria,2,13,1,0,0,296.0,405.0,3.0,47.0,30,5,1
+29,Venezia,02-04-2022,Giornata n. 31,Ospiti,P,0,Spezia,1,15,3,0,0,310.0,405.0,2.0,47.0,14,1,0
+30,Venezia,10-04-2022,Giornata n. 32,Casa,P,1,Udinese,2,9,4,0,0,299.0,395.0,7.0,52.0,16,7,0
+31,Venezia,16-04-2022,Giornata n. 33,Ospiti,P,0,Fiorentina,1,3,1,0,0,200.0,280.0,0.0,31.0,19,4,0
+32,Venezia,23-04-2022,Giornata n. 34,Casa,P,1,Atalanta,3,9,2,0,0,327.0,434.0,0.0,39.0,12,0,0
+33,Venezia,01-05-2022,Giornata n. 35,Ospiti,P,1,Juventus,2,9,3,0,0,373.0,459.0,4.0,50.0,14,3,0
+34,Venezia,05-05-2022,Giornata n. 20,Ospiti,P,1,Salernitana,2,10,4,0,0,355.0,465.0,4.0,58.0,20,7,1
+35,Venezia,08-05-2022,Giornata n. 36,Casa,V,4,Bologna,3,16,7,1,2,256.0,348.0,4.0,41.0,10,2,0
+36,Venezia,14-05-2022,Giornata n. 37,Ospiti,N,1,Roma,1,4,2,0,0,198.0,291.0,2.0,32.0,15,5,1
+37,Venezia,22-05-2022,Giornata n. 38,Casa,N,0,Cagliari,0,8,1,0,0,306.0,413.0,6.0,44.0,11,0,0
