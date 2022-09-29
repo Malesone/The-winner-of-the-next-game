@@ -15,6 +15,16 @@ In particular, the project must:
 * Peng, Y., & Jiang, H. (2015). Leverage financial news to predict stock price movements using word embeddings and deep neural networks. arXiv preprint arXiv:1506.07220. [link](https://arxiv.org/abs/1506.07220)
 
 
+## Ordine esecuzione
+Lanciare lo script `completati/download_dati.ipynb` per poter fare scraping dei dati e verranno creati: 
+- il file `matches2.csv` in `SerieA/Season21_22` che contiene tutti i match giocati dalle squadre
+- un file `name_team.csv` in `SerieA/Matches` contenente tutte le informazioni relative alle partite giocate da ogni singola squadre
+
+Trovate queste informazioni deve essere lanciato lo script che permette di calcolare le features, ovvero le medie delle statistiche di ogni partita. Questo script si trova in `completati/features.ipynb` che genere tanti csv quante le squadre dove per ciascuna partita ricalcola i dati facendo la media con i match precedenti `SerieA/Season21_22/AvgStats`.
+
+Per poter aiutarci con la predizione un altro dato utile è il rank che permette di calcolare quanto sia forte la squadra in base a tot. stagioni passate. 
+Il rank viene calcolato in `completati/ranks.ipynb` e genera il file `SerieA/Season21_22/rank.csv`.
+
 ## Organizzazione repo
 Per poter effettuare il download del dataset con tutti match di una stagione, bisogna lanciare lo script "download_dati.py". 
 Di default è impostato il download dei dati della Serie A per la stagione 2021/2022.
