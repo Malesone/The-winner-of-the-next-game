@@ -14,6 +14,24 @@ In particular, the project must:
 * Chen, W., Yeo, C. K., Lau, C. T., & Lee, B. S. (2018). Leveraging social media news to predict stock index movement using RNN-boost. Data & Knowledge Engineering, 118, 14-24. [link](https://www.sciencedirect.com/science/article/pii/S0169023X17305839)
 * Peng, Y., & Jiang, H. (2015). Leverage financial news to predict stock price movements using word embeddings and deep neural networks. arXiv preprint arXiv:1506.07220. [link](https://arxiv.org/abs/1506.07220)
 
+## Exam rules
+Exam dates are just for the registration of the final grade. The project discussion will be set by appointment.
+
+PROCEDURE
+
+Subscribe to any available date
+Contact Prof. Ferrara as soon as
+The project is finished and ready to be discussed
+After the date of your subscription
+Setup an appointment and discuss your work
+
+
+If you are interested in doing your final master thesis on these topics, the final project may be a preliminary work in view of the thesis. In this case, discuss the contents with Prof. Ferrara.
+
+The final project consists in the preparation of a short study on one of the topics of the course, identifying a precise research question and measurable objectives. The project will propose a methodology for solving the research question and provide an experimental verification of the results obtained according to results evaluation metrics. The emphasis is not on obtaining high performance but rather on the critical discussion of the results obtained in order to understand the potential effectiveness of the proposed methodology.
+
+The results must be documented in a short article of not less than 4 pages and no more than 8, composed according to the guidelines provided by the lecturers. Students have also to provide access to a GitHub repository containing the code and reproducible experimental results. Finally, the project will be discussed by presenting a 10 minute presentation with slides.
+
 
 ## Organizzazione repo
 Per poter effettuare il download del dataset con tutti match di una stagione, bisogna lanciare lo script "download_dati.py". 
