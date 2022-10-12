@@ -82,7 +82,6 @@ class MatchAnalysis:
     def readDiff_home_away(self):
         self.diff_dataset = pd.read_csv("diff_matches.csv", index_col=0)
 
-
     def get_dummies(self):
         stacked = self.diff_dataset[['home', 'away']].stack()
         index = stacked.index.get_level_values(0)
@@ -103,3 +102,9 @@ class MatchAnalysis:
 
         self.diff_dataset = dummy_match
         
+
+    def get_codes(self):
+        # soluzione alternativa alle variabili dummy
+        self.diff_dataset["home_code"] = self.diff_dataset["home"].astype("category").cat.codes
+        self.diff_dataset["away_code"] = self.diff_dataset["away"].astype("category").cat.codes
+        self.diff_dataset = self.diff_dataset.drop(columns=['home', 'away'])
