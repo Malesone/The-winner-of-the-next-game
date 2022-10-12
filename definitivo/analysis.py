@@ -23,28 +23,20 @@ class MatchAnalysis:
         'Amm.': 'yellow_cards',
         'Esp.': 'red_cards',
     }
-    
+
     def __init__(self):
         self.read_matches()
-        #self.convert_stadium()
+        self.create_team_dataset()
 
     def read_matches(self):
         self.matches_fe_team = pd.read_csv("matches_fe_team.csv", index_col=0)
         self.matches_fe_team.reset_index(drop=True, inplace=True)
 
-    def convert_stadium(self):
-        #dato che il campo stadium come valori può avere "Casa" o "Ospiti" devo convertire questi valori in "0" e "1"
-        self.matches_fe_team.stadium = self.matches_fe_team.stadium.replace(['Casa'], 0)
-        self.matches_fe_team.stadium = self.matches_fe_team.stadium.replace(['Ospiti'], 1)
-
     def create_team_dataset(self):
         #per ogni squadra nel campionato viene creato un dataset che contiene tutte le partite giocate dalla squadra con le relative statistiche
         self.matches_by_team = []
-        for team in sorted(self.matches_fe_team.team.unique()):
-            self.matches_by_team.append(self.matches_fe_team[self.matches_fe_team.team == team])
-
-    def calculate_avg(self):
-        stats_of_all_teams = {}
+        for team in sorted(self.matches_fe_team.Squadra.unique()):
+            self.matches_by_team.append(self.matches_fe_team[self.matches_fe_team.Squadra == team])
 
     def divide_and_merge_home_away(self):
         #dato che il dataset scaricato contiene le informazioni relative alle statistiche delle squadre, ci saranno per ogni partita 2 record che si riferiscono alla stessa partita: un record per la squadra di casa e uno per la squadra di trasferta. Divido quindi chi gioca in casa da chi gioca in trasferta andando a considerare il campo "Stadio" che dice appunto se la squadra gioca in casa o in trasferta (la squadra presa di riferimento è quella su cui vengono prese le statistiche). Successivamente i 2 record che si riferiscono alla stessa partita (uno nel dataset home_games, uno nel dataset away_games) vengono combinati ed alla fine ottengo un dataset 
@@ -102,7 +94,6 @@ class MatchAnalysis:
 
         self.diff_dataset = dummy_match
         
-
     def get_codes(self):
         # soluzione alternativa alle variabili dummy
         self.diff_dataset["home_code"] = self.diff_dataset["home"].astype("category").cat.codes
