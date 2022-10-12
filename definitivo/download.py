@@ -15,7 +15,12 @@ class DownloadDati:
     * come valore i nuovi nomi delle colonne che verranno utilizzati nel codice
     """
     rename_fields = {
-        'Squadra': 'team',
+        'Squadra': 'team1',
+        'Avversario': 'team2',
+        'Data': 'date',
+        'Stadio': 'stadium',
+        'Girone': 'matchday',
+        'Risultato': 'result',
         'Rf': 'goals',
         'Tiri': 'total_shots',
         'Tiri.1': 'shots_on_target',
@@ -49,7 +54,7 @@ class DownloadDati:
         self.teams.sort(key=lambda x: x.contents[0]) #ordinamento per titolo
         
     def get_matches(self):
-        self.datasets = pd.DataFrame()
+        self.all_matches = pd.DataFrame()
 
         for team in self.teams:
             team_name = team.contents[0]
@@ -58,7 +63,7 @@ class DownloadDati:
             games = pd.read_html(data.text, match="Punteggi e partite")[0]
 
             matches = games[games['Competizione'] == self.competition]
-            matches = matches[['Data', 'Girone', 'Stadio', 'Risultato', 'Rf', 'Avversario', 'Rs']]
+            matches = matches[['Data', 'Girone', 'Stadio', 'Risultato', 'Rf', 'Avversario']]
  
             matches.insert(0, "Squadra", team_name)
  
@@ -99,60 +104,23 @@ class DownloadDati:
             #matches.to_csv("../SerieA/Season21_22/Matches/"+team_name+".csv")
 
         self.all_matches = self.all_matches.append(matches) 
-        self.all_matches.to_csv("matches_fe_team.csv") #matches for each team
-    
+        
+    def save_matches(self):
+        """
+        prima di salvare i match devono essere eseguite diverse operazioni: 
+        * rinominazione dei campi
+        * conversione data da stringa a datetime
+        * ordinamento per data
+        """
+        self.all_matches.rename(columns=self.rename_fields, inplace=True)
+        self.all_matches['date'] = pd.to_datetime(self.all_matches['date'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+
+        self.all_matches.sort_values(by=["date"], inplace=True)
+        self.all_matches.to_csv("matches_ordered_by_date.csv") #matches for each team
+
     def read_all_matches(self):
         self.all_matches = pd.read_csv("matches_fe_team.csv", index_col=0)
-
-    def divide_and_merge_home_away(self):
-        #dato che il dataset scaricato contiene le informazioni relative alle statistiche delle squadre, ci saranno per ogni partita 2 record che si riferiscono alla stessa partita: un record per la squadra di casa e uno per la squadra di trasferta. Divido quindi chi gioca in casa da chi gioca in trasferta andando a considerare il campo "Stadio" che dice appunto se la squadra gioca in casa o in trasferta (la squadra presa di riferimento è quella su cui vengono prese le statistiche). Successivamente i 2 record che si riferiscono alla stessa partita (uno nel dataset home_games, uno nel dataset away_games) vengono combinati ed alla fine ottengo un dataset 
-        home_games = self.all_matches[self.all_matches['Stadio']=='Casa']
-        away_games = self.all_matches[self.all_matches['Stadio']=='Ospiti']
-
-        rename_home_fields = {key: 'h_'+value for key, value in self.rename_fields.items()}
-        rename_home = rename_home_fields
-        rename_home['Rs'] = 'a_goals'
-        rename_home['Avversario'] = 'a_team'
-
-        rename_away_fields = {key: 'a_'+value for key, value in self.rename_fields.items()}
-        rename_away = rename_away_fields
-        rename_away['Rs'] = 'h_goals'
-        rename_away['Avversario'] = 'h_team'
-
-        home_games = home_games.rename(columns=rename_home)
-        away_games = away_games.rename(columns=rename_away)
-        self.merge_home_away(home_games, away_games)
-
-    def merge_home_away(self, home_games, away_games):
-        merged_matches_by_home = pd.DataFrame()
-        #il campo Data rimane così perché nel metodo precedente quando vengono rinominati i campi, per capire chi è home e chi away vengono messi due caratteri ("h_" per home e "a_" per away) all'inizio del campo e quindi con Data non ha senso fare h_date e a_date in quanto si riferiscano allo stesso dato
-        away_columns_needed = ["a_team", "a_total_shots", "a_shots_on_target", "a_goals_on_penalty", "a_total_penalties", "a_corners", "a_yellow_cards", "a_red_cards", "a_fouls", "a_completed_passings",  "a_total_passings", "a_percentage_possession", "Data", "h_team"]
-
-        for index, home_match in home_games.iterrows():
-            away_match = away_games[(away_games['Data'] == home_match['Data']) & (away_games['h_team'] == home_match['h_team']) & (away_games['a_team'] == home_match['a_team'])]
-            away_match_reduced = away_match[away_columns_needed]
-            home_match = pd.merge(home_match.to_frame().T, away_match_reduced, on = ["Data", "h_team", "a_team"])
-            merged_matches_by_home = merged_matches_by_home.append(home_match)    
     
-        merged_matches_by_home['Data'] = pd.to_datetime(merged_matches_by_home['Data'], format='%d-%m-%Y')
-        merged_matches_by_home = merged_matches_by_home.sort_values(by=['Data'], ascending=True)
-        merged_matches_by_home = merged_matches_by_home.drop(columns=['Stadio'])
-
-        merged_matches_by_home = merged_matches_by_home.rename(columns={"Data": "date", "Risultato": "result", 'Girone': 'matchday'})
-
-        #tutte le informazioni necessarie per comporre il dataset
-        columns_needed = ['h_team', 'h_goals', 'a_team', 'a_goals', 'result', 'date', 'matchday',
-        'h_total_shots', 'h_shots_on_target', 'a_total_shots', 'a_shots_on_target', 
-        'h_goals_on_penalty', 'h_total_penalties', 'a_goals_on_penalty', 'a_total_penalties', 
-        'h_completed_passings', 'h_total_passings', 'a_completed_passings', 'a_total_passings',
-        'h_corners', 'a_corners', 
-        'h_fouls', 'h_yellow_cards', 'h_red_cards', 'a_yellow_cards', 'a_red_cards', 'a_fouls', 
-        'h_percentage_possession', 'a_percentage_possession']
-        
-        merged_matches_by_home = merged_matches_by_home[columns_needed]
-        merged_matches_by_home.insert(0, 'id', range(len(merged_matches_by_home)))
-        merged_matches_by_home.to_csv("tournament.csv")
-
     def set_util_hrefs(self): 
         """il dizionario contiene:
         * come chiave parti di link contenuti in bottoni che permettono di creare dei link che portano ai vari dataset delle squadre 

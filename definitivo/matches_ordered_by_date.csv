@@ -1,0 +1,761 @@
+,team1,date,matchday,stadium,result,goals,team2,total_shots,shots_on_target,goals_on_penalty,total_penalties,completed_passings,total_passings,corners,percentage_possession,fouls,yellow_cards,red_cards
+0,Atalanta,2021-08-21,Giornata n. 1,Ospiti,V,2,Torino,7.0,2.0,0,0,328.0,462.0,1.0,53.0,14.0,2,0
+0,Inter,2021-08-21,Giornata n. 1,Casa,V,4,Genoa,17.0,8.0,0,0,563.0,630.0,8.0,59.0,18.0,1,0
+0,Torino,2021-08-21,Giornata n. 1,Casa,P,1,Atalanta,21.0,7.0,0,0,304.0,413.0,5.0,47.0,17.0,2,0
+0,Empoli,2021-08-21,Giornata n. 1,Casa,P,1,Lazio,17.0,4.0,0,0,410.0,496.0,5.0,46.0,15.0,2,0
+0,Lazio,2021-08-21,Giornata n. 1,Ospiti,V,3,Empoli,7.0,3.0,1,1,517.0,589.0,3.0,54.0,10.0,1,0
+0,Sassuolo,2021-08-21,Giornata n. 1,Ospiti,V,3,Hellas Verona,18.0,7.0,0,0,481.0,540.0,4.0,60.0,15.0,2,0
+0,Genoa,2021-08-21,Giornata n. 1,Ospiti,P,0,Inter,10.0,4.0,0,0,365.0,430.0,2.0,41.0,7.0,2,0
+0,Hellas Verona,2021-08-21,Giornata n. 1,Casa,P,2,Sassuolo,14.0,3.0,1,1,282.0,361.0,7.0,40.0,10.0,3,1
+0,Salernitana,2021-08-22,Giornata n. 1,Ospiti,P,2,Bologna,9.0,3.0,1,1,130.0,233.0,4.0,28.0,14.0,3,1
+0,Bologna,2021-08-22,Giornata n. 1,Casa,V,3,Salernitana,18.0,7.0,0,0,485.0,588.0,9.0,72.0,11.0,6,2
+0,Juventus,2021-08-22,Giornata n. 1,Ospiti,N,2,Udinese,10.0,3.0,0,0,480.0,551.0,3.0,56.0,16.0,3,0
+0,Udinese,2021-08-22,Giornata n. 1,Casa,N,2,Juventus,11.0,5.0,1,1,363.0,433.0,3.0,44.0,14.0,1,0
+0,Fiorentina,2021-08-22,Giornata n. 1,Ospiti,P,1,Roma,11.0,8.0,0,0,498.0,564.0,4.0,58.0,14.0,2,1
+0,Napoli,2021-08-22,Giornata n. 1,Casa,V,2,Venezia,11.0,3.0,1,2,520.0,586.0,2.0,56.0,4.0,1,1
+0,Roma,2021-08-22,Giornata n. 1,Casa,V,3,Fiorentina,11.0,6.0,0,0,334.0,407.0,4.0,42.0,13.0,3,1
+0,Venezia,2021-08-22,Giornata n. 1,Ospiti,P,0,Napoli,8.0,4.0,0,0,395.0,454.0,2.0,44.0,23.0,7,0
+0,Milan,2021-08-23,Giornata n. 1,Ospiti,V,1,Sampdoria,11.0,4.0,0,0,349.0,442.0,3.0,51.0,15.0,1,0
+0,Sampdoria,2021-08-23,Giornata n. 1,Casa,P,0,Milan,16.0,3.0,0,0,334.0,432.0,8.0,49.0,20.0,3,0
+0,Spezia,2021-08-23,Giornata n. 1,Ospiti,N,2,Cagliari,12.0,4.0,0,0,275.0,356.0,4.0,41.0,18.0,3,0
+0,Cagliari,2021-08-23,Giornata n. 1,Casa,N,2,Spezia,19.0,6.0,1,1,409.0,519.0,11.0,59.0,17.0,2,0
+1,Venezia,2021-08-27,Giornata n. 2,Ospiti,P,0,Udinese,11.0,3.0,0,0,473.0,556.0,2.0,55.0,9.0,3,0
+1,Udinese,2021-08-27,Giornata n. 2,Casa,V,3,Venezia,21.0,10.0,0,0,369.0,464.0,7.0,45.0,13.0,2,0
+1,Inter,2021-08-27,Giornata n. 2,Ospiti,V,3,Hellas Verona,16.0,8.0,0,0,388.0,492.0,4.0,57.0,11.0,2,0
+1,Hellas Verona,2021-08-27,Giornata n. 2,Casa,P,1,Inter,8.0,1.0,0,0,280.0,367.0,6.0,43.0,13.0,2,0
+1,Atalanta,2021-08-28,Giornata n. 2,Casa,N,0,Bologna,22.0,3.0,0,0,484.0,598.0,5.0,59.0,12.0,2,0
+1,Juventus,2021-08-28,Giornata n. 2,Casa,P,0,Empoli,19.0,5.0,0,0,377.0,461.0,8.0,54.0,15.0,2,0
+1,Spezia,2021-08-28,Giornata n. 2,Ospiti,P,1,Lazio,5.0,2.0,0,0,376.0,455.0,2.0,39.0,10.0,2,1
+1,Empoli,2021-08-28,Giornata n. 2,Ospiti,V,1,Juventus,12.0,3.0,0,0,292.0,397.0,9.0,46.0,8.0,3,0
+1,Lazio,2021-08-28,Giornata n. 2,Casa,V,6,Spezia,17.0,9.0,0,1,654.0,717.0,4.0,61.0,13.0,0,0
+1,Fiorentina,2021-08-28,Giornata n. 2,Casa,V,2,Torino,9.0,6.0,0,0,363.0,460.0,3.0,59.0,14.0,4,0
+1,Torino,2021-08-28,Giornata n. 2,Ospiti,P,1,Fiorentina,5.0,1.0,0,0,236.0,325.0,3.0,41.0,30.0,5,0
+1,Bologna,2021-08-28,Giornata n. 2,Ospiti,N,0,Atalanta,4.0,1.0,0,0,297.0,421.0,5.0,41.0,16.0,5,0
+1,Salernitana,2021-08-29,Giornata n. 2,Casa,P,0,Roma,5.0,0.0,0,0,114.0,219.0,1.0,23.0,14.0,2,0
+1,Sampdoria,2021-08-29,Giornata n. 2,Ospiti,N,0,Sassuolo,11.0,2.0,0,0,261.0,371.0,6.0,37.0,17.0,2,0
+1,Napoli,2021-08-29,Giornata n. 2,Ospiti,V,2,Genoa,13.0,8.0,0,0,532.0,622.0,5.0,61.0,18.0,3,0
+1,Milan,2021-08-29,Giornata n. 2,Casa,V,4,Cagliari,17.0,4.0,1,1,495.0,562.0,8.0,57.0,15.0,1,0
+1,Sassuolo,2021-08-29,Giornata n. 2,Casa,N,0,Sampdoria,19.0,5.0,0,0,529.0,627.0,8.0,63.0,9.0,2,0
+1,Roma,2021-08-29,Giornata n. 2,Ospiti,V,4,Salernitana,28.0,9.0,0,0,664.0,752.0,10.0,77.0,11.0,2,0
+1,Genoa,2021-08-29,Giornata n. 2,Casa,P,1,Napoli,6.0,3.0,0,0,310.0,400.0,4.0,39.0,20.0,2,0
+1,Cagliari,2021-08-29,Giornata n. 2,Ospiti,P,1,Milan,7.0,2.0,0,0,359.0,423.0,3.0,43.0,12.0,5,0
+2,Juventus,2021-09-11,Giornata n. 3,Ospiti,P,1,Napoli,8.0,4.0,0,0,264.0,330.0,1.0,33.0,16.0,1,0
+2,Empoli,2021-09-11,Giornata n. 3,Casa,P,1,Venezia,21.0,5.0,1,1,499.0,607.0,8.0,69.0,13.0,2,0
+2,Napoli,2021-09-11,Giornata n. 3,Casa,V,2,Juventus,25.0,7.0,0,0,585.0,666.0,13.0,67.0,15.0,2,0
+2,Fiorentina,2021-09-11,Giornata n. 3,Ospiti,V,2,Atalanta,5.0,0.0,2,2,374.0,454.0,3.0,45.0,21.0,4,0
+2,Atalanta,2021-09-11,Giornata n. 3,Casa,P,1,Fiorentina,12.0,4.0,1,1,463.0,555.0,10.0,55.0,13.0,4,0
+2,Venezia,2021-09-11,Giornata n. 3,Ospiti,V,2,Empoli,10.0,3.0,0,0,199.0,275.0,2.0,31.0,25.0,5,0
+2,Cagliari,2021-09-12,Giornata n. 3,Casa,P,2,Genoa,8.0,2.0,1,1,435.0,534.0,2.0,53.0,16.0,2,0
+2,Inter,2021-09-12,Giornata n. 3,Ospiti,N,2,Sampdoria,8.0,3.0,0,0,318.0,418.0,4.0,48.0,14.0,4,0
+2,Udinese,2021-09-12,Giornata n. 3,Ospiti,V,1,Spezia,9.0,4.0,0,0,332.0,405.0,5.0,44.0,18.0,2,0
+2,Salernitana,2021-09-12,Giornata n. 3,Ospiti,P,0,Torino,8.0,2.0,0,0,263.0,367.0,4.0,40.0,11.0,2,0
+2,Sampdoria,2021-09-12,Giornata n. 3,Casa,N,2,Inter,14.0,2.0,0,0,360.0,455.0,4.0,52.0,14.0,4,0
+2,Sassuolo,2021-09-12,Giornata n. 3,Ospiti,P,1,Roma,14.0,7.0,0,0,438.0,508.0,6.0,51.0,11.0,1,0
+2,Genoa,2021-09-12,Giornata n. 3,Ospiti,V,3,Cagliari,11.0,3.0,0,0,395.0,475.0,6.0,47.0,16.0,3,0
+2,Torino,2021-09-12,Giornata n. 3,Casa,V,4,Salernitana,15.0,5.0,0,0,453.0,544.0,7.0,60.0,11.0,0,0
+2,Spezia,2021-09-12,Giornata n. 3,Casa,P,0,Udinese,20.0,5.0,0,0,432.0,520.0,4.0,56.0,13.0,1,0
+2,Lazio,2021-09-12,Giornata n. 3,Ospiti,P,0,Milan,8.0,5.0,0,0,488.0,570.0,1.0,53.0,19.0,4,0
+2,Milan,2021-09-12,Giornata n. 3,Casa,V,2,Lazio,20.0,3.0,0,1,416.0,503.0,5.0,47.0,12.0,1,0
+2,Roma,2021-09-12,Giornata n. 3,Casa,V,2,Sassuolo,18.0,6.0,0,0,413.0,480.0,4.0,49.0,7.0,2,0
+2,Hellas Verona,2021-09-13,Giornata n. 3,Ospiti,P,0,Bologna,5.0,0.0,0,0,393.0,480.0,2.0,57.0,24.0,3,0
+2,Bologna,2021-09-13,Giornata n. 3,Casa,V,1,Hellas Verona,16.0,4.0,0,0,257.0,362.0,6.0,43.0,16.0,1,0
+3,Torino,2021-09-17,Giornata n. 4,Ospiti,V,1,Sassuolo,18.0,3.0,0,0,361.0,445.0,3.0,48.0,24.0,4,0
+3,Sassuolo,2021-09-17,Giornata n. 4,Casa,P,0,Torino,10.0,2.0,0,0,390.0,485.0,6.0,52.0,9.0,0,0
+3,Salernitana,2021-09-18,Giornata n. 4,Casa,P,0,Atalanta,11.0,1.0,0,0,310.0,425.0,6.0,43.0,22.0,4,0
+3,Bologna,2021-09-18,Giornata n. 4,Ospiti,P,1,Inter,8.0,2.0,0,0,486.0,546.0,1.0,54.0,11.0,3,0
+3,Inter,2021-09-18,Giornata n. 4,Casa,V,6,Bologna,19.0,11.0,0,0,412.0,464.0,5.0,46.0,11.0,0,0
+3,Atalanta,2021-09-18,Giornata n. 4,Ospiti,V,1,Salernitana,10.0,3.0,0,0,473.0,567.0,4.0,57.0,15.0,4,0
+3,Genoa,2021-09-18,Giornata n. 4,Casa,P,1,Fiorentina,8.0,2.0,1,1,288.0,369.0,1.0,37.0,14.0,4,0
+3,Fiorentina,2021-09-18,Giornata n. 4,Ospiti,V,2,Genoa,16.0,5.0,0,0,531.0,617.0,11.0,63.0,17.0,4,0
+3,Roma,2021-09-19,Giornata n. 4,Ospiti,P,2,Hellas Verona,15.0,2.0,0,0,294.0,410.0,8.0,47.0,17.0,2,0
+3,Milan,2021-09-19,Giornata n. 4,Ospiti,N,1,Juventus,13.0,3.0,0,0,459.0,528.0,4.0,56.0,16.0,1,0
+3,Lazio,2021-09-19,Giornata n. 4,Casa,N,2,Cagliari,28.0,10.0,0,0,646.0,748.0,10.0,72.0,5.0,1,0
+3,Sampdoria,2021-09-19,Giornata n. 4,Ospiti,V,3,Empoli,14.0,8.0,0,0,294.0,400.0,8.0,47.0,15.0,2,0
+3,Empoli,2021-09-19,Giornata n. 4,Casa,P,0,Sampdoria,15.0,4.0,0,0,349.0,456.0,8.0,53.0,11.0,2,0
+3,Juventus,2021-09-19,Giornata n. 4,Casa,N,1,Milan,9.0,4.0,0,0,343.0,413.0,4.0,44.0,15.0,1,0
+3,Venezia,2021-09-19,Giornata n. 4,Casa,P,1,Spezia,14.0,3.0,0,0,320.0,425.0,3.0,45.0,15.0,4,0
+3,Cagliari,2021-09-19,Giornata n. 4,Ospiti,N,2,Lazio,10.0,3.0,0,0,198.0,296.0,1.0,28.0,13.0,3,1
+3,Spezia,2021-09-19,Giornata n. 4,Ospiti,V,2,Venezia,12.0,3.0,0,0,403.0,522.0,10.0,55.0,11.0,1,0
+3,Hellas Verona,2021-09-19,Giornata n. 4,Casa,V,3,Roma,10.0,6.0,0,0,367.0,468.0,3.0,53.0,18.0,4,0
+3,Udinese,2021-09-20,Giornata n. 4,Casa,P,0,Napoli,9.0,1.0,0,0,346.0,403.0,2.0,37.0,12.0,2,0
+3,Napoli,2021-09-20,Giornata n. 4,Ospiti,V,4,Udinese,18.0,8.0,0,0,618.0,683.0,5.0,63.0,12.0,1,0
+4,Atalanta,2021-09-21,Giornata n. 5,Casa,V,2,Sassuolo,14.0,5.0,0,0,398.0,484.0,5.0,47.0,21.0,2,0
+4,Genoa,2021-09-21,Giornata n. 5,Ospiti,N,2,Bologna,10.0,5.0,1,1,292.0,392.0,2.0,41.0,19.0,4,0
+4,Inter,2021-09-21,Giornata n. 5,Ospiti,V,3,Fiorentina,17.0,5.0,0,0,400.0,472.0,8.0,47.0,17.0,3,0
+4,Fiorentina,2021-09-21,Giornata n. 5,Casa,P,1,Inter,14.0,6.0,0,0,452.0,530.0,4.0,53.0,13.0,2,1
+4,Bologna,2021-09-21,Giornata n. 5,Casa,N,2,Genoa,16.0,4.0,1,1,471.0,567.0,6.0,59.0,15.0,3,0
+4,Sassuolo,2021-09-21,Giornata n. 5,Ospiti,P,1,Atalanta,8.0,1.0,0,0,431.0,542.0,5.0,53.0,18.0,2,0
+4,Venezia,2021-09-22,Giornata n. 5,Ospiti,P,0,Milan,8.0,2.0,0,0,257.0,340.0,4.0,33.0,14.0,2,0
+4,Cagliari,2021-09-22,Giornata n. 5,Casa,P,0,Empoli,15.0,1.0,0,0,376.0,489.0,7.0,49.0,15.0,2,0
+4,Empoli,2021-09-22,Giornata n. 5,Ospiti,V,2,Cagliari,18.0,5.0,0,0,394.0,499.0,4.0,51.0,14.0,1,0
+4,Milan,2021-09-22,Giornata n. 5,Casa,V,2,Venezia,14.0,4.0,0,0,587.0,677.0,4.0,67.0,15.0,0,0
+4,Hellas Verona,2021-09-22,Giornata n. 5,Ospiti,N,2,Salernitana,9.0,5.0,0,0,314.0,423.0,5.0,50.0,19.0,3,0
+4,Juventus,2021-09-22,Giornata n. 5,Ospiti,V,3,Spezia,26.0,9.0,0,0,458.0,548.0,15.0,59.0,10.0,1,0
+4,Salernitana,2021-09-22,Giornata n. 5,Casa,N,2,Hellas Verona,15.0,4.0,0,0,304.0,420.0,4.0,50.0,13.0,2,0
+4,Spezia,2021-09-22,Giornata n. 5,Casa,P,2,Juventus,10.0,4.0,0,0,293.0,376.0,5.0,41.0,15.0,2,0
+4,Napoli,2021-09-23,Giornata n. 5,Ospiti,V,4,Sampdoria,17.0,9.0,0,0,481.0,552.0,5.0,52.0,8.0,1,0
+4,Roma,2021-09-23,Giornata n. 5,Casa,V,1,Udinese,12.0,2.0,0,0,455.0,544.0,6.0,52.0,23.0,4,1
+4,Udinese,2021-09-23,Giornata n. 5,Ospiti,P,0,Roma,8.0,2.0,0,0,421.0,511.0,6.0,48.0,8.0,1,0
+4,Torino,2021-09-23,Giornata n. 5,Casa,N,1,Lazio,16.0,5.0,0,0,313.0,416.0,6.0,45.0,21.0,3,0
+4,Lazio,2021-09-23,Giornata n. 5,Ospiti,N,1,Torino,5.0,1.0,1,1,378.0,499.0,5.0,55.0,9.0,3,0
+4,Sampdoria,2021-09-23,Giornata n. 5,Casa,P,0,Napoli,13.0,5.0,0,0,414.0,509.0,5.0,48.0,11.0,2,0
+5,Hellas Verona,2021-09-25,Giornata n. 6,Ospiti,N,3,Genoa,11.0,6.0,1,1,358.0,475.0,2.0,51.0,15.0,1,0
+5,Atalanta,2021-09-25,Giornata n. 6,Ospiti,N,2,Inter,21.0,5.0,0,0,351.0,429.0,11.0,50.0,12.0,5,0
+5,Inter,2021-09-25,Giornata n. 6,Casa,N,2,Atalanta,17.0,6.0,0,1,337.0,430.0,4.0,50.0,16.0,3,0
+5,Milan,2021-09-25,Giornata n. 6,Ospiti,V,2,Spezia,18.0,5.0,0,0,461.0,557.0,4.0,64.0,12.0,2,0
+5,Spezia,2021-09-25,Giornata n. 6,Casa,P,1,Milan,8.0,2.0,0,0,242.0,319.0,2.0,36.0,13.0,2,0
+5,Genoa,2021-09-25,Giornata n. 6,Casa,N,3,Hellas Verona,10.0,3.0,1,1,351.0,464.0,3.0,49.0,15.0,3,0
+5,Bologna,2021-09-26,Giornata n. 6,Ospiti,P,2,Empoli,20.0,5.0,0,1,420.0,500.0,10.0,63.0,22.0,2,0
+5,Fiorentina,2021-09-26,Giornata n. 6,Ospiti,V,1,Udinese,7.0,1.0,1,1,518.0,599.0,1.0,54.0,14.0,3,0
+5,Cagliari,2021-09-26,Giornata n. 6,Ospiti,P,0,Napoli,6.0,0.0,0,0,297.0,375.0,4.0,33.0,13.0,1,0
+5,Sampdoria,2021-09-26,Giornata n. 6,Ospiti,P,2,Juventus,6.0,3.0,0,0,391.0,487.0,2.0,50.0,18.0,3,0
+5,Salernitana,2021-09-26,Giornata n. 6,Ospiti,P,0,Sassuolo,12.0,4.0,0,0,277.0,371.0,8.0,43.0,18.0,3,0
+5,Lazio,2021-09-26,Giornata n. 6,Casa,V,3,Roma,10.0,4.0,0,0,406.0,475.0,1.0,50.0,16.0,2,0
+5,Udinese,2021-09-26,Giornata n. 6,Casa,P,0,Fiorentina,12.0,5.0,0,0,423.0,506.0,4.0,46.0,17.0,2,0
+5,Juventus,2021-09-26,Giornata n. 6,Casa,V,3,Sampdoria,15.0,5.0,1,1,387.0,478.0,4.0,50.0,24.0,4,0
+5,Napoli,2021-09-26,Giornata n. 6,Casa,V,2,Cagliari,16.0,6.0,1,1,696.0,766.0,6.0,67.0,11.0,2,0
+5,Roma,2021-09-26,Giornata n. 6,Ospiti,P,2,Lazio,19.0,6.0,1,1,409.0,481.0,9.0,50.0,14.0,4,0
+5,Sassuolo,2021-09-26,Giornata n. 6,Casa,V,1,Salernitana,17.0,6.0,0,0,409.0,491.0,4.0,57.0,17.0,3,0
+5,Empoli,2021-09-26,Giornata n. 6,Casa,V,4,Bologna,14.0,6.0,1,1,219.0,299.0,2.0,37.0,16.0,2,0
+5,Torino,2021-09-27,Giornata n. 6,Ospiti,N,1,Venezia,8.0,3.0,0,0,417.0,521.0,1.0,56.0,20.0,4,1
+5,Venezia,2021-09-27,Giornata n. 6,Casa,N,1,Torino,6.0,0.0,1,1,300.0,404.0,4.0,44.0,9.0,1,0
+6,Venezia,2021-10-01,Giornata n. 7,Ospiti,N,1,Cagliari,12.0,4.0,0,0,455.0,548.0,4.0,58.0,20.0,5,0
+6,Cagliari,2021-10-01,Giornata n. 7,Casa,N,1,Venezia,9.0,3.0,0,0,310.0,401.0,2.0,42.0,16.0,2,0
+6,Sassuolo,2021-10-02,Giornata n. 7,Casa,P,1,Inter,11.0,7.0,1,1,432.0,524.0,6.0,55.0,11.0,4,0
+6,Genoa,2021-10-02,Giornata n. 7,Ospiti,P,0,Salernitana,18.0,3.0,0,0,336.0,427.0,8.0,50.0,19.0,2,0
+6,Torino,2021-10-02,Giornata n. 7,Casa,P,0,Juventus,13.0,2.0,0,0,347.0,452.0,4.0,48.0,23.0,3,0
+6,Inter,2021-10-02,Giornata n. 7,Ospiti,V,2,Sassuolo,16.0,2.0,1,1,348.0,436.0,8.0,45.0,21.0,2,0
+6,Juventus,2021-10-02,Giornata n. 7,Ospiti,V,1,Torino,10.0,3.0,0,0,386.0,488.0,6.0,52.0,16.0,1,0
+6,Salernitana,2021-10-02,Giornata n. 7,Casa,V,1,Genoa,10.0,4.0,0,0,308.0,419.0,9.0,50.0,20.0,2,0
+6,Empoli,2021-10-03,Giornata n. 7,Ospiti,P,0,Roma,12.0,3.0,0,0,304.0,368.0,5.0,36.0,17.0,3,0
+6,Atalanta,2021-10-03,Giornata n. 7,Casa,P,2,Milan,16.0,4.0,1,1,406.0,499.0,9.0,56.0,13.0,1,0
+6,Sampdoria,2021-10-03,Giornata n. 7,Casa,N,3,Udinese,11.0,2.0,1,1,365.0,450.0,6.0,54.0,14.0,4,0
+6,Spezia,2021-10-03,Giornata n. 7,Ospiti,P,0,Hellas Verona,12.0,4.0,0,0,444.0,525.0,5.0,55.0,12.0,1,1
+6,Milan,2021-10-03,Giornata n. 7,Ospiti,V,3,Atalanta,13.0,7.0,0,0,311.0,397.0,5.0,44.0,16.0,4,0
+6,Hellas Verona,2021-10-03,Giornata n. 7,Casa,V,4,Spezia,6.0,4.0,0,0,345.0,428.0,1.0,45.0,17.0,1,0
+6,Roma,2021-10-03,Giornata n. 7,Casa,V,2,Empoli,18.0,5.0,0,0,580.0,644.0,5.0,64.0,13.0,2,0
+6,Lazio,2021-10-03,Giornata n. 7,Ospiti,P,0,Bologna,8.0,4.0,0,0,570.0,665.0,3.0,59.0,18.0,5,1
+6,Bologna,2021-10-03,Giornata n. 7,Casa,V,3,Lazio,10.0,3.0,0,0,378.0,462.0,3.0,41.0,7.0,2,0
+6,Fiorentina,2021-10-03,Giornata n. 7,Casa,P,1,Napoli,10.0,3.0,0,0,424.0,511.0,8.0,55.0,18.0,3,0
+6,Napoli,2021-10-03,Giornata n. 7,Ospiti,V,2,Fiorentina,11.0,4.0,0,1,344.0,418.0,2.0,45.0,13.0,3,0
+6,Udinese,2021-10-03,Giornata n. 7,Ospiti,N,3,Sampdoria,18.0,7.0,0,0,294.0,382.0,8.0,46.0,19.0,5,0
+7,Spezia,2021-10-16,Giornata n. 8,Casa,V,2,Salernitana,18.0,5.0,0,0,384.0,505.0,10.0,59.0,16.0,2,0
+7,Salernitana,2021-10-16,Giornata n. 8,Ospiti,P,1,Spezia,15.0,4.0,0,0,244.0,352.0,2.0,41.0,17.0,3,0
+7,Inter,2021-10-16,Giornata n. 8,Ospiti,P,1,Lazio,11.0,3.0,1,1,470.0,554.0,3.0,48.0,12.0,6,0
+7,Milan,2021-10-16,Giornata n. 8,Casa,V,3,Hellas Verona,16.0,3.0,1,1,338.0,451.0,5.0,53.0,11.0,1,0
+7,Lazio,2021-10-16,Giornata n. 8,Casa,V,3,Inter,18.0,7.0,1,1,533.0,595.0,7.0,52.0,13.0,3,1
+7,Hellas Verona,2021-10-16,Giornata n. 8,Ospiti,P,2,Milan,9.0,4.0,1,1,285.0,395.0,4.0,47.0,21.0,4,0
+7,Napoli,2021-10-17,Giornata n. 8,Casa,V,1,Torino,10.0,2.0,0,1,333.0,440.0,3.0,51.0,6.0,2,0
+7,Juventus,2021-10-17,Giornata n. 8,Casa,V,1,Roma,7.0,3.0,0,0,426.0,505.0,0.0,47.0,20.0,3,0
+7,Bologna,2021-10-17,Giornata n. 8,Ospiti,N,1,Udinese,24.0,11.0,0,0,460.0,526.0,8.0,59.0,11.0,7,0
+7,Udinese,2021-10-17,Giornata n. 8,Casa,N,1,Bologna,10.0,2.0,0,0,295.0,370.0,2.0,41.0,16.0,3,1
+7,Torino,2021-10-17,Giornata n. 8,Ospiti,P,0,Napoli,11.0,3.0,0,0,306.0,418.0,4.0,49.0,25.0,4,0
+7,Roma,2021-10-17,Giornata n. 8,Ospiti,P,0,Juventus,14.0,3.0,0,1,470.0,561.0,6.0,53.0,15.0,5,0
+7,Cagliari,2021-10-17,Giornata n. 8,Casa,V,3,Sampdoria,12.0,5.0,0,0,228.0,329.0,5.0,39.0,15.0,4,0
+7,Genoa,2021-10-17,Giornata n. 8,Casa,N,2,Sassuolo,19.0,4.0,0,0,283.0,383.0,6.0,43.0,12.0,3,0
+7,Sampdoria,2021-10-17,Giornata n. 8,Ospiti,P,1,Cagliari,17.0,3.0,0,0,391.0,507.0,9.0,61.0,18.0,2,0
+7,Atalanta,2021-10-17,Giornata n. 8,Ospiti,V,4,Empoli,21.0,7.0,0,1,401.0,490.0,4.0,52.0,17.0,2,0
+7,Sassuolo,2021-10-17,Giornata n. 8,Ospiti,N,2,Genoa,15.0,5.0,0,0,439.0,517.0,1.0,57.0,22.0,4,0
+7,Empoli,2021-10-17,Giornata n. 8,Casa,P,1,Atalanta,13.0,4.0,0,0,355.0,459.0,5.0,48.0,11.0,3,0
+7,Venezia,2021-10-18,Giornata n. 8,Casa,V,1,Fiorentina,4.0,2.0,0,0,294.0,396.0,2.0,39.0,16.0,2,0
+7,Fiorentina,2021-10-18,Giornata n. 8,Ospiti,P,0,Venezia,11.0,3.0,0,0,535.0,627.0,5.0,61.0,11.0,5,1
+8,Sampdoria,2021-10-22,Giornata n. 9,Casa,V,2,Spezia,6.0,2.0,0,0,195.0,302.0,0.0,30.0,10.0,3,0
+8,Genoa,2021-10-22,Giornata n. 9,Ospiti,P,2,Torino,14.0,4.0,0,0,236.0,354.0,4.0,42.0,24.0,3,0
+8,Torino,2021-10-22,Giornata n. 9,Casa,V,3,Genoa,17.0,6.0,0,0,377.0,491.0,2.0,58.0,19.0,2,0
+8,Spezia,2021-10-22,Giornata n. 9,Ospiti,P,1,Sampdoria,17.0,7.0,0,0,571.0,700.0,8.0,70.0,9.0,1,0
+8,Sassuolo,2021-10-23,Giornata n. 9,Casa,V,3,Venezia,14.0,7.0,0,0,584.0,654.0,5.0,63.0,14.0,1,0
+8,Bologna,2021-10-23,Giornata n. 9,Casa,P,2,Milan,9.0,4.0,0,0,305.0,382.0,4.0,38.0,9.0,1,2
+8,Venezia,2021-10-23,Giornata n. 9,Ospiti,P,1,Sassuolo,7.0,1.0,0,0,304.0,388.0,4.0,37.0,17.0,2,0
+8,Empoli,2021-10-23,Giornata n. 9,Ospiti,V,4,Salernitana,9.0,4.0,1,1,268.0,371.0,2.0,41.0,17.0,3,0
+8,Milan,2021-10-23,Giornata n. 9,Ospiti,V,4,Bologna,15.0,7.0,0,0,561.0,636.0,1.0,62.0,17.0,3,0
+8,Salernitana,2021-10-23,Giornata n. 9,Casa,P,2,Empoli,12.0,5.0,0,0,426.0,537.0,7.0,59.0,16.0,1,0
+8,Roma,2021-10-24,Giornata n. 9,Casa,N,0,Napoli,13.0,1.0,0,0,277.0,352.0,7.0,38.0,14.0,4,0
+8,Udinese,2021-10-24,Giornata n. 9,Ospiti,N,1,Atalanta,9.0,3.0,0,0,239.0,333.0,3.0,33.0,17.0,2,0
+8,Lazio,2021-10-24,Giornata n. 9,Ospiti,P,1,Hellas Verona,9.0,4.0,0,0,428.0,543.0,4.0,51.0,17.0,2,0
+8,Napoli,2021-10-24,Giornata n. 9,Ospiti,N,0,Roma,11.0,2.0,0,0,485.0,568.0,4.0,62.0,10.0,1,0
+8,Cagliari,2021-10-24,Giornata n. 9,Ospiti,P,0,Fiorentina,3.0,1.0,0,0,269.0,358.0,1.0,35.0,15.0,2,0
+8,Juventus,2021-10-24,Giornata n. 9,Ospiti,N,1,Inter,15.0,3.0,1,1,443.0,533.0,2.0,51.0,19.0,2,0
+8,Fiorentina,2021-10-24,Giornata n. 9,Casa,V,3,Cagliari,20.0,4.0,1,1,583.0,659.0,4.0,65.0,11.0,0,0
+8,Atalanta,2021-10-24,Giornata n. 9,Casa,N,1,Udinese,8.0,3.0,0,0,582.0,683.0,6.0,67.0,16.0,2,0
+8,Inter,2021-10-24,Giornata n. 9,Casa,N,1,Juventus,10.0,2.0,0,0,407.0,515.0,5.0,49.0,17.0,2,0
+8,Hellas Verona,2021-10-24,Giornata n. 9,Casa,V,4,Lazio,16.0,7.0,0,0,416.0,525.0,3.0,49.0,15.0,2,0
+9,Genoa,2021-10-26,Giornata n. 10,Ospiti,N,1,Spezia,8.0,1.0,1,1,368.0,493.0,3.0,53.0,17.0,4,0
+9,Spezia,2021-10-26,Giornata n. 10,Casa,N,1,Genoa,13.0,3.0,0,0,319.0,436.0,3.0,47.0,15.0,2,0
+9,Milan,2021-10-26,Giornata n. 10,Casa,V,1,Torino,10.0,2.0,0,0,316.0,412.0,2.0,44.0,15.0,3,0
+9,Venezia,2021-10-26,Giornata n. 10,Casa,P,1,Salernitana,8.0,4.0,0,0,347.0,441.0,4.0,45.0,19.0,3,1
+9,Salernitana,2021-10-26,Giornata n. 10,Ospiti,V,2,Venezia,21.0,7.0,0,0,440.0,535.0,5.0,55.0,16.0,3,0
+9,Torino,2021-10-26,Giornata n. 10,Ospiti,P,0,Milan,13.0,2.0,0,0,415.0,519.0,5.0,56.0,22.0,3,0
+9,Juventus,2021-10-27,Giornata n. 10,Casa,P,1,Sassuolo,14.0,2.0,0,0,471.0,558.0,4.0,57.0,23.0,1,0
+9,Sampdoria,2021-10-27,Giornata n. 10,Casa,P,1,Atalanta,8.0,3.0,0,0,282.0,414.0,3.0,40.0,16.0,4,0
+9,Lazio,2021-10-27,Giornata n. 10,Casa,V,1,Fiorentina,5.0,2.0,0,0,472.0,555.0,3.0,49.0,17.0,3,0
+9,Empoli,2021-10-27,Giornata n. 10,Casa,P,0,Inter,9.0,1.0,0,0,235.0,301.0,5.0,31.0,22.0,1,1
+9,Roma,2021-10-27,Giornata n. 10,Ospiti,V,2,Cagliari,23.0,3.0,0,0,402.0,488.0,10.0,58.0,19.0,4,0
+9,Sassuolo,2021-10-27,Giornata n. 10,Ospiti,V,2,Juventus,8.0,4.0,0,0,346.0,426.0,4.0,43.0,18.0,5,0
+9,Inter,2021-10-27,Giornata n. 10,Ospiti,V,2,Empoli,21.0,9.0,0,0,607.0,684.0,6.0,69.0,16.0,3,0
+9,Fiorentina,2021-10-27,Giornata n. 10,Ospiti,P,0,Lazio,9.0,1.0,0,0,485.0,573.0,6.0,51.0,14.0,3,0
+9,Udinese,2021-10-27,Giornata n. 10,Casa,N,1,Hellas Verona,16.0,5.0,0,0,202.0,305.0,7.0,34.0,15.0,1,0
+9,Cagliari,2021-10-27,Giornata n. 10,Casa,P,1,Roma,7.0,5.0,0,0,264.0,355.0,2.0,42.0,18.0,3,0
+9,Atalanta,2021-10-27,Giornata n. 10,Ospiti,V,3,Sampdoria,13.0,4.0,0,0,499.0,611.0,3.0,60.0,19.0,3,0
+9,Hellas Verona,2021-10-27,Giornata n. 10,Ospiti,N,1,Udinese,4.0,1.0,1,1,487.0,583.0,4.0,66.0,12.0,2,0
+9,Bologna,2021-10-28,Giornata n. 10,Ospiti,P,0,Napoli,8.0,1.0,0,0,324.0,392.0,2.0,35.0,6.0,1,0
+9,Napoli,2021-10-28,Giornata n. 10,Casa,V,3,Bologna,16.0,4.0,2,2,665.0,719.0,4.0,65.0,20.0,1,0
+10,Juventus,2021-10-30,Giornata n. 11,Ospiti,P,1,Hellas Verona,15.0,4.0,0,0,477.0,590.0,1.0,55.0,7.0,3,0
+10,Hellas Verona,2021-10-30,Giornata n. 11,Casa,V,2,Juventus,12.0,5.0,0,0,385.0,487.0,4.0,45.0,25.0,4,0
+10,Torino,2021-10-30,Giornata n. 11,Casa,V,3,Sampdoria,16.0,5.0,0,0,515.0,620.0,4.0,63.0,20.0,2,0
+10,Lazio,2021-10-30,Giornata n. 11,Ospiti,N,2,Atalanta,8.0,5.0,0,0,395.0,489.0,2.0,44.0,15.0,3,0
+10,Atalanta,2021-10-30,Giornata n. 11,Casa,N,2,Lazio,17.0,3.0,0,0,531.0,634.0,6.0,56.0,14.0,1,0
+10,Sampdoria,2021-10-30,Giornata n. 11,Ospiti,P,0,Torino,5.0,1.0,0,0,238.0,359.0,5.0,37.0,10.0,4,1
+10,Roma,2021-10-31,Giornata n. 11,Casa,P,1,Milan,24.0,6.0,0,0,351.0,425.0,5.0,50.0,23.0,4,0
+10,Empoli,2021-10-31,Giornata n. 11,Ospiti,V,2,Sassuolo,13.0,4.0,1,1,323.0,418.0,6.0,43.0,15.0,2,0
+10,Inter,2021-10-31,Giornata n. 11,Casa,V,2,Udinese,15.0,5.0,0,0,592.0,668.0,6.0,66.0,11.0,0,0
+10,Udinese,2021-10-31,Giornata n. 11,Ospiti,P,0,Inter,9.0,5.0,0,0,267.0,350.0,4.0,34.0,16.0,2,0
+10,Fiorentina,2021-10-31,Giornata n. 11,Casa,V,3,Spezia,26.0,11.0,1,1,419.0,491.0,7.0,55.0,10.0,4,0
+10,Salernitana,2021-10-31,Giornata n. 11,Casa,P,0,Napoli,9.0,2.0,0,0,254.0,340.0,4.0,38.0,10.0,0,1
+10,Venezia,2021-10-31,Giornata n. 11,Ospiti,N,0,Genoa,6.0,2.0,0,0,235.0,328.0,4.0,38.0,16.0,3,0
+10,Milan,2021-10-31,Giornata n. 11,Ospiti,V,2,Roma,7.0,2.0,1,1,357.0,431.0,2.0,50.0,14.0,7,1
+10,Sassuolo,2021-10-31,Giornata n. 11,Casa,P,1,Empoli,15.0,5.0,0,0,471.0,549.0,4.0,57.0,20.0,4,0
+10,Spezia,2021-10-31,Giornata n. 11,Ospiti,P,0,Fiorentina,3.0,0.0,0,0,334.0,403.0,4.0,45.0,23.0,3,0
+10,Napoli,2021-10-31,Giornata n. 11,Ospiti,V,1,Salernitana,18.0,4.0,0,0,482.0,561.0,4.0,62.0,13.0,2,1
+10,Genoa,2021-10-31,Giornata n. 11,Casa,N,0,Venezia,19.0,4.0,0,0,404.0,537.0,12.0,62.0,16.0,1,0
+10,Bologna,2021-11-01,Giornata n. 11,Casa,V,2,Cagliari,8.0,3.0,0,0,553.0,638.0,5.0,57.0,13.0,3,0
+10,Cagliari,2021-11-01,Giornata n. 11,Ospiti,P,0,Bologna,9.0,2.0,0,0,400.0,476.0,2.0,43.0,10.0,2,1
+11,Genoa,2021-11-05,Giornata n. 12,Ospiti,N,2,Empoli,14.0,6.0,1,1,302.0,417.0,5.0,47.0,22.0,4,0
+11,Empoli,2021-11-05,Giornata n. 12,Casa,N,2,Genoa,10.0,2.0,0,0,341.0,467.0,4.0,53.0,9.0,0,0
+11,Fiorentina,2021-11-06,Giornata n. 12,Ospiti,P,0,Juventus,6.0,1.0,0,0,335.0,426.0,5.0,50.0,17.0,4,1
+11,Atalanta,2021-11-06,Giornata n. 12,Ospiti,V,2,Cagliari,20.0,8.0,0,0,539.0,641.0,7.0,62.0,10.0,1,0
+11,Torino,2021-11-06,Giornata n. 12,Ospiti,P,0,Spezia,10.0,1.0,0,0,420.0,522.0,3.0,59.0,19.0,3,0
+11,Cagliari,2021-11-06,Giornata n. 12,Casa,P,1,Atalanta,7.0,1.0,0,0,287.0,389.0,2.0,38.0,16.0,1,0
+11,Spezia,2021-11-06,Giornata n. 12,Casa,V,1,Torino,7.0,3.0,0,0,255.0,360.0,2.0,41.0,16.0,3,0
+11,Juventus,2021-11-06,Giornata n. 12,Casa,V,1,Fiorentina,13.0,3.0,0,0,344.0,428.0,5.0,50.0,17.0,2,0
+11,Roma,2021-11-07,Giornata n. 12,Ospiti,P,2,Venezia,28.0,8.0,0,0,430.0,535.0,11.0,61.0,19.0,2,0
+11,Inter,2021-11-07,Giornata n. 12,Ospiti,N,1,Milan,12.0,0.0,1,2,333.0,426.0,8.0,49.0,11.0,0,0
+11,Sassuolo,2021-11-07,Giornata n. 12,Ospiti,P,2,Udinese,10.0,4.0,0,0,513.0,616.0,5.0,62.0,15.0,3,0
+11,Milan,2021-11-07,Giornata n. 12,Casa,N,1,Inter,16.0,4.0,0,0,356.0,436.0,4.0,51.0,17.0,1,0
+11,Hellas Verona,2021-11-07,Giornata n. 12,Ospiti,N,1,Napoli,11.0,3.0,0,0,304.0,390.0,2.0,42.0,18.0,7,2
+11,Udinese,2021-11-07,Giornata n. 12,Casa,V,3,Sassuolo,13.0,2.0,0,0,285.0,378.0,1.0,38.0,14.0,3,1
+11,Venezia,2021-11-07,Giornata n. 12,Casa,V,3,Roma,12.0,6.0,1,1,269.0,348.0,4.0,39.0,13.0,2,0
+11,Bologna,2021-11-07,Giornata n. 12,Ospiti,V,2,Sampdoria,14.0,6.0,0,0,410.0,516.0,5.0,53.0,14.0,1,0
+11,Napoli,2021-11-07,Giornata n. 12,Casa,N,1,Hellas Verona,16.0,1.0,0,0,454.0,543.0,3.0,58.0,16.0,2,0
+11,Lazio,2021-11-07,Giornata n. 12,Casa,V,3,Salernitana,17.0,5.0,0,0,640.0,712.0,5.0,60.0,8.0,1,0
+11,Sampdoria,2021-11-07,Giornata n. 12,Casa,P,1,Bologna,10.0,4.0,0,0,317.0,455.0,6.0,47.0,16.0,4,0
+11,Salernitana,2021-11-07,Giornata n. 12,Ospiti,P,0,Lazio,5.0,0.0,0,0,404.0,476.0,1.0,40.0,14.0,2,0
+12,Spezia,2021-11-20,Giornata n. 13,Ospiti,P,2,Atalanta,10.0,5.0,0,0,417.0,519.0,6.0,50.0,13.0,3,0
+12,Lazio,2021-11-20,Giornata n. 13,Casa,P,0,Juventus,8.0,1.0,0,0,580.0,662.0,3.0,57.0,12.0,3,0
+12,Milan,2021-11-20,Giornata n. 13,Ospiti,P,3,Fiorentina,16.0,6.0,0,0,452.0,542.0,6.0,55.0,13.0,1,0
+12,Juventus,2021-11-20,Giornata n. 13,Ospiti,V,2,Lazio,9.0,3.0,2,2,431.0,505.0,2.0,43.0,16.0,1,0
+12,Fiorentina,2021-11-20,Giornata n. 13,Casa,V,4,Milan,9.0,5.0,0,0,361.0,449.0,5.0,45.0,7.0,1,0
+12,Atalanta,2021-11-20,Giornata n. 13,Casa,V,5,Spezia,17.0,8.0,1,1,449.0,529.0,0.0,50.0,11.0,2,0
+12,Cagliari,2021-11-21,Giornata n. 13,Ospiti,N,2,Sassuolo,10.0,3.0,1,1,297.0,392.0,5.0,42.0,11.0,2,0
+12,Inter,2021-11-21,Giornata n. 13,Casa,V,3,Napoli,16.0,6.0,1,1,328.0,408.0,4.0,44.0,18.0,4,0
+12,Salernitana,2021-11-21,Giornata n. 13,Casa,P,0,Sampdoria,18.0,3.0,0,0,373.0,489.0,13.0,55.0,12.0,0,0
+12,Bologna,2021-11-21,Giornata n. 13,Casa,P,0,Venezia,24.0,6.0,0,0,603.0,711.0,17.0,67.0,6.0,0,0
+12,Venezia,2021-11-21,Giornata n. 13,Ospiti,V,1,Bologna,8.0,6.0,0,0,282.0,353.0,0.0,33.0,11.0,3,0
+12,Sassuolo,2021-11-21,Giornata n. 13,Casa,N,2,Cagliari,19.0,3.0,1,1,469.0,545.0,6.0,58.0,13.0,1,0
+12,Sampdoria,2021-11-21,Giornata n. 13,Ospiti,V,2,Salernitana,13.0,6.0,0,0,301.0,405.0,3.0,45.0,22.0,3,0
+12,Napoli,2021-11-21,Giornata n. 13,Ospiti,P,2,Inter,9.0,3.0,0,0,431.0,517.0,1.0,56.0,19.0,3,0
+12,Roma,2021-11-21,Giornata n. 13,Ospiti,V,2,Genoa,18.0,3.0,0,0,515.0,609.0,7.0,59.0,15.0,2,0
+12,Genoa,2021-11-21,Giornata n. 13,Casa,P,0,Roma,1.0,1.0,0,0,342.0,425.0,2.0,41.0,12.0,3,0
+12,Torino,2021-11-22,Giornata n. 13,Casa,V,2,Udinese,14.0,3.0,0,0,367.0,479.0,4.0,51.0,20.0,1,0
+12,Udinese,2021-11-22,Giornata n. 13,Ospiti,P,1,Torino,18.0,7.0,0,0,351.0,461.0,7.0,49.0,21.0,3,0
+12,Hellas Verona,2021-11-22,Giornata n. 13,Casa,V,2,Empoli,22.0,4.0,0,0,403.0,515.0,1.0,56.0,8.0,1,0
+12,Empoli,2021-11-22,Giornata n. 13,Ospiti,P,1,Hellas Verona,9.0,3.0,0,0,278.0,401.0,3.0,44.0,14.0,3,0
+13,Cagliari,2021-11-26,Giornata n. 14,Casa,N,1,Salernitana,19.0,3.0,0,0,401.0,505.0,7.0,57.0,16.0,3,0
+13,Salernitana,2021-11-26,Giornata n. 14,Ospiti,N,1,Cagliari,8.0,2.0,0,0,273.0,374.0,6.0,43.0,10.0,1,0
+13,Juventus,2021-11-27,Giornata n. 14,Casa,P,0,Atalanta,15.0,2.0,0,0,491.0,586.0,6.0,59.0,16.0,4,0
+13,Venezia,2021-11-27,Giornata n. 14,Casa,P,0,Inter,6.0,1.0,0,0,412.0,492.0,3.0,44.0,13.0,2,0
+13,Atalanta,2021-11-27,Giornata n. 14,Ospiti,V,1,Juventus,7.0,1.0,0,0,307.0,405.0,4.0,41.0,23.0,5,0
+13,Inter,2021-11-27,Giornata n. 14,Ospiti,V,2,Venezia,26.0,10.0,1,1,540.0,619.0,9.0,56.0,8.0,0,0
+13,Sampdoria,2021-11-27,Giornata n. 14,Casa,V,3,Hellas Verona,15.0,6.0,0,0,246.0,365.0,4.0,42.0,16.0,4,0
+13,Empoli,2021-11-27,Giornata n. 14,Casa,V,2,Fiorentina,17.0,5.0,0,0,374.0,475.0,8.0,51.0,18.0,1,0
+13,Hellas Verona,2021-11-27,Giornata n. 14,Ospiti,P,1,Sampdoria,15.0,4.0,0,0,405.0,495.0,5.0,58.0,17.0,1,0
+13,Fiorentina,2021-11-27,Giornata n. 14,Ospiti,P,1,Empoli,16.0,7.0,0,0,372.0,465.0,5.0,49.0,11.0,1,0
+13,Bologna,2021-11-28,Giornata n. 14,Ospiti,V,1,Spezia,16.0,4.0,1,1,463.0,561.0,6.0,57.0,12.0,1,0
+13,Udinese,2021-11-28,Giornata n. 14,Casa,N,0,Genoa,16.0,3.0,0,0,323.0,416.0,8.0,43.0,19.0,3,0
+13,Roma,2021-11-28,Giornata n. 14,Casa,V,1,Torino,10.0,2.0,0,0,227.0,306.0,2.0,32.0,8.0,2,0
+13,Sassuolo,2021-11-28,Giornata n. 14,Ospiti,V,3,Milan,15.0,5.0,0,0,367.0,458.0,6.0,50.0,8.0,2,0
+13,Spezia,2021-11-28,Giornata n. 14,Casa,P,0,Bologna,14.0,6.0,0,0,330.0,419.0,3.0,43.0,17.0,3,0
+13,Napoli,2021-11-28,Giornata n. 14,Casa,V,4,Lazio,18.0,8.0,0,0,759.0,822.0,1.0,62.0,12.0,2,0
+13,Torino,2021-11-28,Giornata n. 14,Ospiti,P,0,Roma,18.0,3.0,0,0,540.0,648.0,9.0,68.0,11.0,1,0
+13,Lazio,2021-11-28,Giornata n. 14,Ospiti,P,0,Napoli,6.0,2.0,0,0,446.0,514.0,3.0,38.0,15.0,4,0
+13,Genoa,2021-11-28,Giornata n. 14,Ospiti,N,0,Udinese,9.0,2.0,0,0,446.0,554.0,1.0,57.0,11.0,4,0
+13,Milan,2021-11-28,Giornata n. 14,Casa,P,1,Sassuolo,15.0,2.0,0,0,357.0,452.0,7.0,50.0,15.0,4,1
+14,Juventus,2021-11-30,Giornata n. 15,Ospiti,V,2,Salernitana,17.0,7.0,0,1,775.0,850.0,4.0,73.0,11.0,1,0
+14,Cagliari,2021-11-30,Giornata n. 15,Ospiti,N,0,Hellas Verona,12.0,3.0,0,0,174.0,295.0,1.0,32.0,14.0,2,0
+14,Atalanta,2021-11-30,Giornata n. 15,Casa,V,4,Venezia,19.0,6.0,0,0,551.0,636.0,4.0,58.0,12.0,0,0
+14,Venezia,2021-11-30,Giornata n. 15,Ospiti,P,0,Atalanta,8.0,4.0,0,0,372.0,461.0,2.0,42.0,12.0,1,0
+14,Hellas Verona,2021-11-30,Giornata n. 15,Casa,N,0,Cagliari,15.0,6.0,0,0,524.0,639.0,11.0,68.0,17.0,3,0
+14,Fiorentina,2021-11-30,Giornata n. 15,Casa,V,3,Sampdoria,17.0,7.0,0,0,533.0,612.0,3.0,60.0,6.0,0,0
+14,Sampdoria,2021-11-30,Giornata n. 15,Ospiti,P,1,Fiorentina,11.0,4.0,0,0,311.0,411.0,6.0,40.0,17.0,3,0
+14,Salernitana,2021-11-30,Giornata n. 15,Casa,P,0,Juventus,4.0,0.0,0,0,241.0,321.0,4.0,27.0,15.0,1,0
+14,Sassuolo,2021-12-01,Giornata n. 15,Casa,N,2,Napoli,9.0,7.0,0,0,441.0,508.0,5.0,50.0,11.0,4,0
+14,Napoli,2021-12-01,Giornata n. 15,Ospiti,N,2,Sassuolo,9.0,4.0,0,0,413.0,502.0,4.0,50.0,20.0,2,0
+14,Genoa,2021-12-01,Giornata n. 15,Casa,P,0,Milan,11.0,3.0,0,0,365.0,442.0,2.0,42.0,15.0,2,0
+14,Bologna,2021-12-01,Giornata n. 15,Casa,V,1,Roma,6.0,3.0,0,0,325.0,421.0,3.0,42.0,9.0,3,0
+14,Spezia,2021-12-01,Giornata n. 15,Ospiti,P,0,Inter,7.0,4.0,0,0,334.0,411.0,1.0,37.0,14.0,2,0
+14,Milan,2021-12-01,Giornata n. 15,Ospiti,V,3,Genoa,18.0,5.0,0,0,518.0,604.0,6.0,58.0,16.0,1,0
+14,Inter,2021-12-01,Giornata n. 15,Casa,V,2,Spezia,30.0,10.0,1,1,618.0,697.0,11.0,63.0,19.0,1,0
+14,Roma,2021-12-01,Giornata n. 15,Ospiti,P,0,Bologna,13.0,5.0,0,0,478.0,571.0,3.0,58.0,18.0,4,0
+14,Empoli,2021-12-02,Giornata n. 15,Ospiti,N,2,Torino,17.0,5.0,0,0,372.0,480.0,11.0,59.0,17.0,3,0
+14,Lazio,2021-12-02,Giornata n. 15,Casa,N,4,Udinese,13.0,5.0,0,0,517.0,607.0,5.0,62.0,11.0,3,1
+14,Udinese,2021-12-02,Giornata n. 15,Ospiti,N,4,Lazio,13.0,5.0,0,0,299.0,374.0,4.0,38.0,12.0,5,2
+14,Torino,2021-12-02,Giornata n. 15,Casa,N,2,Empoli,10.0,3.0,0,0,259.0,338.0,1.0,41.0,8.0,1,1
+15,Milan,2021-12-04,Giornata n. 16,Casa,V,2,Salernitana,22.0,7.0,0,0,668.0,749.0,9.0,70.0,11.0,1,0
+15,Inter,2021-12-04,Giornata n. 16,Ospiti,V,3,Roma,10.0,4.0,0,0,736.0,803.0,3.0,66.0,7.0,1,0
+15,Salernitana,2021-12-04,Giornata n. 16,Ospiti,P,0,Milan,7.0,2.0,0,0,236.0,317.0,5.0,30.0,11.0,2,0
+15,Napoli,2021-12-04,Giornata n. 16,Casa,P,2,Atalanta,15.0,4.0,0,0,481.0,568.0,6.0,55.0,19.0,2,0
+15,Roma,2021-12-04,Giornata n. 16,Casa,P,0,Inter,9.0,1.0,0,0,357.0,414.0,4.0,34.0,12.0,3,0
+15,Atalanta,2021-12-04,Giornata n. 16,Ospiti,V,3,Napoli,21.0,7.0,0,0,391.0,466.0,7.0,45.0,21.0,3,0
+15,Bologna,2021-12-05,Giornata n. 16,Casa,P,2,Fiorentina,8.0,3.0,0,0,288.0,366.0,0.0,37.0,12.0,3,0
+15,Sassuolo,2021-12-05,Giornata n. 16,Ospiti,N,2,Spezia,20.0,5.0,0,0,566.0,649.0,5.0,65.0,10.0,3,0
+15,Juventus,2021-12-05,Giornata n. 16,Casa,V,2,Genoa,27.0,12.0,0,0,705.0,785.0,4.0,70.0,15.0,3,0
+15,Sampdoria,2021-12-05,Giornata n. 16,Casa,P,1,Lazio,18.0,5.0,0,0,443.0,560.0,7.0,48.0,16.0,4,0
+15,Spezia,2021-12-05,Giornata n. 16,Casa,N,2,Sassuolo,9.0,4.0,0,0,264.0,352.0,2.0,35.0,15.0,4,0
+15,Hellas Verona,2021-12-05,Giornata n. 16,Ospiti,V,4,Venezia,15.0,5.0,1,1,376.0,483.0,6.0,56.0,15.0,2,0
+15,Fiorentina,2021-12-05,Giornata n. 16,Ospiti,V,3,Bologna,5.0,2.0,1,1,534.0,622.0,2.0,63.0,16.0,3,0
+15,Lazio,2021-12-05,Giornata n. 16,Ospiti,V,3,Sampdoria,6.0,5.0,0,0,503.0,600.0,0.0,52.0,10.0,3,1
+15,Genoa,2021-12-05,Giornata n. 16,Ospiti,P,0,Juventus,0.0,0.0,0,0,253.0,340.0,1.0,30.0,8.0,1,0
+15,Venezia,2021-12-05,Giornata n. 16,Casa,P,3,Hellas Verona,9.0,5.0,0,0,281.0,384.0,1.0,44.0,12.0,2,1
+15,Torino,2021-12-06,Giornata n. 16,Ospiti,N,1,Cagliari,8.0,3.0,0,0,285.0,408.0,2.0,48.0,28.0,4,0
+15,Cagliari,2021-12-06,Giornata n. 16,Casa,N,1,Torino,16.0,2.0,0,0,288.0,440.0,5.0,52.0,12.0,2,0
+15,Empoli,2021-12-06,Giornata n. 16,Casa,V,3,Udinese,22.0,8.0,0,0,442.0,536.0,8.0,57.0,15.0,4,0
+15,Udinese,2021-12-06,Giornata n. 16,Ospiti,P,1,Empoli,19.0,8.0,0,0,319.0,411.0,6.0,43.0,20.0,3,0
+16,Sampdoria,2021-12-10,Giornata n. 17,Ospiti,V,3,Genoa,14.0,5.0,0,0,284.0,423.0,3.0,46.0,18.0,2,0
+16,Genoa,2021-12-10,Giornata n. 17,Casa,P,1,Sampdoria,12.0,2.0,0,0,360.0,493.0,8.0,54.0,15.0,2,0
+16,Milan,2021-12-11,Giornata n. 17,Ospiti,N,1,Udinese,12.0,1.0,0,0,572.0,687.0,5.0,66.0,11.0,2,0
+16,Udinese,2021-12-11,Giornata n. 17,Casa,N,1,Milan,11.0,6.0,0,0,259.0,348.0,3.0,34.0,21.0,2,1
+16,Juventus,2021-12-11,Giornata n. 17,Ospiti,N,1,Venezia,20.0,6.0,0,0,501.0,611.0,11.0,60.0,13.0,2,0
+16,Venezia,2021-12-11,Giornata n. 17,Casa,N,1,Juventus,13.0,4.0,0,0,302.0,404.0,3.0,40.0,20.0,4,0
+16,Salernitana,2021-12-11,Giornata n. 17,Ospiti,P,0,Fiorentina,11.0,6.0,0,0,251.0,336.0,3.0,30.0,12.0,1,0
+16,Fiorentina,2021-12-11,Giornata n. 17,Casa,V,4,Salernitana,17.0,9.0,0,0,678.0,768.0,1.0,70.0,10.0,1,0
+16,Empoli,2021-12-12,Giornata n. 17,Ospiti,V,1,Napoli,12.0,5.0,0,0,334.0,418.0,3.0,40.0,14.0,1,0
+16,Cagliari,2021-12-12,Giornata n. 17,Ospiti,P,0,Inter,5.0,2.0,0,0,201.0,268.0,0.0,25.0,15.0,2,0
+16,Bologna,2021-12-12,Giornata n. 17,Ospiti,P,1,Torino,7.0,4.0,1,1,361.0,465.0,0.0,51.0,19.0,4,0
+16,Torino,2021-12-12,Giornata n. 17,Casa,V,2,Bologna,16.0,7.0,0,0,330.0,439.0,5.0,49.0,18.0,2,0
+16,Atalanta,2021-12-12,Giornata n. 17,Ospiti,V,2,Hellas Verona,14.0,6.0,0,0,305.0,453.0,6.0,47.0,11.0,1,0
+16,Inter,2021-12-12,Giornata n. 17,Casa,V,4,Cagliari,23.0,14.0,0,1,731.0,814.0,9.0,75.0,9.0,1,0
+16,Lazio,2021-12-12,Giornata n. 17,Ospiti,P,1,Sassuolo,6.0,2.0,0,0,388.0,474.0,0.0,41.0,12.0,2,0
+16,Sassuolo,2021-12-12,Giornata n. 17,Casa,V,2,Lazio,17.0,6.0,0,0,589.0,679.0,6.0,59.0,9.0,1,1
+16,Hellas Verona,2021-12-12,Giornata n. 17,Casa,P,1,Atalanta,19.0,3.0,0,0,345.0,513.0,6.0,53.0,14.0,2,0
+16,Napoli,2021-12-12,Giornata n. 17,Casa,P,0,Empoli,30.0,6.0,0,0,522.0,616.0,10.0,60.0,8.0,0,0
+16,Spezia,2021-12-13,Giornata n. 17,Ospiti,P,0,Roma,8.0,2.0,0,0,411.0,505.0,4.0,48.0,8.0,1,0
+16,Roma,2021-12-13,Giornata n. 17,Casa,V,2,Spezia,12.0,5.0,0,0,456.0,555.0,9.0,52.0,13.0,4,1
+17,Genoa,2021-12-17,Giornata n. 18,Ospiti,P,1,Lazio,4.0,2.0,0,0,469.0,555.0,2.0,45.0,11.0,3,0
+17,Inter,2021-12-17,Giornata n. 18,Ospiti,V,5,Salernitana,23.0,8.0,0,0,590.0,666.0,10.0,65.0,12.0,2,0
+17,Salernitana,2021-12-17,Giornata n. 18,Casa,P,0,Inter,10.0,2.0,0,0,274.0,353.0,3.0,35.0,11.0,1,0
+17,Lazio,2021-12-17,Giornata n. 18,Casa,V,3,Genoa,11.0,5.0,0,0,586.0,677.0,5.0,55.0,9.0,0,0
+17,Roma,2021-12-18,Giornata n. 18,Ospiti,V,4,Atalanta,8.0,5.0,0,0,222.0,294.0,0.0,29.0,18.0,3,0
+17,Udinese,2021-12-18,Giornata n. 18,Ospiti,V,4,Cagliari,10.0,5.0,0,0,355.0,448.0,2.0,45.0,15.0,2,0
+17,Atalanta,2021-12-18,Giornata n. 18,Casa,P,1,Roma,17.0,6.0,0,0,606.0,704.0,10.0,71.0,11.0,1,0
+17,Bologna,2021-12-18,Giornata n. 18,Casa,P,0,Juventus,11.0,3.0,0,0,476.0,581.0,8.0,57.0,10.0,1,0
+17,Cagliari,2021-12-18,Giornata n. 18,Casa,P,0,Udinese,5.0,2.0,0,0,436.0,544.0,4.0,55.0,12.0,4,1
+17,Juventus,2021-12-18,Giornata n. 18,Ospiti,V,2,Bologna,11.0,7.0,0,0,346.0,435.0,3.0,43.0,20.0,1,0
+17,Fiorentina,2021-12-19,Giornata n. 18,Casa,N,2,Sassuolo,23.0,8.0,0,0,472.0,561.0,9.0,57.0,7.0,3,1
+17,Sassuolo,2021-12-19,Giornata n. 18,Ospiti,N,2,Fiorentina,8.0,4.0,0,0,343.0,425.0,3.0,43.0,18.0,5,0
+17,Venezia,2021-12-19,Giornata n. 18,Ospiti,N,1,Sampdoria,12.0,1.0,0,0,339.0,448.0,3.0,50.0,20.0,1,0
+17,Milan,2021-12-19,Giornata n. 18,Casa,P,0,Napoli,12.0,2.0,0,0,400.0,518.0,5.0,48.0,16.0,0,0
+17,Torino,2021-12-19,Giornata n. 18,Casa,V,1,Hellas Verona,8.0,1.0,0,0,506.0,621.0,5.0,66.0,15.0,1,0
+17,Spezia,2021-12-19,Giornata n. 18,Casa,N,1,Empoli,9.0,2.0,0,0,220.0,298.0,3.0,34.0,24.0,3,0
+17,Napoli,2021-12-19,Giornata n. 18,Ospiti,V,1,Milan,11.0,2.0,0,0,448.0,552.0,5.0,52.0,21.0,2,0
+17,Sampdoria,2021-12-19,Giornata n. 18,Casa,N,1,Venezia,18.0,7.0,0,0,324.0,440.0,4.0,50.0,10.0,2,0
+17,Hellas Verona,2021-12-19,Giornata n. 18,Ospiti,P,0,Torino,8.0,2.0,0,0,205.0,323.0,3.0,34.0,6.0,2,1
+17,Empoli,2021-12-19,Giornata n. 18,Ospiti,N,1,Spezia,22.0,7.0,0,0,490.0,590.0,5.0,66.0,12.0,2,0
+18,Atalanta,2021-12-21,Giornata n. 19,Ospiti,N,0,Genoa,17.0,3.0,0,0,542.0,711.0,8.0,67.0,16.0,1,0
+18,Cagliari,2021-12-21,Giornata n. 19,Ospiti,P,0,Juventus,6.0,1.0,0,0,275.0,369.0,1.0,37.0,18.0,3,0
+18,Genoa,2021-12-21,Giornata n. 19,Casa,N,0,Atalanta,1.0,0.0,0,0,205.0,347.0,3.0,33.0,16.0,2,0
+18,Juventus,2021-12-21,Giornata n. 19,Casa,V,2,Cagliari,15.0,4.0,0,0,528.0,623.0,7.0,63.0,18.0,0,0
+18,Milan,2021-12-22,Giornata n. 19,Ospiti,V,4,Empoli,18.0,8.0,0,0,324.0,409.0,3.0,44.0,16.0,2,0
+18,Bologna,2021-12-22,Giornata n. 19,Ospiti,V,3,Sassuolo,9.0,5.0,0,0,299.0,390.0,5.0,41.0,14.0,3,0
+18,Spezia,2021-12-22,Giornata n. 19,Ospiti,V,1,Napoli,8.0,0.0,0,0,261.0,355.0,5.0,35.0,13.0,3,0
+18,Sassuolo,2021-12-22,Giornata n. 19,Casa,P,0,Bologna,13.0,5.0,0,0,477.0,566.0,5.0,59.0,15.0,1,0
+18,Torino,2021-12-22,Giornata n. 19,Ospiti,P,0,Inter,12.0,3.0,0,0,342.0,454.0,4.0,46.0,19.0,0,0
+18,Hellas Verona,2021-12-22,Giornata n. 19,Casa,N,1,Fiorentina,7.0,2.0,0,0,256.0,380.0,3.0,40.0,16.0,2,0
+18,Inter,2021-12-22,Giornata n. 19,Casa,V,1,Torino,15.0,3.0,0,0,413.0,526.0,7.0,54.0,12.0,1,0
+18,Roma,2021-12-22,Giornata n. 19,Casa,N,1,Sampdoria,15.0,4.0,0,0,469.0,589.0,10.0,54.0,6.0,0,0
+18,Fiorentina,2021-12-22,Giornata n. 19,Ospiti,N,1,Hellas Verona,11.0,1.0,0,0,447.0,570.0,8.0,60.0,5.0,1,0
+18,Sampdoria,2021-12-22,Giornata n. 19,Ospiti,N,1,Roma,9.0,2.0,0,0,389.0,493.0,2.0,46.0,10.0,3,0
+18,Venezia,2021-12-22,Giornata n. 19,Casa,P,1,Lazio,10.0,2.0,0,0,446.0,525.0,4.0,47.0,13.0,3,1
+18,Lazio,2021-12-22,Giornata n. 19,Ospiti,V,3,Venezia,7.0,4.0,0,0,510.0,587.0,4.0,53.0,12.0,3,0
+18,Empoli,2021-12-22,Giornata n. 19,Casa,P,2,Milan,15.0,4.0,1,1,415.0,513.0,6.0,56.0,18.0,1,0
+18,Napoli,2021-12-22,Giornata n. 19,Casa,P,0,Spezia,27.0,6.0,0,0,562.0,653.0,10.0,65.0,15.0,2,0
+19,Sassuolo,2022-01-06,Giornata n. 20,Casa,N,1,Genoa,28.0,7.0,0,0,718.0,810.0,7.0,74.0,8.0,3,0
+19,Spezia,2022-01-06,Giornata n. 20,Casa,P,1,Hellas Verona,9.0,3.0,0,0,228.0,348.0,6.0,40.0,13.0,3,1
+19,Hellas Verona,2022-01-06,Giornata n. 20,Ospiti,V,2,Spezia,22.0,5.0,0,0,412.0,521.0,7.0,60.0,11.0,2,0
+19,Lazio,2022-01-06,Giornata n. 20,Casa,N,3,Empoli,22.0,8.0,0,1,503.0,586.0,9.0,62.0,14.0,4,0
+19,Napoli,2022-01-06,Giornata n. 20,Ospiti,N,1,Juventus,16.0,4.0,0,0,544.0,627.0,3.0,56.0,12.0,1,0
+19,Sampdoria,2022-01-06,Giornata n. 20,Casa,P,1,Cagliari,4.0,2.0,0,0,369.0,496.0,0.0,49.0,14.0,1,1
+19,Cagliari,2022-01-06,Giornata n. 20,Ospiti,V,2,Sampdoria,15.0,7.0,0,0,395.0,518.0,5.0,51.0,17.0,3,0
+19,Roma,2022-01-06,Giornata n. 20,Ospiti,P,1,Milan,11.0,5.0,0,0,274.0,364.0,9.0,45.0,20.0,7,2
+19,Genoa,2022-01-06,Giornata n. 20,Ospiti,N,1,Sassuolo,4.0,1.0,0,0,199.0,287.0,4.0,26.0,12.0,0,0
+19,Empoli,2022-01-06,Giornata n. 20,Ospiti,N,3,Lazio,10.0,3.0,1,1,278.0,360.0,2.0,38.0,12.0,4,0
+19,Milan,2022-01-06,Giornata n. 20,Casa,V,3,Roma,17.0,3.0,1,2,347.0,441.0,3.0,55.0,6.0,2,0
+19,Juventus,2022-01-06,Giornata n. 20,Casa,N,1,Napoli,22.0,5.0,0,0,420.0,493.0,4.0,44.0,8.0,2,0
+20,Roma,2022-01-09,Giornata n. 21,Casa,P,3,Juventus,19.0,6.0,0,1,369.0,471.0,8.0,53.0,13.0,3,0
+20,Sassuolo,2022-01-09,Giornata n. 21,Ospiti,V,5,Empoli,24.0,12.0,1,1,501.0,584.0,5.0,55.0,17.0,3,0
+20,Milan,2022-01-09,Giornata n. 21,Ospiti,V,3,Venezia,17.0,6.0,1,1,584.0,670.0,7.0,62.0,15.0,3,0
+18,Udinese,2022-01-09,Giornata n. 21,Casa,P,2,Atalanta,8.0,4.0,0,0,349.0,453.0,2.0,40.0,10.0,2,0
+20,Spezia,2022-01-09,Giornata n. 21,Ospiti,V,1,Genoa,17.0,9.0,0,0,354.0,467.0,4.0,46.0,17.0,3,0
+18,Salernitana,2022-01-09,Giornata n. 21,Ospiti,V,2,Hellas Verona,8.0,4.0,1,1,157.0,258.0,4.0,30.0,12.0,3,0
+20,Napoli,2022-01-09,Giornata n. 21,Casa,V,1,Sampdoria,22.0,5.0,0,0,672.0,758.0,13.0,69.0,13.0,0,0
+20,Sampdoria,2022-01-09,Giornata n. 21,Ospiti,P,0,Napoli,11.0,1.0,0,0,272.0,346.0,0.0,31.0,12.0,2,0
+19,Venezia,2022-01-09,Giornata n. 21,Casa,P,0,Milan,10.0,3.0,0,0,332.0,418.0,1.0,38.0,11.0,1,1
+20,Juventus,2022-01-09,Giornata n. 21,Ospiti,V,4,Roma,14.0,5.0,0,0,349.0,417.0,1.0,47.0,12.0,4,1
+19,Atalanta,2022-01-09,Giornata n. 21,Ospiti,V,6,Udinese,21.0,7.0,0,0,568.0,671.0,5.0,60.0,12.0,2,0
+20,Hellas Verona,2022-01-09,Giornata n. 21,Casa,P,1,Salernitana,24.0,7.0,0,0,498.0,608.0,17.0,70.0,13.0,1,1
+20,Empoli,2022-01-09,Giornata n. 21,Casa,P,1,Sassuolo,15.0,4.0,0,0,398.0,485.0,5.0,45.0,13.0,2,1
+19,Inter,2022-01-09,Giornata n. 21,Casa,V,2,Lazio,17.0,5.0,0,0,602.0,681.0,4.0,60.0,11.0,1,0
+20,Lazio,2022-01-09,Giornata n. 21,Ospiti,P,1,Inter,5.0,2.0,0,0,373.0,456.0,3.0,40.0,17.0,4,0
+20,Genoa,2022-01-09,Giornata n. 21,Casa,P,0,Spezia,15.0,2.0,0,0,422.0,539.0,7.0,54.0,17.0,3,0
+19,Fiorentina,2022-01-10,Giornata n. 21,Ospiti,P,0,Torino,11.0,4.0,0,0,400.0,503.0,5.0,55.0,12.0,2,0
+19,Torino,2022-01-10,Giornata n. 21,Casa,V,4,Fiorentina,9.0,6.0,0,0,314.0,417.0,1.0,45.0,19.0,2,0
+19,Bologna,2022-01-11,Giornata n. 21,Ospiti,P,1,Cagliari,10.0,3.0,0,0,294.0,426.0,5.0,47.0,19.0,2,0
+20,Cagliari,2022-01-11,Giornata n. 21,Casa,V,2,Bologna,13.0,4.0,0,0,354.0,482.0,5.0,53.0,14.0,3,0
+21,Lazio,2022-01-15,Giornata n. 22,Ospiti,V,3,Salernitana,15.0,8.0,0,0,841.0,917.0,7.0,73.0,16.0,3,0
+19,Salernitana,2022-01-15,Giornata n. 22,Casa,P,0,Lazio,7.0,1.0,0,0,267.0,338.0,3.0,27.0,12.0,2,0
+20,Torino,2022-01-15,Giornata n. 22,Ospiti,V,2,Sampdoria,20.0,12.0,0,0,448.0,571.0,10.0,63.0,14.0,2,0
+19,Udinese,2022-01-15,Giornata n. 22,Ospiti,P,0,Juventus,16.0,3.0,0,0,296.0,371.0,6.0,34.0,10.0,2,0
+21,Sampdoria,2022-01-15,Giornata n. 22,Casa,P,1,Torino,11.0,3.0,0,0,211.0,332.0,3.0,37.0,13.0,0,0
+21,Juventus,2022-01-15,Giornata n. 22,Casa,V,2,Udinese,14.0,4.0,0,0,621.0,710.0,7.0,66.0,14.0,1,0
+21,Hellas Verona,2022-01-16,Giornata n. 22,Ospiti,V,4,Sassuolo,20.0,5.0,1,1,291.0,394.0,7.0,45.0,18.0,4,0
+20,Venezia,2022-01-16,Giornata n. 22,Casa,N,1,Empoli,14.0,3.0,0,0,333.0,434.0,6.0,50.0,16.0,3,0
+20,Inter,2022-01-16,Giornata n. 22,Ospiti,N,0,Atalanta,11.0,3.0,0,0,597.0,699.0,4.0,63.0,12.0,2,0
+21,Cagliari,2022-01-16,Giornata n. 22,Ospiti,P,0,Roma,8.0,2.0,0,0,334.0,458.0,1.0,44.0,20.0,4,0
+20,Atalanta,2022-01-16,Giornata n. 22,Casa,N,0,Inter,12.0,6.0,0,0,306.0,412.0,6.0,37.0,15.0,2,0
+21,Roma,2022-01-16,Giornata n. 22,Casa,V,1,Cagliari,14.0,6.0,1,1,475.0,579.0,1.0,56.0,15.0,3,0
+21,Sassuolo,2022-01-16,Giornata n. 22,Casa,P,2,Hellas Verona,14.0,5.0,0,0,378.0,489.0,9.0,55.0,6.0,2,0
+21,Empoli,2022-01-16,Giornata n. 22,Ospiti,N,1,Venezia,18.0,6.0,0,0,347.0,439.0,5.0,50.0,19.0,5,0
+21,Napoli,2022-01-17,Giornata n. 22,Ospiti,V,2,Bologna,14.0,5.0,0,0,579.0,678.0,4.0,61.0,11.0,1,0
+21,Spezia,2022-01-17,Giornata n. 22,Ospiti,V,2,Milan,10.0,6.0,0,0,274.0,367.0,1.0,40.0,18.0,5,0
+20,Bologna,2022-01-17,Giornata n. 22,Casa,P,0,Napoli,12.0,5.0,0,0,349.0,438.0,1.0,39.0,10.0,3,0
+20,Fiorentina,2022-01-17,Giornata n. 22,Casa,V,6,Genoa,21.0,11.0,0,1,716.0,787.0,4.0,73.0,12.0,1,0
+21,Milan,2022-01-17,Giornata n. 22,Casa,P,1,Spezia,24.0,8.0,0,1,448.0,540.0,10.0,60.0,13.0,2,0
+21,Genoa,2022-01-17,Giornata n. 22,Ospiti,P,0,Fiorentina,3.0,0.0,0,0,214.0,288.0,0.0,27.0,19.0,3,0
+22,Hellas Verona,2022-01-21,Giornata n. 23,Casa,V,2,Bologna,14.0,6.0,0,0,360.0,490.0,7.0,57.0,21.0,2,0
+21,Bologna,2022-01-21,Giornata n. 23,Ospiti,P,1,Hellas Verona,8.0,2.0,0,0,247.0,373.0,2.0,43.0,9.0,4,0
+20,Udinese,2022-01-22,Giornata n. 23,Ospiti,N,0,Genoa,2.0,0.0,0,0,205.0,351.0,4.0,48.0,18.0,4,0
+21,Inter,2022-01-22,Giornata n. 23,Casa,V,2,Venezia,24.0,12.0,0,0,639.0,752.0,6.0,71.0,14.0,3,0
+21,Venezia,2022-01-22,Giornata n. 23,Ospiti,P,1,Inter,3.0,3.0,0,0,219.0,311.0,0.0,29.0,10.0,4,0
+21,Atalanta,2022-01-22,Giornata n. 23,Ospiti,N,0,Lazio,6.0,2.0,0,0,384.0,468.0,1.0,39.0,17.0,3,0
+22,Genoa,2022-01-22,Giornata n. 23,Casa,N,0,Udinese,10.0,2.0,0,0,220.0,380.0,10.0,52.0,26.0,4,1
+22,Lazio,2022-01-22,Giornata n. 23,Casa,N,0,Atalanta,9.0,1.0,0,0,639.0,741.0,4.0,61.0,10.0,0,0
+20,Salernitana,2022-01-23,Giornata n. 23,Ospiti,P,1,Napoli,1.0,1.0,0,0,145.0,223.0,0.0,19.0,14.0,4,1
+22,Spezia,2022-01-23,Giornata n. 23,Casa,V,1,Sampdoria,7.0,2.0,0,0,275.0,368.0,2.0,40.0,25.0,2,0
+21,Torino,2022-01-23,Giornata n. 23,Casa,N,1,Sassuolo,21.0,6.0,0,0,341.0,447.0,4.0,50.0,25.0,3,0
+22,Juventus,2022-01-23,Giornata n. 23,Ospiti,N,0,Milan,8.0,0.0,0,0,478.0,559.0,1.0,53.0,22.0,2,0
+21,Fiorentina,2022-01-23,Giornata n. 23,Ospiti,N,1,Cagliari,14.0,5.0,0,1,326.0,426.0,4.0,59.0,15.0,3,1
+22,Sassuolo,2022-01-23,Giornata n. 23,Ospiti,N,1,Torino,6.0,1.0,0,0,335.0,442.0,3.0,50.0,18.0,3,0
+22,Sampdoria,2022-01-23,Giornata n. 23,Ospiti,P,0,Spezia,8.0,0.0,0,0,439.0,557.0,4.0,60.0,11.0,4,1
+22,Cagliari,2022-01-23,Giornata n. 23,Casa,N,1,Fiorentina,11.0,1.0,0,1,196.0,293.0,6.0,41.0,24.0,3,0
+22,Roma,2022-01-23,Giornata n. 23,Ospiti,V,4,Empoli,16.0,7.0,0,0,306.0,395.0,3.0,42.0,17.0,2,0
+22,Milan,2022-01-23,Giornata n. 23,Casa,N,0,Juventus,14.0,4.0,0,0,392.0,497.0,4.0,47.0,18.0,2,0
+22,Napoli,2022-01-23,Giornata n. 23,Casa,V,4,Salernitana,24.0,12.0,2,2,895.0,981.0,10.0,81.0,9.0,0,0
+22,Empoli,2022-01-23,Giornata n. 23,Casa,P,2,Roma,16.0,7.0,0,0,455.0,551.0,2.0,58.0,14.0,2,0
+22,Inter,2022-02-05,Giornata n. 24,Casa,P,1,Milan,12.0,5.0,0,0,318.0,396.0,6.0,46.0,22.0,2,0
+23,Genoa,2022-02-05,Giornata n. 24,Ospiti,N,0,Roma,10.0,3.0,0,0,181.0,316.0,4.0,38.0,23.0,2,1
+23,Milan,2022-02-05,Giornata n. 24,Ospiti,V,2,Inter,10.0,3.0,0,0,375.0,457.0,4.0,54.0,14.0,4,1
+22,Fiorentina,2022-02-05,Giornata n. 24,Casa,P,0,Lazio,9.0,3.0,0,0,446.0,522.0,4.0,50.0,15.0,3,1
+23,Lazio,2022-02-05,Giornata n. 24,Ospiti,V,3,Fiorentina,12.0,7.0,0,0,445.0,520.0,3.0,50.0,16.0,5,0
+23,Roma,2022-02-05,Giornata n. 24,Casa,N,0,Genoa,23.0,3.0,0,0,406.0,520.0,6.0,62.0,10.0,3,1
+22,Venezia,2022-02-06,Giornata n. 24,Casa,P,0,Napoli,7.0,3.0,0,0,306.0,397.0,2.0,34.0,12.0,2,1
+22,Torino,2022-02-06,Giornata n. 24,Ospiti,P,0,Udinese,5.0,1.0,0,0,356.0,479.0,3.0,58.0,22.0,5,1
+23,Empoli,2022-02-06,Giornata n. 24,Ospiti,N,0,Bologna,15.0,4.0,0,0,279.0,383.0,5.0,41.0,15.0,4,0
+22,Atalanta,2022-02-06,Giornata n. 24,Casa,P,1,Cagliari,10.0,4.0,0,0,515.0,629.0,3.0,61.0,14.0,1,1
+23,Juventus,2022-02-06,Giornata n. 24,Casa,V,2,Hellas Verona,11.0,8.0,0,0,362.0,461.0,6.0,46.0,12.0,1,0
+21,Udinese,2022-02-06,Giornata n. 24,Casa,V,2,Torino,10.0,2.0,1,1,220.0,347.0,8.0,42.0,11.0,3,0
+22,Bologna,2022-02-06,Giornata n. 24,Casa,N,0,Empoli,12.0,2.0,0,0,448.0,560.0,3.0,59.0,11.0,2,0
+23,Napoli,2022-02-06,Giornata n. 24,Ospiti,V,2,Venezia,16.0,6.0,0,0,672.0,780.0,6.0,66.0,11.0,2,0
+23,Cagliari,2022-02-06,Giornata n. 24,Ospiti,V,2,Atalanta,7.0,4.0,0,0,305.0,406.0,1.0,39.0,14.0,5,0
+23,Sampdoria,2022-02-06,Giornata n. 24,Casa,V,4,Sassuolo,10.0,6.0,1,1,262.0,356.0,3.0,40.0,17.0,2,0
+23,Hellas Verona,2022-02-06,Giornata n. 24,Ospiti,P,0,Juventus,13.0,1.0,0,0,440.0,552.0,5.0,54.0,11.0,1,0
+23,Sassuolo,2022-02-06,Giornata n. 24,Ospiti,P,0,Sampdoria,25.0,9.0,0,0,450.0,533.0,9.0,60.0,15.0,2,0
+23,Spezia,2022-02-07,Giornata n. 24,Ospiti,N,2,Salernitana,11.0,0.0,2,2,299.0,396.0,6.0,44.0,22.0,3,0
+21,Salernitana,2022-02-07,Giornata n. 24,Casa,N,2,Spezia,10.0,5.0,0,0,395.0,512.0,5.0,56.0,13.0,3,0
+23,Inter,2022-02-12,Giornata n. 25,Ospiti,N,1,Napoli,8.0,2.0,0,0,485.0,564.0,2.0,51.0,14.0,1,0
+23,Venezia,2022-02-12,Giornata n. 25,Ospiti,V,2,Torino,6.0,2.0,0,0,151.0,258.0,4.0,33.0,13.0,3,1
+24,Lazio,2022-02-12,Giornata n. 25,Casa,V,3,Bologna,11.0,5.0,1,1,549.0,634.0,5.0,57.0,13.0,2,0
+23,Torino,2022-02-12,Giornata n. 25,Casa,P,1,Venezia,14.0,2.0,0,0,406.0,520.0,8.0,67.0,16.0,2,0
+24,Napoli,2022-02-12,Giornata n. 25,Casa,N,1,Inter,12.0,3.0,1,1,456.0,534.0,4.0,49.0,7.0,1,0
+23,Bologna,2022-02-12,Giornata n. 25,Ospiti,P,0,Lazio,11.0,3.0,0,0,422.0,488.0,3.0,43.0,16.0,2,0
+24,Hellas Verona,2022-02-13,Giornata n. 25,Casa,V,4,Udinese,6.0,5.0,0,0,271.0,388.0,2.0,44.0,17.0,3,0
+22,Salernitana,2022-02-13,Giornata n. 25,Ospiti,N,1,Genoa,12.0,4.0,0,0,277.0,396.0,4.0,51.0,11.0,2,0
+24,Sampdoria,2022-02-13,Giornata n. 25,Ospiti,P,0,Milan,4.0,1.0,0,0,410.0,505.0,0.0,50.0,14.0,1,0
+24,Sassuolo,2022-02-13,Giornata n. 25,Casa,N,2,Roma,12.0,3.0,0,0,345.0,425.0,4.0,46.0,12.0,4,1
+24,Empoli,2022-02-13,Giornata n. 25,Casa,N,1,Cagliari,15.0,6.0,0,0,253.0,369.0,6.0,45.0,19.0,1,0
+24,Genoa,2022-02-13,Giornata n. 25,Casa,N,1,Salernitana,16.0,5.0,0,0,268.0,388.0,5.0,49.0,22.0,3,0
+24,Roma,2022-02-13,Giornata n. 25,Ospiti,N,2,Sassuolo,12.0,7.0,1,1,397.0,503.0,3.0,54.0,16.0,2,0
+24,Milan,2022-02-13,Giornata n. 25,Casa,V,1,Sampdoria,15.0,7.0,0,0,418.0,510.0,4.0,50.0,14.0,3,0
+24,Juventus,2022-02-13,Giornata n. 25,Ospiti,N,1,Atalanta,15.0,6.0,0,0,396.0,504.0,8.0,48.0,12.0,3,0
+24,Cagliari,2022-02-13,Giornata n. 25,Ospiti,N,1,Empoli,17.0,4.0,0,0,320.0,444.0,4.0,55.0,14.0,2,0
+22,Udinese,2022-02-13,Giornata n. 25,Ospiti,P,0,Hellas Verona,21.0,6.0,0,0,354.0,487.0,7.0,56.0,8.0,1,0
+23,Atalanta,2022-02-13,Giornata n. 25,Casa,N,1,Juventus,21.0,3.0,0,0,456.0,551.0,8.0,52.0,13.0,2,0
+23,Fiorentina,2022-02-14,Giornata n. 25,Ospiti,V,2,Spezia,20.0,4.0,0,1,433.0,527.0,8.0,67.0,10.0,1,0
+24,Spezia,2022-02-14,Giornata n. 25,Casa,P,1,Fiorentina,9.0,1.0,0,0,192.0,263.0,4.0,33.0,20.0,2,0
+24,Torino,2022-02-18,Giornata n. 26,Ospiti,N,1,Juventus,10.0,3.0,0,0,391.0,489.0,9.0,54.0,20.0,2,0
+25,Juventus,2022-02-18,Giornata n. 26,Casa,N,1,Torino,12.0,3.0,0,0,318.0,412.0,7.0,46.0,17.0,1,0
+25,Roma,2022-02-19,Giornata n. 26,Casa,N,2,Hellas Verona,7.0,3.0,0,0,411.0,550.0,4.0,57.0,19.0,3,0
+23,Salernitana,2022-02-19,Giornata n. 26,Casa,N,2,Milan,9.0,4.0,0,0,259.0,349.0,4.0,40.0,19.0,2,0
+25,Sampdoria,2022-02-19,Giornata n. 26,Casa,V,2,Empoli,8.0,3.0,0,0,296.0,391.0,3.0,42.0,17.0,4,0
+25,Milan,2022-02-19,Giornata n. 26,Ospiti,N,2,Salernitana,13.0,5.0,0,0,430.0,532.0,7.0,60.0,13.0,4,0
+25,Hellas Verona,2022-02-19,Giornata n. 26,Ospiti,N,2,Roma,5.0,3.0,0,0,293.0,419.0,2.0,43.0,14.0,2,0
+25,Empoli,2022-02-19,Giornata n. 26,Ospiti,P,0,Sampdoria,10.0,2.0,0,0,435.0,538.0,6.0,58.0,12.0,2,0
+24,Venezia,2022-02-20,Giornata n. 26,Casa,N,1,Genoa,15.0,4.0,0,0,218.0,369.0,6.0,47.0,14.0,2,0
+23,Udinese,2022-02-20,Giornata n. 26,Casa,N,1,Lazio,12.0,2.0,0,0,325.0,407.0,2.0,41.0,24.0,3,0
+25,Sassuolo,2022-02-20,Giornata n. 26,Ospiti,V,2,Inter,13.0,5.0,0,0,367.0,447.0,3.0,42.0,14.0,2,0
+25,Lazio,2022-02-20,Giornata n. 26,Ospiti,N,1,Udinese,10.0,2.0,0,0,503.0,588.0,12.0,59.0,9.0,2,0
+24,Fiorentina,2022-02-20,Giornata n. 26,Casa,V,1,Atalanta,6.0,3.0,0,0,373.0,461.0,2.0,49.0,19.0,2,0
+24,Atalanta,2022-02-20,Giornata n. 26,Ospiti,P,0,Fiorentina,7.0,1.0,0,0,382.0,471.0,1.0,51.0,23.0,5,0
+24,Inter,2022-02-20,Giornata n. 26,Casa,P,0,Sassuolo,29.0,7.0,0,0,537.0,628.0,8.0,58.0,12.0,1,0
+25,Genoa,2022-02-20,Giornata n. 26,Ospiti,N,1,Venezia,12.0,2.0,0,0,272.0,421.0,5.0,53.0,19.0,2,0
+25,Napoli,2022-02-21,Giornata n. 26,Ospiti,N,1,Cagliari,7.0,3.0,0,0,363.0,494.0,5.0,54.0,22.0,2,0
+25,Spezia,2022-02-21,Giornata n. 26,Ospiti,P,1,Bologna,6.0,2.0,0,0,263.0,360.0,0.0,39.0,16.0,1,0
+25,Cagliari,2022-02-21,Giornata n. 26,Casa,N,1,Napoli,13.0,5.0,0,0,290.0,419.0,3.0,46.0,18.0,1,0
+24,Bologna,2022-02-21,Giornata n. 26,Casa,V,2,Spezia,19.0,7.0,0,0,456.0,566.0,11.0,61.0,7.0,1,0
+25,Inter,2022-02-25,Giornata n. 27,Ospiti,N,0,Genoa,21.0,4.0,0,0,529.0,652.0,14.0,71.0,10.0,1,0
+24,Udinese,2022-02-25,Giornata n. 27,Ospiti,N,1,Milan,11.0,6.0,0,0,247.0,328.0,4.0,38.0,19.0,4,0
+26,Genoa,2022-02-25,Giornata n. 27,Casa,N,0,Inter,7.0,1.0,0,0,157.0,266.0,0.0,29.0,12.0,1,0
+26,Milan,2022-02-25,Giornata n. 27,Casa,N,1,Udinese,9.0,3.0,0,0,445.0,535.0,5.0,62.0,14.0,2,0
+24,Salernitana,2022-02-26,Giornata n. 27,Casa,N,1,Bologna,16.0,4.0,0,0,372.0,463.0,6.0,56.0,18.0,2,0
+26,Juventus,2022-02-26,Giornata n. 27,Ospiti,V,3,Empoli,12.0,5.0,0,0,372.0,463.0,3.0,47.0,8.0,0,0
+25,Bologna,2022-02-26,Giornata n. 27,Ospiti,N,1,Salernitana,8.0,3.0,0,0,276.0,370.0,1.0,44.0,26.0,3,0
+26,Empoli,2022-02-26,Giornata n. 27,Casa,P,2,Juventus,11.0,2.0,0,0,419.0,519.0,7.0,53.0,18.0,2,0
+25,Fiorentina,2022-02-26,Giornata n. 27,Ospiti,P,1,Sassuolo,15.0,6.0,0,0,365.0,463.0,10.0,51.0,13.0,2,1
+26,Sassuolo,2022-02-26,Giornata n. 27,Casa,V,2,Fiorentina,16.0,6.0,0,0,376.0,450.0,6.0,49.0,14.0,1,0
+26,Lazio,2022-02-27,Giornata n. 27,Casa,P,1,Napoli,13.0,8.0,0,0,497.0,568.0,1.0,45.0,14.0,3,0
+26,Hellas Verona,2022-02-27,Giornata n. 27,Casa,V,3,Venezia,19.0,11.0,0,0,393.0,525.0,5.0,57.0,13.0,0,0
+26,Roma,2022-02-27,Giornata n. 27,Ospiti,V,1,Spezia,30.0,7.0,1,1,560.0,655.0,8.0,64.0,11.0,3,0
+26,Napoli,2022-02-27,Giornata n. 27,Ospiti,V,2,Lazio,14.0,7.0,0,0,601.0,690.0,5.0,55.0,17.0,2,0
+26,Cagliari,2022-02-27,Giornata n. 27,Ospiti,V,2,Torino,11.0,5.0,0,0,213.0,359.0,3.0,43.0,25.0,4,0
+26,Spezia,2022-02-27,Giornata n. 27,Casa,P,0,Roma,9.0,3.0,0,0,270.0,365.0,1.0,36.0,13.0,5,1
+25,Venezia,2022-02-27,Giornata n. 27,Ospiti,P,1,Hellas Verona,9.0,3.0,0,0,249.0,389.0,5.0,43.0,14.0,1,0
+25,Torino,2022-02-27,Giornata n. 27,Casa,P,1,Cagliari,15.0,6.0,0,0,319.0,467.0,4.0,57.0,21.0,2,0
+25,Atalanta,2022-02-28,Giornata n. 27,Casa,V,4,Sampdoria,19.0,9.0,0,0,556.0,659.0,8.0,56.0,15.0,1,0
+26,Sampdoria,2022-02-28,Giornata n. 27,Ospiti,P,0,Atalanta,6.0,1.0,0,0,407.0,514.0,1.0,44.0,8.0,2,0
+25,Salernitana,2022-03-04,Giornata n. 28,Ospiti,P,0,Inter,11.0,3.0,0,0,322.0,384.0,3.0,40.0,8.0,1,0
+26,Inter,2022-03-04,Giornata n. 28,Casa,V,5,Salernitana,23.0,12.0,0,0,503.0,575.0,10.0,60.0,12.0,2,0
+27,Cagliari,2022-03-05,Giornata n. 28,Casa,P,0,Lazio,16.0,3.0,0,0,357.0,481.0,7.0,45.0,11.0,3,0
+27,Sampdoria,2022-03-05,Giornata n. 28,Ospiti,P,1,Udinese,8.0,3.0,0,0,413.0,535.0,4.0,57.0,15.0,2,0
+26,Atalanta,2022-03-05,Giornata n. 28,Ospiti,P,0,Roma,7.0,4.0,0,0,543.0,628.0,3.0,64.0,17.0,4,1
+25,Udinese,2022-03-05,Giornata n. 28,Casa,V,2,Sampdoria,20.0,5.0,0,0,281.0,404.0,11.0,43.0,20.0,5,0
+27,Roma,2022-03-05,Giornata n. 28,Casa,V,1,Atalanta,13.0,4.0,0,0,250.0,346.0,6.0,36.0,18.0,6,1
+27,Lazio,2022-03-05,Giornata n. 28,Ospiti,V,3,Cagliari,14.0,4.0,1,1,477.0,587.0,6.0,55.0,13.0,2,1
+26,Torino,2022-03-06,Giornata n. 28,Ospiti,N,0,Bologna,13.0,2.0,0,0,250.0,357.0,7.0,48.0,16.0,3,0
+27,Napoli,2022-03-06,Giornata n. 28,Casa,P,0,Milan,10.0,3.0,0,0,497.0,581.0,6.0,60.0,10.0,4,0
+26,Fiorentina,2022-03-06,Giornata n. 28,Casa,N,1,Hellas Verona,8.0,2.0,0,0,313.0,416.0,4.0,50.0,15.0,0,0
+27,Sassuolo,2022-03-06,Giornata n. 28,Ospiti,V,4,Venezia,13.0,7.0,3,3,433.0,520.0,6.0,55.0,15.0,1,0
+27,Milan,2022-03-06,Giornata n. 28,Ospiti,V,1,Napoli,12.0,7.0,0,0,310.0,392.0,7.0,40.0,20.0,4,0
+27,Spezia,2022-03-06,Giornata n. 28,Ospiti,P,0,Juventus,9.0,4.0,0,0,392.0,475.0,4.0,44.0,13.0,1,0
+27,Genoa,2022-03-06,Giornata n. 28,Casa,N,0,Empoli,19.0,6.0,0,0,336.0,458.0,7.0,52.0,15.0,4,0
+27,Juventus,2022-03-06,Giornata n. 28,Casa,V,1,Spezia,10.0,3.0,0,0,534.0,616.0,4.0,56.0,15.0,3,0
+27,Empoli,2022-03-06,Giornata n. 28,Ospiti,N,0,Genoa,8.0,2.0,0,0,276.0,422.0,2.0,48.0,22.0,3,0
+26,Bologna,2022-03-06,Giornata n. 28,Casa,N,0,Torino,6.0,1.0,0,0,273.0,385.0,5.0,52.0,23.0,3,0
+27,Hellas Verona,2022-03-06,Giornata n. 28,Ospiti,N,1,Fiorentina,3.0,1.0,1,1,307.0,412.0,2.0,50.0,15.0,4,0
+26,Venezia,2022-03-06,Giornata n. 28,Casa,P,1,Sassuolo,15.0,4.0,0,1,342.0,431.0,8.0,45.0,18.0,4,0
+28,Empoli,2022-03-12,Giornata n. 29,Ospiti,P,0,Milan,5.0,3.0,0,0,397.0,492.0,4.0,48.0,12.0,0,0
+26,Salernitana,2022-03-12,Giornata n. 29,Casa,N,2,Sassuolo,15.0,5.0,0,0,392.0,476.0,5.0,47.0,13.0,2,0
+28,Sampdoria,2022-03-12,Giornata n. 29,Casa,P,1,Juventus,16.0,4.0,0,1,490.0,561.0,9.0,49.0,7.0,0,0
+28,Sassuolo,2022-03-12,Giornata n. 29,Ospiti,N,2,Salernitana,20.0,7.0,0,0,455.0,527.0,5.0,53.0,16.0,4,1
+28,Juventus,2022-03-12,Giornata n. 29,Ospiti,V,3,Sampdoria,5.0,2.0,1,1,525.0,594.0,0.0,51.0,17.0,2,0
+28,Cagliari,2022-03-12,Giornata n. 29,Ospiti,P,0,Spezia,11.0,1.0,0,0,333.0,465.0,7.0,57.0,20.0,4,0
+28,Spezia,2022-03-12,Giornata n. 29,Casa,V,2,Cagliari,14.0,8.0,0,1,220.0,350.0,5.0,43.0,13.0,1,0
+28,Milan,2022-03-12,Giornata n. 29,Casa,V,1,Empoli,15.0,5.0,0,0,451.0,543.0,5.0,52.0,7.0,1,0
+27,Atalanta,2022-03-13,Giornata n. 29,Casa,N,0,Genoa,12.0,2.0,0,0,461.0,644.0,4.0,59.0,14.0,2,0
+26,Udinese,2022-03-13,Giornata n. 29,Casa,N,1,Roma,11.0,5.0,0,0,285.0,367.0,6.0,37.0,17.0,3,0
+27,Torino,2022-03-13,Giornata n. 29,Casa,N,1,Inter,13.0,3.0,0,0,323.0,424.0,3.0,44.0,17.0,1,0
+27,Inter,2022-03-13,Giornata n. 29,Ospiti,N,1,Torino,14.0,6.0,0,0,403.0,529.0,4.0,56.0,21.0,5,0
+28,Genoa,2022-03-13,Giornata n. 29,Ospiti,N,0,Atalanta,13.0,3.0,0,0,291.0,455.0,3.0,41.0,18.0,0,0
+27,Fiorentina,2022-03-13,Giornata n. 29,Casa,V,1,Bologna,14.0,5.0,0,0,423.0,529.0,9.0,61.0,10.0,1,0
+27,Bologna,2022-03-13,Giornata n. 29,Ospiti,P,0,Fiorentina,4.0,0.0,0,0,243.0,340.0,1.0,39.0,17.0,5,1
+28,Hellas Verona,2022-03-13,Giornata n. 29,Casa,P,1,Napoli,8.0,1.0,0,0,365.0,469.0,3.0,49.0,19.0,6,2
+28,Roma,2022-03-13,Giornata n. 29,Ospiti,N,1,Udinese,9.0,2.0,1,1,534.0,619.0,4.0,63.0,14.0,2,0
+28,Napoli,2022-03-13,Giornata n. 29,Ospiti,V,2,Hellas Verona,13.0,4.0,0,0,375.0,485.0,5.0,51.0,9.0,0,0
+28,Lazio,2022-03-14,Giornata n. 29,Casa,V,1,Venezia,9.0,0.0,1,1,670.0,760.0,8.0,66.0,10.0,1,0
+27,Venezia,2022-03-14,Giornata n. 29,Ospiti,P,0,Lazio,7.0,2.0,0,0,315.0,387.0,4.0,34.0,13.0,1,0
+28,Torino,2022-03-18,Giornata n. 30,Ospiti,P,0,Genoa,9.0,3.0,0,0,605.0,692.0,3.0,74.0,19.0,3,0
+29,Sassuolo,2022-03-18,Giornata n. 30,Casa,V,4,Spezia,14.0,6.0,1,1,490.0,578.0,6.0,58.0,14.0,2,0
+29,Genoa,2022-03-18,Giornata n. 30,Casa,V,1,Torino,7.0,2.0,0,0,134.0,239.0,2.0,26.0,13.0,3,1
+29,Spezia,2022-03-18,Giornata n. 30,Ospiti,P,1,Sassuolo,6.0,1.0,0,0,333.0,426.0,2.0,42.0,18.0,3,0
+27,Udinese,2022-03-19,Giornata n. 30,Ospiti,P,1,Napoli,10.0,3.0,0,0,264.0,354.0,4.0,36.0,13.0,2,1
+29,Milan,2022-03-19,Giornata n. 30,Ospiti,V,1,Cagliari,21.0,5.0,0,0,397.0,494.0,5.0,57.0,16.0,0,0
+28,Inter,2022-03-19,Giornata n. 30,Casa,N,1,Fiorentina,13.0,5.0,0,0,433.0,525.0,5.0,50.0,15.0,1,0
+29,Napoli,2022-03-19,Giornata n. 30,Casa,V,2,Udinese,20.0,8.0,0,0,531.0,621.0,7.0,64.0,10.0,2,0
+29,Cagliari,2022-03-19,Giornata n. 30,Casa,P,0,Milan,13.0,1.0,0,0,242.0,368.0,6.0,43.0,14.0,1,0
+28,Fiorentina,2022-03-19,Giornata n. 30,Ospiti,N,1,Inter,17.0,4.0,0,0,424.0,518.0,3.0,50.0,13.0,2,0
+28,Venezia,2022-03-20,Giornata n. 30,Casa,P,0,Sampdoria,13.0,1.0,0,0,296.0,405.0,3.0,47.0,30.0,5,1
+29,Roma,2022-03-20,Giornata n. 30,Casa,V,3,Lazio,12.0,6.0,0,0,256.0,342.0,5.0,34.0,17.0,4,0
+29,Sampdoria,2022-03-20,Giornata n. 30,Ospiti,V,2,Venezia,8.0,4.0,0,0,348.0,457.0,4.0,53.0,24.0,1,0
+28,Atalanta,2022-03-20,Giornata n. 30,Ospiti,V,1,Bologna,15.0,2.0,0,0,279.0,400.0,3.0,40.0,12.0,1,0
+28,Bologna,2022-03-20,Giornata n. 30,Casa,P,0,Atalanta,12.0,3.0,0,0,467.0,604.0,6.0,60.0,9.0,0,0
+29,Lazio,2022-03-20,Giornata n. 30,Ospiti,P,0,Roma,9.0,3.0,0,0,577.0,669.0,3.0,66.0,14.0,3,0
+29,Hellas Verona,2022-03-20,Giornata n. 30,Ospiti,N,1,Empoli,13.0,4.0,0,1,428.0,532.0,7.0,62.0,13.0,3,0
+27,Salernitana,2022-03-20,Giornata n. 30,Ospiti,P,0,Juventus,12.0,4.0,0,0,364.0,440.0,5.0,44.0,13.0,2,0
+29,Empoli,2022-03-20,Giornata n. 30,Casa,N,1,Hellas Verona,7.0,2.0,0,0,213.0,332.0,3.0,38.0,17.0,2,0
+29,Juventus,2022-03-20,Giornata n. 30,Casa,V,2,Salernitana,12.0,7.0,0,0,477.0,557.0,5.0,56.0,11.0,3,0
+30,Spezia,2022-04-02,Giornata n. 31,Casa,V,1,Venezia,11.0,4.0,0,0,332.0,453.0,5.0,53.0,18.0,3,0
+29,Venezia,2022-04-02,Giornata n. 31,Ospiti,P,0,Spezia,15.0,3.0,0,0,310.0,405.0,2.0,47.0,14.0,1,0
+30,Sassuolo,2022-04-02,Giornata n. 31,Ospiti,P,1,Lazio,20.0,5.0,0,0,494.0,554.0,3.0,46.0,8.0,3,0
+28,Salernitana,2022-04-02,Giornata n. 31,Casa,P,0,Torino,14.0,4.0,0,0,283.0,410.0,9.0,53.0,16.0,5,1
+29,Torino,2022-04-02,Giornata n. 31,Ospiti,V,1,Salernitana,7.0,4.0,1,1,269.0,368.0,2.0,47.0,29.0,4,0
+30,Lazio,2022-04-02,Giornata n. 31,Casa,V,2,Sassuolo,14.0,5.0,0,0,570.0,638.0,4.0,54.0,11.0,1,0
+30,Roma,2022-04-03,Giornata n. 31,Ospiti,V,1,Sampdoria,6.0,1.0,0,0,414.0,510.0,4.0,51.0,15.0,3,0
+30,Napoli,2022-04-03,Giornata n. 31,Ospiti,V,3,Atalanta,5.0,4.0,1,1,368.0,473.0,1.0,45.0,12.0,3,0
+29,Fiorentina,2022-04-03,Giornata n. 31,Casa,V,1,Empoli,24.0,11.0,0,0,506.0,574.0,4.0,61.0,10.0,1,0
+30,Cagliari,2022-04-03,Giornata n. 31,Ospiti,P,1,Udinese,6.0,3.0,0,0,346.0,450.0,2.0,49.0,15.0,4,1
+30,Sampdoria,2022-04-03,Giornata n. 31,Casa,P,0,Roma,8.0,3.0,0,0,379.0,483.0,4.0,49.0,16.0,2,0
+29,Atalanta,2022-04-03,Giornata n. 31,Casa,P,1,Napoli,19.0,3.0,0,0,485.0,579.0,9.0,55.0,17.0,2,0
+29,Inter,2022-04-03,Giornata n. 31,Ospiti,V,1,Juventus,5.0,1.0,1,1,376.0,461.0,1.0,46.0,20.0,4,0
+28,Udinese,2022-04-03,Giornata n. 31,Casa,V,5,Cagliari,24.0,11.0,0,0,392.0,469.0,2.0,51.0,20.0,2,0
+30,Empoli,2022-04-03,Giornata n. 31,Ospiti,P,0,Fiorentina,4.0,1.0,0,0,294.0,361.0,0.0,39.0,19.0,3,1
+30,Juventus,2022-04-03,Giornata n. 31,Casa,P,0,Inter,22.0,5.0,0,0,449.0,543.0,8.0,54.0,10.0,4,1
+29,Bologna,2022-04-04,Giornata n. 31,Ospiti,N,0,Milan,8.0,4.0,0,0,328.0,425.0,2.0,47.0,10.0,2,0
+30,Milan,2022-04-04,Giornata n. 31,Casa,N,0,Bologna,33.0,7.0,0,0,377.0,484.0,9.0,53.0,11.0,0,0
+30,Hellas Verona,2022-04-04,Giornata n. 31,Casa,V,1,Genoa,7.0,4.0,0,0,261.0,395.0,2.0,46.0,17.0,4,0
+30,Genoa,2022-04-04,Giornata n. 31,Ospiti,P,0,Hellas Verona,7.0,4.0,0,0,295.0,465.0,5.0,54.0,15.0,3,0
+31,Hellas Verona,2022-04-09,Giornata n. 32,Ospiti,P,0,Inter,9.0,3.0,0,0,394.0,486.0,2.0,52.0,8.0,0,0
+31,Empoli,2022-04-09,Giornata n. 32,Casa,N,0,Spezia,15.0,4.0,0,0,364.0,477.0,5.0,57.0,10.0,2,0
+31,Cagliari,2022-04-09,Giornata n. 32,Casa,P,1,Juventus,4.0,1.0,0,0,256.0,375.0,1.0,41.0,19.0,1,0
+31,Spezia,2022-04-09,Giornata n. 32,Ospiti,N,0,Empoli,11.0,4.0,0,0,251.0,357.0,4.0,43.0,21.0,2,0
+31,Juventus,2022-04-09,Giornata n. 32,Ospiti,V,2,Cagliari,20.0,7.0,0,0,436.0,533.0,4.0,59.0,10.0,0,0
+30,Inter,2022-04-09,Giornata n. 32,Casa,V,2,Hellas Verona,18.0,6.0,0,0,335.0,455.0,10.0,48.0,14.0,2,0
+31,Napoli,2022-04-10,Giornata n. 32,Casa,P,2,Fiorentina,15.0,3.0,0,0,437.0,528.0,3.0,50.0,14.0,0,0
+31,Lazio,2022-04-10,Giornata n. 32,Ospiti,V,4,Genoa,17.0,11.0,0,0,467.0,573.0,6.0,56.0,9.0,1,0
+30,Torino,2022-04-10,Giornata n. 32,Casa,N,0,Milan,14.0,3.0,0,0,268.0,361.0,6.0,43.0,19.0,2,0
+30,Atalanta,2022-04-10,Giornata n. 32,Ospiti,P,1,Sassuolo,15.0,4.0,0,0,421.0,509.0,8.0,49.0,15.0,1,0
+29,Udinese,2022-04-10,Giornata n. 32,Ospiti,V,2,Venezia,15.0,4.0,1,1,261.0,367.0,11.0,48.0,14.0,2,0
+31,Roma,2022-04-10,Giornata n. 32,Casa,V,2,Salernitana,17.0,7.0,0,0,456.0,548.0,9.0,66.0,19.0,5,0
+31,Sassuolo,2022-04-10,Giornata n. 32,Casa,V,2,Atalanta,14.0,7.0,0,0,442.0,526.0,8.0,51.0,19.0,2,0
+30,Fiorentina,2022-04-10,Giornata n. 32,Ospiti,V,3,Napoli,11.0,4.0,0,0,442.0,528.0,2.0,50.0,19.0,3,0
+29,Salernitana,2022-04-10,Giornata n. 32,Ospiti,P,1,Roma,6.0,3.0,0,0,203.0,284.0,2.0,34.0,25.0,8,0
+31,Genoa,2022-04-10,Giornata n. 32,Casa,P,1,Lazio,15.0,4.0,0,0,349.0,442.0,3.0,44.0,9.0,0,0
+30,Venezia,2022-04-10,Giornata n. 32,Casa,P,1,Udinese,9.0,4.0,0,0,299.0,395.0,7.0,52.0,16.0,7,0
+31,Milan,2022-04-10,Giornata n. 32,Ospiti,N,0,Torino,14.0,4.0,0,0,365.0,472.0,5.0,57.0,8.0,2,0
+31,Sampdoria,2022-04-11,Giornata n. 32,Ospiti,P,0,Bologna,9.0,2.0,0,0,403.0,495.0,0.0,47.0,12.0,2,0
+30,Bologna,2022-04-11,Giornata n. 32,Casa,V,2,Sampdoria,19.0,4.0,0,0,456.0,557.0,6.0,53.0,12.0,1,0
+32,Spezia,2022-04-15,Giornata n. 33,Casa,P,1,Inter,11.0,3.0,0,0,229.0,334.0,6.0,34.0,13.0,2,0
+31,Inter,2022-04-15,Giornata n. 33,Ospiti,V,3,Spezia,23.0,7.0,0,0,541.0,644.0,7.0,66.0,12.0,0,0
+32,Milan,2022-04-15,Giornata n. 33,Casa,V,2,Genoa,10.0,5.0,0,0,442.0,536.0,3.0,58.0,11.0,1,0
+32,Genoa,2022-04-15,Giornata n. 33,Ospiti,P,0,Milan,7.0,1.0,0,0,274.0,382.0,1.0,42.0,22.0,2,0
+31,Torino,2022-04-16,Giornata n. 33,Ospiti,N,1,Lazio,12.0,4.0,0,0,483.0,553.0,7.0,52.0,12.0,2,0
+32,Sassuolo,2022-04-16,Giornata n. 33,Ospiti,P,0,Cagliari,8.0,2.0,0,0,444.0,563.0,3.0,63.0,11.0,2,0
+32,Lazio,2022-04-16,Giornata n. 33,Casa,N,1,Torino,10.0,4.0,0,0,414.0,512.0,9.0,48.0,10.0,1,0
+31,Bologna,2022-04-16,Giornata n. 33,Ospiti,N,1,Juventus,10.0,2.0,0,0,350.0,420.0,5.0,49.0,12.0,5,2
+31,Fiorentina,2022-04-16,Giornata n. 33,Casa,V,1,Venezia,22.0,5.0,0,0,540.0,616.0,5.0,69.0,16.0,4,0
+32,Juventus,2022-04-16,Giornata n. 33,Casa,N,1,Bologna,24.0,4.0,0,0,373.0,443.0,4.0,51.0,11.0,1,0
+31,Venezia,2022-04-16,Giornata n. 33,Ospiti,P,0,Fiorentina,3.0,1.0,0,0,200.0,280.0,0.0,31.0,19.0,4,0
+30,Udinese,2022-04-16,Giornata n. 33,Casa,V,4,Empoli,13.0,5.0,0,0,248.0,319.0,4.0,39.0,21.0,1,0
+32,Cagliari,2022-04-16,Giornata n. 33,Casa,V,1,Sassuolo,15.0,7.0,0,0,220.0,329.0,3.0,37.0,18.0,2,0
+32,Empoli,2022-04-16,Giornata n. 33,Ospiti,P,1,Udinese,14.0,3.0,1,1,394.0,489.0,7.0,61.0,13.0,4,0
+32,Sampdoria,2022-04-16,Giornata n. 33,Casa,P,1,Salernitana,5.0,1.0,0,0,537.0,652.0,5.0,67.0,18.0,1,0
+30,Salernitana,2022-04-16,Giornata n. 33,Ospiti,V,2,Sampdoria,7.0,2.0,0,0,230.0,319.0,2.0,33.0,25.0,7,0
+32,Hellas Verona,2022-04-18,Giornata n. 33,Ospiti,V,2,Atalanta,21.0,6.0,0,0,333.0,433.0,1.0,44.0,13.0,3,0
+32,Roma,2022-04-18,Giornata n. 33,Ospiti,N,1,Napoli,8.0,6.0,0,0,381.0,470.0,5.0,51.0,16.0,2,1
+32,Napoli,2022-04-18,Giornata n. 33,Casa,N,1,Roma,8.0,3.0,1,1,370.0,456.0,5.0,49.0,23.0,4,0
+31,Atalanta,2022-04-18,Giornata n. 33,Casa,P,1,Hellas Verona,17.0,4.0,0,0,437.0,559.0,10.0,56.0,14.0,3,0
+31,Udinese,2022-04-20,Giornata n. 19,Casa,P,0,Salernitana,12.0,3.0,0,0,320.0,435.0,9.0,54.0,23.0,3,0
+31,Salernitana,2022-04-20,Giornata n. 19,Ospiti,V,1,Udinese,9.0,2.0,0,0,275.0,374.0,3.0,46.0,14.0,5,0
+33,Roma,2022-04-23,Giornata n. 34,Ospiti,P,1,Inter,9.0,2.0,0,0,517.0,595.0,3.0,55.0,13.0,2,0
+32,Inter,2022-04-23,Giornata n. 34,Casa,V,3,Roma,11.0,8.0,0,0,408.0,491.0,4.0,45.0,11.0,2,0
+33,Sampdoria,2022-04-23,Giornata n. 34,Ospiti,N,1,Hellas Verona,3.0,2.0,0,1,271.0,394.0,5.0,43.0,16.0,3,0
+33,Spezia,2022-04-23,Giornata n. 34,Ospiti,P,1,Torino,6.0,1.0,1,1,323.0,443.0,6.0,45.0,17.0,2,0
+33,Hellas Verona,2022-04-23,Giornata n. 34,Casa,N,1,Sampdoria,12.0,1.0,0,0,408.0,524.0,4.0,57.0,15.0,1,0
+32,Venezia,2022-04-23,Giornata n. 34,Casa,P,1,Atalanta,9.0,2.0,0,0,327.0,434.0,0.0,39.0,12.0,0,0
+32,Atalanta,2022-04-23,Giornata n. 34,Ospiti,V,3,Venezia,19.0,4.0,0,0,555.0,670.0,7.0,61.0,14.0,3,0
+32,Torino,2022-04-23,Giornata n. 34,Casa,V,2,Spezia,14.0,5.0,1,1,441.0,539.0,5.0,55.0,11.0,1,0
+33,Milan,2022-04-24,Giornata n. 34,Ospiti,V,2,Lazio,25.0,8.0,0,0,389.0,501.0,8.0,53.0,16.0,4,0
+33,Empoli,2022-04-24,Giornata n. 34,Casa,V,3,Napoli,17.0,7.0,0,0,305.0,404.0,10.0,42.0,13.0,4,0
+33,Genoa,2022-04-24,Giornata n. 34,Casa,V,1,Cagliari,13.0,2.0,0,0,242.0,414.0,2.0,53.0,22.0,3,0
+33,Lazio,2022-04-24,Giornata n. 34,Casa,P,1,Milan,7.0,2.0,0,0,345.0,437.0,2.0,47.0,14.0,3,0
+32,Salernitana,2022-04-24,Giornata n. 34,Casa,V,2,Fiorentina,10.0,4.0,0,0,155.0,246.0,6.0,28.0,17.0,1,0
+32,Udinese,2022-04-24,Giornata n. 34,Ospiti,N,2,Bologna,17.0,5.0,0,0,306.0,392.0,4.0,45.0,23.0,2,0
+33,Napoli,2022-04-24,Giornata n. 34,Ospiti,P,2,Empoli,16.0,2.0,0,0,451.0,557.0,7.0,58.0,10.0,1,0
+33,Cagliari,2022-04-24,Giornata n. 34,Ospiti,P,0,Genoa,11.0,1.0,0,0,189.0,362.0,3.0,47.0,18.0,2,0
+32,Fiorentina,2022-04-24,Giornata n. 34,Ospiti,P,1,Salernitana,8.0,3.0,0,0,521.0,630.0,4.0,72.0,12.0,1,0
+32,Bologna,2022-04-24,Giornata n. 34,Casa,N,2,Udinese,10.0,3.0,0,0,379.0,474.0,2.0,55.0,9.0,2,0
+33,Sassuolo,2022-04-25,Giornata n. 34,Casa,P,1,Juventus,22.0,7.0,0,0,619.0,691.0,6.0,62.0,16.0,2,1
+33,Juventus,2022-04-25,Giornata n. 34,Ospiti,V,2,Sassuolo,10.0,5.0,0,0,336.0,416.0,4.0,38.0,10.0,2,0
+33,Bologna,2022-04-27,Giornata n. 20,Casa,V,2,Inter,5.0,3.0,0,0,363.0,440.0,0.0,41.0,12.0,1,0
+33,Atalanta,2022-04-27,Giornata n. 20,Casa,N,4,Torino,15.0,3.0,2,2,359.0,462.0,8.0,49.0,12.0,2,0
+33,Udinese,2022-04-27,Giornata n. 20,Ospiti,V,4,Fiorentina,17.0,8.0,0,0,146.0,229.0,2.0,28.0,25.0,4,0
+33,Fiorentina,2022-04-27,Giornata n. 20,Casa,P,0,Udinese,18.0,7.0,0,0,485.0,592.0,14.0,72.0,12.0,3,0
+33,Torino,2022-04-27,Giornata n. 20,Ospiti,N,4,Atalanta,3.0,2.0,2,2,376.0,472.0,0.0,51.0,13.0,2,0
+33,Inter,2022-04-27,Giornata n. 20,Ospiti,P,1,Bologna,26.0,6.0,0,0,534.0,629.0,7.0,59.0,11.0,3,0
+34,Hellas Verona,2022-04-30,Giornata n. 35,Ospiti,V,2,Cagliari,13.0,4.0,0,0,216.0,331.0,2.0,40.0,26.0,4,0
+34,Napoli,2022-04-30,Giornata n. 35,Casa,V,6,Sassuolo,18.0,8.0,0,0,519.0,580.0,4.0,53.0,12.0,0,0
+34,Sassuolo,2022-04-30,Giornata n. 35,Ospiti,P,1,Napoli,13.0,4.0,0,0,445.0,507.0,3.0,47.0,11.0,3,0
+34,Lazio,2022-04-30,Giornata n. 35,Ospiti,V,4,Spezia,21.0,8.0,1,1,580.0,677.0,5.0,70.0,10.0,1,0
+34,Cagliari,2022-04-30,Giornata n. 35,Casa,P,1,Hellas Verona,14.0,4.0,0,0,353.0,487.0,2.0,60.0,16.0,2,0
+34,Spezia,2022-04-30,Giornata n. 35,Casa,P,3,Lazio,9.0,3.0,0,0,196.0,296.0,4.0,30.0,17.0,3,0
+34,Sampdoria,2022-04-30,Giornata n. 35,Casa,V,1,Genoa,10.0,2.0,0,0,261.0,374.0,1.0,48.0,19.0,3,0
+34,Genoa,2022-04-30,Giornata n. 35,Ospiti,P,0,Sampdoria,13.0,4.0,0,1,272.0,400.0,2.0,52.0,26.0,1,0
+34,Juventus,2022-05-01,Giornata n. 35,Casa,V,2,Venezia,18.0,4.0,0,0,381.0,455.0,8.0,50.0,18.0,3,0
+33,Venezia,2022-05-01,Giornata n. 35,Ospiti,P,1,Juventus,9.0,3.0,0,0,373.0,459.0,4.0,50.0,14.0,3,0
+34,Empoli,2022-05-01,Giornata n. 35,Casa,P,1,Torino,11.0,4.0,0,0,223.0,309.0,5.0,39.0,16.0,4,2
+34,Fiorentina,2022-05-01,Giornata n. 35,Ospiti,P,0,Milan,8.0,2.0,0,0,369.0,457.0,2.0,51.0,17.0,3,0
+34,Udinese,2022-05-01,Giornata n. 35,Casa,P,1,Inter,8.0,5.0,0,0,385.0,466.0,5.0,48.0,15.0,2,0
+34,Milan,2022-05-01,Giornata n. 35,Casa,V,1,Fiorentina,13.0,2.0,0,0,341.0,437.0,2.0,49.0,18.0,1,0
+34,Torino,2022-05-01,Giornata n. 35,Ospiti,V,3,Empoli,11.0,1.0,2,2,394.0,493.0,4.0,61.0,12.0,2,0
+34,Inter,2022-05-01,Giornata n. 35,Ospiti,V,2,Udinese,11.0,4.0,0,1,434.0,509.0,11.0,52.0,11.0,1,0
+34,Bologna,2022-05-01,Giornata n. 35,Ospiti,N,0,Roma,10.0,4.0,0,0,429.0,535.0,5.0,57.0,12.0,1,0
+34,Roma,2022-05-01,Giornata n. 35,Casa,N,0,Bologna,18.0,5.0,0,0,303.0,399.0,10.0,43.0,10.0,0,0
+33,Salernitana,2022-05-02,Giornata n. 35,Ospiti,N,1,Atalanta,11.0,9.0,0,0,272.0,375.0,4.0,39.0,11.0,2,0
+34,Atalanta,2022-05-02,Giornata n. 35,Casa,N,1,Salernitana,20.0,5.0,0,0,490.0,596.0,11.0,61.0,14.0,3,0
+34,Venezia,2022-05-05,Giornata n. 20,Ospiti,P,1,Salernitana,10.0,4.0,0,0,355.0,465.0,4.0,58.0,20.0,7,1
+34,Salernitana,2022-05-05,Giornata n. 20,Casa,V,2,Venezia,18.0,3.0,1,1,238.0,331.0,6.0,42.0,12.0,2,0
+35,Empoli,2022-05-06,Giornata n. 36,Ospiti,P,2,Inter,4.0,2.0,0,0,289.0,360.0,2.0,36.0,10.0,0,0
+35,Inter,2022-05-06,Giornata n. 36,Casa,V,4,Empoli,37.0,10.0,0,0,558.0,638.0,14.0,64.0,10.0,1,0
+35,Genoa,2022-05-06,Giornata n. 36,Casa,V,2,Juventus,17.0,5.0,1,1,366.0,470.0,9.0,47.0,13.0,2,0
+35,Juventus,2022-05-06,Giornata n. 36,Ospiti,P,1,Genoa,13.0,4.0,0,0,442.0,540.0,2.0,53.0,15.0,3,0
+35,Udinese,2022-05-07,Giornata n. 36,Ospiti,N,1,Sassuolo,13.0,6.0,0,0,308.0,393.0,9.0,41.0,18.0,2,0
+35,Lazio,2022-05-07,Giornata n. 36,Casa,V,2,Sampdoria,16.0,10.0,0,0,678.0,759.0,6.0,60.0,10.0,1,0
+35,Sampdoria,2022-05-07,Giornata n. 36,Ospiti,P,0,Lazio,9.0,2.0,0,0,411.0,515.0,0.0,40.0,10.0,1,0
+35,Sassuolo,2022-05-07,Giornata n. 36,Casa,N,1,Udinese,15.0,5.0,0,0,491.0,573.0,6.0,59.0,12.0,2,0
+35,Torino,2022-05-07,Giornata n. 36,Casa,P,0,Napoli,10.0,3.0,0,0,295.0,383.0,5.0,43.0,19.0,2,0
+35,Napoli,2022-05-07,Giornata n. 36,Ospiti,V,1,Torino,10.0,4.0,0,1,429.0,504.0,4.0,57.0,12.0,3,0
+35,Venezia,2022-05-08,Giornata n. 36,Casa,V,4,Bologna,16.0,7.0,1,2,256.0,348.0,4.0,41.0,10.0,2,0
+35,Bologna,2022-05-08,Giornata n. 36,Ospiti,P,3,Venezia,23.0,10.0,0,0,420.0,508.0,8.0,59.0,16.0,4,0
+35,Salernitana,2022-05-08,Giornata n. 36,Casa,N,1,Cagliari,12.0,2.0,1,1,283.0,388.0,7.0,48.0,12.0,5,1
+35,Milan,2022-05-08,Giornata n. 36,Ospiti,V,3,Hellas Verona,18.0,8.0,0,0,355.0,450.0,8.0,53.0,7.0,1,0
+35,Hellas Verona,2022-05-08,Giornata n. 36,Casa,P,1,Milan,10.0,3.0,0,0,314.0,403.0,5.0,47.0,17.0,2,0
+35,Atalanta,2022-05-08,Giornata n. 36,Ospiti,V,3,Spezia,17.0,6.0,0,0,521.0,614.0,3.0,66.0,14.0,3,0
+35,Cagliari,2022-05-08,Giornata n. 36,Ospiti,N,1,Salernitana,9.0,3.0,0,0,332.0,427.0,6.0,52.0,18.0,2,1
+35,Spezia,2022-05-08,Giornata n. 36,Casa,P,1,Atalanta,5.0,1.0,0,0,236.0,321.0,0.0,34.0,10.0,2,0
+35,Fiorentina,2022-05-09,Giornata n. 36,Casa,V,2,Roma,11.0,6.0,1,1,480.0,561.0,5.0,53.0,17.0,3,0
+35,Roma,2022-05-09,Giornata n. 36,Ospiti,P,0,Fiorentina,7.0,1.0,0,0,407.0,492.0,3.0,47.0,15.0,1,0
+36,Udinese,2022-05-14,Giornata n. 37,Casa,P,2,Spezia,17.0,6.0,0,0,463.0,561.0,4.0,61.0,18.0,3,0
+36,Venezia,2022-05-14,Giornata n. 37,Ospiti,N,1,Roma,4.0,2.0,0,0,198.0,291.0,2.0,32.0,15.0,5,1
+36,Salernitana,2022-05-14,Giornata n. 37,Ospiti,N,1,Empoli,28.0,8.0,0,1,375.0,471.0,11.0,55.0,9.0,2,0
+36,Roma,2022-05-14,Giornata n. 37,Casa,N,1,Venezia,46.0,15.0,0,0,522.0,629.0,20.0,68.0,12.0,2,0
+36,Torino,2022-05-14,Giornata n. 37,Ospiti,V,1,Hellas Verona,11.0,5.0,0,0,336.0,437.0,4.0,54.0,20.0,2,0
+36,Hellas Verona,2022-05-14,Giornata n. 37,Casa,P,0,Torino,10.0,5.0,0,0,279.0,378.0,4.0,46.0,19.0,3,0
+36,Empoli,2022-05-14,Giornata n. 37,Casa,N,1,Salernitana,16.0,6.0,0,0,308.0,390.0,3.0,45.0,18.0,3,0
+36,Spezia,2022-05-14,Giornata n. 37,Ospiti,V,3,Udinese,10.0,7.0,0,1,244.0,358.0,2.0,39.0,11.0,2,0
+36,Bologna,2022-05-15,Giornata n. 37,Casa,P,1,Sassuolo,8.0,1.0,1,1,412.0,495.0,4.0,55.0,11.0,0,0
+36,Genoa,2022-05-15,Giornata n. 37,Ospiti,P,0,Napoli,11.0,3.0,0,0,236.0,308.0,2.0,34.0,21.0,1,0
+36,Napoli,2022-05-15,Giornata n. 37,Casa,V,3,Genoa,16.0,8.0,1,1,487.0,585.0,9.0,66.0,13.0,1,0
+36,Sassuolo,2022-05-15,Giornata n. 37,Ospiti,V,3,Bologna,16.0,7.0,0,0,325.0,405.0,9.0,45.0,11.0,1,0
+36,Inter,2022-05-15,Giornata n. 37,Ospiti,V,3,Cagliari,17.0,7.0,0,0,527.0,601.0,5.0,62.0,15.0,2,0
+36,Atalanta,2022-05-15,Giornata n. 37,Ospiti,P,0,Milan,12.0,2.0,0,0,407.0,490.0,6.0,55.0,16.0,4,0
+36,Cagliari,2022-05-15,Giornata n. 37,Casa,P,1,Inter,10.0,2.0,0,0,294.0,375.0,2.0,38.0,14.0,0,0
+36,Milan,2022-05-15,Giornata n. 37,Casa,V,2,Atalanta,12.0,6.0,0,0,314.0,401.0,4.0,45.0,12.0,3,0
+36,Juventus,2022-05-16,Giornata n. 37,Casa,N,2,Lazio,4.0,2.0,0,0,315.0,369.0,0.0,37.0,20.0,3,0
+36,Sampdoria,2022-05-16,Giornata n. 37,Casa,V,4,Fiorentina,13.0,5.0,0,0,232.0,309.0,4.0,37.0,19.0,3,1
+36,Fiorentina,2022-05-16,Giornata n. 37,Ospiti,P,1,Sampdoria,11.0,0.0,1,1,452.0,537.0,5.0,63.0,9.0,3,0
+36,Lazio,2022-05-16,Giornata n. 37,Ospiti,N,2,Juventus,18.0,7.0,0,0,555.0,627.0,9.0,63.0,17.0,3,0
+37,Roma,2022-05-20,Giornata n. 38,Ospiti,V,3,Torino,11.0,4.0,2,2,296.0,374.0,6.0,42.0,13.0,2,0
+37,Torino,2022-05-20,Giornata n. 38,Casa,P,0,Roma,13.0,2.0,0,0,444.0,522.0,5.0,58.0,11.0,2,0
+37,Lazio,2022-05-21,Giornata n. 38,Casa,N,3,Hellas Verona,19.0,7.0,0,0,354.0,443.0,6.0,53.0,9.0,2,0
+37,Hellas Verona,2022-05-21,Giornata n. 38,Ospiti,N,3,Lazio,11.0,7.0,0,0,287.0,387.0,4.0,47.0,20.0,6,0
+37,Atalanta,2022-05-21,Giornata n. 38,Casa,P,0,Empoli,40.0,9.0,0,0,542.0,645.0,15.0,61.0,8.0,1,0
+37,Bologna,2022-05-21,Giornata n. 38,Ospiti,V,1,Genoa,11.0,3.0,0,0,321.0,435.0,9.0,50.0,10.0,1,0
+37,Empoli,2022-05-21,Giornata n. 38,Ospiti,V,1,Atalanta,7.0,3.0,0,0,321.0,407.0,2.0,39.0,9.0,1,0
+37,Fiorentina,2022-05-21,Giornata n. 38,Casa,V,2,Juventus,12.0,2.0,1,1,626.0,721.0,6.0,66.0,13.0,3,0
+37,Juventus,2022-05-21,Giornata n. 38,Ospiti,P,0,Fiorentina,1.0,0.0,0,0,304.0,374.0,2.0,34.0,14.0,3,0
+37,Genoa,2022-05-21,Giornata n. 38,Casa,P,0,Bologna,18.0,5.0,0,0,324.0,435.0,9.0,50.0,20.0,3,0
+37,Cagliari,2022-05-22,Giornata n. 38,Ospiti,N,0,Venezia,30.0,7.0,0,0,428.0,536.0,11.0,56.0,22.0,3,0
+37,Spezia,2022-05-22,Giornata n. 38,Casa,P,0,Napoli,16.0,4.0,0,0,283.0,346.0,4.0,32.0,12.0,1,0
+37,Inter,2022-05-22,Giornata n. 38,Casa,V,3,Sampdoria,28.0,11.0,0,0,615.0,679.0,8.0,58.0,6.0,1,0
+37,Milan,2022-05-22,Giornata n. 38,Ospiti,V,3,Sassuolo,18.0,11.0,0,0,311.0,387.0,7.0,48.0,15.0,1,0
+37,Napoli,2022-05-22,Giornata n. 38,Ospiti,V,3,Spezia,10.0,4.0,0,0,641.0,722.0,2.0,68.0,9.0,2,0
+37,Salernitana,2022-05-22,Giornata n. 38,Casa,P,0,Udinese,25.0,11.0,0,0,456.0,528.0,7.0,52.0,11.0,1,0
+37,Sampdoria,2022-05-22,Giornata n. 38,Ospiti,P,0,Inter,8.0,3.0,0,0,445.0,498.0,2.0,42.0,13.0,2,0
+37,Sassuolo,2022-05-22,Giornata n. 38,Casa,P,0,Milan,15.0,3.0,0,0,372.0,426.0,3.0,52.0,8.0,2,0
+37,Udinese,2022-05-22,Giornata n. 38,Ospiti,V,4,Salernitana,18.0,10.0,0,1,395.0,481.0,1.0,48.0,15.0,1,0
+37,Venezia,2022-05-22,Giornata n. 38,Casa,N,0,Cagliari,8.0,1.0,0,0,306.0,413.0,6.0,44.0,11.0,0,0
