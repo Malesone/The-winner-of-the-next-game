@@ -90,9 +90,9 @@ class MatchAnalysis:
 
         self.diff_dataset = dummy_match
  
-    def reduce_dataset(self): 
+    def reduce_dataset(self, date): 
         #creo il dataset per il modello di ML
-        limit_date = datetime.strptime("2021-12-24", '%Y-%m-%d')
+        limit_date = datetime.strptime(date, '%Y-%m-%d')
         #matches = aa.matches_fe_team[a.matches_fe_team.date <= limit_date]
         self.matches_fe_team['date'] = pd.to_datetime(self.matches_fe_team['date'], format='%Y-%m-%d') #devo convertire la data altrimenti non posso controllare quando una data è minore
         self.matches_fe_team = self.matches_fe_team[self.matches_fe_team.date < limit_date] 
@@ -112,38 +112,49 @@ class MatchAnalysis:
         self.calculate_avg(float_features_and_avg)
 
     def calculate_avg(self, avg_features):
+        #calcola la media nei record del test set
+        X = 2
         for i, match_value in self.X_test.iterrows():
             home, away = match_value.home, match_value.away
-            #ottengo nel dizionario i due dataset relativi alle squadre che si scontrano
-            home_dataset = self.get_team_code(home, False)
-            away_dataset = self.get_team_code(away, False)
-            #cerco nei dataset le statistiche relative alla partita
-        
-            home_row = home_dataset[home_dataset.date < match_value.date]
-            away_row = away_dataset[away_dataset.date < match_value.date]
-            
-            averages_home = home_row[avg_features].mean()
-            averages_away = away_row[avg_features].mean()
-            
+            #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
+            """
+            MEDIA ULTIMI X MATCH
+            averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
+            averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
+            """
+            #MEDIA TUTTI MATCH
+            averages_home = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
+            averages_away = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
+
+
             for col in avg_features: 
                 diff = averages_home[col] - averages_away[col]
                 self.X_test.at[i, col] = diff
 
-        
+
         for i, match_value in self.X_train.iterrows():
-            self.X_train.at[i, 'home'] = self.get_team_code(match_value.home, True)
-            self.X_train.at[i, 'away'] = self.get_team_code(match_value.away, True)
+            self.X_train.at[i, 'home'] = self.get_team_code(match_value.home)
+            self.X_train.at[i, 'away'] = self.get_team_code(match_value.away)
         
         for i, match_value in self.X_test.iterrows():
-            self.X_test.at[i, 'home'] = self.get_team_code(match_value.home, True)
-            self.X_test.at[i, 'away'] = self.get_team_code(match_value.away, True)
+            self.X_test.at[i, 'home'] = self.get_team_code(match_value.home)
+            self.X_test.at[i, 'away'] = self.get_team_code(match_value.away)
 
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
         
-
-    def get_team_code(self, name, type_return): #se type_return = True ritorno id, se type_return = False ritorno dataset
+    def get_team_code(self, name): #se type_return = True ritorno id, se type_return = False ritorno dataset
         for team in self.matches_by_team:
             if team.name == name:
-                return team.id if type_return else team.matches
-                
+                return team.id
+    
+    def get_name_by_id(self, id): #se type_return = True ritorno id, se type_return = False ritorno dataset
+        for team in self.matches_by_team:
+            if team.id == id:
+                return team.name
+              
+
+    def get_team_by_name(self, name):
+        for team in self.matches_by_team:
+            if team.name == name:
+                return team
