@@ -5,6 +5,7 @@ from team import Team
 from datetime import datetime
 import time
 from sklearn.model_selection import train_test_split
+from ranking import Ranking
 
 class MatchAnalysis:
     rename_fields = {
@@ -31,6 +32,7 @@ class MatchAnalysis:
     def __init__(self):
         self.read_matches()
         self.create_team_dataset()
+        self.ranking = None
 
     def read_matches(self):
         self.matches_fe_team = pd.read_csv("matches_ordered_by_date.csv", index_col=0)
@@ -56,6 +58,7 @@ class MatchAnalysis:
             away_match_reduced = away_match.drop(columns = ['date', 'team1', 'team2', 'stadium', 'matchday', 'result'])
             for col in away_match_reduced.columns:
                 home_match[col] = home_match[col] - away_match_reduced[col].values[0]
+
             self.diff_dataset.append(home_match)
 
         self.diff_dataset = pd.DataFrame(self.diff_dataset)
@@ -98,15 +101,18 @@ class MatchAnalysis:
         self.matches_fe_team = self.matches_fe_team[self.matches_fe_team.date < limit_date] 
         self.divide_and_merge_home_away()
 
-    def split_and_set_avg(self, avg_all_ds):
+    def split_and_set_avg(self, avg_all_ds, number):
         #devo convertire il tipo delle colonne perché la media tra i valori mi dà un numero con la virgola (da int a float)
-        float_features_and_avg = [x for x in self.diff_dataset.columns if x != 'home' and x != 'away' and x != 'date' and x != 'result']
+        float_features_and_avg = [x for x in self.diff_dataset.columns if x != 'home' and x != 'away' and x != 'date' and x != 'result' and x != 'rank_h' and x != 'rank_a']
         self.diff_dataset[float_features_and_avg] = self.diff_dataset[float_features_and_avg].astype(float)
         
-        features = [x for x in self.diff_dataset.columns if x != 'result']
-        #se avg_all_ds è true significa che calcolo la media di tutti i match precedenti per tutto il dataset e poi lo splitto in train e test. Se è false semplicemente calcolo le medie sono per il test
+        #se avg_all_ds è true significa che calcolo la media di tutti i match precedenti per tutto il dataset (X <= 0) o per una parte (X>0) e poi lo splitto in train e test. Se è false semplicemente calcolo le medie solo per il test
         if avg_all_ds:
-            self.calculate_avg_all(float_features_and_avg)
+            self.calculate_avg_all(float_features_and_avg, number)
+
+        features = [x for x in self.diff_dataset.columns if x != 'result']
+        
+        
         X, y = self.diff_dataset[features], self.diff_dataset.result.values
 
         #shuffle viene settato a False perché non voglio che vengano randomizzate le partite, verrebbe un risultato sballato
@@ -115,22 +121,18 @@ class MatchAnalysis:
         if avg_all_ds:
             self.set_codes()
         else:
-            self.calculate_avg(float_features_and_avg)
+            self.calculate_avg(float_features_and_avg, number)
 
-    def calculate_avg(self, avg_features):
-        #calcola la media nei record del test set
-        X = 4
+    def calculate_avg(self, avg_features, number):
         for i, match_value in self.X_test.iterrows():
             home, away = match_value.home, match_value.away
             #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
-            
-            #MEDIA ULTIMI X MATCH
-            #averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
-            #averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
-            
-            #MEDIA TUTTI MATCH
-            averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
-            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
+            if number > 0:
+                averages_home, change = self.get_team_by_name(home).get_avg_last_X_matches(number, match_value.date, avg_features)
+                averages_away, change = self.get_team_by_name(away).get_avg_last_X_matches(number, match_value.date, avg_features)
+            else:
+                averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
+                averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
 
             for col in avg_features: 
                 diff = averages_home[col] - averages_away[col]
@@ -148,25 +150,46 @@ class MatchAnalysis:
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
         
-    def calculate_avg_all(self, avg_features):
+    def set_ranking(self, ranking):
+        self.ranking = ranking
+
+    def calculate_avg_all(self, avg_features, X):
         #calcola la media nei record del test set
-        X = 4
         for i, match_value in self.diff_dataset.iterrows():
             home, away = match_value.home, match_value.away
             #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
-            
-            #MEDIA ULTIMI X MATCH
-            #averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
-            #averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
-            
-            #MEDIA TUTTI MATCH
-            averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
-            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
+            if X > 0:
+                #MEDIA ULTIMI X MATCH
+                averages_home, change = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
+                averages_away, change = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
+            else:
+                #MEDIA TUTTI MATCH
+                averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
+                averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)           
+
+            #dataset in posizione i alla colonna rank_H ci va il rank home, mentre alla colonna rank_A ci va il rank away
+            if self.ranking != None:
+                self.get_ranks(i, home, away, match_value.date)
 
             if change: 
                 for col in avg_features: 
                     diff = averages_home[col] - averages_away[col]
                     self.diff_dataset.at[i, col] = diff
+
+        self.diff_dataset.to_csv('diff_with_ranking.csv')
+
+    def get_ranks(self, pos, home, away, date):
+        #ottengo il rank delle squadre e controllo se le due squadre hanno già giocato nel campionato
+        #se si sono affrontate devo considerare anche quella partita nel calcolo
+        rank_h, rank_a = self.ranking.get_rank(home, away)
+        
+        if self.get_team_by_name(home).get_previous(away, date):
+            rank_h += 1
+        if self.get_team_by_name(away).get_previous(home, date):
+            rank_a += 1
+        
+        self.diff_dataset.at[pos, 'rank_h'] = rank_h
+        self.diff_dataset.at[pos, 'rank_a'] = rank_a
 
     def set_codes(self):
         for i, match_value in self.X_train.iterrows():
@@ -180,9 +203,6 @@ class MatchAnalysis:
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
 
-       
-   
-    
     def get_team_code(self, name): 
         for team in self.matches_by_team:
             if team.name == name:

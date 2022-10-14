@@ -1,0 +1,381 @@
+,Casa,Punteggio,Ospiti
+0,Hellas Verona,2–1,Milan
+1,Sampdoria,0–1,Juventus
+2,Parma,0–0,Chievo
+3,Napoli,3–0,Bologna
+4,Lazio,2–1,Udinese
+5,Cagliari,2–1,Atalanta
+6,Torino,2–0,Sassuolo
+7,Livorno,0–2,Roma
+8,Inter,2–0,Genoa
+9,Fiorentina,2–1,Catania
+11,Juventus,4–1,Lazio
+12,Chievo,2–4,Napoli
+13,Roma,3–0,Hellas Verona
+14,Atalanta,2–0,Torino
+15,Genoa,2–5,Fiorentina
+16,Udinese,3–1,Parma
+17,Catania,0–3,Inter
+18,Bologna,2–2,Sampdoria
+19,Milan,3–1,Cagliari
+20,Sassuolo,1–4,Livorno
+22,Torino,2–2,Milan
+23,Inter,1–1,Juventus
+24,Napoli,2–0,Atalanta
+25,Hellas Verona,2–0,Sassuolo
+26,Fiorentina,1–1,Cagliari
+27,Livorno,2–0,Catania
+28,Udinese,1–1,Bologna
+29,Sampdoria,0–3,Genoa
+30,Lazio,3–0,Chievo
+31,Parma,1–3,Roma
+33,Cagliari,2–2,Sampdoria
+34,Genoa,0–0,Livorno
+35,Chievo,2–1,Udinese
+36,Roma,2–0,Lazio
+37,Catania,0–0,Parma
+38,Atalanta,0–2,Fiorentina
+39,Bologna,1–2,Torino
+40,Milan,1–2,Napoli
+41,Sassuolo,0–7,Inter
+42,Juventus,2–1,Hellas Verona
+44,Udinese,1–0,Genoa
+45,Livorno,1–1,Cagliari
+46,Chievo,1–2,Juventus
+47,Bologna,3–3,Milan
+48,Torino,2–2,Hellas Verona
+49,Parma,4–3,Atalanta
+50,Sampdoria,0–2,Roma
+51,Napoli,1–1,Sassuolo
+52,Lazio,3–1,Catania
+53,Inter,2–1,Fiorentina
+55,Genoa,0–2,Napoli
+56,Milan,1–0,Sampdoria
+57,Sassuolo,2–2,Lazio
+58,Roma,5–0,Bologna
+59,Atalanta,2–0,Udinese
+60,Catania,2–0,Chievo
+61,Hellas Verona,2–1,Livorno
+62,Cagliari,1–1,Inter
+63,Torino,0–1,Juventus
+64,Fiorentina,2–2,Parma
+66,Inter,0–3,Roma
+67,Chievo,0–1,Atalanta
+68,Parma,3–1,Sassuolo
+69,Napoli,4–0,Livorno
+70,Sampdoria,2–2,Torino
+71,Juventus,3–2,Milan
+72,Udinese,2–0,Cagliari
+73,Lazio,0–0,Fiorentina
+74,Bologna,1–4,Hellas Verona
+75,Catania,1–1,Genoa
+77,Roma,2–0,Napoli
+78,Milan,1–0,Udinese
+79,Cagliari,2–1,Catania
+80,Torino,3–3,Inter
+81,Hellas Verona,3–2,Parma
+82,Livorno,1–2,Sampdoria
+83,Atalanta,2–1,Lazio
+84,Sassuolo,2–1,Bologna
+85,Genoa,2–1,Chievo
+86,Fiorentina,4–2,Juventus
+88,Sampdoria,1–0,Atalanta
+89,Inter,4–2,Hellas Verona
+90,Udinese,0–1,Roma
+91,Juventus,2–0,Genoa
+92,Chievo,1–2,Fiorentina
+93,Bologna,1–0,Livorno
+94,Napoli,2–0,Torino
+95,Parma,3–2,Milan
+96,Lazio,2–0,Cagliari
+97,Catania,0–0,Sassuolo
+99,Atalanta,1–1,Inter
+100,Livorno,3–3,Torino
+101,Sassuolo,1–2,Udinese
+102,Milan,1–1,Lazio
+103,Hellas Verona,2–0,Sampdoria
+104,Cagliari,0–3,Bologna
+105,Fiorentina,1–2,Napoli
+106,Genoa,1–0,Parma
+107,Juventus,4–0,Catania
+108,Roma,1–0,Chievo
+110,Parma,0–1,Juventus
+111,Napoli,2–1,Catania
+112,Milan,0–2,Fiorentina
+113,Hellas Verona,2–1,Cagliari
+114,Lazio,0–2,Genoa
+115,Livorno,1–0,Atalanta
+116,Udinese,0–3,Inter
+117,Sampdoria,3–4,Sassuolo
+118,Torino,1–1,Roma
+119,Bologna,0–0,Chievo
+121,Inter,2–0,Livorno
+122,Catania,1–0,Udinese
+123,Cagliari,2–1,Torino
+124,Parma,1–1,Lazio
+125,Juventus,3–0,Napoli
+126,Atalanta,2–1,Bologna
+127,Fiorentina,2–1,Sampdoria
+128,Chievo,0–0,Milan
+129,Genoa,2–0,Hellas Verona
+130,Roma,1–1,Sassuolo
+132,Milan,1–1,Genoa
+133,Napoli,0–1,Parma
+134,Hellas Verona,0–1,Chievo
+135,Livorno,0–2,Juventus
+136,Sassuolo,2–0,Atalanta
+137,Torino,4–1,Catania
+138,Udinese,1–0,Fiorentina
+139,Bologna,1–1,Inter
+140,Sampdoria,1–1,Lazio
+141,Roma,0–0,Cagliari
+143,Parma,1–1,Bologna
+144,Genoa,1–1,Torino
+145,Juventus,1–0,Udinese
+146,Inter,1–1,Sampdoria
+147,Atalanta,1–1,Roma
+148,Cagliari,2–2,Sassuolo
+149,Catania,1–3,Milan
+150,Chievo,3–0,Livorno
+151,Fiorentina,4–3,Hellas Verona
+152,Lazio,2–4,Napoli
+154,Bologna,0–2,Juventus
+155,Napoli,3–3,Udinese
+156,Livorno,2–2,Milan
+157,Inter,3–3,Parma
+158,Cagliari,2–1,Genoa
+159,Roma,2–1,Fiorentina
+160,Hellas Verona,2–1,Atalanta
+161,Sampdoria,2–0,Catania
+162,Torino,1–0,Lazio
+163,Sassuolo,0–1,Chievo
+165,Catania,0–0,Hellas Verona
+166,Parma,0–0,Cagliari
+167,Lazio,2–0,Livorno
+168,Chievo,0–1,Sampdoria
+169,Genoa,1–1,Atalanta
+170,Juventus,4–0,Sassuolo
+171,Napoli,4–2,Inter
+172,Fiorentina,3–0,Bologna
+173,Udinese,0–2,Torino
+174,Milan,2–2,Roma
+176,Livorno,1–2,Udinese
+177,Cagliari,1–1,Napoli
+178,Bologna,1–0,Genoa
+179,Sampdoria,1–1,Parma
+180,Inter,1–0,Milan
+181,Torino,4–1,Chievo
+182,Atalanta,1–4,Juventus
+183,Hellas Verona,4–1,Lazio
+184,Sassuolo,0–1,Fiorentina
+185,Roma,4–0,Catania
+187,Juventus,3–0,Roma
+188,Chievo,0–0,Cagliari
+189,Fiorentina,1–0,Livorno
+190,Udinese,1–3,Hellas Verona
+191,Parma,3–1,Torino
+192,Milan,3–0,Atalanta
+193,Lazio,1–0,Inter
+194,Catania,2–0,Bologna
+195,Genoa,2–0,Sassuolo
+196,Napoli,2–0,Sampdoria
+198,Bologna,0–0,Lazio
+199,Livorno,0–3,Parma
+200,Roma,4–0,Genoa
+201,Hellas Verona,0–3,Napoli
+202,Atalanta,2–1,Catania
+203,Cagliari,1–4,Juventus
+204,Torino,0–0,Fiorentina
+205,Sassuolo,4–3,Milan
+206,Inter,1–1,Chievo
+207,Sampdoria,3–0,Udinese
+209,Juventus,4–2,Sampdoria
+210,Roma,3–0,Livorno
+211,Chievo,1–2,Parma
+212,Genoa,1–0,Inter
+213,Milan,1–0,Hellas Verona
+214,Bologna,2–2,Napoli
+215,Sassuolo,0–2,Torino
+216,Atalanta,1–0,Cagliari
+217,Udinese,2–3,Lazio
+218,Catania,0–3,Fiorentina
+220,Lazio,1–1,Juventus
+221,Napoli,1–1,Chievo
+222,Livorno,3–1,Sassuolo
+223,Inter,0–0,Catania
+224,Sampdoria,1–1,Bologna
+225,Fiorentina,3–3,Genoa
+226,Hellas Verona,1–3,Roma
+227,Torino,1–0,Atalanta
+228,Parma,1–0,Udinese
+229,Cagliari,1–2,Milan
+231,Milan,1–1,Torino
+232,Cagliari,1–0,Fiorentina
+233,Bologna,0–2,Udinese
+234,Catania,3–3,Livorno
+235,Atalanta,3–0,Napoli
+236,Chievo,0–2,Lazio
+237,Juventus,3–1,Inter
+238,Sassuolo,1–2,Hellas Verona
+239,Genoa,0–1,Sampdoria
+241,Fiorentina,2–0,Atalanta
+242,Udinese,3–0,Chievo
+243,Napoli,3–1,Milan
+244,Lazio,0–0,Roma
+245,Hellas Verona,2–2,Juventus
+246,Livorno,0–1,Genoa
+247,Torino,1–2,Bologna
+248,Sampdoria,1–0,Cagliari
+249,Inter,1–0,Sassuolo
+250,Parma,0–0,Catania
+252,Milan,1–0,Bologna
+253,Fiorentina,1–2,Inter
+254,Roma,3–0,Sampdoria
+255,Genoa,3–3,Udinese
+256,Juventus,3–1,Chievo
+257,Sassuolo,0–2,Napoli
+258,Catania,3–1,Lazio
+259,Cagliari,1–2,Livorno
+260,Atalanta,0–4,Parma
+261,Hellas Verona,1–3,Torino
+263,Bologna,0–1,Roma
+264,Lazio,3–2,Sassuolo
+265,Chievo,2–0,Catania
+266,Udinese,1–1,Atalanta
+267,Juventus,1–0,Torino
+268,Inter,1–1,Cagliari
+269,Livorno,2–3,Hellas Verona
+270,Sampdoria,0–2,Milan
+271,Napoli,1–1,Genoa
+272,Parma,2–2,Fiorentina
+274,Roma,0–0,Inter
+275,Torino,0–2,Sampdoria
+276,Fiorentina,0–1,Lazio
+277,Genoa,2–0,Catania
+278,Livorno,1–1,Napoli
+279,Sassuolo,0–1,Parma
+280,Hellas Verona,0–0,Bologna
+281,Milan,0–2,Juventus
+282,Atalanta,2–1,Chievo
+283,Cagliari,3–0,Udinese
+285,Catania,1–1,Cagliari
+286,Udinese,1–0,Milan
+287,Juventus,1–0,Fiorentina
+288,Parma,2–0,Hellas Verona
+289,Sampdoria,4–2,Livorno
+290,Napoli,1–0,Roma
+291,Chievo,2–1,Genoa
+292,Bologna,0–0,Sassuolo
+293,Inter,1–0,Torino
+294,Lazio,0–1,Atalanta
+296,Hellas Verona,0–2,Inter
+297,Sassuolo,3–1,Catania
+298,Cagliari,0–2,Lazio
+299,Genoa,0–1,Juventus
+300,Atalanta,3–0,Sampdoria
+301,Fiorentina,3–1,Chievo
+302,Milan,2–4,Parma
+303,Livorno,2–1,Bologna
+304,Roma,3–2,Udinese
+305,Torino,0–1,Napoli
+307,Chievo,0–2,Roma
+308,Torino,3–1,Livorno
+309,Sampdoria,5–0,Hellas Verona
+310,Lazio,1–1,Milan
+311,Inter,1–2,Atalanta
+312,Udinese,1–0,Sassuolo
+313,Catania,0–1,Juventus
+314,Parma,1–1,Genoa
+315,Napoli,0–1,Fiorentina
+316,Bologna,1–0,Cagliari
+318,Roma,2–1,Torino
+319,Atalanta,2–0,Livorno
+320,Chievo,3–0,Bologna
+321,Juventus,2–1,Parma
+322,Catania,2–4,Napoli
+323,Fiorentina,0–2,Milan
+324,Genoa,2–0,Lazio
+325,Cagliari,1–0,Hellas Verona
+326,Sassuolo,1–2,Sampdoria
+327,Inter,0–0,Udinese
+329,Milan,3–0,Chievo
+330,Bologna,0–2,Atalanta
+331,Torino,2–1,Cagliari
+332,Hellas Verona,3–0,Genoa
+333,Napoli,2–0,Juventus
+334,Sassuolo,0–2,Roma
+335,Sampdoria,0–0,Fiorentina
+336,Lazio,3–2,Parma
+337,Udinese,1–0,Catania
+338,Livorno,2–2,Inter
+340,Roma,4–2,Parma
+342,Inter,2–2,Bologna
+343,Chievo,0–1,Hellas Verona
+344,Atalanta,0–2,Sassuolo
+345,Cagliari,1–3,Roma
+346,Fiorentina,2–1,Udinese
+347,Parma,1–0,Napoli
+348,Lazio,2–0,Sampdoria
+349,Catania,1–2,Torino
+350,Genoa,1–2,Milan
+351,Juventus,2–0,Livorno
+353,Roma,3–1,Atalanta
+354,Sassuolo,1–1,Cagliari
+355,Napoli,4–2,Lazio
+356,Bologna,1–1,Parma
+357,Torino,2–1,Genoa
+358,Milan,1–0,Catania
+359,Sampdoria,0–4,Inter
+360,Hellas Verona,3–5,Fiorentina
+361,Livorno,2–4,Chievo
+362,Udinese,0–2,Juventus
+364,Parma,0–2,Inter
+365,Juventus,1–0,Bologna
+366,Udinese,1–1,Napoli
+367,Milan,3–0,Livorno
+368,Fiorentina,0–1,Roma
+369,Catania,2–1,Sampdoria
+370,Atalanta,1–2,Hellas Verona
+371,Lazio,3–3,Torino
+372,Genoa,1–2,Cagliari
+373,Chievo,0–1,Sassuolo
+375,Roma,2–0,Milan
+376,Inter,0–0,Napoli
+377,Bologna,0–3,Fiorentina
+378,Cagliari,1–0,Parma
+379,Atalanta,1–1,Genoa
+380,Hellas Verona,4–0,Catania
+381,Torino,2–0,Udinese
+382,Livorno,0–2,Lazio
+383,Sampdoria,2–1,Chievo
+384,Sassuolo,1–3,Juventus
+386,Milan,1–0,Inter
+387,Genoa,0–0,Bologna
+388,Parma,2–0,Sampdoria
+389,Chievo,0–1,Torino
+390,Udinese,5–3,Livorno
+391,Catania,4–1,Roma
+392,Juventus,1–0,Atalanta
+393,Lazio,3–3,Hellas Verona
+394,Fiorentina,3–4,Sassuolo
+395,Napoli,3–0,Cagliari
+397,Inter,4–1,Lazio
+398,Hellas Verona,2–2,Udinese
+399,Bologna,1–2,Catania
+400,Torino,1–1,Parma
+401,Sassuolo,4–2,Genoa
+402,Sampdoria,2–5,Napoli
+403,Atalanta,2–1,Milan
+404,Livorno,0–1,Fiorentina
+405,Cagliari,0–1,Chievo
+406,Roma,0–1,Juventus
+408,Udinese,3–3,Sampdoria
+409,Napoli,5–1,Hellas Verona
+410,Catania,2–1,Atalanta
+411,Genoa,1–0,Roma
+412,Chievo,2–1,Inter
+413,Fiorentina,2–2,Torino
+414,Lazio,1–0,Bologna
+415,Milan,2–1,Sassuolo
+416,Juventus,3–0,Cagliari
+417,Parma,2–0,Livorno

@@ -12,12 +12,8 @@ from IPython.display import display
 from model import Model
 
 class Classification:
-    def prepare(self, dataset):
-        features = [x for x in dataset.columns if x != 'result' and x != 'date']
-        X, y = dataset[features], dataset.result.values
-
-        #shuffle viene settato a False perché non voglio che vengano randomizzate le partite, verrebbe un risultato sballato
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, shuffle=False) 
+    def __init__(self, X_train, X_test, y_train, y_test):
+        self.X_train, self.X_test, self.y_train, self.y_test = X_train, X_test, y_train, y_test
 
     def create_models(self):
         self.models = []

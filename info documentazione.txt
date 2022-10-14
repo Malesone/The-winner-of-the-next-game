@@ -1,1 +1,5 @@
 tempo per scaricare i match della stagione 2021-2022 di Serie A: 5:30s
+
+
+https://betfair-datascientists.github.io/modelling/soccerModellingTutorialPython/
+dice di predire le stats prendendo i 5 match precedenti
