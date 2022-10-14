@@ -14,6 +14,11 @@ class Team:
     def get_avg_all_matches(self, date, avg_features):
         #prende la media di tutti i match precedenti alla data del match preso in considerazione
         #il valore ritornato infatti è la riga di medie relative ai valori precedenti 
+        change = False
+        averages = None
         rows = self.matches[self.matches.date < date]
-        averages = rows[avg_features].mean()
-        return averages
+        if len(rows) > 1:
+            averages = rows[avg_features].mean()
+            change = True
+
+        return averages, change

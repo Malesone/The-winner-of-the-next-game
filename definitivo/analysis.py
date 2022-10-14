@@ -109,23 +109,23 @@ class MatchAnalysis:
         #shuffle viene settato a False perché non voglio che vengano randomizzate le partite, verrebbe un risultato sballato
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, shuffle=False) 
 
-        self.calculate_avg(float_features_and_avg)
+        #self.calculate_avg_train(float_features_and_avg)
+        #self.calculate_avg(float_features_and_avg)
 
     def calculate_avg(self, avg_features):
         #calcola la media nei record del test set
-        X = 2
-        for i, match_value in self.X_test.iterrows():
+        X = 4
+        for i, match_value in self.X_test[:2].iterrows():
             home, away = match_value.home, match_value.away
             #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
-            """
-            MEDIA ULTIMI X MATCH
-            averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
-            averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
-            """
+            
+            #MEDIA ULTIMI X MATCH
+            #averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
+            #averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
+            
             #MEDIA TUTTI MATCH
-            averages_home = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
-            averages_away = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
-
+            averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
+            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
 
             for col in avg_features: 
                 diff = averages_home[col] - averages_away[col]
@@ -143,6 +143,26 @@ class MatchAnalysis:
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
         
+    def calculate_avg_train(self, avg_features):
+        #calcola la media nei record del test set
+        for i, match_value in self.X_train.iterrows():
+            home, away = match_value.home, match_value.away
+            #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
+            #MEDIA ULTIMI X MATCH
+            #averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
+            #averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
+            #MEDIA TUTTI MATCH
+            averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
+            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)     
+
+            if change:
+                for col in avg_features: 
+                    diff = averages_home[col] - averages_away[col]
+                    self.X_train.at[i, col] = diff
+
+       
+   
+    
     def get_team_code(self, name): 
         for team in self.matches_by_team:
             if team.name == name:
@@ -153,7 +173,6 @@ class MatchAnalysis:
             if team.id == id:
                 return team.name
               
-
     def get_team_by_name(self, name):
         for team in self.matches_by_team:
             if team.name == name:
