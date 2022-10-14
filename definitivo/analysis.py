@@ -143,12 +143,12 @@ class MatchAnalysis:
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
         
-    def get_team_code(self, name): #se type_return = True ritorno id, se type_return = False ritorno dataset
+    def get_team_code(self, name): 
         for team in self.matches_by_team:
             if team.name == name:
                 return team.id
     
-    def get_name_by_id(self, id): #se type_return = True ritorno id, se type_return = False ritorno dataset
+    def get_name_by_id(self, id): 
         for team in self.matches_by_team:
             if team.id == id:
                 return team.name
