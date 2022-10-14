@@ -98,24 +98,29 @@ class MatchAnalysis:
         self.matches_fe_team = self.matches_fe_team[self.matches_fe_team.date < limit_date] 
         self.divide_and_merge_home_away()
 
-    def split_and_set_avg(self):
+    def split_and_set_avg(self, avg_all_ds):
         #devo convertire il tipo delle colonne perché la media tra i valori mi dà un numero con la virgola (da int a float)
         float_features_and_avg = [x for x in self.diff_dataset.columns if x != 'home' and x != 'away' and x != 'date' and x != 'result']
         self.diff_dataset[float_features_and_avg] = self.diff_dataset[float_features_and_avg].astype(float)
         
         features = [x for x in self.diff_dataset.columns if x != 'result']
+        #se avg_all_ds è true significa che calcolo la media di tutti i match precedenti per tutto il dataset e poi lo splitto in train e test. Se è false semplicemente calcolo le medie sono per il test
+        if avg_all_ds:
+            self.calculate_avg_all(float_features_and_avg)
         X, y = self.diff_dataset[features], self.diff_dataset.result.values
 
         #shuffle viene settato a False perché non voglio che vengano randomizzate le partite, verrebbe un risultato sballato
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(X, y, test_size=0.2, shuffle=False) 
 
-        #self.calculate_avg_train(float_features_and_avg)
-        #self.calculate_avg(float_features_and_avg)
+        if avg_all_ds:
+            self.set_codes()
+        else:
+            self.calculate_avg(float_features_and_avg)
 
     def calculate_avg(self, avg_features):
         #calcola la media nei record del test set
         X = 4
-        for i, match_value in self.X_test[:2].iterrows():
+        for i, match_value in self.X_test.iterrows():
             home, away = match_value.home, match_value.away
             #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
             
@@ -143,22 +148,37 @@ class MatchAnalysis:
         self.X_train = self.X_train.drop(columns=['date'])
         self.X_test = self.X_test.drop(columns=['date'])
         
-    def calculate_avg_train(self, avg_features):
+    def calculate_avg_all(self, avg_features):
         #calcola la media nei record del test set
-        for i, match_value in self.X_train.iterrows():
+        X = 4
+        for i, match_value in self.diff_dataset.iterrows():
             home, away = match_value.home, match_value.away
             #calcolo la media dei match dei due dataset delle squadre coinvolte nel match
+            
             #MEDIA ULTIMI X MATCH
             #averages_home = self.get_team_by_name(home).get_avg_last_X_matches(X, match_value.date, avg_features)
             #averages_away = self.get_team_by_name(away).get_avg_last_X_matches(X, match_value.date, avg_features)
+            
             #MEDIA TUTTI MATCH
             averages_home, change = self.get_team_by_name(home).get_avg_all_matches(match_value.date, avg_features)
-            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)     
+            averages_away, change = self.get_team_by_name(away).get_avg_all_matches(match_value.date, avg_features)
 
-            if change:
+            if change: 
                 for col in avg_features: 
                     diff = averages_home[col] - averages_away[col]
-                    self.X_train.at[i, col] = diff
+                    self.diff_dataset.at[i, col] = diff
+
+    def set_codes(self):
+        for i, match_value in self.X_train.iterrows():
+            self.X_train.at[i, 'home'] = self.get_team_code(match_value.home)
+            self.X_train.at[i, 'away'] = self.get_team_code(match_value.away)
+        
+        for i, match_value in self.X_test.iterrows():
+            self.X_test.at[i, 'home'] = self.get_team_code(match_value.home)
+            self.X_test.at[i, 'away'] = self.get_team_code(match_value.away)
+
+        self.X_train = self.X_train.drop(columns=['date'])
+        self.X_test = self.X_test.drop(columns=['date'])
 
        
    
