@@ -121,6 +121,7 @@ class MatchAnalysis:
         if avg_all_ds:
             self.set_codes()
         else:
+            #calcolo la media solo per il test set
             self.calculate_avg(float_features_and_avg, number)
 
     def calculate_avg(self, avg_features, number):
