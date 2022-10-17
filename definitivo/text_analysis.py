@@ -16,6 +16,7 @@ class TextAnalysis:
         self.matches = matches[['team1', 'team2', 'date', 'result']]
         self.originalNotation = self.matches.team1.unique()
 
+### INIZIO ___________ GESTIONE URL PER DATA
     def get_urls(self):
         #permette di ottenere tutti i link che portano alla pagina contenente le partite di un determinato giorno. Il giorno viene settato nel link
         #ho notato che i link relativi alle news di Serie A contengono la parola serieapredictions, quindi ottengo tutti i link e poi filtro per quelli contenente la parola
@@ -52,8 +53,9 @@ class TextAnalysis:
         file_links = open('keyDate_valueLinks.json')  
         self.links_of_pages_by_date = json.load(file_links)
         file_links.close()
-
-    ### INIZIO ___________ DOWNLOAD PREDIZIONI
+### FINE ___________ GESTIONE URL PER DATA
+    
+### INIZIO ___________ DOWNLOAD PREDIZIONI
     def get_predictions(self):
         self.df = pd.DataFrame()
         count = 0
@@ -129,8 +131,8 @@ class TextAnalysis:
             label = 'NAN'
 
         return label
-    ### FINE ___________ DOWNLOAD PREDIZIONI
 
+    ### INIZIO ___________ FIX PREDIZIONI MANCANTI
     def read_predictions(self):
         self.df = pd.read_csv("all_correspondeces.csv", index_col=0)
     
@@ -196,3 +198,5 @@ class TextAnalysis:
         """
         self.dataset = pd.merge(self.matches, self.recoveries[['team1','team2', 'description', 'prediction']], on=['team1', 'team2'])
         self.dataset.to_csv('description_predictions.csv')
+    ### FINE ___________ FIX PREDIZIONI MANCANTI
+### FINE ___________ DOWNLOAD PREDIZIONI

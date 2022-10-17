@@ -10,6 +10,7 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from IPython.display import display
 from model import Model
+import pickle
 
 class Classification:
     def __init__(self, X_train, X_test, y_train, y_test):
@@ -18,11 +19,11 @@ class Classification:
     def create_models(self):
         self.models = []
         self.models.extend([
-            Model('Logistic Regression', LogisticRegression(max_iter=10000)),
-            Model('Support Vector Machine', SVC()),
+            #Model('Logistic Regression', LogisticRegression(max_iter=10000)),
+            #Model('Support Vector Machine', SVC()),
             Model('Decision Tree', DecisionTreeClassifier()),
-            Model('Random Forest', RandomForestClassifier()),
-            Model('K-Nearest Neighbors', KNeighborsClassifier())
+            #Model('Random Forest', RandomForestClassifier()),
+            #Model('K-Nearest Neighbors', KNeighborsClassifier())
         ])
 
         for model in self.models:
@@ -40,20 +41,25 @@ class Classification:
 
     def get_higher_accuracies(self, distance): 
         #prendo le accuratezze migliori: prima prendo l'accuratezza più alta, poi confronto questa accuratezza con le altre e se c'è uno scarto di 0.2 allora è tollerabile
-        max_accuracy = self.models[0]
+        self.max_accuracy = self.models[0]
 
         #get max accuracy
         for model in self.models[1:]:
-            if model.analysis['Accuracy'] > max_accuracy.analysis['Accuracy']:
-                max_accuracy = model
+            if model.analysis['Accuracy'] > self.max_accuracy.analysis['Accuracy']:
+                self.max_accuracy = model
         
         best_accuracies = []
         for model in self.models:
-            if (max_accuracy.analysis['Accuracy'] - model.analysis['Accuracy']) < distance:
+            if (self.max_accuracy.analysis['Accuracy'] - model.analysis['Accuracy']) < distance:
                 best_accuracies.append(model.analysis)
 
         self.best_accuracies = pd.DataFrame(best_accuracies).set_index('Model', inplace=False)
         display(self.best_accuracies)
         
-        
+    def save_best_model(self):
+        with open("{}.model".format(self.max_accuracy.name), 'wb') as file:
+            pickle.dump(self.max_accuracy.model, file)
 
+    def open_model(self):
+        self.loaded_model = pickle.load(open("Decision Tree 80.model", 'rb'))
+        

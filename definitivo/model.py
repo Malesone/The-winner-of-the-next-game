@@ -1,5 +1,7 @@
 import sklearn.metrics as mtr
 import pandas as pd
+import warnings
+import matplotlib.pyplot as plt
 
 class Model:
     def __init__(self, name, model):
@@ -28,6 +30,14 @@ class Model:
             'Avg F1-score (weighted)': report['weighted avg']['f1-score']
         }
 
-
     def get_report(self):
         return self.analysis
+
+    def gen_confusion_matrix(self):
+        warnings.filterwarnings('ignore')
+        cm = mtr.confusion_matrix(self.y_test, self.y_pred)
+        d = mtr.ConfusionMatrixDisplay(cm, [0,1,2])
+        fig, ax = plt.subplots(figsize=(4,4))
+        d.plot(ax=ax, cmap='Greens')
+        plt.tight_layout()
+        plt.show()
