@@ -37,16 +37,17 @@ class DownloadDati:
 
     def __init__(self, competition):
         self.competition = competition
-        self.set_util_hrefs() 
 
     def connect(self, page):
+        #setta i parametri necessari alla connessione
         headers = {'User-Agent': 
                 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
 
         pageTree = requests.get(page)
         self.soup = BeautifulSoup(pageTree.text, features="lxml")
+        self.set_util_hrefs() 
 
-    def get_teams(self):
+    def get_teams_names(self):
         table = self.soup.select('table.stats_table')[0]
         a_hrefs = table.find_all('a')
         self.teams = [a_href for a_href in a_hrefs if '/squadre/' in str(a_href)]        
@@ -54,7 +55,7 @@ class DownloadDati:
         
     def get_matches(self):
         self.all_matches = pd.DataFrame()
-        self.matches_also_nan = pd.DataFrame()
+        self.championship_games = pd.DataFrame()
 
         for team in self.teams:
             team_name = team.contents[0]
@@ -78,12 +79,8 @@ class DownloadDati:
     def get_old_matches(self, matches):
         matches.Risultato = matches.Risultato.astype(str)
         played_games = matches[matches.Risultato != 'nan']
-        self.new_games = matches[matches.Risultato == 'nan']
-        self.matches_also_nan = self.matches_also_nan.append(matches) 
+        self.championship_games = self.championship_games.append(matches) 
         return played_games
-
-    def save_matches_also_nan(self):
-        self.matches_also_nan.to_csv("matches.csv")
 
     def get_stats_matches(self, matches, href_links):
         """
@@ -130,8 +127,18 @@ class DownloadDati:
         self.all_matches.sort_values(by=["date"], inplace=True)
         self.all_matches.to_csv(path) #matches for each team
 
+    def save_championship_games(self, path):
+        path = 'files/Serie A/22_23 championship_matches.csv'
+        self.championship_games.rename(columns=self.rename_fields, inplace=True)
+        self.championship_games = self.championship_games[self.championship_games.stadium=='Casa']
+        self.championship_games['date'] = pd.to_datetime(self.championship_games['date'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+        self.championship_games.sort_values(by=["date"], inplace=True)
+        self.championship_games.drop(columns=['stadium', 'goals'])
+        self.championship_games.to_csv(path) #matches for each team
+
     def read_all_matches(self, path):
         self.all_matches = pd.read_csv(path, index_col=0)
+        self.all_matches['date'] = pd.to_datetime(self.all_matches['date'], format='%d-%m-%Y')
     
     def set_util_hrefs(self): 
         """il dizionario contiene:
@@ -164,4 +171,4 @@ class DownloadDati:
                 },
         }
 
-    
+   
