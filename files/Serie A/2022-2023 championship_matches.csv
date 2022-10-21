@@ -1,0 +1,381 @@
+,team1,date,matchday,stadium,result,goals,team2
+1,Monza,2022-08-13,Giornata n. 1,Casa,P,1.0,Torino
+1,Sampdoria,2022-08-13,Giornata n. 1,Casa,P,0,Atalanta
+1,Lecce,2022-08-13,Giornata n. 1,Casa,P,1.0,Inter
+0,Milan,2022-08-13,Giornata n. 1,Casa,V,4.0,Udinese
+0,Lazio,2022-08-14,Giornata n. 1,Casa,V,2.0,Bologna
+1,Salernitana,2022-08-14,Giornata n. 1,Casa,P,0.0,Roma
+1,Spezia,2022-08-14,Giornata n. 1,Casa,V,1.0,Empoli
+0,Fiorentina,2022-08-14,Giornata n. 1,Casa,V,3.0,Cremonese
+1,Hellas Verona,2022-08-15,Giornata n. 1,Casa,P,2.0,Napoli
+0,Juventus,2022-08-15,Giornata n. 1,Casa,V,3.0,Sassuolo
+2,Sassuolo,2022-08-20,Giornata n. 2,Casa,V,1.0,Lecce
+1,Inter,2022-08-20,Giornata n. 2,Casa,V,3.0,Spezia
+2,Udinese,2022-08-20,Giornata n. 2,Casa,N,0.0,Salernitana
+2,Torino,2022-08-20,Giornata n. 2,Casa,N,0.0,Lazio
+1,Napoli,2022-08-21,Giornata n. 2,Casa,V,4.0,Monza
+2,Bologna,2022-08-21,Giornata n. 2,Casa,N,1.0,Hellas Verona
+2,Empoli,2022-08-21,Giornata n. 2,Casa,N,0.0,Fiorentina
+1,Atalanta,2022-08-21,Giornata n. 2,Casa,N,1.0,Milan
+1,Roma,2022-08-22,Giornata n. 2,Casa,V,1.0,Cremonese
+2,Sampdoria,2022-08-22,Giornata n. 2,Casa,N,0,Juventus
+3,Monza,2022-08-26,Giornata n. 3,Casa,P,1.0,Udinese
+2,Lazio,2022-08-26,Giornata n. 3,Casa,V,3.0,Inter
+2,Milan,2022-08-27,Giornata n. 3,Casa,V,2.0,Bologna
+3,Spezia,2022-08-27,Giornata n. 3,Casa,N,2.0,Sassuolo
+3,Cremonese,2022-08-27,Giornata n. 3,Casa,P,1.0,Torino
+2,Juventus,2022-08-27,Giornata n. 3,Casa,N,1.0,Roma
+4,Fiorentina,2022-08-28,Giornata n. 3,Casa,N,0.0,Napoli
+3,Lecce,2022-08-28,Giornata n. 3,Casa,N,1.0,Empoli
+3,Salernitana,2022-08-28,Giornata n. 3,Casa,V,4.0,Sampdoria
+3,Hellas Verona,2022-08-28,Giornata n. 3,Casa,P,0.0,Atalanta
+3,Roma,2022-08-30,Giornata n. 4,Casa,V,3.0,Monza
+3,Inter,2022-08-30,Giornata n. 4,Casa,V,3.0,Cremonese
+4,Sassuolo,2022-08-30,Giornata n. 4,Casa,N,0.0,Milan
+4,Udinese,2022-08-31,Giornata n. 4,Casa,V,1.0,Fiorentina
+3,Napoli,2022-08-31,Giornata n. 4,Casa,N,1.0,Lecce
+3,Juventus,2022-08-31,Giornata n. 4,Casa,V,2.0,Spezia
+4,Sampdoria,2022-08-31,Giornata n. 4,Casa,N,1,Lazio
+4,Empoli,2022-08-31,Giornata n. 4,Casa,N,1.0,Hellas Verona
+3,Atalanta,2022-09-01,Giornata n. 4,Casa,V,3.0,Torino
+4,Bologna,2022-09-01,Giornata n. 4,Casa,N,1.0,Salernitana
+4,Lazio,2022-09-03,Giornata n. 5,Casa,P,1.0,Napoli
+4,Milan,2022-09-03,Giornata n. 5,Casa,V,3.0,Inter
+6,Fiorentina,2022-09-03,Giornata n. 5,Casa,N,1.0,Juventus
+5,Hellas Verona,2022-09-04,Giornata n. 5,Casa,V,2.0,Sampdoria
+5,Spezia,2022-09-04,Giornata n. 5,Casa,N,2.0,Bologna
+5,Cremonese,2022-09-04,Giornata n. 5,Casa,N,0.0,Sassuolo
+5,Udinese,2022-09-04,Giornata n. 5,Casa,V,4.0,Roma
+5,Monza,2022-09-05,Giornata n. 5,Casa,P,0.0,Atalanta
+5,Salernitana,2022-09-05,Giornata n. 5,Casa,N,2.0,Empoli
+5,Torino,2022-09-05,Giornata n. 5,Casa,V,1.0,Lecce
+6,Sampdoria,2022-09-10,Giornata n. 6,Casa,P,1,Milan
+6,Inter,2022-09-10,Giornata n. 6,Casa,V,1.0,Torino
+6,Napoli,2022-09-10,Giornata n. 6,Casa,V,1.0,Spezia
+6,Lazio,2022-09-11,Giornata n. 6,Casa,V,2.0,Hellas Verona
+6,Bologna,2022-09-11,Giornata n. 6,Casa,V,2.0,Fiorentina
+5,Atalanta,2022-09-11,Giornata n. 6,Casa,N,1.0,Cremonese
+6,Lecce,2022-09-11,Giornata n. 6,Casa,N,1.0,Monza
+6,Sassuolo,2022-09-11,Giornata n. 6,Casa,P,1.0,Udinese
+6,Juventus,2022-09-11,Giornata n. 6,Casa,N,2.0,Salernitana
+6,Empoli,2022-09-12,Giornata n. 6,Casa,P,1.0,Roma
+7,Salernitana,2022-09-16,Giornata n. 7,Casa,P,1.0,Lecce
+7,Torino,2022-09-17,Giornata n. 7,Casa,P,0.0,Sassuolo
+7,Bologna,2022-09-17,Giornata n. 7,Casa,P,0.0,Empoli
+7,Spezia,2022-09-17,Giornata n. 7,Casa,V,2.0,Sampdoria
+8,Milan,2022-09-18,Giornata n. 7,Casa,P,1.0,Napoli
+8,Roma,2022-09-18,Giornata n. 7,Casa,P,0.0,Atalanta
+7,Monza,2022-09-18,Giornata n. 7,Casa,V,1.0,Juventus
+10,Fiorentina,2022-09-18,Giornata n. 7,Casa,V,2.0,Hellas Verona
+7,Cremonese,2022-09-18,Giornata n. 7,Casa,P,0.0,Lazio
+7,Udinese,2022-09-18,Giornata n. 7,Casa,V,3.0,Inter
+8,Empoli,2022-10-01,Giornata n. 8,Casa,P,1.0,Milan
+9,Inter,2022-10-01,Giornata n. 8,Casa,P,1.0,Roma
+9,Napoli,2022-10-01,Giornata n. 8,Casa,V,3.0,Torino
+9,Juventus,2022-10-02,Giornata n. 8,Casa,V,3.0,Bologna
+9,Lazio,2022-10-02,Giornata n. 8,Casa,V,4.0,Spezia
+8,Lecce,2022-10-02,Giornata n. 8,Casa,N,1.0,Cremonese
+7,Atalanta,2022-10-02,Giornata n. 8,Casa,V,1.0,Fiorentina
+8,Sassuolo,2022-10-02,Giornata n. 8,Casa,V,5.0,Salernitana
+8,Sampdoria,2022-10-02,Giornata n. 8,Casa,P,0,Monza
+8,Hellas Verona,2022-10-03,Giornata n. 8,Casa,P,1.0,Udinese
+9,Sassuolo,2022-10-08,Giornata n. 9,Casa,P,1.0,Inter
+11,Milan,2022-10-08,Giornata n. 9,Casa,V,2.0,Juventus
+9,Bologna,2022-10-08,Giornata n. 9,Casa,N,1.0,Sampdoria
+11,Roma,2022-10-09,Giornata n. 9,Casa,V,2.0,Lecce
+9,Cremonese,2022-10-09,Giornata n. 9,Casa,P,1.0,Napoli
+9,Salernitana,2022-10-09,Giornata n. 9,Casa,V,2.0,Hellas Verona
+9,Torino,2022-10-09,Giornata n. 9,Casa,N,1.0,Empoli
+9,Monza,2022-10-09,Giornata n. 9,Casa,V,2.0,Spezia
+9,Udinese,2022-10-09,Giornata n. 9,Casa,N,2.0,Atalanta
+13,Fiorentina,2022-10-10,Giornata n. 9,Casa,P,0.0,Lazio
+10,Empoli,2022-10-15,Giornata n. 10,Casa,V,1.0,Monza
+9,Atalanta,2022-10-15,Giornata n. 10,Casa,V,2.0,Sassuolo
+10,Torino,2022-10-15,Giornata n. 10,Casa,P,0.0,Juventus
+10,Hellas Verona,2022-10-16,Giornata n. 10,Casa,P,1.0,Milan
+13,Napoli,2022-10-16,Giornata n. 10,Casa,V,3.0,Bologna
+13,Inter,2022-10-16,Giornata n. 10,Casa,V,2.0,Salernitana
+13,Lazio,2022-10-16,Giornata n. 10,Casa,N,0.0,Udinese
+10,Spezia,2022-10-16,Giornata n. 10,Casa,N,2.0,Cremonese
+10,Lecce,2022-10-17,Giornata n. 10,Casa,N,1.0,Fiorentina
+10,Sampdoria,2022-10-17,Giornata n. 10,Casa,P,0,Roma
+14,Juventus,2022-10-21,Giornata n. 11,Casa,nan,,Empoli
+11,Salernitana,2022-10-22,Giornata n. 11,Casa,nan,,Spezia
+16,Fiorentina,2022-10-22,Giornata n. 11,Casa,nan,,Inter
+14,Milan,2022-10-22,Giornata n. 11,Casa,nan,,Monza
+10,Atalanta,2022-10-23,Giornata n. 11,Casa,nan,,Lazio
+12,Bologna,2022-10-23,Giornata n. 11,Casa,nan,,Lecce
+14,Roma,2022-10-23,Giornata n. 11,Casa,nan,,Napoli
+12,Udinese,2022-10-23,Giornata n. 11,Casa,nan,,Torino
+11,Sassuolo,2022-10-24,Giornata n. 11,Casa,nan,,Hellas Verona
+12,Cremonese,2022-10-24,Giornata n. 11,Casa,nan,,Sampdoria
+16,Inter,2022-10-29,Giornata n. 12,Casa,nan,,Sampdoria
+16,Napoli,2022-10-29,Giornata n. 12,Casa,nan,,Sassuolo
+12,Lecce,2022-10-29,Giornata n. 12,Casa,nan,,Juventus
+13,Torino,2022-10-30,Giornata n. 12,Casa,nan,,Milan
+13,Spezia,2022-10-30,Giornata n. 12,Casa,nan,,Fiorentina
+13,Cremonese,2022-10-30,Giornata n. 12,Casa,nan,,Udinese
+16,Lazio,2022-10-30,Giornata n. 12,Casa,nan,,Salernitana
+12,Empoli,2022-10-30,Giornata n. 12,Casa,nan,,Atalanta
+12,Hellas Verona,2022-10-31,Giornata n. 12,Casa,nan,,Roma
+13,Monza,2022-10-31,Giornata n. 12,Casa,nan,,Bologna
+14,Udinese,2022-11-04,Giornata n. 13,Casa,nan,,Lecce
+13,Empoli,2022-11-05,Giornata n. 13,Casa,nan,,Sassuolo
+12,Atalanta,2022-11-05,Giornata n. 13,Casa,nan,,Napoli
+18,Milan,2022-11-05,Giornata n. 13,Casa,nan,,Spezia
+13,Salernitana,2022-11-05,Giornata n. 13,Casa,nan,,Cremonese
+18,Juventus,2022-11-06,Giornata n. 13,Casa,nan,,Inter
+18,Roma,2022-11-06,Giornata n. 13,Casa,nan,,Lazio
+14,Sampdoria,2022-11-06,Giornata n. 13,Casa,nan,,Fiorentina
+14,Bologna,2022-11-06,Giornata n. 13,Casa,nan,,Torino
+14,Monza,2022-11-06,Giornata n. 13,Casa,nan,,Hellas Verona
+15,Spezia,2022-11-08,Giornata n. 14,Casa,nan,,Udinese
+19,Napoli,2022-11-08,Giornata n. 14,Casa,nan,,Empoli
+15,Cremonese,2022-11-08,Giornata n. 14,Casa,nan,,Milan
+15,Torino,2022-11-09,Giornata n. 14,Casa,nan,,Sampdoria
+14,Sassuolo,2022-11-09,Giornata n. 14,Casa,nan,,Roma
+21,Fiorentina,2022-11-09,Giornata n. 14,Casa,nan,,Salernitana
+14,Lecce,2022-11-09,Giornata n. 14,Casa,nan,,Atalanta
+19,Inter,2022-11-09,Giornata n. 14,Casa,nan,,Bologna
+14,Hellas Verona,2022-11-10,Giornata n. 14,Casa,nan,,Juventus
+19,Lazio,2022-11-10,Giornata n. 14,Casa,nan,,Monza
+15,Empoli,2022-11-11,Giornata n. 15,Casa,nan,,Cremonese
+20,Napoli,2022-11-12,Giornata n. 15,Casa,nan,,Udinese
+16,Sampdoria,2022-11-12,Giornata n. 15,Casa,nan,,Lecce
+16,Bologna,2022-11-12,Giornata n. 15,Casa,nan,,Sassuolo
+14,Atalanta,2022-11-13,Giornata n. 15,Casa,nan,,Inter
+20,Roma,2022-11-13,Giornata n. 15,Casa,nan,,Torino
+20,Milan,2022-11-13,Giornata n. 15,Casa,nan,,Fiorentina
+15,Hellas Verona,2022-11-13,Giornata n. 15,Casa,nan,,Spezia
+20,Juventus,2022-11-13,Giornata n. 15,Casa,nan,,Lazio
+16,Monza,2022-11-13,Giornata n. 15,Casa,nan,,Salernitana
+16,Lecce,2023-01-04,Giornata n. 16,Casa,nan,,Lazio
+21,Roma,2023-01-04,Giornata n. 16,Casa,nan,,Bologna
+16,Sassuolo,2023-01-04,Giornata n. 16,Casa,nan,,Sampdoria
+17,Udinese,2023-01-04,Giornata n. 16,Casa,nan,,Empoli
+21,Inter,2023-01-04,Giornata n. 16,Casa,nan,,Napoli
+17,Torino,2023-01-04,Giornata n. 16,Casa,nan,,Hellas Verona
+17,Spezia,2023-01-04,Giornata n. 16,Casa,nan,,Atalanta
+16,Salernitana,2023-01-04,Giornata n. 16,Casa,nan,,Milan
+17,Cremonese,2023-01-04,Giornata n. 16,Casa,nan,,Juventus
+23,Fiorentina,2023-01-04,Giornata n. 16,Casa,nan,,Monza
+22,Lazio,2023-01-08,Giornata n. 17,Casa,nan,,Empoli
+24,Fiorentina,2023-01-08,Giornata n. 17,Casa,nan,,Sassuolo
+17,Salernitana,2023-01-08,Giornata n. 17,Casa,nan,,Torino
+17,Hellas Verona,2023-01-08,Giornata n. 17,Casa,nan,,Cremonese
+18,Bologna,2023-01-08,Giornata n. 17,Casa,nan,,Atalanta
+18,Spezia,2023-01-08,Giornata n. 17,Casa,nan,,Lecce
+18,Sampdoria,2023-01-08,Giornata n. 17,Casa,nan,,Napoli
+18,Monza,2023-01-08,Giornata n. 17,Casa,nan,,Inter
+22,Milan,2023-01-08,Giornata n. 17,Casa,nan,,Roma
+22,Juventus,2023-01-08,Giornata n. 17,Casa,nan,,Udinese
+23,Napoli,2023-01-15,Giornata n. 18,Casa,nan,,Juventus
+19,Torino,2023-01-15,Giornata n. 18,Casa,nan,,Spezia
+18,Lecce,2023-01-15,Giornata n. 18,Casa,nan,,Milan
+18,Sassuolo,2023-01-15,Giornata n. 18,Casa,nan,,Lazio
+23,Roma,2023-01-15,Giornata n. 18,Casa,nan,,Fiorentina
+19,Udinese,2023-01-15,Giornata n. 18,Casa,nan,,Bologna
+17,Atalanta,2023-01-15,Giornata n. 18,Casa,nan,,Salernitana
+18,Empoli,2023-01-15,Giornata n. 18,Casa,nan,,Sampdoria
+23,Inter,2023-01-15,Giornata n. 18,Casa,nan,,Hellas Verona
+19,Cremonese,2023-01-15,Giornata n. 18,Casa,nan,,Monza
+26,Fiorentina,2023-01-22,Giornata n. 19,Casa,nan,,Torino
+20,Bologna,2023-01-22,Giornata n. 19,Casa,nan,,Cremonese
+24,Juventus,2023-01-22,Giornata n. 19,Casa,nan,,Atalanta
+19,Hellas Verona,2023-01-22,Giornata n. 19,Casa,nan,,Lecce
+20,Monza,2023-01-22,Giornata n. 19,Casa,nan,,Sassuolo
+20,Sampdoria,2023-01-22,Giornata n. 19,Casa,nan,,Udinese
+19,Salernitana,2023-01-22,Giornata n. 19,Casa,nan,,Napoli
+20,Spezia,2023-01-22,Giornata n. 19,Casa,nan,,Roma
+25,Inter,2023-01-22,Giornata n. 19,Casa,nan,,Empoli
+24,Lazio,2023-01-22,Giornata n. 19,Casa,nan,,Milan
+21,Bologna,2023-01-29,Giornata n. 20,Casa,nan,,Spezia
+26,Milan,2023-01-29,Giornata n. 20,Casa,nan,,Sassuolo
+20,Empoli,2023-01-29,Giornata n. 20,Casa,nan,,Torino
+25,Juventus,2023-01-29,Giornata n. 20,Casa,nan,,Monza
+21,Udinese,2023-01-29,Giornata n. 20,Casa,nan,,Hellas Verona
+25,Napoli,2023-01-29,Giornata n. 20,Casa,nan,,Roma
+20,Lecce,2023-01-29,Giornata n. 20,Casa,nan,,Salernitana
+19,Atalanta,2023-01-29,Giornata n. 20,Casa,nan,,Sampdoria
+25,Lazio,2023-01-29,Giornata n. 20,Casa,nan,,Fiorentina
+21,Cremonese,2023-01-29,Giornata n. 20,Casa,nan,,Inter
+27,Inter,2023-02-05,Giornata n. 21,Casa,nan,,Milan
+28,Fiorentina,2023-02-05,Giornata n. 21,Casa,nan,,Bologna
+22,Cremonese,2023-02-05,Giornata n. 21,Casa,nan,,Lecce
+21,Sassuolo,2023-02-05,Giornata n. 21,Casa,nan,,Atalanta
+21,Hellas Verona,2023-02-05,Giornata n. 21,Casa,nan,,Lazio
+22,Spezia,2023-02-05,Giornata n. 21,Casa,nan,,Napoli
+26,Roma,2023-02-05,Giornata n. 21,Casa,nan,,Empoli
+22,Monza,2023-02-05,Giornata n. 21,Casa,nan,,Sampdoria
+21,Salernitana,2023-02-05,Giornata n. 21,Casa,nan,,Juventus
+22,Torino,2023-02-05,Giornata n. 21,Casa,nan,,Udinese
+28,Milan,2023-02-12,Giornata n. 22,Casa,nan,,Torino
+27,Lazio,2023-02-12,Giornata n. 22,Casa,nan,,Atalanta
+22,Empoli,2023-02-12,Giornata n. 22,Casa,nan,,Spezia
+23,Sampdoria,2023-02-12,Giornata n. 22,Casa,nan,,Inter
+22,Hellas Verona,2023-02-12,Giornata n. 22,Casa,nan,,Salernitana
+23,Udinese,2023-02-12,Giornata n. 22,Casa,nan,,Sassuolo
+22,Lecce,2023-02-12,Giornata n. 22,Casa,nan,,Roma
+27,Napoli,2023-02-12,Giornata n. 22,Casa,nan,,Cremonese
+23,Bologna,2023-02-12,Giornata n. 22,Casa,nan,,Monza
+27,Juventus,2023-02-12,Giornata n. 22,Casa,nan,,Fiorentina
+24,Spezia,2023-02-19,Giornata n. 23,Casa,nan,,Juventus
+24,Monza,2023-02-19,Giornata n. 23,Casa,nan,,Milan
+23,Salernitana,2023-02-19,Giornata n. 23,Casa,nan,,Lazio
+24,Torino,2023-02-19,Giornata n. 23,Casa,nan,,Cremonese
+23,Sassuolo,2023-02-19,Giornata n. 23,Casa,nan,,Napoli
+24,Sampdoria,2023-02-19,Giornata n. 23,Casa,nan,,Bologna
+22,Atalanta,2023-02-19,Giornata n. 23,Casa,nan,,Lecce
+28,Roma,2023-02-19,Giornata n. 23,Casa,nan,,Hellas Verona
+29,Inter,2023-02-19,Giornata n. 23,Casa,nan,,Udinese
+30,Fiorentina,2023-02-19,Giornata n. 23,Casa,nan,,Empoli
+24,Hellas Verona,2023-02-26,Giornata n. 24,Casa,nan,,Fiorentina
+24,Lecce,2023-02-26,Giornata n. 24,Casa,nan,,Sassuolo
+25,Udinese,2023-02-26,Giornata n. 24,Casa,nan,,Spezia
+24,Empoli,2023-02-26,Giornata n. 24,Casa,nan,,Napoli
+25,Cremonese,2023-02-26,Giornata n. 24,Casa,nan,,Roma
+25,Bologna,2023-02-26,Giornata n. 24,Casa,nan,,Inter
+24,Salernitana,2023-02-26,Giornata n. 24,Casa,nan,,Monza
+29,Lazio,2023-02-26,Giornata n. 24,Casa,nan,,Sampdoria
+29,Juventus,2023-02-26,Giornata n. 24,Casa,nan,,Torino
+30,Milan,2023-02-26,Giornata n. 24,Casa,nan,,Atalanta
+26,Monza,2023-03-05,Giornata n. 25,Casa,nan,,Empoli
+26,Torino,2023-03-05,Giornata n. 25,Casa,nan,,Bologna
+26,Sampdoria,2023-03-05,Giornata n. 25,Casa,nan,,Salernitana
+25,Sassuolo,2023-03-05,Giornata n. 25,Casa,nan,,Cremonese
+32,Fiorentina,2023-03-05,Giornata n. 25,Casa,nan,,Milan
+30,Roma,2023-03-05,Giornata n. 25,Casa,nan,,Juventus
+31,Inter,2023-03-05,Giornata n. 25,Casa,nan,,Lecce
+30,Napoli,2023-03-05,Giornata n. 25,Casa,nan,,Lazio
+24,Atalanta,2023-03-05,Giornata n. 25,Casa,nan,,Udinese
+26,Spezia,2023-03-05,Giornata n. 25,Casa,nan,,Hellas Verona
+31,Roma,2023-03-12,Giornata n. 26,Casa,nan,,Sassuolo
+32,Milan,2023-03-12,Giornata n. 26,Casa,nan,,Salernitana
+27,Spezia,2023-03-12,Giornata n. 26,Casa,nan,,Inter
+31,Juventus,2023-03-12,Giornata n. 26,Casa,nan,,Sampdoria
+27,Cremonese,2023-03-12,Giornata n. 26,Casa,nan,,Fiorentina
+27,Bologna,2023-03-12,Giornata n. 26,Casa,nan,,Lazio
+26,Lecce,2023-03-12,Giornata n. 26,Casa,nan,,Torino
+26,Empoli,2023-03-12,Giornata n. 26,Casa,nan,,Udinese
+31,Napoli,2023-03-12,Giornata n. 26,Casa,nan,,Atalanta
+26,Hellas Verona,2023-03-12,Giornata n. 26,Casa,nan,,Monza
+34,Fiorentina,2023-03-19,Giornata n. 27,Casa,nan,,Lecce
+28,Sampdoria,2023-03-19,Giornata n. 27,Casa,nan,,Hellas Verona
+27,Salernitana,2023-03-19,Giornata n. 27,Casa,nan,,Bologna
+33,Inter,2023-03-19,Giornata n. 27,Casa,nan,,Juventus
+28,Monza,2023-03-19,Giornata n. 27,Casa,nan,,Cremonese
+32,Lazio,2023-03-19,Giornata n. 27,Casa,nan,,Roma
+28,Udinese,2023-03-19,Giornata n. 27,Casa,nan,,Milan
+27,Sassuolo,2023-03-19,Giornata n. 27,Casa,nan,,Spezia
+26,Atalanta,2023-03-19,Giornata n. 27,Casa,nan,,Empoli
+28,Torino,2023-03-19,Giornata n. 27,Casa,nan,,Napoli
+33,Juventus,2023-04-02,Giornata n. 28,Casa,nan,,Hellas Verona
+29,Spezia,2023-04-02,Giornata n. 28,Casa,nan,,Salernitana
+33,Roma,2023-04-02,Giornata n. 28,Casa,nan,,Sampdoria
+29,Bologna,2023-04-02,Giornata n. 28,Casa,nan,,Udinese
+34,Inter,2023-04-02,Giornata n. 28,Casa,nan,,Fiorentina
+33,Napoli,2023-04-02,Giornata n. 28,Casa,nan,,Milan
+28,Sassuolo,2023-04-02,Giornata n. 28,Casa,nan,,Torino
+29,Cremonese,2023-04-02,Giornata n. 28,Casa,nan,,Atalanta
+29,Monza,2023-04-02,Giornata n. 28,Casa,nan,,Lazio
+28,Empoli,2023-04-02,Giornata n. 28,Casa,nan,,Lecce
+30,Sampdoria,2023-04-08,Giornata n. 29,Casa,nan,,Cremonese
+30,Torino,2023-04-08,Giornata n. 29,Casa,nan,,Roma
+28,Atalanta,2023-04-08,Giornata n. 29,Casa,nan,,Bologna
+29,Lecce,2023-04-08,Giornata n. 29,Casa,nan,,Napoli
+29,Hellas Verona,2023-04-08,Giornata n. 29,Casa,nan,,Sassuolo
+35,Milan,2023-04-08,Giornata n. 29,Casa,nan,,Empoli
+30,Udinese,2023-04-08,Giornata n. 29,Casa,nan,,Monza
+29,Salernitana,2023-04-08,Giornata n. 29,Casa,nan,,Inter
+34,Lazio,2023-04-08,Giornata n. 29,Casa,nan,,Juventus
+36,Fiorentina,2023-04-08,Giornata n. 29,Casa,nan,,Spezia
+31,Cremonese,2023-04-16,Giornata n. 30,Casa,nan,,Empoli
+31,Bologna,2023-04-16,Giornata n. 30,Casa,nan,,Milan
+35,Roma,2023-04-16,Giornata n. 30,Casa,nan,,Udinese
+30,Sassuolo,2023-04-16,Giornata n. 30,Casa,nan,,Juventus
+31,Spezia,2023-04-16,Giornata n. 30,Casa,nan,,Lazio
+36,Inter,2023-04-16,Giornata n. 30,Casa,nan,,Monza
+30,Lecce,2023-04-16,Giornata n. 30,Casa,nan,,Sampdoria
+35,Napoli,2023-04-16,Giornata n. 30,Casa,nan,,Hellas Verona
+31,Torino,2023-04-16,Giornata n. 30,Casa,nan,,Salernitana
+37,Fiorentina,2023-04-16,Giornata n. 30,Casa,nan,,Atalanta
+32,Udinese,2023-04-23,Giornata n. 31,Casa,nan,,Cremonese
+36,Juventus,2023-04-23,Giornata n. 31,Casa,nan,,Napoli
+37,Milan,2023-04-23,Giornata n. 31,Casa,nan,,Lecce
+30,Atalanta,2023-04-23,Giornata n. 31,Casa,nan,,Roma
+32,Monza,2023-04-23,Giornata n. 31,Casa,nan,,Fiorentina
+36,Lazio,2023-04-23,Giornata n. 31,Casa,nan,,Torino
+31,Empoli,2023-04-23,Giornata n. 31,Casa,nan,,Inter
+32,Sampdoria,2023-04-23,Giornata n. 31,Casa,nan,,Spezia
+31,Salernitana,2023-04-23,Giornata n. 31,Casa,nan,,Sassuolo
+31,Hellas Verona,2023-04-23,Giornata n. 31,Casa,nan,,Bologna
+32,Sassuolo,2023-04-30,Giornata n. 32,Casa,nan,,Empoli
+38,Inter,2023-04-30,Giornata n. 32,Casa,nan,,Lazio
+33,Torino,2023-04-30,Giornata n. 32,Casa,nan,,Atalanta
+37,Napoli,2023-04-30,Giornata n. 32,Casa,nan,,Salernitana
+33,Bologna,2023-04-30,Giornata n. 32,Casa,nan,,Juventus
+33,Cremonese,2023-04-30,Giornata n. 32,Casa,nan,,Hellas Verona
+37,Roma,2023-04-30,Giornata n. 32,Casa,nan,,Milan
+32,Lecce,2023-04-30,Giornata n. 32,Casa,nan,,Udinese
+39,Fiorentina,2023-04-30,Giornata n. 32,Casa,nan,,Sampdoria
+33,Spezia,2023-04-30,Giornata n. 32,Casa,nan,,Monza
+39,Milan,2023-05-03,Giornata n. 33,Casa,nan,,Cremonese
+34,Sampdoria,2023-05-03,Giornata n. 33,Casa,nan,,Torino
+33,Salernitana,2023-05-03,Giornata n. 33,Casa,nan,,Fiorentina
+33,Empoli,2023-05-03,Giornata n. 33,Casa,nan,,Bologna
+38,Juventus,2023-05-03,Giornata n. 33,Casa,nan,,Lecce
+38,Lazio,2023-05-03,Giornata n. 33,Casa,nan,,Sassuolo
+32,Atalanta,2023-05-03,Giornata n. 33,Casa,nan,,Spezia
+34,Monza,2023-05-03,Giornata n. 33,Casa,nan,,Roma
+33,Hellas Verona,2023-05-03,Giornata n. 33,Casa,nan,,Inter
+34,Udinese,2023-05-03,Giornata n. 33,Casa,nan,,Napoli
+40,Milan,2023-05-07,Giornata n. 34,Casa,nan,,Lazio
+33,Atalanta,2023-05-07,Giornata n. 34,Casa,nan,,Juventus
+34,Sassuolo,2023-05-07,Giornata n. 34,Casa,nan,,Bologna
+39,Napoli,2023-05-07,Giornata n. 34,Casa,nan,,Fiorentina
+35,Torino,2023-05-07,Giornata n. 34,Casa,nan,,Monza
+35,Cremonese,2023-05-07,Giornata n. 34,Casa,nan,,Spezia
+34,Lecce,2023-05-07,Giornata n. 34,Casa,nan,,Hellas Verona
+39,Roma,2023-05-07,Giornata n. 34,Casa,nan,,Inter
+34,Empoli,2023-05-07,Giornata n. 34,Casa,nan,,Salernitana
+35,Udinese,2023-05-07,Giornata n. 34,Casa,nan,,Sampdoria
+40,Juventus,2023-05-14,Giornata n. 35,Casa,nan,,Cremonese
+36,Monza,2023-05-14,Giornata n. 35,Casa,nan,,Napoli
+40,Lazio,2023-05-14,Giornata n. 35,Casa,nan,,Lecce
+36,Spezia,2023-05-14,Giornata n. 35,Casa,nan,,Milan
+41,Inter,2023-05-14,Giornata n. 35,Casa,nan,,Sassuolo
+36,Bologna,2023-05-14,Giornata n. 35,Casa,nan,,Roma
+35,Salernitana,2023-05-14,Giornata n. 35,Casa,nan,,Atalanta
+42,Fiorentina,2023-05-14,Giornata n. 35,Casa,nan,,Udinese
+35,Hellas Verona,2023-05-14,Giornata n. 35,Casa,nan,,Torino
+36,Sampdoria,2023-05-14,Giornata n. 35,Casa,nan,,Empoli
+36,Sassuolo,2023-05-21,Giornata n. 36,Casa,nan,,Monza
+37,Torino,2023-05-21,Giornata n. 36,Casa,nan,,Fiorentina
+41,Napoli,2023-05-21,Giornata n. 36,Casa,nan,,Inter
+42,Milan,2023-05-21,Giornata n. 36,Casa,nan,,Sampdoria
+37,Udinese,2023-05-21,Giornata n. 36,Casa,nan,,Lazio
+41,Roma,2023-05-21,Giornata n. 36,Casa,nan,,Salernitana
+35,Atalanta,2023-05-21,Giornata n. 36,Casa,nan,,Hellas Verona
+36,Empoli,2023-05-21,Giornata n. 36,Casa,nan,,Juventus
+36,Lecce,2023-05-21,Giornata n. 36,Casa,nan,,Spezia
+37,Cremonese,2023-05-21,Giornata n. 36,Casa,nan,,Bologna
+42,Lazio,2023-05-28,Giornata n. 37,Casa,nan,,Cremonese
+38,Sampdoria,2023-05-28,Giornata n. 37,Casa,nan,,Sassuolo
+38,Spezia,2023-05-28,Giornata n. 37,Casa,nan,,Torino
+42,Juventus,2023-05-28,Giornata n. 37,Casa,nan,,Milan
+37,Hellas Verona,2023-05-28,Giornata n. 37,Casa,nan,,Empoli
+38,Monza,2023-05-28,Giornata n. 37,Casa,nan,,Lecce
+38,Bologna,2023-05-28,Giornata n. 37,Casa,nan,,Napoli
+43,Inter,2023-05-28,Giornata n. 37,Casa,nan,,Atalanta
+44,Fiorentina,2023-05-28,Giornata n. 37,Casa,nan,,Roma
+37,Salernitana,2023-05-28,Giornata n. 37,Casa,nan,,Udinese
+38,Lecce,2023-06-04,Giornata n. 38,Casa,nan,,Bologna
+38,Sassuolo,2023-06-04,Giornata n. 38,Casa,nan,,Fiorentina
+43,Roma,2023-06-04,Giornata n. 38,Casa,nan,,Spezia
+43,Napoli,2023-06-04,Giornata n. 38,Casa,nan,,Sampdoria
+44,Milan,2023-06-04,Giornata n. 38,Casa,nan,,Hellas Verona
+38,Empoli,2023-06-04,Giornata n. 38,Casa,nan,,Lazio
+39,Cremonese,2023-06-04,Giornata n. 38,Casa,nan,,Salernitana
+37,Atalanta,2023-06-04,Giornata n. 38,Casa,nan,,Monza
+39,Torino,2023-06-04,Giornata n. 38,Casa,nan,,Inter
+39,Udinese,2023-06-04,Giornata n. 38,Casa,nan,,Juventus

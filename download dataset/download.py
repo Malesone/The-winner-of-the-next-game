@@ -7,6 +7,7 @@ import pathlib
 from tqdm import tqdm
 from queue import Empty
 from datetime import datetime
+from IPython.display import display
 
 class DownloadDati:
     """
@@ -74,6 +75,7 @@ class DownloadDati:
 
             matches = self.get_old_matches(matches)
             #ha senso prendere solo le partite che sono già state giocate, quelle con il risultato nullo (nan) significa che non sono ancora state giocate, quindi vengono "scartate"
+            
             self.get_stats_matches(matches, href_links) 
             
     def get_old_matches(self, matches):
@@ -128,7 +130,6 @@ class DownloadDati:
         self.all_matches.to_csv(path) #matches for each team
 
     def save_championship_games(self, path):
-        path = 'files/Serie A/22_23 championship_matches.csv'
         self.championship_games.rename(columns=self.rename_fields, inplace=True)
         self.championship_games = self.championship_games[self.championship_games.stadium=='Casa']
         self.championship_games['date'] = pd.to_datetime(self.championship_games['date'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
@@ -147,19 +148,12 @@ class DownloadDati:
             - il nome della sezione html che permette di accedere al dataset
             - le colonne utili da estrarre dai dataset per ottenere le statistiche utili
         """
+        #array = ['completed_passings','total_passings', 'corners']
+
         self.util_hrefs = {
             'all_comps/shooting/': {
                 'section': 'Tiri',
                 'columns': ['Data', 'Tiri','Tiri.1','Rigori','Rig T']
-                },
-            'all_comps/passing/': {
-                'section': 'Passaggi',
-                'columns': ['Data', 'Compl.', 'Tent,']
-                },
-                
-            'all_comps/passing_types': {
-                'section': 'Tipologie di passaggi',
-                'columns': ['Data', 'Angoli']
                 },
             'all_comps/possession': {
                 'section': 'Possesso palla',
@@ -168,7 +162,19 @@ class DownloadDati:
             'all_comps/misc': {
                 'section': 'Statistiche varie',
                 'columns': ['Data', 'Falli', 'Amm.', 'Esp.']
-                },
+                }
+            
         }
+        """
+        Vecchie sezioni che mi hanno fatto ottenere un'accuratezza minore
+        'all_comps/passing/': {
+            'section': 'Passaggi',
+            'columns': ['Data', 'Compl.', 'Tent,']
+            },
+        'all_comps/passing_types': {
+            'section': 'Tipologie di passaggi',
+            'columns': ['Data', 'Angoli']
+            },
+        """
 
    

@@ -14,8 +14,20 @@ class FootballPredictions:
         self.format_date = '%d-%m-%Y'
         self.headers = {'User-Agent': 
                 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
-        self.matches = matches[['home', 'away', 'date', 'result']]
+        self.matches = matches[['home', 'away', 'date']]
         self.originalNotation = sorted(self.matches.home.unique())
+
+    def add_awayNotation(self):
+        aways = sorted(self.matches.away.unique())
+        self.originalNotation.append(aways)
+        self.originalNotation = self.flatten(self.originalNotation)
+
+    def flatten(self, list_of_lists):
+        if len(list_of_lists) == 0:
+            return list_of_lists
+        if isinstance(list_of_lists[0], list):
+            return self.flatten(list_of_lists[0]) + self.flatten(list_of_lists[1:])
+        return list_of_lists[:1] + self.flatten(list_of_lists[1:])
 
 ### INIZIO ___________ GESTIONE URL PER DATA
     def get_urls(self):
@@ -51,7 +63,7 @@ class FootballPredictions:
             json.dump(self.links_of_pages_by_date,fp, indent=4) 
 
     def read_urls(self):
-        file_links = open('files/keyDate_valueLinks.json')  
+        file_links = open('../files/keyDat_valueLinks.json')  
         self.links_of_pages_by_date = json.load(file_links)
         file_links.close()
 ### FINE ___________ GESTIONE URL PER DATA
@@ -135,7 +147,7 @@ class FootballPredictions:
 
     ### INIZIO ___________ FIX PREDIZIONI MANCANTI
     def read_all_predictions(self, cleaned):
-        file = "files/all_descriptive_prediction.csv" if cleaned != True else "files/cleaned_descriptive_predictions.csv"
+        file = "temp/all_descriptive_prediction.csv" if cleaned != True else "files/cleaned_descriptive_predictions.csv"
         self.df = pd.read_csv(file, index_col=0)
     
     def recovery_games(self):
@@ -147,6 +159,7 @@ class FootballPredictions:
         recoveries = self.df.copy()
         for k, match in self.matches.iterrows():
             h_team, a_team = match.home, match.away
+    
             recovery = recoveries[(recoveries['home']==h_team) & (recoveries['away']==a_team)]
             if len(recovery) > 1:
                 recoveries.drop((recoveries[(recoveries['home']==h_team) & (recoveries['away']==a_team)])[:1].index, inplace=True)
@@ -169,6 +182,7 @@ class FootballPredictions:
         Bisogna cercare nel giorno della partita e cercare nella relativa pagina l'href che contiene la partita.
         """
         count = len(self.recoveries)
+        
         for k, res in self.matches.iterrows():
             if len(self.recoveries[(self.recoveries['home']==res.home) & (self.recoveries['away']==res.away)]) < 1:
                 
@@ -199,6 +213,9 @@ class FootballPredictions:
         """Ho visto che alcune date non combaciano, in quanto su football predictions alcune date sono sballate (non combaciano al giorno stesso effettivo della partita, ma al giorno precedente) quindi per fare il match tra i due dataset (questo con le descrizioni delle predizioni e quello del match con la data corretta) devo considerare squadra home e away.
         """
         self.df = pd.merge(self.matches, self.recoveries[['home','away', 'description', 'prediction']], on=['home', 'away'])
+        self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')
+        self.df.sort_values(by=['date'], inplace=True)
+
         self.df.to_csv('files/cleaned_descriptive_predictions.csv')
     ### FINE ___________ FIX PREDIZIONI MANCANTI
 ### FINE ___________ DOWNLOAD PREDIZIONI

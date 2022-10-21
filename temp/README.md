@@ -43,3 +43,10 @@ Da qui poi vado a cancellare i relativi record per cui non ho trovato le predizi
 # Integrazione dataset
 Le statistiche sono già composte, devo integrare le etichette di predizione che vengono ottenute dall'analisi del testo.
 
+
+# ORDINE ESECUZIONE
+Per poter effettuare l'intero procedimento, devo scaricare le statistiche per la stagione attuale:
+- download.ipynb
+
+Lo script salva un "statistics.csv".
+

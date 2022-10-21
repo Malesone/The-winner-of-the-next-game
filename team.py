@@ -13,6 +13,7 @@ class Team:
             if X < len(rows):
                 rows = rows[-X:]
             averages = rows[avg_features].mean()
+
         return averages, change
 
     def get_avg_all_matches(self, date, avg_features):

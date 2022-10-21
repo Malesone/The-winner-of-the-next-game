@@ -1,18 +1,30 @@
 {
     "Atalanta": [
         "Orobici", "Dea", "Neroazzurri", "Atalanta"
+    ], 
+    "Benevento": [
+        "Stregoni", "Streghe", "Streghette", "Benevento"
+    ],
+    "Brescia": [
+        "Rondinelle", "Brescia"
     ],
     "Bologna": [
         "Petroniani", "Felsinei", "Veltri", "Rossoblu", "Bologna"
     ],
     "Cagliari": [
-        "I rossoblu", "Casteddu", "isolani", "Cagliari"
+        "I rossoblu", "Casteddu", "isolani", "Cagliari", "Rossoblu"
     ],
     "Carpi": [
         "Falconi", "Chèrp", "Biancorossi", "Carpi"
     ],
     "Chievo": [
         "Clivensi", "Squadra della diga", "Mussi volanti", "Chievo"
+    ],
+    "Cremonese": [
+        "Grigiorossi", "Cremonese"
+    ],
+    "Crotone": [
+        "Rossoblu", "Gli Squali", "Crotone"
     ],
     "Empoli": [
         "Azzurri", "Empoli"
@@ -35,8 +47,14 @@
     "Lazio": [
         "Aquile", "Biancocelesti", "Lazio"
     ],
+    "Lecce": [
+        "Giallorossi", "Salentini", "Lupi", "Lecce"
+    ],
     "Milan": [
         "Meneghini", "Rossoneri", "Casciavìt", "Diavolo", "Milan"
+    ],
+    "Monza": [
+        "Brianzoli", "Biancorossi", "Bagai", "Monza"
     ],
     "Napoli": [
         "Partenopei", "Azzurri", "Napoli", "Neapolitans"
@@ -44,14 +62,26 @@
     "Palermo": [
         "Rosanero", "Aquile", "Palermo"
     ],
+    "Parma": [
+        "Crociati", "Ducali", "Parma"
+    ],
     "Roma": [
         "Giallorossi", "Maggica", "Lupa", "Capitolini", "Roma"
+    ],
+    "Salernitana": [
+        "Granata", "Salernitana"
     ],
     "Sampdoria": [
         "Blucerchiati", "Doriani", "Sampdoria", "Samp" 
     ],
     "Sassuolo": [
         "Neroverdi", "Sasòl", "Sassuolo"
+    ],
+    "SPAL": [
+        "Estensi", "Spallini", "Biancazzurri", "SPAL"
+    ],
+    "Spezia": [
+        "Gli aquilotti", "Aquile", "Spezia"
     ],
     "Torino": [
         "Granata", "Toro", "Torino"

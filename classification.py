@@ -19,10 +19,10 @@ class Classification:
     def create_models(self):
         self.models = []
         self.models.extend([
-            #Model('Logistic Regression', LogisticRegression(max_iter=10000)),
+            Model('Logistic Regression', LogisticRegression(max_iter=10000)),
             #Model('Support Vector Machine', SVC()),
             #Model('Decision Tree', DecisionTreeClassifier()),
-            Model('Random Forest', RandomForestClassifier()),
+            #Model('Random Forest', RandomForestClassifier()),
             #Model('K-Nearest Neighbors', KNeighborsClassifier())
         ])
 
@@ -63,7 +63,5 @@ class Classification:
     def open_model(self, path):
         loaded_model = pickle.load(open(path, 'rb'))
         model = Model("Decision Tree", loaded_model)
-        model.predict(self.X_test, self.y_test)
-        model.generate_report()
         return model
         #self.E = pd.DataFrame(E).set_index('Model', inplace=False)

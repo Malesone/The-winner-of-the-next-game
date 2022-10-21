@@ -1,0 +1,381 @@
+,team1,date,matchday,stadium,result,goals,team2
+1,Fiorentina,2019-08-24,Giornata n. 1,Casa,P,3,Napoli
+1,Parma,2019-08-24,Giornata n. 1,Casa,P,0,Juventus
+1,Udinese,2019-08-25,Giornata n. 1,Casa,V,1,Milan
+5,Torino,2019-08-25,Giornata n. 1,Casa,V,2,Sassuolo
+1,Sampdoria,2019-08-25,Giornata n. 1,Casa,P,0,Lazio
+1,SPAL,2019-08-25,Giornata n. 1,Casa,P,2,Atalanta
+0,Roma,2019-08-25,Giornata n. 1,Casa,N,3.0,Genoa
+1,Hellas Verona,2019-08-25,Giornata n. 1,Casa,N,1,Bologna
+1,Cagliari,2019-08-25,Giornata n. 1,Casa,P,0,Brescia
+0,Inter,2019-08-26,Giornata n. 1,Casa,V,4.0,Lecce
+2,Bologna,2019-08-30,Giornata n. 2,Casa,V,1,SPAL
+1,Juventus,2019-08-31,Giornata n. 2,Casa,V,4,Napoli
+1,Milan,2019-08-31,Giornata n. 2,Casa,V,1,Brescia
+2,Lecce,2019-09-01,Giornata n. 2,Casa,P,0,Hellas Verona
+2,Genoa,2019-09-01,Giornata n. 2,Casa,V,2,Fiorentina
+2,Sassuolo,2019-09-01,Giornata n. 2,Casa,V,4,Sampdoria
+2,Cagliari,2019-09-01,Giornata n. 2,Casa,P,1,Inter
+1,Lazio,2019-09-01,Giornata n. 2,Casa,N,1,Roma
+2,Udinese,2019-09-01,Giornata n. 2,Casa,P,1,Parma
+1,Atalanta,2019-09-01,Giornata n. 2,Casa,P,2,Torino
+3,Fiorentina,2019-09-14,Giornata n. 3,Casa,N,0,Juventus
+2,Napoli,2019-09-14,Giornata n. 3,Casa,V,2,Sampdoria
+2,Inter,2019-09-14,Giornata n. 3,Casa,V,1.0,Udinese
+2,Roma,2019-09-15,Giornata n. 3,Casa,V,4.0,Sassuolo
+3,SPAL,2019-09-15,Giornata n. 3,Casa,V,2,Lazio
+3,Genoa,2019-09-15,Giornata n. 3,Casa,P,1,Atalanta
+3,Parma,2019-09-15,Giornata n. 3,Casa,P,1,Cagliari
+3,Brescia,2019-09-15,Giornata n. 3,Casa,P,3,Bologna
+3,Hellas Verona,2019-09-15,Giornata n. 3,Casa,P,0,Milan
+8,Torino,2019-09-16,Giornata n. 3,Casa,P,1,Lecce
+4,Cagliari,2019-09-20,Giornata n. 4,Casa,V,3,Genoa
+4,Juventus,2019-09-21,Giornata n. 4,Casa,V,2,Hellas Verona
+3,Milan,2019-09-21,Giornata n. 4,Casa,P,0,Inter
+4,Udinese,2019-09-21,Giornata n. 4,Casa,P,0,Brescia
+4,Sampdoria,2019-09-22,Giornata n. 4,Casa,V,1,Torino
+4,Bologna,2019-09-22,Giornata n. 4,Casa,P,1,Roma
+4,Lecce,2019-09-22,Giornata n. 4,Casa,P,1,Napoli
+4,Lazio,2019-09-22,Giornata n. 4,Casa,V,2,Parma
+4,Atalanta,2019-09-22,Giornata n. 4,Casa,N,2,Fiorentina
+4,Sassuolo,2019-09-22,Giornata n. 4,Casa,V,3,SPAL
+5,Hellas Verona,2019-09-24,Giornata n. 5,Casa,N,0,Udinese
+5,Brescia,2019-09-24,Giornata n. 5,Casa,P,1,Juventus
+5,Parma,2019-09-25,Giornata n. 5,Casa,V,1,Sassuolo
+5,Roma,2019-09-25,Giornata n. 5,Casa,P,0.0,Atalanta
+5,Napoli,2019-09-25,Giornata n. 5,Casa,P,0,Cagliari
+5,Inter,2019-09-25,Giornata n. 5,Casa,V,1.0,Lazio
+5,SPAL,2019-09-25,Giornata n. 5,Casa,P,1,Lecce
+5,Fiorentina,2019-09-25,Giornata n. 5,Casa,V,2,Sampdoria
+5,Genoa,2019-09-25,Giornata n. 5,Casa,N,0,Bologna
+10,Torino,2019-09-26,Giornata n. 5,Casa,V,2,Milan
+6,Sampdoria,2019-09-28,Giornata n. 6,Casa,P,1,Inter
+6,Juventus,2019-09-28,Giornata n. 6,Casa,V,2,SPAL
+6,Sassuolo,2019-09-28,Giornata n. 6,Casa,P,1,Atalanta
+6,Napoli,2019-09-29,Giornata n. 6,Casa,V,2,Brescia
+5,Milan,2019-09-29,Giornata n. 6,Casa,P,1,Fiorentina
+6,Udinese,2019-09-29,Giornata n. 6,Casa,V,1,Bologna
+6,Lecce,2019-09-29,Giornata n. 6,Casa,P,0,Roma
+6,Cagliari,2019-09-29,Giornata n. 6,Casa,N,1,Hellas Verona
+6,Lazio,2019-09-29,Giornata n. 6,Casa,V,4,Genoa
+6,Parma,2019-09-30,Giornata n. 6,Casa,V,3,Torino
+7,Hellas Verona,2019-10-05,Giornata n. 7,Casa,V,2,Sampdoria
+7,Genoa,2019-10-05,Giornata n. 7,Casa,P,1,Milan
+7,SPAL,2019-10-05,Giornata n. 7,Casa,V,1,Parma
+8,Roma,2019-10-06,Giornata n. 7,Casa,N,1.0,Cagliari
+8,Atalanta,2019-10-06,Giornata n. 7,Casa,V,3,Lecce
+7,Bologna,2019-10-06,Giornata n. 7,Casa,N,2,Lazio
+7,Fiorentina,2019-10-06,Giornata n. 7,Casa,V,1,Udinese
+8,Inter,2019-10-06,Giornata n. 7,Casa,P,1.0,Juventus
+12,Torino,2019-10-06,Giornata n. 7,Casa,N,0,Napoli
+9,Juventus,2019-10-19,Giornata n. 8,Casa,V,2,Bologna
+9,Lazio,2019-10-19,Giornata n. 8,Casa,N,3,Atalanta
+9,Napoli,2019-10-19,Giornata n. 8,Casa,V,2,Hellas Verona
+8,Parma,2019-10-20,Giornata n. 8,Casa,V,5,Genoa
+8,Cagliari,2019-10-20,Giornata n. 8,Casa,V,2,SPAL
+7,Sassuolo,2019-10-20,Giornata n. 8,Casa,P,3,Inter
+8,Sampdoria,2019-10-20,Giornata n. 8,Casa,N,0,Roma
+7,Milan,2019-10-20,Giornata n. 8,Casa,N,2,Lecce
+8,Udinese,2019-10-20,Giornata n. 8,Casa,V,1,Torino
+7,Brescia,2019-10-21,Giornata n. 8,Casa,N,0,Fiorentina
+9,Hellas Verona,2019-10-25,Giornata n. 9,Casa,P,0,Sassuolo
+11,Inter,2019-10-26,Giornata n. 9,Casa,N,2.0,Parma
+9,Genoa,2019-10-26,Giornata n. 9,Casa,V,3,Brescia
+9,Lecce,2019-10-26,Giornata n. 9,Casa,N,1,Juventus
+9,Bologna,2019-10-27,Giornata n. 9,Casa,V,2,Sampdoria
+9,SPAL,2019-10-27,Giornata n. 9,Casa,N,1,Napoli
+11,Roma,2019-10-27,Giornata n. 9,Casa,V,2.0,Milan
+11,Atalanta,2019-10-27,Giornata n. 9,Casa,V,7,Udinese
+9,Fiorentina,2019-10-27,Giornata n. 9,Casa,P,1,Lazio
+14,Torino,2019-10-27,Giornata n. 9,Casa,N,1,Cagliari
+10,Parma,2019-10-29,Giornata n. 10,Casa,P,0,Hellas Verona
+9,Brescia,2019-10-29,Giornata n. 10,Casa,P,1,Inter
+12,Juventus,2019-10-30,Giornata n. 10,Casa,V,2,Genoa
+12,Napoli,2019-10-30,Giornata n. 10,Casa,N,2,Atalanta
+12,Lazio,2019-10-30,Giornata n. 10,Casa,V,4,Torino
+10,Udinese,2019-10-30,Giornata n. 10,Casa,P,0,Roma
+9,Sassuolo,2019-10-30,Giornata n. 10,Casa,P,1,Fiorentina
+10,Sampdoria,2019-10-30,Giornata n. 10,Casa,N,1,Lecce
+10,Cagliari,2019-10-30,Giornata n. 10,Casa,V,3,Bologna
+9,Milan,2019-10-31,Giornata n. 10,Casa,V,1,SPAL
+16,Torino,2019-11-02,Giornata n. 11,Casa,P,0,Juventus
+11,Bologna,2019-11-02,Giornata n. 11,Casa,P,1,Inter
+13,Roma,2019-11-02,Giornata n. 11,Casa,V,2.0,Napoli
+11,Lecce,2019-11-03,Giornata n. 11,Casa,N,2,Sassuolo
+11,Genoa,2019-11-03,Giornata n. 11,Casa,P,1,Udinese
+13,Atalanta,2019-11-03,Giornata n. 11,Casa,P,0,Cagliari
+11,Hellas Verona,2019-11-03,Giornata n. 11,Casa,V,2,Brescia
+11,Fiorentina,2019-11-03,Giornata n. 11,Casa,N,1,Parma
+10,Milan,2019-11-03,Giornata n. 11,Casa,P,1,Lazio
+11,SPAL,2019-11-04,Giornata n. 11,Casa,P,0,Sampdoria
+11,Sassuolo,2019-11-08,Giornata n. 12,Casa,V,3,Bologna
+15,Napoli,2019-11-09,Giornata n. 12,Casa,N,0,Genoa
+11,Brescia,2019-11-09,Giornata n. 12,Casa,P,0,Torino
+15,Inter,2019-11-09,Giornata n. 12,Casa,V,2.0,Hellas Verona
+12,Sampdoria,2019-11-10,Giornata n. 12,Casa,N,0,Atalanta
+12,Udinese,2019-11-10,Giornata n. 12,Casa,N,0,SPAL
+12,Parma,2019-11-10,Giornata n. 12,Casa,V,2,Roma
+12,Cagliari,2019-11-10,Giornata n. 12,Casa,V,5,Fiorentina
+15,Juventus,2019-11-10,Giornata n. 12,Casa,V,1,Milan
+15,Lazio,2019-11-10,Giornata n. 12,Casa,V,4,Lecce
+18,Torino,2019-11-23,Giornata n. 13,Casa,P,0,Inter
+16,Atalanta,2019-11-23,Giornata n. 13,Casa,P,1,Juventus
+12,Milan,2019-11-23,Giornata n. 13,Casa,N,1,Napoli
+13,Sampdoria,2019-11-24,Giornata n. 13,Casa,V,2,Udinese
+16,Roma,2019-11-24,Giornata n. 13,Casa,V,3.0,Brescia
+13,Bologna,2019-11-24,Giornata n. 13,Casa,N,2,Parma
+12,Sassuolo,2019-11-24,Giornata n. 13,Casa,P,1,Lazio
+13,Hellas Verona,2019-11-24,Giornata n. 13,Casa,V,1,Fiorentina
+13,SPAL,2019-11-25,Giornata n. 13,Casa,N,1,Genoa
+13,Lecce,2019-11-25,Giornata n. 13,Casa,N,2,Cagliari
+14,Fiorentina,2019-11-30,Giornata n. 14,Casa,P,0,Lecce
+13,Brescia,2019-11-30,Giornata n. 14,Casa,P,0,Atalanta
+14,Genoa,2019-11-30,Giornata n. 14,Casa,P,0,Torino
+18,Juventus,2019-12-01,Giornata n. 14,Casa,N,2,Sassuolo
+18,Napoli,2019-12-01,Giornata n. 14,Casa,P,1,Bologna
+14,Hellas Verona,2019-12-01,Giornata n. 14,Casa,P,1,Roma
+14,Parma,2019-12-01,Giornata n. 14,Casa,P,0,Milan
+18,Lazio,2019-12-01,Giornata n. 14,Casa,V,3,Udinese
+18,Inter,2019-12-01,Giornata n. 14,Casa,V,2.0,SPAL
+14,Cagliari,2019-12-02,Giornata n. 14,Casa,V,4,Sampdoria
+19,Inter,2019-12-06,Giornata n. 15,Casa,N,0.0,Roma
+19,Lazio,2019-12-07,Giornata n. 15,Casa,V,3,Juventus
+19,Atalanta,2019-12-07,Giornata n. 15,Casa,V,3,Hellas Verona
+16,Udinese,2019-12-07,Giornata n. 15,Casa,N,1,Napoli
+16,Lecce,2019-12-08,Giornata n. 15,Casa,N,2,Genoa
+16,SPAL,2019-12-08,Giornata n. 15,Casa,P,0,Brescia
+15,Sassuolo,2019-12-08,Giornata n. 15,Casa,N,2,Cagliari
+16,Sampdoria,2019-12-08,Giornata n. 15,Casa,P,0,Parma
+16,Bologna,2019-12-08,Giornata n. 15,Casa,P,2,Milan
+20,Torino,2019-12-08,Giornata n. 15,Casa,V,2,Fiorentina
+21,Napoli,2019-12-14,Giornata n. 16,Casa,P,1,Parma
+17,Genoa,2019-12-14,Giornata n. 16,Casa,P,0,Sampdoria
+15,Brescia,2019-12-14,Giornata n. 16,Casa,V,3,Lecce
+16,Hellas Verona,2019-12-15,Giornata n. 16,Casa,N,3,Torino
+17,Fiorentina,2019-12-15,Giornata n. 16,Casa,N,1,Inter
+21,Roma,2019-12-15,Giornata n. 16,Casa,V,3.0,SPAL
+17,Bologna,2019-12-15,Giornata n. 16,Casa,V,2,Atalanta
+15,Milan,2019-12-15,Giornata n. 16,Casa,N,0,Sassuolo
+21,Juventus,2019-12-15,Giornata n. 16,Casa,V,3,Udinese
+17,Cagliari,2019-12-16,Giornata n. 16,Casa,P,1,Lazio
+16,Brescia,2019-12-18,Giornata n. 7,Casa,P,0,Sassuolo
+18,Sampdoria,2019-12-18,Giornata n. 17,Casa,P,1,Juventus
+18,Fiorentina,2019-12-20,Giornata n. 17,Casa,P,1,Roma
+22,Torino,2019-12-21,Giornata n. 17,Casa,P,1,SPAL
+18,Udinese,2019-12-21,Giornata n. 17,Casa,V,2,Cagliari
+22,Inter,2019-12-21,Giornata n. 17,Casa,V,4.0,Genoa
+22,Atalanta,2019-12-22,Giornata n. 17,Casa,V,5,Milan
+18,Sassuolo,2019-12-22,Giornata n. 17,Casa,P,1,Napoli
+18,Parma,2019-12-22,Giornata n. 17,Casa,N,1,Brescia
+18,Lecce,2019-12-22,Giornata n. 17,Casa,P,2,Bologna
+19,Genoa,2020-01-05,Giornata n. 18,Casa,V,2,Sassuolo
+18,Brescia,2020-01-05,Giornata n. 18,Casa,P,1,Lazio
+23,Roma,2020-01-05,Giornata n. 18,Casa,P,0.0,Torino
+19,SPAL,2020-01-05,Giornata n. 18,Casa,P,0,Hellas Verona
+19,Lecce,2020-01-06,Giornata n. 18,Casa,P,0,Udinese
+17,Milan,2020-01-06,Giornata n. 18,Casa,N,0,Sampdoria
+23,Napoli,2020-01-06,Giornata n. 18,Casa,P,1,Inter
+23,Atalanta,2020-01-06,Giornata n. 18,Casa,V,5,Parma
+19,Bologna,2020-01-06,Giornata n. 18,Casa,N,1,Fiorentina
+24,Juventus,2020-01-06,Giornata n. 18,Casa,V,4,Cagliari
+24,Lazio,2020-01-11,Giornata n. 19,Casa,V,1,Napoli
+20,Cagliari,2020-01-11,Giornata n. 19,Casa,P,0,Milan
+24,Inter,2020-01-11,Giornata n. 19,Casa,N,1.0,Atalanta
+20,Udinese,2020-01-12,Giornata n. 19,Casa,V,3,Sassuolo
+25,Torino,2020-01-12,Giornata n. 19,Casa,V,1,Bologna
+20,Sampdoria,2020-01-12,Giornata n. 19,Casa,V,5,Brescia
+20,Fiorentina,2020-01-12,Giornata n. 19,Casa,V,1,SPAL
+24,Roma,2020-01-12,Giornata n. 19,Casa,P,1.0,Juventus
+18,Hellas Verona,2020-01-12,Giornata n. 19,Casa,V,2,Genoa
+20,Parma,2020-01-13,Giornata n. 19,Casa,V,2,Lecce
+21,Sassuolo,2020-01-18,Giornata n. 20,Casa,V,2,Torino
+26,Napoli,2020-01-18,Giornata n. 20,Casa,P,0,Fiorentina
+26,Lazio,2020-01-18,Giornata n. 20,Casa,V,5,Sampdoria
+22,Genoa,2020-01-19,Giornata n. 20,Casa,P,1,Roma
+21,Bologna,2020-01-19,Giornata n. 20,Casa,N,1,Hellas Verona
+20,Brescia,2020-01-19,Giornata n. 20,Casa,N,2,Cagliari
+27,Juventus,2020-01-19,Giornata n. 20,Casa,V,2,Parma
+21,Lecce,2020-01-19,Giornata n. 20,Casa,N,1,Inter
+20,Milan,2020-01-19,Giornata n. 20,Casa,V,3,Udinese
+26,Atalanta,2020-01-20,Giornata n. 20,Casa,P,1,SPAL
+21,Brescia,2020-01-24,Giornata n. 21,Casa,P,0,Milan
+27,Torino,2020-01-25,Giornata n. 21,Casa,P,0,Atalanta
+23,SPAL,2020-01-25,Giornata n. 21,Casa,P,1,Bologna
+23,Fiorentina,2020-01-25,Giornata n. 21,Casa,N,0,Genoa
+22,Sampdoria,2020-01-26,Giornata n. 21,Casa,N,0,Sassuolo
+23,Parma,2020-01-26,Giornata n. 21,Casa,V,2,Udinese
+20,Hellas Verona,2020-01-26,Giornata n. 21,Casa,V,3,Lecce
+28,Napoli,2020-01-26,Giornata n. 21,Casa,V,2,Juventus
+27,Inter,2020-01-26,Giornata n. 21,Casa,N,1.0,Cagliari
+28,Roma,2020-01-26,Giornata n. 21,Casa,N,1.0,Lazio
+23,Bologna,2020-02-01,Giornata n. 22,Casa,V,2,Brescia
+24,Cagliari,2020-02-01,Giornata n. 22,Casa,N,2,Parma
+23,Sassuolo,2020-02-01,Giornata n. 22,Casa,V,4,Roma
+23,Milan,2020-02-02,Giornata n. 22,Casa,N,1,Hellas Verona
+29,Lazio,2020-02-02,Giornata n. 22,Casa,V,5,SPAL
+30,Juventus,2020-02-02,Giornata n. 22,Casa,V,3,Fiorentina
+23,Lecce,2020-02-02,Giornata n. 22,Casa,V,4,Torino
+24,Udinese,2020-02-02,Giornata n. 22,Casa,P,0,Inter
+28,Atalanta,2020-02-02,Giornata n. 22,Casa,N,2,Genoa
+23,Sampdoria,2020-02-03,Giornata n. 22,Casa,P,2,Napoli
+30,Lazio,2020-02-05,Giornata n. 17,Casa,N,0,Hellas Verona
+30,Roma,2020-02-07,Giornata n. 23,Casa,P,2.0,Bologna
+30,Torino,2020-02-08,Giornata n. 23,Casa,P,1,Sampdoria
+26,Fiorentina,2020-02-08,Giornata n. 23,Casa,P,1,Atalanta
+23,Hellas Verona,2020-02-08,Giornata n. 23,Casa,V,2,Juventus
+30,Inter,2020-02-09,Giornata n. 23,Casa,V,4.0,Milan
+25,Parma,2020-02-09,Giornata n. 23,Casa,P,0,Lazio
+25,SPAL,2020-02-09,Giornata n. 23,Casa,P,1,Sassuolo
+23,Brescia,2020-02-09,Giornata n. 23,Casa,N,1,Udinese
+30,Napoli,2020-02-09,Giornata n. 23,Casa,P,2,Lecce
+25,Genoa,2020-02-09,Giornata n. 23,Casa,V,1,Cagliari
+25,Lecce,2020-02-15,Giornata n. 24,Casa,V,2,SPAL
+30,Atalanta,2020-02-15,Giornata n. 24,Casa,V,2,Roma
+25,Bologna,2020-02-15,Giornata n. 24,Casa,P,0,Genoa
+25,Sassuolo,2020-02-16,Giornata n. 24,Casa,P,0,Parma
+25,Sampdoria,2020-02-16,Giornata n. 24,Casa,P,1,Fiorentina
+32,Lazio,2020-02-16,Giornata n. 24,Casa,V,2,Inter
+33,Juventus,2020-02-16,Giornata n. 24,Casa,V,2,Brescia
+26,Udinese,2020-02-16,Giornata n. 24,Casa,N,0,Hellas Verona
+26,Cagliari,2020-02-16,Giornata n. 24,Casa,P,0,Napoli
+26,Milan,2020-02-17,Giornata n. 24,Casa,V,1,Torino
+25,Brescia,2020-02-21,Giornata n. 25,Casa,P,1,Napoli
+26,Bologna,2020-02-22,Giornata n. 25,Casa,N,1,Udinese
+27,SPAL,2020-02-22,Giornata n. 25,Casa,P,1,Juventus
+28,Fiorentina,2020-02-22,Giornata n. 25,Casa,N,1,Milan
+33,Roma,2020-02-23,Giornata n. 25,Casa,V,4.0,Lecce
+27,Genoa,2020-02-23,Giornata n. 25,Casa,P,2,Lazio
+34,Lazio,2020-02-29,Giornata n. 26,Casa,V,2,Bologna
+35,Napoli,2020-02-29,Giornata n. 26,Casa,V,2,Torino
+27,Cagliari,2020-03-01,Giornata n. 26,Casa,P,3,Roma
+27,Lecce,2020-03-01,Giornata n. 26,Casa,P,2,Atalanta
+28,Milan,2020-03-08,Giornata n. 26,Casa,P,1,Genoa
+27,Parma,2020-03-08,Giornata n. 26,Casa,P,0,SPAL
+36,Juventus,2020-03-08,Giornata n. 26,Casa,V,2,Inter
+28,Udinese,2020-03-08,Giornata n. 26,Casa,N,0,Fiorentina
+26,Sampdoria,2020-03-08,Giornata n. 26,Casa,V,2,Hellas Verona
+26,Sassuolo,2020-03-09,Giornata n. 26,Casa,V,3,Brescia
+33,Torino,2020-06-20,Giornata n. 25,Casa,N,1,Parma
+26,Hellas Verona,2020-06-20,Giornata n. 25,Casa,V,2,Cagliari
+34,Atalanta,2020-06-21,Giornata n. 25,Casa,V,4,Sassuolo
+38,Inter,2020-06-21,Giornata n. 25,Casa,V,2.0,Sampdoria
+28,Lecce,2020-06-22,Giornata n. 27,Casa,P,1,Milan
+30,Fiorentina,2020-06-22,Giornata n. 27,Casa,N,1,Brescia
+28,Bologna,2020-06-22,Giornata n. 27,Casa,P,0,Juventus
+27,Hellas Verona,2020-06-23,Giornata n. 27,Casa,P,0,Napoli
+34,Torino,2020-06-23,Giornata n. 27,Casa,V,1,Udinese
+29,SPAL,2020-06-23,Giornata n. 27,Casa,P,0,Cagliari
+29,Genoa,2020-06-23,Giornata n. 27,Casa,P,1,Parma
+37,Roma,2020-06-24,Giornata n. 27,Casa,V,2.0,Sampdoria
+35,Atalanta,2020-06-24,Giornata n. 27,Casa,V,3,Lazio
+39,Inter,2020-06-24,Giornata n. 27,Casa,N,3.0,Sassuolo
+40,Juventus,2020-06-26,Giornata n. 28,Casa,V,4,Lecce
+36,Lazio,2020-06-27,Giornata n. 28,Casa,V,2,Fiorentina
+30,Cagliari,2020-06-27,Giornata n. 28,Casa,V,4,Torino
+28,Brescia,2020-06-27,Giornata n. 28,Casa,N,2,Genoa
+39,Napoli,2020-06-28,Giornata n. 28,Casa,V,3,SPAL
+30,Parma,2020-06-28,Giornata n. 28,Casa,P,1,Inter
+29,Sampdoria,2020-06-28,Giornata n. 28,Casa,P,1,Bologna
+30,Udinese,2020-06-28,Giornata n. 28,Casa,P,2,Atalanta
+31,Milan,2020-06-28,Giornata n. 28,Casa,V,2,Roma
+29,Sassuolo,2020-06-28,Giornata n. 28,Casa,N,3,Hellas Verona
+36,Torino,2020-06-30,Giornata n. 29,Casa,P,1,Lazio
+31,Genoa,2020-06-30,Giornata n. 29,Casa,P,1,Juventus
+30,Bologna,2020-07-01,Giornata n. 29,Casa,N,1,Cagliari
+31,SPAL,2020-07-01,Giornata n. 29,Casa,N,2,Milan
+32,Fiorentina,2020-07-01,Giornata n. 29,Casa,P,1,Sassuolo
+29,Hellas Verona,2020-07-01,Giornata n. 29,Casa,V,3,Parma
+30,Lecce,2020-07-01,Giornata n. 29,Casa,P,1,Sampdoria
+41,Inter,2020-07-01,Giornata n. 29,Casa,V,6.0,Brescia
+39,Roma,2020-07-02,Giornata n. 29,Casa,P,0.0,Udinese
+37,Atalanta,2020-07-02,Giornata n. 29,Casa,V,2,Napoli
+31,Sassuolo,2020-07-04,Giornata n. 30,Casa,V,4,Lecce
+38,Lazio,2020-07-04,Giornata n. 30,Casa,P,0,Milan
+42,Juventus,2020-07-04,Giornata n. 30,Casa,V,4,Torino
+32,Parma,2020-07-05,Giornata n. 30,Casa,P,1,Fiorentina
+32,Cagliari,2020-07-05,Giornata n. 30,Casa,P,0,Atalanta
+30,Brescia,2020-07-05,Giornata n. 30,Casa,V,2,Hellas Verona
+31,Sampdoria,2020-07-05,Giornata n. 30,Casa,V,3,SPAL
+42,Inter,2020-07-05,Giornata n. 30,Casa,P,1.0,Bologna
+32,Udinese,2020-07-05,Giornata n. 30,Casa,N,2,Genoa
+41,Napoli,2020-07-05,Giornata n. 30,Casa,V,2,Roma
+34,Milan,2020-07-07,Giornata n. 31,Casa,V,4,Juventus
+32,Lecce,2020-07-07,Giornata n. 31,Casa,V,2,Lazio
+33,Genoa,2020-07-08,Giornata n. 31,Casa,P,1,Napoli
+32,Bologna,2020-07-08,Giornata n. 31,Casa,P,1,Sassuolo
+34,Fiorentina,2020-07-08,Giornata n. 31,Casa,N,0,Cagliari
+39,Atalanta,2020-07-08,Giornata n. 31,Casa,V,2,Sampdoria
+41,Roma,2020-07-08,Giornata n. 31,Casa,V,2.0,Parma
+38,Torino,2020-07-08,Giornata n. 31,Casa,V,3,Brescia
+33,SPAL,2020-07-09,Giornata n. 31,Casa,P,0,Udinese
+31,Hellas Verona,2020-07-09,Giornata n. 31,Casa,N,2,Inter
+40,Lazio,2020-07-11,Giornata n. 32,Casa,P,1,Sassuolo
+44,Juventus,2020-07-11,Giornata n. 32,Casa,N,2,Atalanta
+32,Brescia,2020-07-11,Giornata n. 32,Casa,P,0,Roma
+34,Genoa,2020-07-12,Giornata n. 32,Casa,V,2,SPAL
+34,Parma,2020-07-12,Giornata n. 32,Casa,N,2,Bologna
+34,Udinese,2020-07-12,Giornata n. 32,Casa,P,1,Sampdoria
+35,Fiorentina,2020-07-12,Giornata n. 32,Casa,N,1,Hellas Verona
+43,Napoli,2020-07-12,Giornata n. 32,Casa,N,2,Milan
+34,Cagliari,2020-07-12,Giornata n. 32,Casa,N,0,Lecce
+44,Inter,2020-07-13,Giornata n. 32,Casa,V,3.0,Torino
+41,Atalanta,2020-07-14,Giornata n. 33,Casa,V,6,Brescia
+34,Sassuolo,2020-07-15,Giornata n. 33,Casa,N,3,Juventus
+34,Bologna,2020-07-15,Giornata n. 33,Casa,N,1,Napoli
+34,Lecce,2020-07-15,Giornata n. 33,Casa,P,1,Fiorentina
+36,Milan,2020-07-15,Giornata n. 33,Casa,V,3,Parma
+35,Udinese,2020-07-15,Giornata n. 33,Casa,N,0,Lazio
+34,Sampdoria,2020-07-15,Giornata n. 33,Casa,V,3,Cagliari
+43,Roma,2020-07-15,Giornata n. 33,Casa,V,2.0,Hellas Verona
+35,SPAL,2020-07-16,Giornata n. 33,Casa,P,0,Inter
+40,Torino,2020-07-16,Giornata n. 33,Casa,V,3,Genoa
+37,Milan,2020-07-18,Giornata n. 34,Casa,V,5,Bologna
+36,Cagliari,2020-07-18,Giornata n. 34,Casa,N,1,Sassuolo
+34,Hellas Verona,2020-07-18,Giornata n. 34,Casa,N,1,Atalanta
+36,Parma,2020-07-19,Giornata n. 34,Casa,P,2,Sampdoria
+34,Brescia,2020-07-19,Giornata n. 34,Casa,V,2,SPAL
+37,Fiorentina,2020-07-19,Giornata n. 34,Casa,V,2,Torino
+36,Genoa,2020-07-19,Giornata n. 34,Casa,V,2,Lecce
+45,Napoli,2020-07-19,Giornata n. 34,Casa,V,2,Udinese
+44,Roma,2020-07-19,Giornata n. 34,Casa,N,2.0,Inter
+46,Juventus,2020-07-20,Giornata n. 34,Casa,V,2,Lazio
+43,Atalanta,2020-07-21,Giornata n. 35,Casa,V,1,Bologna
+36,Sassuolo,2020-07-21,Giornata n. 35,Casa,P,1,Milan
+36,Lecce,2020-07-22,Giornata n. 35,Casa,V,3,Brescia
+47,Inter,2020-07-22,Giornata n. 35,Casa,N,0.0,Fiorentina
+42,Torino,2020-07-22,Giornata n. 35,Casa,N,1,Hellas Verona
+36,Sampdoria,2020-07-22,Giornata n. 35,Casa,P,1,Genoa
+37,Parma,2020-07-22,Giornata n. 35,Casa,V,2,Napoli
+37,SPAL,2020-07-22,Giornata n. 35,Casa,P,1,Roma
+37,Udinese,2020-07-23,Giornata n. 35,Casa,V,2,Juventus
+43,Lazio,2020-07-23,Giornata n. 35,Casa,V,2,Cagliari
+39,Milan,2020-07-24,Giornata n. 36,Casa,N,1,Atalanta
+36,Brescia,2020-07-25,Giornata n. 36,Casa,P,1,Parma
+38,Genoa,2020-07-25,Giornata n. 36,Casa,P,0,Inter
+47,Napoli,2020-07-25,Giornata n. 36,Casa,V,2,Sassuolo
+38,Cagliari,2020-07-26,Giornata n. 36,Casa,P,0,Udinese
+38,SPAL,2020-07-26,Giornata n. 36,Casa,N,1,Torino
+37,Bologna,2020-07-26,Giornata n. 36,Casa,V,3,Lecce
+36,Hellas Verona,2020-07-26,Giornata n. 36,Casa,P,1,Lazio
+48,Juventus,2020-07-26,Giornata n. 36,Casa,V,2,Sampdoria
+46,Roma,2020-07-26,Giornata n. 36,Casa,V,2.0,Fiorentina
+39,Parma,2020-07-28,Giornata n. 37,Casa,P,1,Atalanta
+49,Inter,2020-07-28,Giornata n. 37,Casa,V,2.0,Napoli
+45,Lazio,2020-07-29,Giornata n. 37,Casa,V,2,Brescia
+37,Hellas Verona,2020-07-29,Giornata n. 37,Casa,V,3,SPAL
+39,Cagliari,2020-07-29,Giornata n. 37,Casa,V,2,Juventus
+40,Fiorentina,2020-07-29,Giornata n. 37,Casa,V,4,Bologna
+44,Torino,2020-07-29,Giornata n. 37,Casa,P,2,Roma
+39,Udinese,2020-07-29,Giornata n. 37,Casa,P,1,Lecce
+38,Sampdoria,2020-07-29,Giornata n. 37,Casa,P,1,Milan
+38,Sassuolo,2020-07-29,Giornata n. 37,Casa,V,5,Genoa
+41,Milan,2020-08-01,Giornata n. 38,Casa,V,3,Cagliari
+50,Juventus,2020-08-01,Giornata n. 38,Casa,P,1,Roma
+38,Brescia,2020-08-01,Giornata n. 38,Casa,N,1,Sampdoria
+46,Atalanta,2020-08-01,Giornata n. 38,Casa,P,0,Inter
+49,Napoli,2020-08-01,Giornata n. 38,Casa,V,3,Lazio
+39,Lecce,2020-08-02,Giornata n. 38,Casa,P,3,Parma
+40,SPAL,2020-08-02,Giornata n. 38,Casa,P,1,Fiorentina
+40,Genoa,2020-08-02,Giornata n. 38,Casa,V,3,Hellas Verona
+39,Bologna,2020-08-02,Giornata n. 38,Casa,N,1,Torino
+39,Sassuolo,2020-08-02,Giornata n. 38,Casa,P,0,Udinese
