@@ -13,57 +13,62 @@ class Ranking:
     def __init__(self, competition, season):
         self.competition = competition
         self.season = season
-        headers = {'User-Agent': 
-                'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
-
-
+        
         years = self.season.split('-')
         self.year1, self.year2 = int(years[0]), int(years[1])
-
+        
         self.all_previous_seasons_matches = {} 
 
-    def download_matches(self, seasons):
+    def download_matches(self, seasons, path):
         for i in range(seasons):        
             season = str(self.year1-(i+1))+'-'+str(self.year2-(i+1))
             page = 'https://fbref.com/it/comp/11/{}/calendario/Punteggi-e-partite-{}-Serie-A'.format(season, season)
-            
             pageTree = requests.get(page)
-
             matches = pd.read_html(pageTree.text, match="Punteggi e partite")[0]
-            columns = ['Casa', 'Ospiti', 'Punteggio']
-
+            columns = ['Data', 'Casa', 'Punteggio', 'Ospiti']
             matches = matches[columns].dropna()
-            matches.to_csv('files/'+self.competition+'/'+season+'.csv')
-            self.all_previous_seasons_matches[i] = matches
 
-    def download_season(self, season):
+            matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+
+            matches.to_csv(path.format(season))
+            self.all_previous_seasons_matches[(self.year2-(i+1))] = matches
+
+    def download_season(self, season, path, year):
         page = 'https://fbref.com/it/comp/11/{}/calendario/Punteggi-e-partite-{}-Serie-A'.format(season, season)
-        
         pageTree = requests.get(page)
-
         matches = pd.read_html(pageTree.text, match="Punteggi e partite")[0]
-        columns = ['Casa', 'Punteggio', 'Ospiti']
-
+        columns = ['Data', 'Casa', 'Punteggio', 'Ospiti']
+    
         matches = matches[columns].dropna()
-        matches.to_csv('files/'+self.competition+'/'+season+'.csv')
-        self.all_previous_seasons_matches[len(self.all_previous_seasons_matches)] = matches
 
-    def read_matches(self, seasons):
+        matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego       
+
+        matches.to_csv(path)
+        self.all_previous_seasons_matches[year] = matches
+
+    def read_matches(self, seasons, path):
         for i in range(seasons):        
             season = str(self.year1-(i+1))+'-'+str(self.year2-(i+1))
-            csv_file = Path('files/'+self.competition+'/'+season+'.csv')
-        
+            csv_file = Path(path.format(season))
             #se non trovo il file scarico i risultati 
             if csv_file.is_file() == False:
-                self.download_season(season)
-            
-            matches = pd.read_csv('files/'+self.competition+'/'+season+'.csv', index_col=0)
-            self.all_previous_seasons_matches[i] = matches
+                self.download_season(season, path.format(season), (self.year2-(i+1)))
 
-    def get_rank(self, team_name1, team_name2):
+            matches = pd.read_csv(path.format(season), index_col=0)
+            matches['Data'] = pd.to_datetime(matches['Data'], format='%Y-%m-%d') #devo convertire la data altrimenti mi dà problemi 
+            self.all_previous_seasons_matches[(self.year2-(i+1))] = matches
+
+    def get_rank(self, team_name1, team_name2, date, season):
         team1, team2 = (0, 0)
         self.wins, self.loses, self.draws = 0, 0, 0
-        for k, matches in self.all_previous_seasons_matches.items():
+        
+        seasons_to_check = [x for x in sorted(self.all_previous_seasons_matches.keys()) if x <= int(season)]
+        
+        #per il rank ho bisogno dei match nelle stagioni precedenti
+        for season_to_check in seasons_to_check: 
+            matches = self.all_previous_seasons_matches[season_to_check] 
+            matches = matches[matches.Data < date]
+            
             teams = matches.Casa.unique()
             if team_name1 not in teams and team_name2 not in teams:
                 team1, team2 = team1, team2 
@@ -77,32 +82,23 @@ class Ranking:
 
         return team1, team2
 
-    def get_result(self, matches, t1, t2):
+    def get_result(self, matches, t1, t2, date):
         team1, team2 = 0, 0
         matchdays = matches[((matches.Casa == t1) & (matches.Ospiti == t2)) | ((matches.Casa == t2) & (matches.Ospiti == t1))]
-        matchdays = matchdays[['Casa','Punteggio','Ospiti']]
+        matchdays = matchdays[matchdays.Data < date]
+        
+        if len(matchdays) != 0:    
+            for i, single_match in matchdays.iterrows():
+                result = single_match.Punteggio.replace('–','-').split('-')
+                res = 'N'
+                if int(result[0]) > int(result[1]):
+                    res = 'V'
+                elif int(result[0]) < int(result[1]):
+                    res = 'P'
 
-        for k, matchday in matchdays.iterrows():
-            result = matchday.Punteggio.split('–')
-            if t1 == matchday.Casa:
-                if result[0] > result[1]:
-                    self.wins += 1
-                    team1 += 1
-                elif result[0] < result[1]:
-                    self.loses += 1
-                    team2 += 1
-                else:
-                    self.draws += 1
-            else:
-                if result[0] > result[1]:
-                    self.loses += 1
-                    team2 += 1
-                elif result[0] < result[1]:
-                    self.wins += 1
-                    team1 += 1
-                else:
-                    self.draws += 1
+                if (((t1 == single_match.Casa) & (res == 'V')) | ((t1 == single_match.Ospiti) & (res == 'P'))):
+                    team1 += 1 
+                elif (((t2 == single_match.Casa) & (res == 'V')) | ((t2 == single_match.Ospiti) & (res == 'P'))):
+                    team2 += 1 
+
         return team1, team2
-
-    def get_direct_stats(self):
-        return self.wins, self.loses, self.draws
