@@ -78,6 +78,22 @@ class MyTokenizer:
         return tokens_text, tokens_lemma
 
     def clean_text(self):
+        """self.cleaned_corpus = []
+        for doc in self.dataset_withoutNAN.description:
+            ###+++++++++++NLTK+++++++++++++###
+            doc_text = self.word_tokenization(doc)
+            ###+++++++++++REGEX++++++++++++###
+            #doc_text = regex(doc)
+            ###+++++++++++SPACY++++++++++++###
+            #doc_text, d = spacy_tokenization(doc)
+            #_______with lemmatization_______#
+            #doc_text = [word for word in d]
+            #____with stemming (universal)___# 
+            doc_text = [self.stemmer.stem(word) for word in doc_text]
+            ###+++++++++++++++++++++++++###
+            doc_text = ' '.join(doc_text)
+            self.cleaned_corpus.append(doc_text)
+        """
         self.cleaned_corpus = []
         for i, doc in self.dataset_withoutNAN.iterrows():
             ###+++++++++++NLTK+++++++++++++###
@@ -103,11 +119,6 @@ class MyTokenizer:
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
         tokenized_text, self.dataset_withoutNAN.prediction, test_size=0.2, shuffle=False)
         return self.X_train, self.X_test, self.y_train, self.y_test
-
-    def set_bigram(self):
-        self.vectorizer = TfidfVectorizer(ngram_range=(2,2)) #vectorizer sarà il nostro modello da allenare
-        tokenized_text = self.vectorizer.fit_transform(self.cleaned_corpus)
-        return tokenized_text
 
     def set_label_prediction(self, y_pred):
         for i in range(len(self.y_train)):

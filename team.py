@@ -1,3 +1,5 @@
+import pandas as pd 
+
 class Team:
     def __init__(self, id, name, matches):
         self.id = id
@@ -8,6 +10,7 @@ class Team:
         change = False
         averages = None
         rows = self.matches[self.matches.date < date]
+
         if len(rows) > 0:
             change = True
             if X < len(rows):
