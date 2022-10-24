@@ -10,10 +10,17 @@ matches_merged = path_stats+'matchesMerged/matches.csv' #unisce i match del punt
 dataset_without_text = path_stats+'dataset_without_text.csv'
 completed_dataset = path_stats+'completed_dataset.csv'
 
-
 ranking = path_stats+'{}.csv'
 
 json_link_matches = path_stats+'fp_links.json'
 
 matches_description = path_stats+'matches_description.csv'
 cleaned_matches_description = path_stats+'cleaned_descriptions.csv'
+
+synonyms = path_stats+'synonyms.json'
+
+###### BEGIN:   ML MODEL ######
+path_ML = 'ML Model/'
+text_analysis = path_ML+'decision tree text analysis.model'
+
+###### END:     ML MODEL ######

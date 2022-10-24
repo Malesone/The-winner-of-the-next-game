@@ -13,3 +13,6 @@ Attraverso "football_predictions.ipynb" vengono scaricate le predizioni.
 Il file che si ottiene eseguendo tutto il processo è "cleaned_descriptions.csv".
 
 Fatto ciò devo effettuare il merge tra questo dataset con il dataset contenente le statistiche. Viene fatto attraverso 
+
+# Merge del testo con le statistiche
+"completed_dataset.ipynb" ha il compito di riconciliare i dati (statstiche) delle partite con il testo di predizione.

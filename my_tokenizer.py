@@ -7,11 +7,12 @@ import spacy
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
+import util_strings as utils
 
 class MyTokenizer:
     def __init__(self, dataset):
-        self.dataset_withoutNAN = dataset[dataset.prediction != 'NAN']
-        self.dataset_withoutNAN.reset_index(drop=True, inplace=True)
+        self.dataset = dataset[dataset.prediction != 'NAN'] #non considero i valori NAN, altrimenti non posso tokenizzare
+        self.dataset.reset_index(drop=True, inplace=True)
         self.prediction_labels = {
                 'N': 0,
                 'V': 1,
@@ -22,11 +23,11 @@ class MyTokenizer:
         self.stemmer = PorterStemmer()
 
     def feature_normalization(self):
-        with open("synonyms.json") as jsonFile:
+        with open(utils.synonyms) as jsonFile:
             jsonObject = json.load(jsonFile)
             jsonFile.close()
 
-        for i, row in self.dataset_withoutNAN.iterrows():
+        for i, row in self.dataset.iterrows():
             h_team, a_team, description, prediction = row.home, row.away, row.description, row.prediction
 
             syn = {}
@@ -44,16 +45,16 @@ class MyTokenizer:
                 for val in syn[key]:
                     description = description.replace(val.lower(), key)
 
-            self.dataset_withoutNAN.at[i, 'description'] = description
+            self.dataset.at[i, 'description'] = description
             
-            self.dataset_withoutNAN = self.dataset_withoutNAN[['description', 'prediction', 'home', 'away']]
+            self.dataset = self.dataset[['description', 'prediction', 'home', 'away']]
           
 
-        for i, prediction in enumerate(self.dataset_withoutNAN.prediction):
-            self.dataset_withoutNAN.at[i, 'pred'] = self.prediction_labels[prediction]
+        for i, prediction in enumerate(self.dataset.prediction):
+            self.dataset.at[i, 'pred'] = self.prediction_labels[prediction]
             
-        self.dataset_withoutNAN.drop(columns=['prediction'], inplace=True)
-        self.dataset_withoutNAN.rename(columns={'pred': 'prediction'}, inplace=True)
+        self.dataset.drop(columns=['prediction'], inplace=True)
+        self.dataset.rename(columns={'pred': 'prediction'}, inplace=True)
         
     def word_tokenization(self, text):
         #tokenizzazione utilizzata con NLTK
@@ -78,37 +79,11 @@ class MyTokenizer:
         return tokens_text, tokens_lemma
 
     def clean_text(self):
-        """self.cleaned_corpus = []
-        for doc in self.dataset_withoutNAN.description:
-            ###+++++++++++NLTK+++++++++++++###
-            doc_text = self.word_tokenization(doc)
-            ###+++++++++++REGEX++++++++++++###
-            #doc_text = regex(doc)
-            ###+++++++++++SPACY++++++++++++###
-            #doc_text, d = spacy_tokenization(doc)
-            #_______with lemmatization_______#
-            #doc_text = [word for word in d]
-            #____with stemming (universal)___# 
-            doc_text = [self.stemmer.stem(word) for word in doc_text]
-            ###+++++++++++++++++++++++++###
-            doc_text = ' '.join(doc_text)
-            self.cleaned_corpus.append(doc_text)
-        """
         self.cleaned_corpus = []
-        for i, doc in self.dataset_withoutNAN.iterrows():
-            ###+++++++++++NLTK+++++++++++++###
+        for i, doc in self.dataset.iterrows():
             doc_text = self.word_tokenization(doc.description)
-            ###+++++++++++REGEX++++++++++++###
-            #doc_text = regex(doc)
-            ###+++++++++++SPACY++++++++++++###
-            #doc_text, d = spacy_tokenization(doc)
-            #_______with lemmatization_______#
-            #doc_text = [word for word in d]
-            #____with stemming (universal)___# 
             doc_text = [self.stemmer.stem(word) for word in doc_text]
-            ###+++++++++++++++++++++++++###
-            #doc_text = ' '.join(doc_text)
-            self.dataset_withoutNAN.at[i, 'description'] = list(nltk.bigrams(doc_text))
+            self.dataset.at[i, 'description'] = list(nltk.bigrams(doc_text))
             doc_text = ' '.join(doc_text)
             self.cleaned_corpus.append(doc_text)
         
@@ -117,13 +92,13 @@ class MyTokenizer:
         tokenized_text = self.vectorizer.fit_transform(self.cleaned_corpus)
 
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
-        tokenized_text, self.dataset_withoutNAN.prediction, test_size=0.2, shuffle=False)
+        tokenized_text, self.dataset.prediction, test_size=0.2, shuffle=False)
         return self.X_train, self.X_test, self.y_train, self.y_test
 
     def set_label_prediction(self, y_pred):
         for i in range(len(self.y_train)):
-            self.dataset_withoutNAN.at[i, 'pred'] = self.y_train[i]
+            self.dataset.at[i, 'pred'] = self.y_train[i]
         for i in range(len(y_pred)):
             val = i+len(self.y_train)
-            self.dataset_withoutNAN.at[val, 'pred'] = y_pred[i]
+            self.dataset.at[val, 'pred'] = y_pred[i]
             
