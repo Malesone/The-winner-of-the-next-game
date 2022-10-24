@@ -29,9 +29,7 @@ class MatchAnalysis:
         'Esp.': 'red_cards',
     }
 
-    def __init__(self, path):
-        self.read_matches(path)
-        self.create_team_dataset()
+    def __init__(self):
         self.ranking = None
 
     def read_matches(self, path):
@@ -41,6 +39,8 @@ class MatchAnalysis:
     def create_team_dataset(self):
         #per ogni squadra nel campionato viene creato un dataset che contiene tutte le partite giocate dalla squadra con le relative statistiche
         self.matches_by_team = []
+        self.matches_fe_team['date'] = pd.to_datetime(self.matches_fe_team['date'], format='%Y-%m-%d') 
+
         for number, team in enumerate(sorted(self.matches_fe_team.team1.unique())):
             self.matches_by_team.append(Team(number, team, self.matches_fe_team[self.matches_fe_team.team1 == team]))
 
@@ -73,48 +73,27 @@ class MatchAnalysis:
     def readDiff_home_away(self):
         self.diff_dataset = pd.read_csv("files/diff_matches.csv", index_col=0)
 
-    def get_dummies(self):
-        stacked = self.diff_dataset[['home', 'away']].stack()
-        index = stacked.index.get_level_values(0)
-        result = pd.crosstab(index=index, columns=stacked)
-        result.index.name = None
-        result.columns.name = None
-
-        dummy_match = pd.get_dummies(self.diff_dataset
-                ,columns = ['home']
-                ,prefix = ['h']
-                )
-
-        dummy_match = dummy_match.drop(['away'], axis=1)
-        pos = 0
-        for col in result.columns:
-            dummy_match.insert(pos, col, result[col])
-            pos += 1
-
-        self.diff_dataset = dummy_match
- 
-    def split_and_set_avg(self, avg_all_ds, number):
+    def reduce_dataset_with_avg(self, number, path):
         #devo convertire il tipo delle colonne perché la media tra i valori mi dà un numero con la virgola (da int a float)
         float_features_and_avg = [x for x in self.diff_dataset.columns if x != 'home' and x != 'away' and x != 'date' and x != 'result' and x != 'rank_h' and x != 'rank_a' and x != 'season']
         self.diff_dataset[float_features_and_avg] = self.diff_dataset[float_features_and_avg].astype(float)
-        
+        self.diff_dataset['date'] = pd.to_datetime(self.diff_dataset['date'], format='%Y-%m-%d') 
+
         for i, match_value in self.diff_dataset.iterrows():
             home, away = match_value.home, match_value.away
         
             averages_home, change1 = self.get_team_by_name(home).get_avg_last_X_matches(number, match_value.date, float_features_and_avg)
             averages_away, change2 = self.get_team_by_name(away).get_avg_last_X_matches(number, match_value.date, float_features_and_avg)
         
-            #dataset in posizione i alla colonna rank_H ci va il rank home, mentre alla colonna rank_A ci va il rank away
             if self.ranking != None:
-                self.get_ranks(i, home, away, match_value.date)
+                self.get_ranks(match_value, i)
 
             if change1 & change2: 
                 for col in float_features_and_avg: 
                     diff = averages_home[col] - averages_away[col]
                     self.diff_dataset.at[i, col] = diff
         
-
-        self.diff_dataset.to_csv('diff_with_ranking.csv')
+        self.diff_dataset.to_csv(path)
 
     def merge_(self):
         self.features = [x for x in self.diff_dataset.columns if x != 'result']
@@ -127,18 +106,29 @@ class MatchAnalysis:
     def set_ranking(self, ranking):
         self.ranking = ranking
 
-    def get_ranks(self, pos, home, away, date):
-        #ottengo il rank delle squadre e controllo se le due squadre hanno già giocato nel campionato
-        #se si sono affrontate devo considerare anche quella partita nel calcolo
-        rank_h, rank_a = self.ranking.get_rank(home, away)
+    def get_ranks(self, match_value, pos):
+        season = match_value.season.split('-')[1]
+        team1, team2 = (0, 0)
+        seasons_to_check = [x for x in sorted(self.ranking.all_previous_seasons_matches.keys()) if x <= int(season)]
         
-        if self.get_team_by_name(home).get_previous(away, date):
-            rank_h += 1
-        if self.get_team_by_name(away).get_previous(home, date):
-            rank_a += 1
+        #per il rank ho bisogno dei match nelle stagioni precedenti, quindi scansiono ogni stagione e sommo i rank
+        for season_to_check in seasons_to_check: 
+            matches = self.ranking.all_previous_seasons_matches[season_to_check] 
+            teams = matches.Casa.unique()
+            if match_value.home not in teams and match_value.away not in teams:
+                team1, team2 = team1, team2 
+            elif match_value.home not in teams and match_value.away in teams:
+                team1, team2 = team1, team2 + 2
+            elif match_value.home in teams and match_value.away not in teams:
+                team1, team2 = team1 + 2, team2 
+            else:
+                v1, v2 = self.ranking.get_result(matches, match_value.home, match_value.away, match_value.date)
         
-        self.diff_dataset.at[pos, 'rank_h'] = rank_h
-        self.diff_dataset.at[pos, 'rank_a'] = rank_a
+                team1 += v1
+                team2 += v2
+                
+        self.diff_dataset.at[pos, 'rank_h'] = team1
+        self.diff_dataset.at[pos, 'rank_a'] = team2
 
     def set_codes(self):
         for i, match_value in self.X_train.iterrows():
