@@ -15,7 +15,7 @@ class Ranking:
         self.season = season
         
         years = self.season.split('-')
-        self.year1, self.year2 = int(years[0])+1, int(years[1])+1
+        self.year1, self.year2 = int(years[0]), int(years[1])
         
         self.all_previous_seasons_matches = {} 
 
@@ -48,15 +48,15 @@ class Ranking:
 
     def read_matches(self, seasons, path):
         for i in range(seasons+1):        
-            season = str(self.year1-(i+1))+'-'+str(self.year2-(i+1))
+            season = str(self.year1-i)+'-'+str(self.year2-i)
             csv_file = Path(path.format(season))
             #se non trovo il file scarico i risultati 
             if csv_file.is_file() == False:
-                self.download_season(season, path.format(season), (self.year2-(i+1)))
+                self.download_season(season, path.format(season), (self.year2-i))
 
             matches = pd.read_csv(path.format(season), index_col=0)
             matches['Data'] = pd.to_datetime(matches['Data'], format='%Y-%m-%d') #devo convertire la data altrimenti mi dà problemi 
-            self.all_previous_seasons_matches[(self.year2-(i+1))] = matches
+            self.all_previous_seasons_matches[(self.year2-i)] = matches
 
     def get_rank(self, team_name1, team_name2, date, season):
         team1, team2 = (0, 0)
