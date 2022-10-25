@@ -5,7 +5,7 @@ from team import Team
 from datetime import datetime
 import time
 from sklearn.model_selection import train_test_split
-from ranking import Ranking
+from end.ranking import Ranking
 
 class MatchAnalysis:
     rename_fields = {
@@ -159,3 +159,8 @@ class MatchAnalysis:
 
     def read_diff_dataset(self):
         self.diff_dataset = pd.read_csv("diff_with_ranking.csv", index_col=0)
+
+    def get_id_by_name(self, name): 
+        for team in self.matches_by_team:
+            if team.name.upper() == name.upper():
+                return team.id
