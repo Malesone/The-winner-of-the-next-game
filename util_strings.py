@@ -28,6 +28,7 @@ final_dataset = path_stats+'final_dataset.csv' #dataset con i nomi delle squadre
 path_ML = 'ML Model/'
 vectorizer = path_ML+'vectorizer.pk'
 text_analysis = path_ML+'decision tree text analysis.model'
+classificator_FP = path_ML+'ta decision tree 0.942 (no syn).model'
 classificator = path_ML+'random forest 0.549.model'
 ###### ML MODEL ######
 

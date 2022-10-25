@@ -18,4 +18,10 @@ Fatto ciò devo effettuare il merge tra questo dataset con il dataset contenente
 "completed_dataset.ipynb" ha il compito di riconciliare i dati (statstiche) delle partite con il testo di predizione.
 
 # Creazione modello per l'analisi del testo
-Il modello viene allenato attraverso text analysis.ipynb che permette prima di tokenizzare il testo, fare il fit transform del TfIdfVectorizer per poi predire il risultato
+Il modello viene allenato attraverso "text analysis.ipynb" che permette prima di tokenizzare il testo, fare il fit transform del TfIdfVectorizer per poi predire il risultato
+
+# Modello finale
+Creato il modello di predizione del testo, bisogna fare il modello su tutti i dati attraverso "final_model.ipynb"
+
+# Valutazione
+Infine vengono prese le partite della prossima giornata, vengono calcolate le differenze delle medie, ottengo le predizioni sul testo ed infine predico il risultato finale

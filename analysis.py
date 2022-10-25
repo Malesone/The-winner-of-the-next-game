@@ -5,7 +5,7 @@ from team import Team
 from datetime import datetime
 import time
 from sklearn.model_selection import train_test_split
-from end.ranking import Ranking
+from ranking import Ranking
 
 class MatchAnalysis:
     rename_fields = {
