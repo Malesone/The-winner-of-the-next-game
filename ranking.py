@@ -15,7 +15,7 @@ class Ranking:
         self.season = season
         
         years = self.season.split('-')
-        self.year1, self.year2 = int(years[0]), int(years[1])
+        self.year1, self.year2 = int(years[0])+1, int(years[1])+1
         
         self.all_previous_seasons_matches = {} 
 
@@ -47,7 +47,7 @@ class Ranking:
         self.all_previous_seasons_matches[year] = matches
 
     def read_matches(self, seasons, path):
-        for i in range(seasons):        
+        for i in range(seasons+1):        
             season = str(self.year1-(i+1))+'-'+str(self.year2-(i+1))
             csv_file = Path(path.format(season))
             #se non trovo il file scarico i risultati 
