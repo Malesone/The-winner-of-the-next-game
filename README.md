@@ -16,3 +16,6 @@ Fatto ciò devo effettuare il merge tra questo dataset con il dataset contenente
 
 # Merge del testo con le statistiche
 "completed_dataset.ipynb" ha il compito di riconciliare i dati (statstiche) delle partite con il testo di predizione.
+
+# Creazione modello per l'analisi del testo
+Il modello viene allenato attraverso text analysis.ipynb che permette prima di tokenizzare il testo, fare il fit transform del TfIdfVectorizer per poi predire il risultato

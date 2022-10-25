@@ -24,3 +24,9 @@ path_ML = 'ML Model/'
 text_analysis = path_ML+'decision tree text analysis.model'
 
 ###### END:     ML MODEL ######
+
+championship_actual_season = path_stats+'2022-2023 championship.csv'
+
+next_matches = path_stats+'next_matches.csv'
+
+vectorizer = path_ML+'vectorizer.pk'

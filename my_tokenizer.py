@@ -8,6 +8,7 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 import util_strings as utils
+import pickle
 
 class MyTokenizer:
     def __init__(self, dataset):
@@ -93,6 +94,7 @@ class MyTokenizer:
 
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
         tokenized_text, self.dataset.prediction, test_size=0.2, shuffle=False)
+
         return self.X_train, self.X_test, self.y_train, self.y_test
 
     def set_label_prediction(self, y_pred):
@@ -102,3 +104,9 @@ class MyTokenizer:
             val = i+len(self.y_train)
             self.dataset.at[val, 'pred'] = y_pred[i]
             
+    def save_vectorizer(self, path):
+        with open(path, 'wb') as fin:
+            pickle.dump(self.vectorizer, fin)
+
+    def open_vectorizer(self, path):
+        self.vectorizer = pickle.load(open(path, 'rb'))

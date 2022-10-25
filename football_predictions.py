@@ -17,6 +17,10 @@ class FootballPredictions:
         self.matches = matches[['home', 'away', 'date', 'result']]
         self.originalNotation = sorted(self.matches.home.unique())
 
+    def update_originalNotation(self):
+        self.originalNotation = np.append(self.matches.away.unique(), self.originalNotation)
+        sorted(np.unique(self.originalNotation))
+
 ### INIZIO ___________ GESTIONE URL PER DATA
     def get_urls(self):
         #permette di ottenere tutti i link che portano alla pagina contenente le partite di un determinato giorno. Il giorno viene settato nel link
@@ -112,7 +116,6 @@ class FootballPredictions:
 
         Ho visto che ad esempio invece di scrivere Cagliari, è stato scritto Calgiari. Controllo la percentuale di similarità tra le due stringhe e se varia di una lettera, lo score sarà alto (maggiore di 0.8 --> 0.857 per l'esattezza)
         """
-        
         for team_name in self.originalNotation:
             if (team_name in new_name) or (new_name in team_name) or (SequenceMatcher(None, new_name, team_name).ratio() > 0.8): 
                 return team_name
