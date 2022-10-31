@@ -1,9 +1,10 @@
-path_stats = 'files/Serie A/'
+path_stats = 'Serie A/'
 
 ###### CSV FILES ######
     ###### CSV da lavorare ######
-championship = path_stats+'{} championship.csv' #file che contiene tutte le partite del campionato (giocate e non giocate, con il relativo risultato) -> una stagione
-statistics = path_stats+'{} statistics.csv' #dataset contenente tutte le statistiche utili per ciascuna squadra in ciascun match (1 season)
+championship = path_stats+'Championships/{}.csv' #file che contiene tutte le partite del campionato (giocate e non giocate, con il relativo risultato) -> una stagione
+stats = path_stats+'Stats/'
+statistics = stats+'{}.csv' #dataset contenente tutte le statistiche utili per ciascuna squadra in ciascun match (1 season)
 merged_statistics = path_stats+'all stats.csv' #dataset contenente le statistiche per ciascuna squadra in ciascun match giocato (tutte le stagioni)
 matches_merged = path_stats+'matchesMerged/matches.csv' #unisce i match del punto precedente
 matches_description = path_stats+'matches_description.csv' #dataset con testo e predizione di FootballPrediction
