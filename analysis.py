@@ -93,6 +93,10 @@ class MatchAnalysis:
                     diff = averages_home[col] - averages_away[col]
                     self.diff_dataset.at[i, col] = diff
         
+
+        self.diff_dataset.home = self.diff_dataset.home.str.lower()
+        self.diff_dataset.away = self.diff_dataset.away.str.lower()
+
         self.diff_dataset.to_csv(path)
 
     def merge_(self):

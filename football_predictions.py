@@ -218,21 +218,20 @@ class FootballPredictions:
         #può capitare che fp sbagli il nome della squadra di casa o di trasferta. Controllo quindi che i nomi combacino e se non combaciano, cambio il nome di una delle due squadre
         for i, m in self.recoveries.iterrows(): 
             home, away, date = m.home.lower(), m.away.lower(), m.date
-            if len(self.matches[(self.matches.home.str.lower() == home) & (self.matches.away.str.lower()  == away) & (self.matches.date == date)]) == 0:
-                if len(self.matches[(self.matches.home.str.lower()  == home) & (self.matches.date  == date)]) == 0:
-                    if len(self.matches[(self.matches.away.str.lower()  == away) & (self.matches.date == date)]) > 0:
-                        match = self.matches[(self.matches.away.str.lower()  == away) & (self.matches.date == date)]
+            if len(self.matches[(self.matches.home == home) & (self.matches.away  == away) & (self.matches.date == date)]) == 0:
+                if len(self.matches[(self.matches.home  == home) & (self.matches.date  == date)]) == 0:
+                    if len(self.matches[(self.matches.away  == away) & (self.matches.date == date)]) > 0:
+                        match = self.matches[(self.matches.away  == away) & (self.matches.date == date)]
                         self.recoveries.at[i, 'home'] = match.home
-                elif len(self.matches[(self.matches.away.str.lower() == away) & (self.matches.date == date)]) == 0:
-                    if len(self.matches[(self.matches.home.str.lower() == home) & (self.matches.date == date)]) > 0:
-                        match = self.matches[(self.matches.home.str.lower()  == home) & (self.matches.date == date)]
+                elif len(self.matches[(self.matches.away == away) & (self.matches.date == date)]) == 0:
+                    if len(self.matches[(self.matches.home == home) & (self.matches.date == date)]) > 0:
+                        match = self.matches[(self.matches.home  == home) & (self.matches.date == date)]
                         self.recoveries.at[i, 'away'] = match.iloc[0].away
     
     def fix_dates(self, path):
         """Ho visto che alcune date non combaciano, in quanto su football predictions alcune date sono sballate (non combaciano al giorno stesso effettivo della partita, ma al giorno precedente) quindi per fare il match tra i due dataset (questo con le descrizioni delle predizioni e quello del match con la data corretta) devo considerare squadra home e away.
         """
         self.recoveries.home, self.recoveries.away = self.recoveries.home.str.lower(), self.recoveries.away.str.lower()
-        self.matches.home, self.matches.away = self.matches.home.str.lower(), self.matches.away.str.lower()
 
         self.df = pd.merge(self.matches, self.recoveries[['home','away', 'description', 'prediction', 'season']], on=['home', 'away', 'season'])
         self.df.sort_values(by=["date"], inplace=True)
