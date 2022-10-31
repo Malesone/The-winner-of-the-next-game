@@ -14,7 +14,7 @@ class FootballPredictions:
         self.format_date = '%d-%m-%Y'
         self.headers = {'User-Agent': 
                 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
-        self.matches = matches[['home', 'away', 'date', 'result']]
+        self.matches = matches[['home', 'away', 'date', 'result', 'season']]
         self.originalNotation = sorted(self.matches.home.unique())
 
     def update_originalNotation(self):
@@ -25,7 +25,6 @@ class FootballPredictions:
     def get_urls(self):
         #permette di ottenere tutti i link che portano alla pagina contenente le partite di un determinato giorno. Il giorno viene settato nel link
         #ho notato che i link relativi alle news di Serie A contengono la parola serieapredictions, quindi ottengo tutti i link e poi filtro per quelli contenente la parola
-
         match_dates = self.matches.date.unique()
 
         urls = {}
@@ -36,7 +35,6 @@ class FootballPredictions:
             link_data = converted_data.strftime(self.format_date)
             page += link_data
             urls[str(converted_data)] = page
-
 
         #ho notato che i link relativi alle news contengono la parola serieapredictions, quindi ottengo tutti i link e poi filtro per quelli contenente la parola.
         #quello che vado a fare è creare un dizionario dove come chiave ho la data del match, mentre come valore ho un array di link che portano a pagine contenenti le news e predizioni delle squadre coinvolte nel match
@@ -74,10 +72,10 @@ class FootballPredictions:
                 details = '\n\n'.join(details)
                 self.df.at[count, 'description'] = details
                 self.df.at[count, 'prediction'] = label
-                
-                count += 1
 
-        #dato che il procedimento di scaricamento delle descrizioni è molto lungo, tutti i dati sono salvati nel seguente csv. Il problema è che i dati devono essere elaborati, quindi guardare le sezioni successive
+                count += 1
+        
+        self.set_season()
         self.df.to_csv(path)
 
     def get_prediction(self, prediction_link):
@@ -136,10 +134,26 @@ class FootballPredictions:
 
         return label
 
+    def set_season(self):
+        #serve per calcolare la stagione in cui si svolge la partita, viene settato il campo season nel dataset delle notizie
+        self.matches['date'] = pd.to_datetime(self.matches['date'], format='%Y-%m-%d')
+        self.seasons = {}
+        for season in self.matches.season.unique():
+            season_matches = self.matches[self.matches.season == season]
+            first, last = season_matches.iloc[0].date, season_matches.iloc[len(season_matches)-1].date
+            self.seasons[season] = first, last
+        
+        for i, d in self.df.iterrows():
+            season = [key for key, dates in self.seasons.items() if (d.date >= dates[0]) & (d.date <= dates[1])]
+            self.df.at[i, 'season'] = season[0]
+
+        #dato che il procedimento di scaricamento delle descrizioni è molto lungo, tutti i dati sono salvati nel seguente csv. Il problema è che i dati devono essere elaborati, quindi guardare le sezioni successive
+    
     ### INIZIO ___________ FIX PREDIZIONI MANCANTI
     def read_all_predictions(self, cleaned, path):
         self.df = pd.read_csv(path, index_col=0)
         self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')
+        self.set_season()
     
     def recovery_games(self):
         """quello descritto nel metodo get_predictions non è l'unico problema, in quanto ci siano partite che sono state rimandate. Ovviamente i pronostici vengono fatti su due date diverse:
@@ -149,10 +163,10 @@ class FootballPredictions:
         """
         recoveries = self.df.copy()
         for k, match in self.matches.iterrows():
-            h_team, a_team = match.home, match.away
-            recovery = recoveries[(recoveries['home']==h_team) & (recoveries['away']==a_team)]
+            h_team, a_team = match.home.lower(), match.away.lower()
+            recovery = recoveries[(recoveries['home'].str.lower() == h_team) & (recoveries['away'].str.lower() == a_team) & (recoveries['season'] == match.season)]
             if len(recovery) > 1:
-                recoveries.drop((recoveries[(recoveries['home']==h_team) & (recoveries['away']==a_team)])[:1].index, inplace=True)
+                recoveries.drop((recoveries[(recoveries['home'].str.lower() == h_team) & (recoveries['away'].str.lower() == a_team) & (recoveries.season == match.season)])[:1].index, inplace=True)
 
         self.recoveries = recoveries
         """
@@ -173,8 +187,7 @@ class FootballPredictions:
         """
         count = len(self.recoveries)
         for k, res in self.matches.iterrows():
-            if len(self.recoveries[(self.recoveries['home']==res.home) & (self.recoveries['away']==res.away)]) < 1:
-                
+            if len(self.recoveries[(self.recoveries['home'].str.lower() == res.home.lower()) & (self.recoveries['away'].str.lower() == res.away.lower()) & (self.recoveries.season == res.season)]) < 1:
                 print(res.date, res.home, res.away) #stampo quali sono i match che non sono stati trovati
                 
                 converted_data = pd.to_datetime(res.date, format='%Y-%m-%d', errors='coerce').date()
@@ -195,13 +208,33 @@ class FootballPredictions:
                     text = '\n\n'.join(text)
                     self.recoveries.at[count, 'description'] = text
                     self.recoveries.at[count, 'prediction'] = label
-
+                    self.recoveries.at[count, 'season'] = [key for key, dates in self.seasons.items() if (res.date >= dates[0]) & (res.date <= dates[1])][0]
+                    
                     count += 1 #questo contatore serve per inserire in una determinata posizione
+
+        self.fix_names()
+
+    def fix_names(self):
+        #può capitare che fp sbagli il nome della squadra di casa o di trasferta. Controllo quindi che i nomi combacino e se non combaciano, cambio il nome di una delle due squadre
+        for i, m in self.recoveries.iterrows(): 
+            home, away, date = m.home.lower(), m.away.lower(), m.date
+            if len(self.matches[(self.matches.home.str.lower() == home) & (self.matches.away.str.lower()  == away) & (self.matches.date == date)]) == 0:
+                if len(self.matches[(self.matches.home.str.lower()  == home) & (self.matches.date  == date)]) == 0:
+                    if len(self.matches[(self.matches.away.str.lower()  == away) & (self.matches.date == date)]) > 0:
+                        match = self.matches[(self.matches.away.str.lower()  == away) & (self.matches.date == date)]
+                        self.recoveries.at[i, 'home'] = match.home
+                elif len(self.matches[(self.matches.away.str.lower() == away) & (self.matches.date == date)]) == 0:
+                    if len(self.matches[(self.matches.home.str.lower() == home) & (self.matches.date == date)]) > 0:
+                        match = self.matches[(self.matches.home.str.lower()  == home) & (self.matches.date == date)]
+                        self.recoveries.at[i, 'away'] = match.iloc[0].away
     
     def fix_dates(self, path):
         """Ho visto che alcune date non combaciano, in quanto su football predictions alcune date sono sballate (non combaciano al giorno stesso effettivo della partita, ma al giorno precedente) quindi per fare il match tra i due dataset (questo con le descrizioni delle predizioni e quello del match con la data corretta) devo considerare squadra home e away.
         """
-        self.df = pd.merge(self.matches, self.recoveries[['home','away', 'description', 'prediction']], on=['home', 'away'])
+        self.recoveries.home, self.recoveries.away = self.recoveries.home.str.lower(), self.recoveries.away.str.lower()
+        self.matches.home, self.matches.away = self.matches.home.str.lower(), self.matches.away.str.lower()
+
+        self.df = pd.merge(self.matches, self.recoveries[['home','away', 'description', 'prediction', 'season']], on=['home', 'away', 'season'])
         self.df.sort_values(by=["date"], inplace=True)
         self.df.to_csv(path)
         
