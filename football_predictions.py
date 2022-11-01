@@ -59,15 +59,15 @@ class FootballPredictions:
 ### FINE ___________ GESTIONE URL PER DATA
     
 ### INIZIO ___________ DOWNLOAD PREDIZIONI
-    def get_predictions(self, path):
+    def get_predictions(self, path, set_season):
         self.df = pd.DataFrame()
         count = 0
         for key_date, links_of_predictions in tqdm(self.links_of_pages_by_date.items()):
             for prediction_link in links_of_predictions:
                 home, away, details, label = self.get_prediction(prediction_link)
                 self.df.at[count, 'date'] = key_date        
-                self.df.at[count, 'home'] = self.check_name(home)
-                self.df.at[count, 'away'] = self.check_name(away)
+                self.df.at[count, 'home'] = self.check_name(home.lower())
+                self.df.at[count, 'away'] = self.check_name(away.lower())
                 
                 details = '\n\n'.join(details)
                 self.df.at[count, 'description'] = details
@@ -75,7 +75,11 @@ class FootballPredictions:
 
                 count += 1
         
-        self.set_season()
+        self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')
+
+        if set_season: 
+            self.set_season()
+            
         self.df.to_csv(path)
 
     def get_prediction(self, prediction_link):
@@ -150,7 +154,7 @@ class FootballPredictions:
         #dato che il procedimento di scaricamento delle descrizioni è molto lungo, tutti i dati sono salvati nel seguente csv. Il problema è che i dati devono essere elaborati, quindi guardare le sezioni successive
     
     ### INIZIO ___________ FIX PREDIZIONI MANCANTI
-    def read_all_predictions(self, cleaned, path):
+    def read_all_predictions(self, path):
         self.df = pd.read_csv(path, index_col=0)
         self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')
         self.set_season()
@@ -196,11 +200,11 @@ class FootballPredictions:
                 pageTree = requests.get('https://footballpredictions.com/footballpredictions/?date='+new_date)
                 soup = BeautifulSoup(pageTree.text, features="lxml")
                 links = soup.find_all('a', href=True)
-                links = [link['href'] for link in links if (res.home.lower() in link['href']) or (res.away.lower() in link['href'])]
+                links = [link['href'] for link in links if ('serieapredictions' in link['href']) & ((res.home.lower() in link['href']) or (res.away.lower() in link['href']))]
                 cleaned_links = list(dict.fromkeys(links))
+                print(cleaned_links)
                 if len(cleaned_links) > 0: 
                     home, away, text, label = self.get_prediction(cleaned_links[0])
-                    
                     self.recoveries.at[count, 'date'] = res.date
                     self.recoveries.at[count, 'home'] = self.check_name(home)
                     self.recoveries.at[count, 'away'] = self.check_name(away)

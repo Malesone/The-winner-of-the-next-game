@@ -18,7 +18,7 @@ ranks = path_stats+'Ranks/'
 ranking = ranks+'{}.csv' 
 
 cleaned_matches_description = football_predictions+'cleaned_descriptions.csv'
-championship_actual_season = path_stats+'Championships/2022-2023.csv'
+championship_actual_season = championship.format('2022-2023')
     
     ###### CSV completi ######
 next_matches = path_stats+'next_matches.csv'
@@ -29,11 +29,12 @@ final_dataset = path_stats+'final_dataset.csv' #dataset con i nomi delle squadre
 ###### ML MODEL ######
 path_ML = 'ML Model/'
 vectorizer = path_ML+'vectorizer.pk'
-text_analysis = path_ML+'decision tree text analysis.model'
-classificator_FP = path_ML+'ta decision tree 0.942 (no syn).model'
-classificator = path_ML+'random forest 0.549.model'
+text_analysis = path_ML+'DT text analysis.model'
+classificator_FP = path_ML+'DT text analysis.model'
+classificator = path_ML+'RF final model.model'
 ###### ML MODEL ######
 
-json_link_matches = path_stats+'links.json' #file json con chiave il 
-synonyms = path_stats+'synonyms.json' #non più utilizzato
+json_link_matches = football_predictions+'links.json' #file json con chiave il 
+synonyms = path_stats+'synonyms.json' 
+teams_codes = path_stats+'teams.json' #squadre con codici
 

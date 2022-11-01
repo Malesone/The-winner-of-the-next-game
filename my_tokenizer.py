@@ -28,6 +28,12 @@ class MyTokenizer:
             jsonObject = json.load(jsonFile)
             jsonFile.close()
 
+        jsonObjectTemp = {}
+        for team, synonyms in jsonObject.items():
+            jsonObjectTemp[team.lower()] = [syn.lower() for syn in synonyms]
+
+        jsonObject = jsonObjectTemp
+
         for i, row in self.dataset.iterrows():
             h_team, a_team, description, prediction = row.home, row.away, row.description, row.prediction
 
@@ -44,7 +50,7 @@ class MyTokenizer:
             description = description.lower()
             for key in syn.keys():
                 for val in syn[key]:
-                    description = description.replace(val.lower(), key)
+                    description = description.replace(val, key)
 
             self.dataset.at[i, 'description'] = description
             
