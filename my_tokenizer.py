@@ -95,7 +95,7 @@ class MyTokenizer:
             self.cleaned_corpus.append(doc_text)
         
     def set_bigram_and_get_sets(self): 
-        self.vectorizer = TfidfVectorizer(ngram_range=(2,2)) #vectorizer sarà il nostro modello da allenare
+        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) #vectorizer sarà il nostro modello da allenare
         tokenized_text = self.vectorizer.fit_transform(self.cleaned_corpus)
 
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
