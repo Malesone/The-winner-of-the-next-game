@@ -1,0 +1,381 @@
+,team1,team2,result,date
+0,fiorentina,torino,V,2020-09-19
+0,hellas verona,roma,V,2020-09-19
+0,parma,napoli,P,2020-09-20
+0,juventus,sampdoria,V,2020-09-20
+0,sassuolo,cagliari,N,2020-09-20
+0,genoa,crotone,V,2020-09-20
+1,milan,bologna,V,2020-09-21
+1,cagliari,lazio,P,2020-09-26
+1,torino,atalanta,P,2020-09-26
+0,inter,fiorentina,V,2020-09-26
+1,sampdoria,benevento,P,2020-09-26
+1,hellas verona,udinese,V,2020-09-27
+1,napoli,genoa,V,2020-09-27
+1,roma,juventus,N,2020-09-27
+1,crotone,milan,P,2020-09-27
+0,spezia,sassuolo,P,2020-09-27
+1,bologna,parma,V,2020-09-28
+1,benevento,inter,P,2020-09-30
+1,lazio,atalanta,P,2020-09-30
+1,udinese,spezia,P,2020-09-30
+2,fiorentina,sampdoria,P,2020-10-02
+2,sassuolo,crotone,V,2020-10-03
+2,udinese,roma,P,2020-10-03
+2,lazio,inter,N,2020-10-04
+2,parma,hellas verona,V,2020-10-04
+5,milan,spezia,V,2020-10-04
+2,atalanta,cagliari,V,2020-10-04
+2,benevento,bologna,V,2020-10-04
+3,inter,milan,P,2020-10-17
+3,sampdoria,lazio,V,2020-10-17
+2,napoli,atalanta,V,2020-10-17
+3,crotone,juventus,N,2020-10-17
+3,udinese,parma,V,2020-10-18
+2,torino,cagliari,P,2020-10-18
+3,roma,benevento,V,2020-10-18
+3,spezia,fiorentina,N,2020-10-18
+3,bologna,sassuolo,P,2020-10-18
+3,hellas verona,genoa,N,2020-10-19
+4,sassuolo,torino,N,2020-10-23
+3,genoa,inter,P,2020-10-24
+5,atalanta,sampdoria,P,2020-10-24
+5,lazio,bologna,V,2020-10-24
+4,fiorentina,udinese,V,2020-10-25
+4,cagliari,crotone,V,2020-10-25
+4,parma,spezia,N,2020-10-25
+4,benevento,napoli,P,2020-10-25
+4,juventus,hellas verona,N,2020-10-25
+8,milan,roma,N,2020-10-26
+6,crotone,atalanta,P,2020-10-31
+7,inter,parma,N,2020-10-31
+6,bologna,cagliari,V,2020-10-31
+7,roma,fiorentina,V,2020-11-01
+6,udinese,milan,P,2020-11-01
+6,sampdoria,genoa,N,2020-11-01
+5,torino,lazio,P,2020-11-01
+6,spezia,juventus,P,2020-11-01
+6,napoli,sassuolo,P,2020-11-01
+6,hellas verona,benevento,V,2020-11-02
+6,genoa,torino,P,2020-11-04
+6,sassuolo,udinese,N,2020-11-06
+7,benevento,spezia,P,2020-11-07
+7,cagliari,sampdoria,V,2020-11-07
+7,parma,fiorentina,N,2020-11-07
+7,torino,crotone,N,2020-11-08
+12,milan,hellas verona,N,2020-11-08
+7,bologna,napoli,P,2020-11-08
+9,atalanta,inter,N,2020-11-08
+9,lazio,juventus,N,2020-11-08
+7,genoa,roma,P,2020-11-08
+9,juventus,cagliari,V,2020-11-21
+8,crotone,lazio,P,2020-11-21
+8,spezia,atalanta,N,2020-11-21
+10,inter,torino,V,2020-11-22
+8,hellas verona,sassuolo,P,2020-11-22
+9,napoli,milan,P,2020-11-22
+8,fiorentina,benevento,P,2020-11-22
+8,udinese,genoa,V,2020-11-22
+10,roma,parma,V,2020-11-22
+8,sampdoria,bologna,P,2020-11-22
+12,atalanta,hellas verona,P,2020-11-28
+9,benevento,juventus,N,2020-11-28
+8,sassuolo,inter,P,2020-11-28
+11,napoli,roma,V,2020-11-29
+12,lazio,udinese,P,2020-11-29
+15,milan,fiorentina,V,2020-11-29
+10,bologna,crotone,V,2020-11-29
+10,cagliari,spezia,N,2020-11-29
+10,genoa,parma,P,2020-11-30
+10,torino,sampdoria,N,2020-11-30
+13,juventus,torino,V,2020-12-05
+11,spezia,lazio,P,2020-12-05
+14,inter,bologna,V,2020-12-05
+11,hellas verona,cagliari,N,2020-12-06
+11,parma,benevento,N,2020-12-06
+11,sampdoria,milan,P,2020-12-06
+10,crotone,napoli,P,2020-12-06
+14,roma,sassuolo,N,2020-12-06
+11,fiorentina,genoa,N,2020-12-07
+10,sassuolo,benevento,V,2020-12-11
+16,lazio,hellas verona,P,2020-12-12
+12,torino,udinese,P,2020-12-12
+11,crotone,spezia,V,2020-12-12
+12,genoa,juventus,P,2020-12-13
+15,napoli,sampdoria,V,2020-12-13
+12,cagliari,inter,P,2020-12-13
+19,milan,parma,N,2020-12-13
+15,atalanta,fiorentina,V,2020-12-13
+12,bologna,roma,P,2020-12-13
+12,benevento,lazio,N,2020-12-15
+12,udinese,crotone,N,2020-12-15
+13,spezia,bologna,N,2020-12-16
+16,juventus,atalanta,N,2020-12-16
+13,genoa,milan,N,2020-12-16
+13,hellas verona,sampdoria,P,2020-12-16
+17,inter,napoli,V,2020-12-16
+13,parma,cagliari,N,2020-12-16
+13,fiorentina,sassuolo,N,2020-12-16
+17,roma,torino,V,2020-12-17
+14,fiorentina,hellas verona,N,2020-12-19
+14,sampdoria,crotone,V,2020-12-19
+14,parma,juventus,P,2020-12-19
+13,benevento,genoa,V,2020-12-20
+17,atalanta,roma,V,2020-12-20
+18,inter,spezia,V,2020-12-20
+18,lazio,napoli,V,2020-12-20
+14,cagliari,udinese,N,2020-12-20
+12,sassuolo,milan,P,2020-12-20
+14,torino,bologna,N,2020-12-20
+18,juventus,fiorentina,P,2020-12-22
+14,crotone,parma,V,2020-12-22
+22,milan,lazio,V,2020-12-23
+14,udinese,benevento,P,2020-12-23
+15,bologna,atalanta,N,2020-12-23
+15,sampdoria,sassuolo,P,2020-12-23
+15,spezia,genoa,P,2020-12-23
+15,hellas verona,inter,P,2020-12-23
+19,roma,cagliari,V,2020-12-23
+18,napoli,torino,N,2020-12-23
+16,cagliari,napoli,P,2021-01-03
+20,inter,crotone,V,2021-01-03
+16,genoa,lazio,N,2021-01-03
+16,parma,torino,P,2021-01-03
+19,atalanta,sassuolo,V,2021-01-03
+16,spezia,hellas verona,P,2021-01-03
+19,juventus,udinese,V,2021-01-03
+15,benevento,milan,P,2021-01-03
+16,fiorentina,bologna,N,2021-01-03
+20,roma,sampdoria,V,2021-01-03
+17,bologna,udinese,N,2021-01-06
+16,crotone,roma,P,2021-01-06
+24,milan,juventus,P,2021-01-06
+21,lazio,fiorentina,V,2021-01-06
+20,atalanta,parma,V,2021-01-06
+17,torino,hellas verona,N,2021-01-06
+17,cagliari,benevento,P,2021-01-06
+17,sampdoria,inter,V,2021-01-06
+20,napoli,spezia,P,2021-01-06
+15,sassuolo,genoa,V,2021-01-06
+17,benevento,atalanta,P,2021-01-09
+25,milan,torino,V,2021-01-09
+18,genoa,bologna,V,2021-01-09
+18,fiorentina,cagliari,V,2021-01-10
+18,hellas verona,crotone,V,2021-01-10
+21,juventus,sassuolo,V,2021-01-10
+17,udinese,napoli,P,2021-01-10
+18,parma,lazio,P,2021-01-10
+22,roma,inter,N,2021-01-10
+18,spezia,sampdoria,V,2021-01-11
+23,lazio,roma,V,2021-01-15
+19,sampdoria,udinese,V,2021-01-16
+19,bologna,hellas verona,V,2021-01-16
+20,torino,spezia,N,2021-01-16
+23,atalanta,genoa,N,2021-01-17
+18,sassuolo,parma,N,2021-01-17
+18,crotone,benevento,V,2021-01-17
+24,inter,juventus,V,2021-01-17
+23,napoli,fiorentina,V,2021-01-17
+20,cagliari,milan,P,2021-01-18
+19,udinese,atalanta,N,2021-01-20
+19,benevento,torino,N,2021-01-22
+25,roma,spezia,V,2021-01-23
+21,fiorentina,crotone,V,2021-01-23
+28,milan,atalanta,P,2021-01-23
+20,udinese,inter,N,2021-01-23
+25,lazio,sassuolo,V,2021-01-24
+21,parma,sampdoria,P,2021-01-24
+25,juventus,bologna,V,2021-01-24
+21,genoa,cagliari,V,2021-01-24
+20,hellas verona,napoli,V,2021-01-24
+22,torino,fiorentina,N,2021-01-29
+27,inter,benevento,V,2021-01-30
+21,sampdoria,juventus,P,2021-01-30
+21,bologna,milan,P,2021-01-30
+27,napoli,parma,V,2021-01-31
+23,spezia,udinese,P,2021-01-31
+27,atalanta,lazio,P,2021-01-31
+20,crotone,genoa,P,2021-01-31
+26,roma,hellas verona,V,2021-01-31
+22,cagliari,sassuolo,N,2021-01-31
+23,fiorentina,inter,P,2021-02-05
+21,sassuolo,spezia,P,2021-02-06
+29,juventus,roma,V,2021-02-06
+23,genoa,napoli,V,2021-02-06
+29,atalanta,torino,N,2021-02-06
+21,benevento,sampdoria,N,2021-02-07
+28,lazio,cagliari,V,2021-02-07
+22,udinese,hellas verona,V,2021-02-07
+31,milan,crotone,V,2021-02-07
+23,parma,bologna,P,2021-02-07
+23,bologna,benevento,N,2021-02-12
+25,spezia,milan,V,2021-02-13
+24,torino,genoa,N,2021-02-13
+31,napoli,juventus,V,2021-02-13
+31,inter,lazio,V,2021-02-14
+23,sampdoria,fiorentina,V,2021-02-14
+28,roma,udinese,V,2021-02-14
+24,cagliari,atalanta,P,2021-02-14
+22,crotone,sassuolo,P,2021-02-14
+23,hellas verona,parma,V,2021-02-15
+25,cagliari,torino,P,2021-02-19
+25,fiorentina,spezia,V,2021-02-19
+25,genoa,hellas verona,N,2021-02-20
+30,lazio,sampdoria,V,2021-02-20
+23,sassuolo,bologna,N,2021-02-20
+23,benevento,roma,N,2021-02-21
+34,milan,inter,P,2021-02-21
+32,atalanta,napoli,V,2021-02-21
+25,parma,udinese,N,2021-02-21
+33,juventus,crotone,V,2021-02-22
+27,spezia,parma,N,2021-02-27
+25,bologna,lazio,V,2021-02-27
+25,hellas verona,juventus,N,2021-02-27
+25,sampdoria,atalanta,P,2021-02-28
+33,inter,genoa,V,2021-02-28
+32,roma,milan,P,2021-02-28
+35,napoli,benevento,V,2021-02-28
+24,crotone,cagliari,P,2021-02-28
+25,udinese,fiorentina,V,2021-02-28
+35,juventus,spezia,V,2021-03-02
+27,cagliari,bologna,V,2021-03-03
+37,milan,udinese,N,2021-03-03
+27,genoa,sampdoria,N,2021-03-03
+25,benevento,hellas verona,P,2021-03-03
+27,fiorentina,roma,P,2021-03-03
+24,sassuolo,napoli,N,2021-03-03
+35,atalanta,crotone,V,2021-03-03
+27,parma,inter,P,2021-03-04
+29,spezia,benevento,N,2021-03-06
+36,juventus,lazio,V,2021-03-06
+27,udinese,sassuolo,V,2021-03-06
+28,fiorentina,parma,N,2021-03-07
+34,roma,genoa,V,2021-03-07
+27,hellas verona,milan,P,2021-03-07
+26,crotone,torino,V,2021-03-07
+37,napoli,bologna,V,2021-03-07
+27,sampdoria,cagliari,N,2021-03-07
+35,inter,atalanta,V,2021-03-08
+34,lazio,crotone,V,2021-03-12
+37,atalanta,spezia,V,2021-03-12
+27,benevento,fiorentina,P,2021-03-13
+29,genoa,udinese,N,2021-03-13
+26,sassuolo,hellas verona,V,2021-03-13
+29,parma,roma,V,2021-03-14
+29,cagliari,juventus,P,2021-03-14
+27,torino,inter,P,2021-03-14
+40,milan,napoli,P,2021-03-14
+28,bologna,sampdoria,V,2021-03-14
+28,torino,sassuolo,V,2021-03-17
+30,parma,genoa,P,2021-03-19
+28,crotone,bologna,P,2021-03-20
+31,spezia,cagliari,V,2021-03-20
+29,sampdoria,torino,V,2021-03-21
+30,fiorentina,milan,P,2021-03-21
+39,juventus,benevento,P,2021-03-21
+29,udinese,lazio,P,2021-03-21
+38,roma,napoli,P,2021-03-21
+29,hellas verona,atalanta,P,2021-03-21
+40,atalanta,udinese,V,2021-04-03
+40,napoli,crotone,V,2021-04-03
+29,benevento,parma,N,2021-04-03
+31,cagliari,hellas verona,P,2021-04-03
+28,sassuolo,roma,N,2021-04-03
+31,genoa,fiorentina,N,2021-04-03
+43,milan,sampdoria,N,2021-04-03
+30,torino,juventus,N,2021-04-03
+30,bologna,inter,P,2021-04-03
+37,lazio,spezia,V,2021-04-03
+38,inter,sassuolo,V,2021-04-07
+41,juventus,napoli,V,2021-04-07
+31,udinese,torino,P,2021-04-10
+33,spezia,crotone,V,2021-04-10
+32,parma,milan,P,2021-04-10
+41,roma,bologna,V,2021-04-11
+31,hellas verona,lazio,P,2021-04-11
+32,fiorentina,atalanta,P,2021-04-11
+39,inter,cagliari,V,2021-04-11
+31,sampdoria,napoli,P,2021-04-11
+42,juventus,genoa,V,2021-04-11
+30,benevento,sassuolo,P,2021-04-12
+32,sampdoria,hellas verona,V,2021-04-17
+33,cagliari,parma,V,2021-04-17
+31,sassuolo,fiorentina,V,2021-04-17
+31,crotone,udinese,P,2021-04-17
+43,napoli,inter,N,2021-04-18
+45,milan,genoa,V,2021-04-18
+39,lazio,benevento,V,2021-04-18
+32,torino,roma,V,2021-04-18
+32,bologna,spezia,V,2021-04-18
+42,atalanta,juventus,V,2021-04-18
+33,hellas verona,fiorentina,P,2021-04-20
+35,spezia,inter,N,2021-04-21
+33,udinese,cagliari,P,2021-04-21
+44,juventus,parma,V,2021-04-21
+33,bologna,torino,N,2021-04-21
+32,crotone,sampdoria,P,2021-04-21
+34,genoa,benevento,N,2021-04-21
+46,milan,sassuolo,P,2021-04-21
+44,napoli,lazio,V,2021-04-22
+44,roma,atalanta,N,2021-04-22
+33,sassuolo,sampdoria,V,2021-04-24
+35,genoa,spezia,V,2021-04-24
+35,parma,crotone,P,2021-04-24
+42,inter,hellas verona,V,2021-04-25
+44,atalanta,bologna,V,2021-04-25
+33,benevento,udinese,P,2021-04-25
+35,fiorentina,juventus,N,2021-04-25
+35,cagliari,roma,V,2021-04-25
+41,lazio,milan,V,2021-04-26
+34,torino,napoli,P,2021-04-26
+35,hellas verona,spezia,N,2021-05-01
+48,milan,benevento,V,2021-05-01
+34,crotone,inter,P,2021-05-01
+42,lazio,genoa,V,2021-05-02
+35,udinese,juventus,P,2021-05-02
+35,bologna,fiorentina,N,2021-05-02
+34,sassuolo,atalanta,N,2021-05-02
+35,sampdoria,roma,V,2021-05-02
+46,napoli,cagliari,N,2021-05-02
+35,torino,parma,V,2021-05-03
+38,spezia,napoli,P,2021-05-08
+36,udinese,bologna,N,2021-05-08
+44,inter,sampdoria,V,2021-05-08
+37,fiorentina,lazio,V,2021-05-08
+47,juventus,milan,P,2021-05-09
+35,benevento,cagliari,P,2021-05-09
+49,roma,crotone,V,2021-05-09
+37,parma,atalanta,P,2021-05-09
+36,hellas verona,torino,N,2021-05-09
+37,genoa,sassuolo,P,2021-05-09
+48,napoli,udinese,V,2021-05-11
+36,sassuolo,juventus,P,2021-05-12
+37,sampdoria,spezia,N,2021-05-12
+47,atalanta,benevento,V,2021-05-12
+45,inter,roma,V,2021-05-12
+37,bologna,genoa,P,2021-05-12
+37,torino,milan,P,2021-05-12
+38,cagliari,fiorentina,N,2021-05-12
+44,lazio,parma,V,2021-05-12
+36,crotone,hellas verona,V,2021-05-13
+49,juventus,inter,V,2021-05-15
+40,spezia,torino,V,2021-05-15
+51,roma,lazio,V,2021-05-15
+39,genoa,atalanta,P,2021-05-15
+38,udinese,sampdoria,P,2021-05-16
+39,parma,sassuolo,P,2021-05-16
+37,benevento,crotone,N,2021-05-16
+51,milan,cagliari,N,2021-05-16
+39,fiorentina,napoli,P,2021-05-16
+38,hellas verona,bologna,N,2021-05-17
+46,lazio,torino,N,2021-05-18
+39,sampdoria,parma,V,2021-05-22
+38,crotone,fiorentina,N,2021-05-22
+40,cagliari,genoa,P,2021-05-22
+50,atalanta,milan,P,2021-05-23
+39,bologna,juventus,P,2021-05-23
+40,torino,benevento,N,2021-05-23
+50,napoli,hellas verona,N,2021-05-23
+38,sassuolo,lazio,V,2021-05-23
+41,spezia,roma,N,2021-05-23
+47,inter,udinese,V,2021-05-23

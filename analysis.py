@@ -68,7 +68,6 @@ class MatchAnalysis:
         self.diff_dataset.reset_index(drop=True, inplace=True)
 
         self.diff_dataset.rename(columns={'team1':'home', 'team2': 'away'}, inplace=True)
-        self.diff_dataset.to_csv("diff_matches.csv")
 
     def readDiff_home_away(self):
         self.diff_dataset = pd.read_csv("files/diff_matches.csv", index_col=0)

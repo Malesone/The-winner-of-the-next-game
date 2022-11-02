@@ -1,0 +1,381 @@
+,team1,team2,result,date
+1,fiorentina,napoli,P,2019-08-24
+1,parma,juventus,P,2019-08-24
+1,udinese,milan,V,2019-08-25
+5,torino,sassuolo,V,2019-08-25
+1,sampdoria,lazio,P,2019-08-25
+1,spal,atalanta,P,2019-08-25
+0,roma,genoa,N,2019-08-25
+1,hellas verona,bologna,N,2019-08-25
+1,cagliari,brescia,P,2019-08-25
+0,inter,lecce,V,2019-08-26
+2,bologna,spal,V,2019-08-30
+1,juventus,napoli,V,2019-08-31
+1,milan,brescia,V,2019-08-31
+2,lecce,hellas verona,P,2019-09-01
+2,genoa,fiorentina,V,2019-09-01
+2,sassuolo,sampdoria,V,2019-09-01
+2,cagliari,inter,P,2019-09-01
+1,lazio,roma,N,2019-09-01
+2,udinese,parma,P,2019-09-01
+1,atalanta,torino,P,2019-09-01
+3,fiorentina,juventus,N,2019-09-14
+2,napoli,sampdoria,V,2019-09-14
+2,inter,udinese,V,2019-09-14
+2,roma,sassuolo,V,2019-09-15
+3,spal,lazio,V,2019-09-15
+3,genoa,atalanta,P,2019-09-15
+3,parma,cagliari,P,2019-09-15
+3,brescia,bologna,P,2019-09-15
+3,hellas verona,milan,P,2019-09-15
+8,torino,lecce,P,2019-09-16
+4,cagliari,genoa,V,2019-09-20
+4,juventus,hellas verona,V,2019-09-21
+3,milan,inter,P,2019-09-21
+4,udinese,brescia,P,2019-09-21
+4,sampdoria,torino,V,2019-09-22
+4,bologna,roma,P,2019-09-22
+4,lecce,napoli,P,2019-09-22
+4,lazio,parma,V,2019-09-22
+4,atalanta,fiorentina,N,2019-09-22
+4,sassuolo,spal,V,2019-09-22
+5,hellas verona,udinese,N,2019-09-24
+5,brescia,juventus,P,2019-09-24
+5,parma,sassuolo,V,2019-09-25
+5,roma,atalanta,P,2019-09-25
+5,napoli,cagliari,P,2019-09-25
+5,inter,lazio,V,2019-09-25
+5,spal,lecce,P,2019-09-25
+5,fiorentina,sampdoria,V,2019-09-25
+5,genoa,bologna,N,2019-09-25
+10,torino,milan,V,2019-09-26
+6,sampdoria,inter,P,2019-09-28
+6,juventus,spal,V,2019-09-28
+6,sassuolo,atalanta,P,2019-09-28
+6,napoli,brescia,V,2019-09-29
+5,milan,fiorentina,P,2019-09-29
+6,udinese,bologna,V,2019-09-29
+6,lecce,roma,P,2019-09-29
+6,cagliari,hellas verona,N,2019-09-29
+6,lazio,genoa,V,2019-09-29
+6,parma,torino,V,2019-09-30
+7,hellas verona,sampdoria,V,2019-10-05
+7,genoa,milan,P,2019-10-05
+7,spal,parma,V,2019-10-05
+8,roma,cagliari,N,2019-10-06
+8,atalanta,lecce,V,2019-10-06
+7,bologna,lazio,N,2019-10-06
+7,fiorentina,udinese,V,2019-10-06
+8,inter,juventus,P,2019-10-06
+12,torino,napoli,N,2019-10-06
+9,juventus,bologna,V,2019-10-19
+9,lazio,atalanta,N,2019-10-19
+9,napoli,hellas verona,V,2019-10-19
+8,parma,genoa,V,2019-10-20
+8,cagliari,spal,V,2019-10-20
+7,sassuolo,inter,P,2019-10-20
+8,sampdoria,roma,N,2019-10-20
+7,milan,lecce,N,2019-10-20
+8,udinese,torino,V,2019-10-20
+7,brescia,fiorentina,N,2019-10-21
+9,hellas verona,sassuolo,P,2019-10-25
+11,inter,parma,N,2019-10-26
+9,genoa,brescia,V,2019-10-26
+9,lecce,juventus,N,2019-10-26
+9,bologna,sampdoria,V,2019-10-27
+9,spal,napoli,N,2019-10-27
+11,roma,milan,V,2019-10-27
+11,atalanta,udinese,V,2019-10-27
+9,fiorentina,lazio,P,2019-10-27
+14,torino,cagliari,N,2019-10-27
+10,parma,hellas verona,P,2019-10-29
+9,brescia,inter,P,2019-10-29
+12,juventus,genoa,V,2019-10-30
+12,napoli,atalanta,N,2019-10-30
+12,lazio,torino,V,2019-10-30
+10,udinese,roma,P,2019-10-30
+9,sassuolo,fiorentina,P,2019-10-30
+10,sampdoria,lecce,N,2019-10-30
+10,cagliari,bologna,V,2019-10-30
+9,milan,spal,V,2019-10-31
+16,torino,juventus,P,2019-11-02
+11,bologna,inter,P,2019-11-02
+13,roma,napoli,V,2019-11-02
+11,lecce,sassuolo,N,2019-11-03
+11,genoa,udinese,P,2019-11-03
+13,atalanta,cagliari,P,2019-11-03
+11,hellas verona,brescia,V,2019-11-03
+11,fiorentina,parma,N,2019-11-03
+10,milan,lazio,P,2019-11-03
+11,spal,sampdoria,P,2019-11-04
+11,sassuolo,bologna,V,2019-11-08
+15,napoli,genoa,N,2019-11-09
+11,brescia,torino,P,2019-11-09
+15,inter,hellas verona,V,2019-11-09
+12,sampdoria,atalanta,N,2019-11-10
+12,udinese,spal,N,2019-11-10
+12,parma,roma,V,2019-11-10
+12,cagliari,fiorentina,V,2019-11-10
+15,juventus,milan,V,2019-11-10
+15,lazio,lecce,V,2019-11-10
+18,torino,inter,P,2019-11-23
+16,atalanta,juventus,P,2019-11-23
+12,milan,napoli,N,2019-11-23
+13,sampdoria,udinese,V,2019-11-24
+16,roma,brescia,V,2019-11-24
+13,bologna,parma,N,2019-11-24
+12,sassuolo,lazio,P,2019-11-24
+13,hellas verona,fiorentina,V,2019-11-24
+13,spal,genoa,N,2019-11-25
+13,lecce,cagliari,N,2019-11-25
+14,fiorentina,lecce,P,2019-11-30
+13,brescia,atalanta,P,2019-11-30
+14,genoa,torino,P,2019-11-30
+18,juventus,sassuolo,N,2019-12-01
+18,napoli,bologna,P,2019-12-01
+14,hellas verona,roma,P,2019-12-01
+14,parma,milan,P,2019-12-01
+18,lazio,udinese,V,2019-12-01
+18,inter,spal,V,2019-12-01
+14,cagliari,sampdoria,V,2019-12-02
+19,inter,roma,N,2019-12-06
+19,lazio,juventus,V,2019-12-07
+19,atalanta,hellas verona,V,2019-12-07
+16,udinese,napoli,N,2019-12-07
+16,lecce,genoa,N,2019-12-08
+16,spal,brescia,P,2019-12-08
+15,sassuolo,cagliari,N,2019-12-08
+16,sampdoria,parma,P,2019-12-08
+16,bologna,milan,P,2019-12-08
+20,torino,fiorentina,V,2019-12-08
+21,napoli,parma,P,2019-12-14
+17,genoa,sampdoria,P,2019-12-14
+15,brescia,lecce,V,2019-12-14
+16,hellas verona,torino,N,2019-12-15
+17,fiorentina,inter,N,2019-12-15
+21,roma,spal,V,2019-12-15
+17,bologna,atalanta,V,2019-12-15
+15,milan,sassuolo,N,2019-12-15
+21,juventus,udinese,V,2019-12-15
+17,cagliari,lazio,P,2019-12-16
+16,brescia,sassuolo,P,2019-12-18
+18,sampdoria,juventus,P,2019-12-18
+18,fiorentina,roma,P,2019-12-20
+22,torino,spal,P,2019-12-21
+18,udinese,cagliari,V,2019-12-21
+22,inter,genoa,V,2019-12-21
+22,atalanta,milan,V,2019-12-22
+18,sassuolo,napoli,P,2019-12-22
+18,parma,brescia,N,2019-12-22
+18,lecce,bologna,P,2019-12-22
+19,genoa,sassuolo,V,2020-01-05
+18,brescia,lazio,P,2020-01-05
+23,roma,torino,P,2020-01-05
+19,spal,hellas verona,P,2020-01-05
+19,lecce,udinese,P,2020-01-06
+17,milan,sampdoria,N,2020-01-06
+23,napoli,inter,P,2020-01-06
+23,atalanta,parma,V,2020-01-06
+19,bologna,fiorentina,N,2020-01-06
+24,juventus,cagliari,V,2020-01-06
+24,lazio,napoli,V,2020-01-11
+20,cagliari,milan,P,2020-01-11
+24,inter,atalanta,N,2020-01-11
+20,udinese,sassuolo,V,2020-01-12
+25,torino,bologna,V,2020-01-12
+20,sampdoria,brescia,V,2020-01-12
+20,fiorentina,spal,V,2020-01-12
+24,roma,juventus,P,2020-01-12
+18,hellas verona,genoa,V,2020-01-12
+20,parma,lecce,V,2020-01-13
+21,sassuolo,torino,V,2020-01-18
+26,napoli,fiorentina,P,2020-01-18
+26,lazio,sampdoria,V,2020-01-18
+22,genoa,roma,P,2020-01-19
+21,bologna,hellas verona,N,2020-01-19
+20,brescia,cagliari,N,2020-01-19
+27,juventus,parma,V,2020-01-19
+21,lecce,inter,N,2020-01-19
+20,milan,udinese,V,2020-01-19
+26,atalanta,spal,P,2020-01-20
+21,brescia,milan,P,2020-01-24
+27,torino,atalanta,P,2020-01-25
+23,spal,bologna,P,2020-01-25
+23,fiorentina,genoa,N,2020-01-25
+22,sampdoria,sassuolo,N,2020-01-26
+23,parma,udinese,V,2020-01-26
+20,hellas verona,lecce,V,2020-01-26
+28,napoli,juventus,V,2020-01-26
+27,inter,cagliari,N,2020-01-26
+28,roma,lazio,N,2020-01-26
+23,bologna,brescia,V,2020-02-01
+24,cagliari,parma,N,2020-02-01
+23,sassuolo,roma,V,2020-02-01
+23,milan,hellas verona,N,2020-02-02
+29,lazio,spal,V,2020-02-02
+30,juventus,fiorentina,V,2020-02-02
+23,lecce,torino,V,2020-02-02
+24,udinese,inter,P,2020-02-02
+28,atalanta,genoa,N,2020-02-02
+23,sampdoria,napoli,P,2020-02-03
+30,lazio,hellas verona,N,2020-02-05
+30,roma,bologna,P,2020-02-07
+30,torino,sampdoria,P,2020-02-08
+26,fiorentina,atalanta,P,2020-02-08
+23,hellas verona,juventus,V,2020-02-08
+30,inter,milan,V,2020-02-09
+25,parma,lazio,P,2020-02-09
+25,spal,sassuolo,P,2020-02-09
+23,brescia,udinese,N,2020-02-09
+30,napoli,lecce,P,2020-02-09
+25,genoa,cagliari,V,2020-02-09
+25,lecce,spal,V,2020-02-15
+30,atalanta,roma,V,2020-02-15
+25,bologna,genoa,P,2020-02-15
+25,sassuolo,parma,P,2020-02-16
+25,sampdoria,fiorentina,P,2020-02-16
+32,lazio,inter,V,2020-02-16
+33,juventus,brescia,V,2020-02-16
+26,udinese,hellas verona,N,2020-02-16
+26,cagliari,napoli,P,2020-02-16
+26,milan,torino,V,2020-02-17
+25,brescia,napoli,P,2020-02-21
+26,bologna,udinese,N,2020-02-22
+27,spal,juventus,P,2020-02-22
+28,fiorentina,milan,N,2020-02-22
+33,roma,lecce,V,2020-02-23
+27,genoa,lazio,P,2020-02-23
+34,lazio,bologna,V,2020-02-29
+35,napoli,torino,V,2020-02-29
+27,cagliari,roma,P,2020-03-01
+27,lecce,atalanta,P,2020-03-01
+28,milan,genoa,P,2020-03-08
+27,parma,spal,P,2020-03-08
+36,juventus,inter,V,2020-03-08
+28,udinese,fiorentina,N,2020-03-08
+26,sampdoria,hellas verona,V,2020-03-08
+26,sassuolo,brescia,V,2020-03-09
+33,torino,parma,N,2020-06-20
+26,hellas verona,cagliari,V,2020-06-20
+34,atalanta,sassuolo,V,2020-06-21
+38,inter,sampdoria,V,2020-06-21
+28,lecce,milan,P,2020-06-22
+30,fiorentina,brescia,N,2020-06-22
+28,bologna,juventus,P,2020-06-22
+27,hellas verona,napoli,P,2020-06-23
+34,torino,udinese,V,2020-06-23
+29,spal,cagliari,P,2020-06-23
+29,genoa,parma,P,2020-06-23
+37,roma,sampdoria,V,2020-06-24
+35,atalanta,lazio,V,2020-06-24
+39,inter,sassuolo,N,2020-06-24
+40,juventus,lecce,V,2020-06-26
+36,lazio,fiorentina,V,2020-06-27
+30,cagliari,torino,V,2020-06-27
+28,brescia,genoa,N,2020-06-27
+39,napoli,spal,V,2020-06-28
+30,parma,inter,P,2020-06-28
+29,sampdoria,bologna,P,2020-06-28
+30,udinese,atalanta,P,2020-06-28
+31,milan,roma,V,2020-06-28
+29,sassuolo,hellas verona,N,2020-06-28
+36,torino,lazio,P,2020-06-30
+31,genoa,juventus,P,2020-06-30
+30,bologna,cagliari,N,2020-07-01
+31,spal,milan,N,2020-07-01
+32,fiorentina,sassuolo,P,2020-07-01
+29,hellas verona,parma,V,2020-07-01
+30,lecce,sampdoria,P,2020-07-01
+41,inter,brescia,V,2020-07-01
+39,roma,udinese,P,2020-07-02
+37,atalanta,napoli,V,2020-07-02
+31,sassuolo,lecce,V,2020-07-04
+38,lazio,milan,P,2020-07-04
+42,juventus,torino,V,2020-07-04
+32,parma,fiorentina,P,2020-07-05
+32,cagliari,atalanta,P,2020-07-05
+30,brescia,hellas verona,V,2020-07-05
+31,sampdoria,spal,V,2020-07-05
+42,inter,bologna,P,2020-07-05
+32,udinese,genoa,N,2020-07-05
+41,napoli,roma,V,2020-07-05
+34,milan,juventus,V,2020-07-07
+32,lecce,lazio,V,2020-07-07
+33,genoa,napoli,P,2020-07-08
+32,bologna,sassuolo,P,2020-07-08
+34,fiorentina,cagliari,N,2020-07-08
+39,atalanta,sampdoria,V,2020-07-08
+41,roma,parma,V,2020-07-08
+38,torino,brescia,V,2020-07-08
+33,spal,udinese,P,2020-07-09
+31,hellas verona,inter,N,2020-07-09
+40,lazio,sassuolo,P,2020-07-11
+44,juventus,atalanta,N,2020-07-11
+32,brescia,roma,P,2020-07-11
+34,genoa,spal,V,2020-07-12
+34,parma,bologna,N,2020-07-12
+34,udinese,sampdoria,P,2020-07-12
+35,fiorentina,hellas verona,N,2020-07-12
+43,napoli,milan,N,2020-07-12
+34,cagliari,lecce,N,2020-07-12
+44,inter,torino,V,2020-07-13
+41,atalanta,brescia,V,2020-07-14
+34,sassuolo,juventus,N,2020-07-15
+34,bologna,napoli,N,2020-07-15
+34,lecce,fiorentina,P,2020-07-15
+36,milan,parma,V,2020-07-15
+35,udinese,lazio,N,2020-07-15
+34,sampdoria,cagliari,V,2020-07-15
+43,roma,hellas verona,V,2020-07-15
+35,spal,inter,P,2020-07-16
+40,torino,genoa,V,2020-07-16
+37,milan,bologna,V,2020-07-18
+36,cagliari,sassuolo,N,2020-07-18
+34,hellas verona,atalanta,N,2020-07-18
+36,parma,sampdoria,P,2020-07-19
+34,brescia,spal,V,2020-07-19
+37,fiorentina,torino,V,2020-07-19
+36,genoa,lecce,V,2020-07-19
+45,napoli,udinese,V,2020-07-19
+44,roma,inter,N,2020-07-19
+46,juventus,lazio,V,2020-07-20
+43,atalanta,bologna,V,2020-07-21
+36,sassuolo,milan,P,2020-07-21
+36,lecce,brescia,V,2020-07-22
+47,inter,fiorentina,N,2020-07-22
+42,torino,hellas verona,N,2020-07-22
+36,sampdoria,genoa,P,2020-07-22
+37,parma,napoli,V,2020-07-22
+37,spal,roma,P,2020-07-22
+37,udinese,juventus,V,2020-07-23
+43,lazio,cagliari,V,2020-07-23
+39,milan,atalanta,N,2020-07-24
+36,brescia,parma,P,2020-07-25
+38,genoa,inter,P,2020-07-25
+47,napoli,sassuolo,V,2020-07-25
+38,cagliari,udinese,P,2020-07-26
+38,spal,torino,N,2020-07-26
+37,bologna,lecce,V,2020-07-26
+36,hellas verona,lazio,P,2020-07-26
+48,juventus,sampdoria,V,2020-07-26
+46,roma,fiorentina,V,2020-07-26
+39,parma,atalanta,P,2020-07-28
+49,inter,napoli,V,2020-07-28
+45,lazio,brescia,V,2020-07-29
+37,hellas verona,spal,V,2020-07-29
+39,cagliari,juventus,V,2020-07-29
+40,fiorentina,bologna,V,2020-07-29
+44,torino,roma,P,2020-07-29
+39,udinese,lecce,P,2020-07-29
+38,sampdoria,milan,P,2020-07-29
+38,sassuolo,genoa,V,2020-07-29
+41,milan,cagliari,V,2020-08-01
+50,juventus,roma,P,2020-08-01
+38,brescia,sampdoria,N,2020-08-01
+46,atalanta,inter,P,2020-08-01
+49,napoli,lazio,V,2020-08-01
+39,lecce,parma,P,2020-08-02
+40,spal,fiorentina,P,2020-08-02
+40,genoa,hellas verona,V,2020-08-02
+39,bologna,torino,N,2020-08-02
+39,sassuolo,udinese,P,2020-08-02

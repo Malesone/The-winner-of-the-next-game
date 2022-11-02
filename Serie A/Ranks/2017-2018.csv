@@ -1,0 +1,381 @@
+,Data,Casa,Punteggio,Ospiti
+0,2017-08-19,juventus,3–0,cagliari
+1,2017-08-19,hellas verona,1–3,napoli
+2,2017-08-20,atalanta,0–1,roma
+3,2017-08-20,sampdoria,2–1,benevento
+4,2017-08-20,inter,3–0,fiorentina
+5,2017-08-20,crotone,0–3,milan
+6,2017-08-20,bologna,1–1,torino
+7,2017-08-20,sassuolo,0–0,genoa
+8,2017-08-20,lazio,0–0,spal
+9,2017-08-20,udinese,1–2,chievo
+11,2017-08-26,benevento,0–1,bologna
+12,2017-08-26,genoa,2–4,juventus
+13,2017-08-26,roma,1–3,inter
+14,2017-08-27,torino,3–0,sassuolo
+15,2017-08-27,milan,2–1,cagliari
+16,2017-08-27,crotone,0–0,hellas verona
+17,2017-08-27,spal,3–2,udinese
+18,2017-08-27,napoli,3–1,atalanta
+19,2017-08-27,chievo,1–2,lazio
+20,2017-08-27,fiorentina,1–2,sampdoria
+22,2017-09-09,juventus,3–0,chievo
+23,2017-09-10,inter,2–0,spal
+24,2017-09-10,atalanta,2–1,sassuolo
+25,2017-09-10,cagliari,1–0,crotone
+26,2017-09-10,udinese,1–0,genoa
+27,2017-09-10,hellas verona,0–5,fiorentina
+28,2017-09-10,lazio,4–1,milan
+29,2017-09-10,benevento,0–1,torino
+30,2017-09-10,bologna,0–3,napoli
+32,2017-09-16,crotone,0–2,inter
+33,2017-09-16,fiorentina,2–1,bologna
+34,2017-09-16,roma,3–0,hellas verona
+35,2017-09-17,sassuolo,1–3,juventus
+36,2017-09-17,milan,2–1,udinese
+37,2017-09-17,napoli,6–0,benevento
+38,2017-09-17,spal,0–2,cagliari
+39,2017-09-17,torino,2–2,sampdoria
+40,2017-09-17,chievo,1–1,atalanta
+41,2017-09-17,genoa,2–3,lazio
+43,2017-09-19,bologna,1–1,inter
+44,2017-09-20,benevento,0–4,roma
+45,2017-09-20,atalanta,5–1,crotone
+46,2017-09-20,milan,2–0,spal
+47,2017-09-20,genoa,1–1,chievo
+48,2017-09-20,lazio,1–4,napoli
+49,2017-09-20,udinese,2–3,torino
+50,2017-09-20,hellas verona,0–0,sampdoria
+51,2017-09-20,juventus,1–0,fiorentina
+52,2017-09-20,cagliari,0–1,sassuolo
+54,2017-09-23,roma,3–1,udinese
+55,2017-09-23,spal,2–3,napoli
+56,2017-09-23,juventus,4–0,torino
+57,2017-09-24,sampdoria,2–0,milan
+58,2017-09-24,inter,1–0,genoa
+59,2017-09-24,crotone,2–0,benevento
+60,2017-09-24,cagliari,0–2,chievo
+61,2017-09-24,hellas verona,0–3,lazio
+62,2017-09-24,sassuolo,0–1,bologna
+63,2017-09-24,fiorentina,1–1,atalanta
+65,2017-09-30,udinese,4–0,sampdoria
+66,2017-09-30,genoa,0–1,bologna
+67,2017-10-01,napoli,3–0,cagliari
+68,2017-10-01,lazio,6–1,sassuolo
+69,2017-10-01,chievo,2–1,fiorentina
+70,2017-10-01,benevento,1–2,inter
+71,2017-10-01,torino,2–2,hellas verona
+72,2017-10-01,spal,1–1,crotone
+73,2017-10-01,milan,0–2,roma
+74,2017-10-01,atalanta,2–2,juventus
+76,2017-10-14,juventus,1–2,lazio
+77,2017-10-14,roma,0–1,napoli
+78,2017-10-15,fiorentina,2–1,udinese
+79,2017-10-15,sassuolo,0–0,chievo
+80,2017-10-15,crotone,2–2,torino
+81,2017-10-15,bologna,2–1,spal
+82,2017-10-15,cagliari,2–3,genoa
+83,2017-10-15,sampdoria,3–1,atalanta
+84,2017-10-15,inter,3–2,milan
+85,2017-10-16,hellas verona,1–0,benevento
+87,2017-10-21,sampdoria,5–0,crotone
+88,2017-10-21,napoli,0–0,inter
+89,2017-10-22,chievo,3–2,hellas verona
+90,2017-10-22,milan,0–0,genoa
+91,2017-10-22,benevento,0–3,fiorentina
+92,2017-10-22,torino,0–1,roma
+93,2017-10-22,atalanta,1–0,bologna
+94,2017-10-22,spal,0–1,sassuolo
+95,2017-10-22,udinese,2–6,juventus
+96,2017-10-22,lazio,3–0,cagliari
+98,2017-10-24,inter,3–2,sampdoria
+99,2017-10-25,atalanta,3–0,hellas verona
+100,2017-10-25,fiorentina,3–0,torino
+101,2017-10-25,sassuolo,0–1,udinese
+102,2017-10-25,roma,1–0,crotone
+103,2017-10-25,juventus,4–1,spal
+104,2017-10-25,cagliari,2–1,benevento
+105,2017-10-25,genoa,2–3,napoli
+106,2017-10-25,bologna,1–2,lazio
+107,2017-10-25,chievo,1–4,milan
+109,2017-10-28,milan,0–2,juventus
+110,2017-10-28,roma,1–0,bologna
+111,2017-10-29,benevento,1–5,lazio
+112,2017-10-29,spal,1–0,genoa
+113,2017-10-29,napoli,3–1,sassuolo
+114,2017-10-29,crotone,2–1,fiorentina
+115,2017-10-29,udinese,2–1,atalanta
+116,2017-10-29,sampdoria,4–1,chievo
+117,2017-10-29,torino,2–1,cagliari
+118,2017-10-30,hellas verona,1–2,inter
+120,2017-11-04,bologna,2–3,crotone
+121,2017-11-04,genoa,0–2,sampdoria
+122,2017-11-05,inter,1–1,torino
+123,2017-11-05,juventus,2–1,benevento
+124,2017-11-05,fiorentina,2–4,roma
+125,2017-11-05,chievo,0–0,napoli
+126,2017-11-05,cagliari,2–1,hellas verona
+127,2017-11-05,atalanta,1–1,spal
+128,2017-11-05,sassuolo,0–2,milan
+130,2017-11-18,roma,2–1,lazio
+131,2017-11-18,napoli,2–1,milan
+132,2017-11-19,crotone,0–1,genoa
+133,2017-11-19,spal,1–1,fiorentina
+134,2017-11-19,udinese,0–1,cagliari
+135,2017-11-19,torino,1–1,chievo
+136,2017-11-19,sampdoria,3–2,juventus
+137,2017-11-19,benevento,1–2,sassuolo
+138,2017-11-19,inter,2–0,atalanta
+139,2017-11-20,hellas verona,2–3,bologna
+141,2017-11-25,bologna,3–0,sampdoria
+142,2017-11-25,sassuolo,0–2,hellas verona
+143,2017-11-25,chievo,2–1,spal
+144,2017-11-25,cagliari,1–3,inter
+145,2017-11-26,milan,0–0,torino
+146,2017-11-26,udinese,0–1,napoli
+147,2017-11-26,genoa,1–1,roma
+148,2017-11-26,lazio,1–1,fiorentina
+149,2017-11-26,juventus,3–0,crotone
+150,2017-11-27,atalanta,1–0,benevento
+152,2017-12-01,roma,3–1,spal
+153,2017-12-01,napoli,0–1,juventus
+154,2017-12-02,torino,1–1,atalanta
+155,2017-12-03,benevento,2–2,milan
+156,2017-12-03,fiorentina,3–0,sassuolo
+157,2017-12-03,bologna,1–1,cagliari
+158,2017-12-03,inter,5–0,chievo
+159,2017-12-03,sampdoria,1–2,lazio
+160,2017-12-04,crotone,0–3,udinese
+161,2017-12-04,hellas verona,0–1,genoa
+163,2017-12-09,cagliari,2–2,sampdoria
+164,2017-12-09,juventus,0–0,inter
+165,2017-12-10,chievo,0–0,roma
+166,2017-12-10,udinese,2–0,benevento
+167,2017-12-10,napoli,0–0,fiorentina
+168,2017-12-10,spal,2–2,hellas verona
+169,2017-12-10,sassuolo,2–1,crotone
+170,2017-12-10,milan,2–1,bologna
+171,2017-12-11,lazio,1–3,torino
+172,2017-12-12,genoa,1–2,atalanta
+174,2017-12-16,inter,1–3,udinese
+175,2017-12-16,torino,1–3,napoli
+176,2017-12-16,roma,1–0,cagliari
+177,2017-12-17,hellas verona,3–0,milan
+178,2017-12-17,crotone,1–0,chievo
+179,2017-12-17,bologna,0–3,juventus
+180,2017-12-17,sampdoria,0–1,sassuolo
+181,2017-12-17,fiorentina,0–0,genoa
+182,2017-12-17,benevento,1–2,spal
+183,2017-12-17,atalanta,3–3,lazio
+185,2017-12-22,chievo,2–3,bologna
+186,2017-12-22,cagliari,0–1,fiorentina
+187,2017-12-23,lazio,4–0,crotone
+188,2017-12-23,genoa,1–0,benevento
+189,2017-12-23,spal,2–2,torino
+190,2017-12-23,sassuolo,1–0,inter
+191,2017-12-23,udinese,4–0,hellas verona
+192,2017-12-23,napoli,3–2,sampdoria
+193,2017-12-23,milan,0–2,atalanta
+194,2017-12-23,juventus,1–0,roma
+196,2017-12-29,crotone,0–1,napoli
+197,2017-12-30,fiorentina,1–1,milan
+198,2017-12-30,benevento,1–0,chievo
+199,2017-12-30,bologna,1–2,udinese
+200,2017-12-30,torino,0–0,genoa
+201,2017-12-30,atalanta,1–2,cagliari
+202,2017-12-30,roma,1–1,sassuolo
+203,2017-12-30,sampdoria,2–0,spal
+204,2017-12-30,inter,0–0,lazio
+205,2017-12-30,hellas verona,1–3,juventus
+207,2018-01-05,chievo,1–1,udinese
+208,2018-01-05,fiorentina,1–1,inter
+209,2018-01-06,torino,3–0,bologna
+210,2018-01-06,napoli,2–0,hellas verona
+211,2018-01-06,benevento,3–2,sampdoria
+212,2018-01-06,spal,2–5,lazio
+213,2018-01-06,milan,1–0,crotone
+214,2018-01-06,genoa,1–0,sassuolo
+215,2018-01-06,roma,1–2,atalanta
+216,2018-01-06,cagliari,0–1,juventus
+218,2018-01-21,atalanta,0–1,napoli
+219,2018-01-21,lazio,5–1,chievo
+220,2018-01-21,hellas verona,0–3,crotone
+221,2018-01-21,udinese,1–1,spal
+222,2018-01-21,sampdoria,3–1,fiorentina
+223,2018-01-21,sassuolo,1–1,torino
+224,2018-01-21,bologna,3–0,benevento
+225,2018-01-21,cagliari,1–2,milan
+226,2018-01-21,inter,1–1,roma
+227,2018-01-22,juventus,1–0,genoa
+229,2018-01-24,lazio,3–0,udinese
+231,2018-01-24,sampdoria,1–1,roma
+233,2018-01-27,sassuolo,0–3,atalanta
+234,2018-01-27,chievo,0–2,juventus
+235,2018-01-28,spal,1–1,inter
+236,2018-01-28,fiorentina,1–4,hellas verona
+237,2018-01-28,torino,3–0,benevento
+238,2018-01-28,genoa,0–1,udinese
+239,2018-01-28,crotone,1–1,cagliari
+240,2018-01-28,napoli,3–1,bologna
+241,2018-01-28,milan,2–1,lazio
+242,2018-01-28,roma,0–1,sampdoria
+244,2018-02-03,sampdoria,1–1,torino
+245,2018-02-03,inter,1–1,crotone
+246,2018-02-04,hellas verona,0–1,roma
+247,2018-02-04,atalanta,1–0,chievo
+248,2018-02-04,cagliari,2–0,spal
+249,2018-02-04,udinese,1–1,milan
+250,2018-02-04,bologna,1–2,fiorentina
+251,2018-02-04,juventus,7–0,sassuolo
+252,2018-02-04,benevento,0–2,napoli
+253,2018-02-05,lazio,1–2,genoa
+255,2018-02-09,fiorentina,0–2,juventus
+256,2018-02-10,spal,0–4,milan
+257,2018-02-10,crotone,1–1,atalanta
+258,2018-02-10,napoli,4–1,lazio
+259,2018-02-11,sassuolo,0–0,cagliari
+260,2018-02-11,chievo,0–1,genoa
+261,2018-02-11,inter,2–1,bologna
+262,2018-02-11,sampdoria,2–0,hellas verona
+263,2018-02-11,torino,2–0,udinese
+264,2018-02-11,roma,5–2,benevento
+266,2018-02-17,udinese,0–2,roma
+267,2018-02-17,chievo,2–1,cagliari
+268,2018-02-17,genoa,2–0,inter
+269,2018-02-18,torino,0–1,juventus
+270,2018-02-18,bologna,2–1,sassuolo
+271,2018-02-18,benevento,3–2,crotone
+272,2018-02-18,napoli,1–0,spal
+273,2018-02-18,atalanta,1–1,fiorentina
+274,2018-02-18,milan,1–0,sampdoria
+275,2018-02-19,lazio,2–0,hellas verona
+277,2018-02-24,bologna,2–0,genoa
+278,2018-02-24,inter,2–0,benevento
+279,2018-02-25,crotone,2–3,spal
+280,2018-02-25,sampdoria,2–1,udinese
+281,2018-02-25,fiorentina,1–0,chievo
+282,2018-02-25,sassuolo,0–3,lazio
+283,2018-02-25,hellas verona,2–1,torino
+284,2018-02-25,roma,0–2,milan
+285,2018-02-26,cagliari,0–5,napoli
+287,2018-03-03,spal,1–0,bologna
+288,2018-03-03,lazio,0–1,juventus
+289,2018-03-03,napoli,2–4,roma
+291,2018-03-09,roma,3–0,torino
+292,2018-03-10,hellas verona,1–0,chievo
+293,2018-03-11,fiorentina,1–0,benevento
+294,2018-03-11,juventus,2–0,udinese
+295,2018-03-11,bologna,0–1,atalanta
+296,2018-03-11,sassuolo,1–1,spal
+297,2018-03-11,cagliari,2–2,lazio
+298,2018-03-11,crotone,4–1,sampdoria
+299,2018-03-11,genoa,0–1,milan
+300,2018-03-11,inter,0–0,napoli
+302,2018-03-14,juventus,2–0,atalanta
+304,2018-03-17,udinese,1–2,sassuolo
+305,2018-03-17,spal,0–0,juventus
+306,2018-03-18,sampdoria,0–5,inter
+307,2018-03-18,milan,3–2,chievo
+308,2018-03-18,crotone,0–2,roma
+309,2018-03-18,benevento,1–2,cagliari
+310,2018-03-18,torino,1–2,fiorentina
+311,2018-03-18,hellas verona,0–5,atalanta
+312,2018-03-18,lazio,1–1,bologna
+313,2018-03-18,napoli,1–0,genoa
+315,2018-03-31,bologna,1–1,roma
+316,2018-03-31,genoa,1–1,spal
+317,2018-03-31,fiorentina,2–0,crotone
+318,2018-03-31,atalanta,2–0,udinese
+319,2018-03-31,cagliari,0–4,torino
+320,2018-03-31,inter,3–0,hellas verona
+321,2018-03-31,lazio,6–2,benevento
+322,2018-03-31,chievo,2–1,sampdoria
+323,2018-03-31,sassuolo,1–1,napoli
+324,2018-03-31,juventus,3–1,milan
+326,2018-04-03,udinese,0–2,fiorentina
+327,2018-04-03,genoa,2–1,cagliari
+328,2018-04-03,atalanta,1–2,sampdoria
+329,2018-04-04,benevento,3–0,hellas verona
+330,2018-04-04,torino,4–1,crotone
+331,2018-04-04,milan,0–0,inter
+332,2018-04-04,chievo,1–1,sassuolo
+334,2018-04-07,benevento,2–4,juventus
+335,2018-04-07,spal,1–1,atalanta
+336,2018-04-07,roma,0–2,fiorentina
+337,2018-04-07,sampdoria,0–0,genoa
+338,2018-04-08,torino,1–0,inter
+339,2018-04-08,napoli,2–1,chievo
+340,2018-04-08,crotone,1–0,bologna
+341,2018-04-08,hellas verona,1–0,cagliari
+342,2018-04-08,udinese,1–2,lazio
+343,2018-04-08,milan,1–1,sassuolo
+345,2018-04-14,cagliari,2–1,udinese
+346,2018-04-14,chievo,0–0,torino
+347,2018-04-14,genoa,1–0,crotone
+348,2018-04-14,atalanta,0–0,inter
+349,2018-04-15,fiorentina,0–0,spal
+350,2018-04-15,milan,0–0,napoli
+351,2018-04-15,sassuolo,2–2,benevento
+352,2018-04-15,bologna,2–0,hellas verona
+353,2018-04-15,juventus,3–0,sampdoria
+354,2018-04-15,lazio,0–0,roma
+356,2018-04-17,inter,4–0,cagliari
+357,2018-04-18,benevento,0–3,atalanta
+358,2018-04-18,sampdoria,1–0,bologna
+359,2018-04-18,hellas verona,0–1,sassuolo
+360,2018-04-18,torino,1–1,milan
+361,2018-04-18,spal,0–0,chievo
+362,2018-04-18,napoli,4–2,udinese
+363,2018-04-18,fiorentina,3–4,lazio
+364,2018-04-18,crotone,1–1,juventus
+365,2018-04-18,roma,2–1,genoa
+367,2018-04-21,spal,0–3,roma
+368,2018-04-21,sassuolo,1–0,fiorentina
+369,2018-04-21,milan,0–1,benevento
+370,2018-04-22,cagliari,0–0,bologna
+371,2018-04-22,atalanta,2–1,torino
+372,2018-04-22,udinese,1–2,crotone
+373,2018-04-22,lazio,4–0,sampdoria
+374,2018-04-22,chievo,1–2,inter
+375,2018-04-22,juventus,0–1,napoli
+376,2018-04-23,genoa,3–1,hellas verona
+378,2018-04-28,roma,4–1,chievo
+379,2018-04-28,inter,2–3,juventus
+380,2018-04-29,crotone,4–1,sassuolo
+381,2018-04-29,sampdoria,4–1,cagliari
+382,2018-04-29,bologna,1–2,milan
+383,2018-04-29,atalanta,3–1,genoa
+384,2018-04-29,benevento,3–3,udinese
+385,2018-04-29,hellas verona,1–3,spal
+386,2018-04-29,fiorentina,3–0,napoli
+387,2018-04-29,torino,0–1,lazio
+389,2018-05-05,milan,4–1,hellas verona
+390,2018-05-05,juventus,3–1,bologna
+391,2018-05-06,udinese,0–4,inter
+392,2018-05-06,napoli,2–2,torino
+393,2018-05-06,lazio,1–1,atalanta
+394,2018-05-06,genoa,2–3,fiorentina
+395,2018-05-06,chievo,2–1,crotone
+396,2018-05-06,spal,2–0,benevento
+397,2018-05-06,sassuolo,1–0,sampdoria
+398,2018-05-06,cagliari,0–1,roma
+400,2018-05-12,benevento,1–0,genoa
+401,2018-05-12,inter,1–2,sassuolo
+402,2018-05-13,bologna,1–2,chievo
+403,2018-05-13,fiorentina,0–1,cagliari
+404,2018-05-13,torino,2–1,spal
+405,2018-05-13,crotone,2–2,lazio
+406,2018-05-13,hellas verona,0–1,udinese
+407,2018-05-13,atalanta,1–1,milan
+408,2018-05-13,roma,0–0,juventus
+409,2018-05-13,sampdoria,0–2,napoli
+411,2018-05-19,juventus,2–1,hellas verona
+412,2018-05-20,genoa,1–2,torino
+413,2018-05-20,spal,3–1,sampdoria
+414,2018-05-20,napoli,2–1,crotone
+415,2018-05-20,chievo,1–0,benevento
+416,2018-05-20,cagliari,1–0,atalanta
+417,2018-05-20,milan,5–1,fiorentina
+418,2018-05-20,udinese,1–0,bologna
+419,2018-05-20,sassuolo,0–1,roma
+420,2018-05-20,lazio,2–3,inter

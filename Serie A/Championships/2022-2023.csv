@@ -1,0 +1,381 @@
+,team1,team2,result,date
+1,monza,torino,P,2022-08-13
+1,sampdoria,atalanta,P,2022-08-13
+1,lecce,inter,P,2022-08-13
+0,milan,udinese,V,2022-08-13
+0,lazio,bologna,V,2022-08-14
+1,salernitana,roma,P,2022-08-14
+1,spezia,empoli,V,2022-08-14
+0,fiorentina,cremonese,V,2022-08-14
+1,hellas verona,napoli,P,2022-08-15
+0,juventus,sassuolo,V,2022-08-15
+2,sassuolo,lecce,V,2022-08-20
+1,inter,spezia,V,2022-08-20
+2,udinese,salernitana,N,2022-08-20
+2,torino,lazio,N,2022-08-20
+1,napoli,monza,V,2022-08-21
+2,bologna,hellas verona,N,2022-08-21
+2,empoli,fiorentina,N,2022-08-21
+1,atalanta,milan,N,2022-08-21
+1,roma,cremonese,V,2022-08-22
+2,sampdoria,juventus,N,2022-08-22
+3,monza,udinese,P,2022-08-26
+2,lazio,inter,V,2022-08-26
+2,milan,bologna,V,2022-08-27
+3,spezia,sassuolo,N,2022-08-27
+3,cremonese,torino,P,2022-08-27
+2,juventus,roma,N,2022-08-27
+4,fiorentina,napoli,N,2022-08-28
+3,lecce,empoli,N,2022-08-28
+3,salernitana,sampdoria,V,2022-08-28
+3,hellas verona,atalanta,P,2022-08-28
+3,roma,monza,V,2022-08-30
+3,inter,cremonese,V,2022-08-30
+4,sassuolo,milan,N,2022-08-30
+4,udinese,fiorentina,V,2022-08-31
+3,napoli,lecce,N,2022-08-31
+3,juventus,spezia,V,2022-08-31
+4,sampdoria,lazio,N,2022-08-31
+4,empoli,hellas verona,N,2022-08-31
+3,atalanta,torino,V,2022-09-01
+4,bologna,salernitana,N,2022-09-01
+4,lazio,napoli,P,2022-09-03
+4,milan,inter,V,2022-09-03
+6,fiorentina,juventus,N,2022-09-03
+5,hellas verona,sampdoria,V,2022-09-04
+5,spezia,bologna,N,2022-09-04
+5,cremonese,sassuolo,N,2022-09-04
+5,udinese,roma,V,2022-09-04
+5,monza,atalanta,P,2022-09-05
+5,salernitana,empoli,N,2022-09-05
+5,torino,lecce,V,2022-09-05
+6,sampdoria,milan,P,2022-09-10
+6,inter,torino,V,2022-09-10
+6,napoli,spezia,V,2022-09-10
+6,lazio,hellas verona,V,2022-09-11
+6,bologna,fiorentina,V,2022-09-11
+5,atalanta,cremonese,N,2022-09-11
+6,lecce,monza,N,2022-09-11
+6,sassuolo,udinese,P,2022-09-11
+6,juventus,salernitana,N,2022-09-11
+6,empoli,roma,P,2022-09-12
+7,salernitana,lecce,P,2022-09-16
+7,torino,sassuolo,P,2022-09-17
+7,bologna,empoli,P,2022-09-17
+7,spezia,sampdoria,V,2022-09-17
+8,milan,napoli,P,2022-09-18
+8,roma,atalanta,P,2022-09-18
+7,monza,juventus,V,2022-09-18
+10,fiorentina,hellas verona,V,2022-09-18
+7,cremonese,lazio,P,2022-09-18
+7,udinese,inter,V,2022-09-18
+8,empoli,milan,P,2022-10-01
+9,inter,roma,P,2022-10-01
+9,napoli,torino,V,2022-10-01
+9,juventus,bologna,V,2022-10-02
+9,lazio,spezia,V,2022-10-02
+8,lecce,cremonese,N,2022-10-02
+7,atalanta,fiorentina,V,2022-10-02
+8,sassuolo,salernitana,V,2022-10-02
+8,sampdoria,monza,P,2022-10-02
+8,hellas verona,udinese,P,2022-10-03
+9,sassuolo,inter,P,2022-10-08
+11,milan,juventus,V,2022-10-08
+9,bologna,sampdoria,N,2022-10-08
+11,roma,lecce,V,2022-10-09
+9,cremonese,napoli,P,2022-10-09
+9,salernitana,hellas verona,V,2022-10-09
+9,torino,empoli,N,2022-10-09
+9,monza,spezia,V,2022-10-09
+9,udinese,atalanta,N,2022-10-09
+13,fiorentina,lazio,P,2022-10-10
+10,empoli,monza,V,2022-10-15
+9,atalanta,sassuolo,V,2022-10-15
+10,torino,juventus,P,2022-10-15
+10,hellas verona,milan,P,2022-10-16
+13,napoli,bologna,V,2022-10-16
+13,inter,salernitana,V,2022-10-16
+13,lazio,udinese,N,2022-10-16
+10,spezia,cremonese,N,2022-10-16
+10,lecce,fiorentina,N,2022-10-17
+10,sampdoria,roma,P,2022-10-17
+14,juventus,empoli,V,2022-10-21
+11,salernitana,spezia,V,2022-10-22
+16,fiorentina,inter,P,2022-10-22
+14,milan,monza,V,2022-10-22
+10,atalanta,lazio,P,2022-10-23
+12,bologna,lecce,V,2022-10-23
+14,roma,napoli,P,2022-10-23
+12,udinese,torino,P,2022-10-23
+11,sassuolo,hellas verona,V,2022-10-24
+12,cremonese,sampdoria,P,2022-10-24
+16,inter,sampdoria,V,2022-10-29
+16,napoli,sassuolo,V,2022-10-29
+12,lecce,juventus,P,2022-10-29
+13,torino,milan,V,2022-10-30
+13,spezia,fiorentina,P,2022-10-30
+13,cremonese,udinese,N,2022-10-30
+16,lazio,salernitana,P,2022-10-30
+12,empoli,atalanta,P,2022-10-30
+12,hellas verona,roma,P,2022-10-31
+13,monza,bologna,P,2022-10-31
+14,udinese,lecce,,2022-11-04
+13,empoli,sassuolo,,2022-11-05
+12,atalanta,napoli,,2022-11-05
+18,milan,spezia,,2022-11-05
+13,salernitana,cremonese,,2022-11-05
+18,juventus,inter,,2022-11-06
+18,roma,lazio,,2022-11-06
+14,sampdoria,fiorentina,,2022-11-06
+14,bologna,torino,,2022-11-06
+14,monza,hellas verona,,2022-11-06
+15,spezia,udinese,,2022-11-08
+19,napoli,empoli,,2022-11-08
+15,cremonese,milan,,2022-11-08
+15,torino,sampdoria,,2022-11-09
+14,sassuolo,roma,,2022-11-09
+21,fiorentina,salernitana,,2022-11-09
+14,lecce,atalanta,,2022-11-09
+19,inter,bologna,,2022-11-09
+14,hellas verona,juventus,,2022-11-10
+19,lazio,monza,,2022-11-10
+15,empoli,cremonese,,2022-11-11
+20,napoli,udinese,,2022-11-12
+16,sampdoria,lecce,,2022-11-12
+16,bologna,sassuolo,,2022-11-12
+14,atalanta,inter,,2022-11-13
+20,roma,torino,,2022-11-13
+20,milan,fiorentina,,2022-11-13
+15,hellas verona,spezia,,2022-11-13
+20,juventus,lazio,,2022-11-13
+16,monza,salernitana,,2022-11-13
+16,lecce,lazio,,2023-01-04
+21,roma,bologna,,2023-01-04
+16,sassuolo,sampdoria,,2023-01-04
+17,udinese,empoli,,2023-01-04
+21,inter,napoli,,2023-01-04
+17,torino,hellas verona,,2023-01-04
+17,spezia,atalanta,,2023-01-04
+16,salernitana,milan,,2023-01-04
+17,cremonese,juventus,,2023-01-04
+23,fiorentina,monza,,2023-01-04
+22,lazio,empoli,,2023-01-08
+24,fiorentina,sassuolo,,2023-01-08
+17,salernitana,torino,,2023-01-08
+17,hellas verona,cremonese,,2023-01-08
+18,bologna,atalanta,,2023-01-08
+18,spezia,lecce,,2023-01-08
+18,sampdoria,napoli,,2023-01-08
+18,monza,inter,,2023-01-08
+22,milan,roma,,2023-01-08
+22,juventus,udinese,,2023-01-08
+23,napoli,juventus,,2023-01-15
+19,torino,spezia,,2023-01-15
+18,lecce,milan,,2023-01-15
+18,sassuolo,lazio,,2023-01-15
+23,roma,fiorentina,,2023-01-15
+19,udinese,bologna,,2023-01-15
+17,atalanta,salernitana,,2023-01-15
+18,empoli,sampdoria,,2023-01-15
+23,inter,hellas verona,,2023-01-15
+19,cremonese,monza,,2023-01-15
+26,fiorentina,torino,,2023-01-22
+20,bologna,cremonese,,2023-01-22
+24,juventus,atalanta,,2023-01-22
+19,hellas verona,lecce,,2023-01-22
+20,monza,sassuolo,,2023-01-22
+20,sampdoria,udinese,,2023-01-22
+19,salernitana,napoli,,2023-01-22
+20,spezia,roma,,2023-01-22
+25,inter,empoli,,2023-01-22
+24,lazio,milan,,2023-01-22
+21,bologna,spezia,,2023-01-29
+26,milan,sassuolo,,2023-01-29
+20,empoli,torino,,2023-01-29
+25,juventus,monza,,2023-01-29
+21,udinese,hellas verona,,2023-01-29
+25,napoli,roma,,2023-01-29
+20,lecce,salernitana,,2023-01-29
+19,atalanta,sampdoria,,2023-01-29
+25,lazio,fiorentina,,2023-01-29
+21,cremonese,inter,,2023-01-29
+27,inter,milan,,2023-02-05
+28,fiorentina,bologna,,2023-02-05
+22,cremonese,lecce,,2023-02-05
+21,sassuolo,atalanta,,2023-02-05
+21,hellas verona,lazio,,2023-02-05
+22,spezia,napoli,,2023-02-05
+26,roma,empoli,,2023-02-05
+22,monza,sampdoria,,2023-02-05
+21,salernitana,juventus,,2023-02-05
+22,torino,udinese,,2023-02-05
+28,milan,torino,,2023-02-12
+27,lazio,atalanta,,2023-02-12
+22,empoli,spezia,,2023-02-12
+23,sampdoria,inter,,2023-02-12
+22,hellas verona,salernitana,,2023-02-12
+23,udinese,sassuolo,,2023-02-12
+22,lecce,roma,,2023-02-12
+27,napoli,cremonese,,2023-02-12
+23,bologna,monza,,2023-02-12
+27,juventus,fiorentina,,2023-02-12
+24,spezia,juventus,,2023-02-19
+24,monza,milan,,2023-02-19
+23,salernitana,lazio,,2023-02-19
+24,torino,cremonese,,2023-02-19
+23,sassuolo,napoli,,2023-02-19
+24,sampdoria,bologna,,2023-02-19
+22,atalanta,lecce,,2023-02-19
+28,roma,hellas verona,,2023-02-19
+29,inter,udinese,,2023-02-19
+30,fiorentina,empoli,,2023-02-19
+24,hellas verona,fiorentina,,2023-02-26
+24,lecce,sassuolo,,2023-02-26
+25,udinese,spezia,,2023-02-26
+24,empoli,napoli,,2023-02-26
+25,cremonese,roma,,2023-02-26
+25,bologna,inter,,2023-02-26
+24,salernitana,monza,,2023-02-26
+29,lazio,sampdoria,,2023-02-26
+29,juventus,torino,,2023-02-26
+30,milan,atalanta,,2023-02-26
+26,monza,empoli,,2023-03-05
+26,torino,bologna,,2023-03-05
+26,sampdoria,salernitana,,2023-03-05
+25,sassuolo,cremonese,,2023-03-05
+32,fiorentina,milan,,2023-03-05
+30,roma,juventus,,2023-03-05
+31,inter,lecce,,2023-03-05
+30,napoli,lazio,,2023-03-05
+24,atalanta,udinese,,2023-03-05
+26,spezia,hellas verona,,2023-03-05
+31,roma,sassuolo,,2023-03-12
+32,milan,salernitana,,2023-03-12
+27,spezia,inter,,2023-03-12
+31,juventus,sampdoria,,2023-03-12
+27,cremonese,fiorentina,,2023-03-12
+27,bologna,lazio,,2023-03-12
+26,lecce,torino,,2023-03-12
+26,empoli,udinese,,2023-03-12
+31,napoli,atalanta,,2023-03-12
+26,hellas verona,monza,,2023-03-12
+34,fiorentina,lecce,,2023-03-19
+28,sampdoria,hellas verona,,2023-03-19
+27,salernitana,bologna,,2023-03-19
+33,inter,juventus,,2023-03-19
+28,monza,cremonese,,2023-03-19
+32,lazio,roma,,2023-03-19
+28,udinese,milan,,2023-03-19
+27,sassuolo,spezia,,2023-03-19
+26,atalanta,empoli,,2023-03-19
+28,torino,napoli,,2023-03-19
+33,juventus,hellas verona,,2023-04-02
+29,spezia,salernitana,,2023-04-02
+33,roma,sampdoria,,2023-04-02
+29,bologna,udinese,,2023-04-02
+34,inter,fiorentina,,2023-04-02
+33,napoli,milan,,2023-04-02
+28,sassuolo,torino,,2023-04-02
+29,cremonese,atalanta,,2023-04-02
+29,monza,lazio,,2023-04-02
+28,empoli,lecce,,2023-04-02
+30,sampdoria,cremonese,,2023-04-08
+30,torino,roma,,2023-04-08
+28,atalanta,bologna,,2023-04-08
+29,lecce,napoli,,2023-04-08
+29,hellas verona,sassuolo,,2023-04-08
+35,milan,empoli,,2023-04-08
+30,udinese,monza,,2023-04-08
+29,salernitana,inter,,2023-04-08
+34,lazio,juventus,,2023-04-08
+36,fiorentina,spezia,,2023-04-08
+31,cremonese,empoli,,2023-04-16
+31,bologna,milan,,2023-04-16
+35,roma,udinese,,2023-04-16
+30,sassuolo,juventus,,2023-04-16
+31,spezia,lazio,,2023-04-16
+36,inter,monza,,2023-04-16
+30,lecce,sampdoria,,2023-04-16
+35,napoli,hellas verona,,2023-04-16
+31,torino,salernitana,,2023-04-16
+37,fiorentina,atalanta,,2023-04-16
+32,udinese,cremonese,,2023-04-23
+36,juventus,napoli,,2023-04-23
+37,milan,lecce,,2023-04-23
+30,atalanta,roma,,2023-04-23
+32,monza,fiorentina,,2023-04-23
+36,lazio,torino,,2023-04-23
+31,empoli,inter,,2023-04-23
+32,sampdoria,spezia,,2023-04-23
+31,salernitana,sassuolo,,2023-04-23
+31,hellas verona,bologna,,2023-04-23
+32,sassuolo,empoli,,2023-04-30
+38,inter,lazio,,2023-04-30
+33,torino,atalanta,,2023-04-30
+37,napoli,salernitana,,2023-04-30
+33,bologna,juventus,,2023-04-30
+33,cremonese,hellas verona,,2023-04-30
+37,roma,milan,,2023-04-30
+32,lecce,udinese,,2023-04-30
+39,fiorentina,sampdoria,,2023-04-30
+33,spezia,monza,,2023-04-30
+39,milan,cremonese,,2023-05-03
+34,sampdoria,torino,,2023-05-03
+33,salernitana,fiorentina,,2023-05-03
+33,empoli,bologna,,2023-05-03
+38,juventus,lecce,,2023-05-03
+38,lazio,sassuolo,,2023-05-03
+32,atalanta,spezia,,2023-05-03
+34,monza,roma,,2023-05-03
+33,hellas verona,inter,,2023-05-03
+34,udinese,napoli,,2023-05-03
+40,milan,lazio,,2023-05-07
+33,atalanta,juventus,,2023-05-07
+34,sassuolo,bologna,,2023-05-07
+39,napoli,fiorentina,,2023-05-07
+35,torino,monza,,2023-05-07
+35,cremonese,spezia,,2023-05-07
+34,lecce,hellas verona,,2023-05-07
+39,roma,inter,,2023-05-07
+34,empoli,salernitana,,2023-05-07
+35,udinese,sampdoria,,2023-05-07
+40,juventus,cremonese,,2023-05-14
+36,monza,napoli,,2023-05-14
+40,lazio,lecce,,2023-05-14
+36,spezia,milan,,2023-05-14
+41,inter,sassuolo,,2023-05-14
+36,bologna,roma,,2023-05-14
+35,salernitana,atalanta,,2023-05-14
+42,fiorentina,udinese,,2023-05-14
+35,hellas verona,torino,,2023-05-14
+36,sampdoria,empoli,,2023-05-14
+36,sassuolo,monza,,2023-05-21
+37,torino,fiorentina,,2023-05-21
+41,napoli,inter,,2023-05-21
+42,milan,sampdoria,,2023-05-21
+37,udinese,lazio,,2023-05-21
+41,roma,salernitana,,2023-05-21
+35,atalanta,hellas verona,,2023-05-21
+36,empoli,juventus,,2023-05-21
+36,lecce,spezia,,2023-05-21
+37,cremonese,bologna,,2023-05-21
+42,lazio,cremonese,,2023-05-28
+38,sampdoria,sassuolo,,2023-05-28
+38,spezia,torino,,2023-05-28
+42,juventus,milan,,2023-05-28
+37,hellas verona,empoli,,2023-05-28
+38,monza,lecce,,2023-05-28
+38,bologna,napoli,,2023-05-28
+43,inter,atalanta,,2023-05-28
+44,fiorentina,roma,,2023-05-28
+37,salernitana,udinese,,2023-05-28
+38,lecce,bologna,,2023-06-04
+38,sassuolo,fiorentina,,2023-06-04
+43,roma,spezia,,2023-06-04
+43,napoli,sampdoria,,2023-06-04
+44,milan,hellas verona,,2023-06-04
+38,empoli,lazio,,2023-06-04
+39,cremonese,salernitana,,2023-06-04
+37,atalanta,monza,,2023-06-04
+39,torino,inter,,2023-06-04
+39,udinese,juventus,,2023-06-04

@@ -202,7 +202,6 @@ class FootballPredictions:
                 links = soup.find_all('a', href=True)
                 links = [link['href'] for link in links if ('serieapredictions' in link['href']) & ((res.home.lower() in link['href']) or (res.away.lower() in link['href']))]
                 cleaned_links = list(dict.fromkeys(links))
-                print(cleaned_links)
                 if len(cleaned_links) > 0: 
                     home, away, text, label = self.get_prediction(cleaned_links[0])
                     self.recoveries.at[count, 'date'] = res.date

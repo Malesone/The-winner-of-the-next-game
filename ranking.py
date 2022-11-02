@@ -27,7 +27,9 @@ class Ranking:
             matches = pd.read_html(pageTree.text, match="Punteggi e partite")[0]
             columns = ['Data', 'Casa', 'Punteggio', 'Ospiti']
             matches = matches[columns].dropna()
-
+             
+            matches.Casa = matches.Casa.str.lower()
+            matches.Ospiti = matches.Ospiti.str.lower()
             matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
 
             matches.to_csv(path.format(season))
@@ -38,8 +40,10 @@ class Ranking:
         pageTree = requests.get(page)
         matches = pd.read_html(pageTree.text, match="Punteggi e partite")[0]
         columns = ['Data', 'Casa', 'Punteggio', 'Ospiti']
-    
+
         matches = matches[columns].dropna()
+        matches.Casa = matches.Casa.str.lower()
+        matches.Ospiti = matches.Ospiti.str.lower()
 
         matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego       
 

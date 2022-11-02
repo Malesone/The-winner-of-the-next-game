@@ -1,0 +1,121 @@
+,Data,Casa,Punteggio,Ospiti
+0,2022-08-13,milan,4–2,udinese
+1,2022-08-13,sampdoria,0–2,atalanta
+2,2022-08-13,lecce,1–2,inter
+3,2022-08-13,monza,1–2,torino
+4,2022-08-14,fiorentina,3–2,cremonese
+5,2022-08-14,lazio,2–1,bologna
+6,2022-08-14,salernitana,0–1,roma
+7,2022-08-14,spezia,1–0,empoli
+8,2022-08-15,hellas verona,2–5,napoli
+9,2022-08-15,juventus,3–0,sassuolo
+11,2022-08-20,udinese,0–0,salernitana
+12,2022-08-20,torino,0–0,lazio
+13,2022-08-20,sassuolo,1–0,lecce
+14,2022-08-20,inter,3–0,spezia
+15,2022-08-21,empoli,0–0,fiorentina
+16,2022-08-21,napoli,4–0,monza
+17,2022-08-21,atalanta,1–1,milan
+18,2022-08-21,bologna,1–1,hellas verona
+19,2022-08-22,roma,1–0,cremonese
+20,2022-08-22,sampdoria,0–0,juventus
+22,2022-08-26,monza,1–2,udinese
+23,2022-08-26,lazio,3–1,inter
+24,2022-08-27,juventus,1–1,roma
+25,2022-08-27,cremonese,1–2,torino
+26,2022-08-27,milan,2–0,bologna
+27,2022-08-27,spezia,2–2,sassuolo
+28,2022-08-28,salernitana,4–0,sampdoria
+29,2022-08-28,hellas verona,0–1,atalanta
+30,2022-08-28,fiorentina,0–0,napoli
+31,2022-08-28,lecce,1–1,empoli
+33,2022-08-30,sassuolo,0–0,milan
+34,2022-08-30,inter,3–1,cremonese
+35,2022-08-30,roma,3–0,monza
+36,2022-08-31,empoli,1–1,hellas verona
+37,2022-08-31,sampdoria,1–1,lazio
+38,2022-08-31,udinese,1–0,fiorentina
+39,2022-08-31,juventus,2–0,spezia
+40,2022-08-31,napoli,1–1,lecce
+41,2022-09-01,atalanta,3–1,torino
+42,2022-09-01,bologna,1–1,salernitana
+44,2022-09-03,fiorentina,1–1,juventus
+45,2022-09-03,milan,3–2,inter
+46,2022-09-03,lazio,1–2,napoli
+47,2022-09-04,cremonese,0–0,sassuolo
+48,2022-09-04,spezia,2–2,bologna
+49,2022-09-04,hellas verona,2–1,sampdoria
+50,2022-09-04,udinese,4–0,roma
+51,2022-09-05,salernitana,2–2,empoli
+52,2022-09-05,monza,0–2,atalanta
+53,2022-09-05,torino,1–0,lecce
+55,2022-09-10,napoli,1–0,spezia
+56,2022-09-10,inter,1–0,torino
+57,2022-09-10,sampdoria,1–2,milan
+58,2022-09-11,atalanta,1–1,cremonese
+59,2022-09-11,bologna,2–1,fiorentina
+60,2022-09-11,sassuolo,1–3,udinese
+61,2022-09-11,lecce,1–1,monza
+62,2022-09-11,lazio,2–0,hellas verona
+63,2022-09-11,juventus,2–2,salernitana
+64,2022-09-12,empoli,1–2,roma
+66,2022-09-16,salernitana,1–2,lecce
+67,2022-09-17,bologna,0–1,empoli
+68,2022-09-17,spezia,2–1,sampdoria
+69,2022-09-17,torino,0–1,sassuolo
+70,2022-09-18,udinese,3–1,inter
+71,2022-09-18,fiorentina,2–0,hellas verona
+72,2022-09-18,cremonese,0–4,lazio
+73,2022-09-18,monza,1–0,juventus
+74,2022-09-18,roma,0–1,atalanta
+75,2022-09-18,milan,1–2,napoli
+77,2022-10-01,napoli,3–1,torino
+78,2022-10-01,inter,1–2,roma
+79,2022-10-01,empoli,1–3,milan
+80,2022-10-02,lazio,4–0,spezia
+81,2022-10-02,sampdoria,0–3,monza
+82,2022-10-02,sassuolo,5–0,salernitana
+83,2022-10-02,lecce,1–1,cremonese
+84,2022-10-02,atalanta,1–0,fiorentina
+85,2022-10-02,juventus,3–0,bologna
+86,2022-10-03,hellas verona,1–2,udinese
+88,2022-10-08,sassuolo,1–2,inter
+89,2022-10-08,milan,2–0,juventus
+90,2022-10-08,bologna,1–1,sampdoria
+91,2022-10-09,torino,1–1,empoli
+92,2022-10-09,monza,2–0,spezia
+93,2022-10-09,salernitana,2–1,hellas verona
+94,2022-10-09,udinese,2–2,atalanta
+95,2022-10-09,cremonese,1–4,napoli
+96,2022-10-09,roma,2–1,lecce
+97,2022-10-10,fiorentina,0–4,lazio
+99,2022-10-15,empoli,1–0,monza
+100,2022-10-15,torino,0–1,juventus
+101,2022-10-15,atalanta,2–1,sassuolo
+102,2022-10-16,inter,2–0,salernitana
+103,2022-10-16,lazio,0–0,udinese
+104,2022-10-16,spezia,2–2,cremonese
+105,2022-10-16,napoli,3–2,bologna
+106,2022-10-16,hellas verona,1–2,milan
+107,2022-10-17,sampdoria,0–1,roma
+108,2022-10-17,lecce,1–1,fiorentina
+110,2022-10-21,juventus,4–0,empoli
+111,2022-10-22,salernitana,1–0,spezia
+112,2022-10-22,milan,4–1,monza
+113,2022-10-22,fiorentina,3–4,inter
+114,2022-10-23,udinese,1–2,torino
+115,2022-10-23,bologna,2–0,lecce
+116,2022-10-23,atalanta,0–2,lazio
+117,2022-10-23,roma,0–1,napoli
+118,2022-10-24,cremonese,0–1,sampdoria
+119,2022-10-24,sassuolo,2–1,hellas verona
+121,2022-10-29,napoli,4–0,sassuolo
+122,2022-10-29,lecce,0–1,juventus
+123,2022-10-29,inter,3–0,sampdoria
+124,2022-10-30,empoli,0–2,atalanta
+125,2022-10-30,cremonese,0–0,udinese
+126,2022-10-30,spezia,1–2,fiorentina
+127,2022-10-30,lazio,1–3,salernitana
+128,2022-10-30,torino,2–1,milan
+129,2022-10-31,hellas verona,1–3,roma
+130,2022-10-31,monza,1–2,bologna

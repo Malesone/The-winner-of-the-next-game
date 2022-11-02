@@ -1,0 +1,381 @@
+,Data,Casa,Punteggio,Ospiti
+0,2020-09-19,fiorentina,1–0,torino
+1,2020-09-19,hellas verona,3–0,roma
+2,2020-09-20,parma,0–2,napoli
+3,2020-09-20,genoa,4–1,crotone
+4,2020-09-20,sassuolo,1–1,cagliari
+5,2020-09-20,juventus,3–0,sampdoria
+6,2020-09-21,milan,2–0,bologna
+8,2020-09-26,torino,2–4,atalanta
+9,2020-09-26,cagliari,0–2,lazio
+10,2020-09-26,sampdoria,2–3,benevento
+11,2020-09-26,inter,4–3,fiorentina
+12,2020-09-27,spezia,1–4,sassuolo
+13,2020-09-27,hellas verona,1–0,udinese
+14,2020-09-27,crotone,0–2,milan
+15,2020-09-27,napoli,6–0,genoa
+16,2020-09-27,roma,2–2,juventus
+17,2020-09-28,bologna,4–1,parma
+19,2020-09-30,benevento,2–5,inter
+20,2020-09-30,udinese,0–2,spezia
+21,2020-09-30,lazio,1–4,atalanta
+23,2020-10-02,fiorentina,1–2,sampdoria
+24,2020-10-03,sassuolo,4–1,crotone
+25,2020-10-03,udinese,0–1,roma
+26,2020-10-04,atalanta,5–2,cagliari
+27,2020-10-04,benevento,1–0,bologna
+28,2020-10-04,lazio,1–1,inter
+29,2020-10-04,parma,1–0,hellas verona
+30,2020-10-04,milan,3–0,spezia
+32,2020-10-17,napoli,4–1,atalanta
+33,2020-10-17,sampdoria,3–0,lazio
+34,2020-10-17,inter,1–2,milan
+35,2020-10-17,crotone,1–1,juventus
+36,2020-10-18,bologna,3–4,sassuolo
+37,2020-10-18,spezia,2–2,fiorentina
+38,2020-10-18,torino,2–3,cagliari
+39,2020-10-18,udinese,3–2,parma
+40,2020-10-18,roma,5–2,benevento
+41,2020-10-19,hellas verona,0–0,genoa
+43,2020-10-23,sassuolo,3–3,torino
+44,2020-10-24,atalanta,1–3,sampdoria
+45,2020-10-24,genoa,0–2,inter
+46,2020-10-24,lazio,2–1,bologna
+47,2020-10-25,cagliari,4–2,crotone
+48,2020-10-25,parma,2–2,spezia
+49,2020-10-25,benevento,1–2,napoli
+50,2020-10-25,fiorentina,3–2,udinese
+51,2020-10-25,juventus,1–1,hellas verona
+52,2020-10-26,milan,3–3,roma
+54,2020-10-31,crotone,1–2,atalanta
+55,2020-10-31,inter,2–2,parma
+56,2020-10-31,bologna,3–2,cagliari
+57,2020-11-01,udinese,1–2,milan
+58,2020-11-01,torino,3–4,lazio
+59,2020-11-01,spezia,1–4,juventus
+60,2020-11-01,napoli,0–2,sassuolo
+61,2020-11-01,roma,2–0,fiorentina
+62,2020-11-01,sampdoria,1–1,genoa
+63,2020-11-02,hellas verona,3–1,benevento
+65,2020-11-04,genoa,1–2,torino
+67,2020-11-06,sassuolo,0–0,udinese
+68,2020-11-07,cagliari,2–0,sampdoria
+69,2020-11-07,benevento,0–3,spezia
+70,2020-11-07,parma,0–0,fiorentina
+71,2020-11-08,lazio,1–1,juventus
+72,2020-11-08,genoa,1–3,roma
+73,2020-11-08,atalanta,1–1,inter
+74,2020-11-08,torino,0–0,crotone
+75,2020-11-08,bologna,0–1,napoli
+76,2020-11-08,milan,2–2,hellas verona
+78,2020-11-21,crotone,0–2,lazio
+79,2020-11-21,spezia,0–0,atalanta
+80,2020-11-21,juventus,2–0,cagliari
+81,2020-11-22,fiorentina,0–1,benevento
+82,2020-11-22,inter,4–2,torino
+83,2020-11-22,sampdoria,1–2,bologna
+84,2020-11-22,hellas verona,0–2,sassuolo
+85,2020-11-22,roma,3–0,parma
+86,2020-11-22,udinese,1–0,genoa
+87,2020-11-22,napoli,1–3,milan
+89,2020-11-28,sassuolo,0–3,inter
+90,2020-11-28,benevento,1–1,juventus
+91,2020-11-28,atalanta,0–2,hellas verona
+92,2020-11-29,lazio,1–3,udinese
+93,2020-11-29,bologna,1–0,crotone
+94,2020-11-29,milan,2–0,fiorentina
+95,2020-11-29,cagliari,2–2,spezia
+96,2020-11-29,napoli,4–0,roma
+97,2020-11-30,torino,2–2,sampdoria
+98,2020-11-30,genoa,1–2,parma
+100,2020-12-05,spezia,1–2,lazio
+101,2020-12-05,juventus,2–1,torino
+102,2020-12-05,inter,3–1,bologna
+103,2020-12-06,hellas verona,1–1,cagliari
+104,2020-12-06,roma,0–0,sassuolo
+105,2020-12-06,parma,0–0,benevento
+106,2020-12-06,crotone,0–4,napoli
+107,2020-12-06,sampdoria,1–2,milan
+108,2020-12-07,fiorentina,1–1,genoa
+110,2020-12-11,sassuolo,1–0,benevento
+111,2020-12-12,crotone,4–1,spezia
+112,2020-12-12,torino,2–3,udinese
+113,2020-12-12,lazio,1–2,hellas verona
+114,2020-12-13,cagliari,1–3,inter
+115,2020-12-13,bologna,1–5,roma
+116,2020-12-13,atalanta,3–0,fiorentina
+117,2020-12-13,napoli,2–1,sampdoria
+118,2020-12-13,genoa,1–3,juventus
+119,2020-12-13,milan,2–2,parma
+121,2020-12-15,udinese,0–0,crotone
+122,2020-12-15,benevento,1–1,lazio
+123,2020-12-16,juventus,1–1,atalanta
+124,2020-12-16,inter,1–0,napoli
+125,2020-12-16,hellas verona,1–2,sampdoria
+126,2020-12-16,spezia,2–2,bologna
+127,2020-12-16,parma,0–0,cagliari
+128,2020-12-16,fiorentina,1–1,sassuolo
+129,2020-12-16,genoa,2–2,milan
+130,2020-12-17,roma,3–1,torino
+132,2020-12-19,fiorentina,1–1,hellas verona
+133,2020-12-19,sampdoria,3–1,crotone
+134,2020-12-19,parma,0–4,juventus
+135,2020-12-20,torino,1–1,bologna
+136,2020-12-20,sassuolo,1–2,milan
+137,2020-12-20,inter,2–1,spezia
+138,2020-12-20,benevento,2–0,genoa
+139,2020-12-20,cagliari,1–1,udinese
+140,2020-12-20,atalanta,4–1,roma
+141,2020-12-20,lazio,2–0,napoli
+143,2020-12-22,crotone,2–1,parma
+144,2020-12-22,juventus,0–3,fiorentina
+145,2020-12-23,hellas verona,1–2,inter
+146,2020-12-23,milan,3–2,lazio
+147,2020-12-23,napoli,1–1,torino
+148,2020-12-23,sampdoria,2–3,sassuolo
+149,2020-12-23,roma,3–2,cagliari
+150,2020-12-23,udinese,0–2,benevento
+151,2020-12-23,spezia,1–2,genoa
+152,2020-12-23,bologna,2–2,atalanta
+154,2021-01-03,inter,6–2,crotone
+155,2021-01-03,parma,0–3,torino
+156,2021-01-03,genoa,1–1,lazio
+157,2021-01-03,atalanta,5–1,sassuolo
+158,2021-01-03,spezia,0–1,hellas verona
+159,2021-01-03,roma,1–0,sampdoria
+160,2021-01-03,cagliari,1–4,napoli
+161,2021-01-03,fiorentina,0–0,bologna
+162,2021-01-03,benevento,0–2,milan
+163,2021-01-03,juventus,4–1,udinese
+165,2021-01-06,cagliari,1–2,benevento
+166,2021-01-06,bologna,2–2,udinese
+167,2021-01-06,torino,1–1,hellas verona
+168,2021-01-06,lazio,2–1,fiorentina
+169,2021-01-06,crotone,1–3,roma
+170,2021-01-06,atalanta,3–0,parma
+171,2021-01-06,sassuolo,2–1,genoa
+172,2021-01-06,sampdoria,2–1,inter
+173,2021-01-06,napoli,1–2,spezia
+174,2021-01-06,milan,1–3,juventus
+176,2021-01-09,benevento,1–4,atalanta
+177,2021-01-09,genoa,2–0,bologna
+178,2021-01-09,milan,2–0,torino
+179,2021-01-10,roma,2–2,inter
+180,2021-01-10,udinese,1–2,napoli
+181,2021-01-10,parma,0–2,lazio
+182,2021-01-10,hellas verona,2–1,crotone
+183,2021-01-10,fiorentina,1–0,cagliari
+184,2021-01-10,juventus,3–1,sassuolo
+185,2021-01-11,spezia,2–1,sampdoria
+187,2021-01-15,lazio,3–0,roma
+188,2021-01-16,bologna,1–0,hellas verona
+189,2021-01-16,torino,0–0,spezia
+190,2021-01-16,sampdoria,2–1,udinese
+191,2021-01-17,napoli,6–0,fiorentina
+192,2021-01-17,crotone,4–1,benevento
+193,2021-01-17,sassuolo,1–1,parma
+194,2021-01-17,atalanta,0–0,genoa
+195,2021-01-17,inter,2–0,juventus
+196,2021-01-18,cagliari,0–2,milan
+198,2021-01-20,udinese,1–1,atalanta
+200,2021-01-22,benevento,2–2,torino
+201,2021-01-23,roma,4–3,spezia
+202,2021-01-23,milan,0–3,atalanta
+203,2021-01-23,udinese,0–0,inter
+204,2021-01-23,fiorentina,2–1,crotone
+205,2021-01-24,juventus,2–0,bologna
+206,2021-01-24,genoa,1–0,cagliari
+207,2021-01-24,hellas verona,3–1,napoli
+208,2021-01-24,lazio,2–1,sassuolo
+209,2021-01-24,parma,0–2,sampdoria
+211,2021-01-29,torino,1–1,fiorentina
+212,2021-01-30,bologna,1–2,milan
+213,2021-01-30,sampdoria,0–2,juventus
+214,2021-01-30,inter,4–0,benevento
+215,2021-01-31,spezia,0–1,udinese
+216,2021-01-31,crotone,0–3,genoa
+217,2021-01-31,atalanta,1–3,lazio
+218,2021-01-31,cagliari,1–1,sassuolo
+219,2021-01-31,napoli,2–0,parma
+220,2021-01-31,roma,3–1,hellas verona
+222,2021-02-05,fiorentina,0–2,inter
+223,2021-02-06,sassuolo,1–2,spezia
+224,2021-02-06,atalanta,3–3,torino
+225,2021-02-06,juventus,2–0,roma
+226,2021-02-06,genoa,2–1,napoli
+227,2021-02-07,benevento,1–1,sampdoria
+228,2021-02-07,milan,4–0,crotone
+229,2021-02-07,udinese,2–0,hellas verona
+230,2021-02-07,parma,0–3,bologna
+231,2021-02-07,lazio,1–0,cagliari
+233,2021-02-12,bologna,1–1,benevento
+234,2021-02-13,torino,0–0,genoa
+235,2021-02-13,napoli,1–0,juventus
+236,2021-02-13,spezia,2–0,milan
+237,2021-02-14,roma,3–0,udinese
+238,2021-02-14,cagliari,0–1,atalanta
+239,2021-02-14,sampdoria,2–1,fiorentina
+240,2021-02-14,crotone,1–2,sassuolo
+241,2021-02-14,inter,3–1,lazio
+242,2021-02-15,hellas verona,2–1,parma
+244,2021-02-19,fiorentina,3–0,spezia
+245,2021-02-19,cagliari,0–1,torino
+246,2021-02-20,lazio,1–0,sampdoria
+247,2021-02-20,genoa,2–2,hellas verona
+248,2021-02-20,sassuolo,1–1,bologna
+249,2021-02-21,parma,2–2,udinese
+250,2021-02-21,milan,0–3,inter
+251,2021-02-21,atalanta,4–2,napoli
+252,2021-02-21,benevento,0–0,roma
+253,2021-02-22,juventus,3–0,crotone
+255,2021-02-27,spezia,2–2,parma
+256,2021-02-27,bologna,2–0,lazio
+257,2021-02-27,hellas verona,1–1,juventus
+258,2021-02-28,sampdoria,0–2,atalanta
+259,2021-02-28,inter,3–0,genoa
+260,2021-02-28,crotone,0–2,cagliari
+261,2021-02-28,udinese,1–0,fiorentina
+262,2021-02-28,napoli,2–0,benevento
+263,2021-02-28,roma,1–2,milan
+265,2021-03-02,juventus,3–0,spezia
+266,2021-03-03,sassuolo,3–3,napoli
+267,2021-03-03,milan,1–1,udinese
+268,2021-03-03,cagliari,1–0,bologna
+269,2021-03-03,atalanta,5–1,crotone
+270,2021-03-03,fiorentina,1–2,roma
+271,2021-03-03,genoa,1–1,sampdoria
+272,2021-03-03,benevento,0–3,hellas verona
+273,2021-03-04,parma,1–2,inter
+275,2021-03-06,spezia,1–1,benevento
+276,2021-03-06,udinese,2–0,sassuolo
+277,2021-03-06,juventus,3–1,lazio
+278,2021-03-07,roma,1–0,genoa
+279,2021-03-07,fiorentina,3–3,parma
+280,2021-03-07,crotone,4–2,torino
+281,2021-03-07,hellas verona,0–2,milan
+282,2021-03-07,sampdoria,2–2,cagliari
+283,2021-03-07,napoli,3–1,bologna
+284,2021-03-08,inter,1–0,atalanta
+286,2021-03-12,lazio,3–2,crotone
+287,2021-03-12,atalanta,3–1,spezia
+288,2021-03-13,sassuolo,3–2,hellas verona
+289,2021-03-13,benevento,1–4,fiorentina
+290,2021-03-13,genoa,1–1,udinese
+291,2021-03-14,bologna,3–1,sampdoria
+292,2021-03-14,parma,2–0,roma
+293,2021-03-14,torino,1–2,inter
+294,2021-03-14,cagliari,1–3,juventus
+295,2021-03-14,milan,0–1,napoli
+297,2021-03-17,torino,3–2,sassuolo
+299,2021-03-19,parma,1–2,genoa
+300,2021-03-20,crotone,2–3,bologna
+301,2021-03-20,spezia,2–1,cagliari
+302,2021-03-21,hellas verona,0–2,atalanta
+303,2021-03-21,sampdoria,1–0,torino
+304,2021-03-21,udinese,0–1,lazio
+305,2021-03-21,juventus,0–1,benevento
+306,2021-03-21,fiorentina,2–3,milan
+307,2021-03-21,roma,0–2,napoli
+309,2021-04-03,milan,1–1,sampdoria
+310,2021-04-03,sassuolo,2–2,roma
+311,2021-04-03,genoa,1–1,fiorentina
+312,2021-04-03,benevento,2–2,parma
+313,2021-04-03,cagliari,0–2,hellas verona
+314,2021-04-03,lazio,2–1,spezia
+315,2021-04-03,atalanta,3–2,udinese
+316,2021-04-03,napoli,4–3,crotone
+317,2021-04-03,torino,2–2,juventus
+318,2021-04-03,bologna,0–1,inter
+320,2021-04-07,juventus,2–1,napoli
+322,2021-04-07,inter,2–1,sassuolo
+324,2021-04-10,spezia,3–2,crotone
+325,2021-04-10,parma,1–3,milan
+326,2021-04-10,udinese,0–1,torino
+327,2021-04-11,inter,1–0,cagliari
+328,2021-04-11,juventus,3–1,genoa
+329,2021-04-11,sampdoria,0–2,napoli
+330,2021-04-11,hellas verona,0–1,lazio
+331,2021-04-11,roma,1–0,bologna
+332,2021-04-11,fiorentina,2–3,atalanta
+333,2021-04-12,benevento,0–1,sassuolo
+335,2021-04-17,sampdoria,3–1,hellas verona
+336,2021-04-17,crotone,1–2,udinese
+337,2021-04-17,sassuolo,3–1,fiorentina
+338,2021-04-17,cagliari,4–3,parma
+339,2021-04-18,milan,2–1,genoa
+340,2021-04-18,bologna,4–1,spezia
+341,2021-04-18,lazio,5–3,benevento
+342,2021-04-18,atalanta,1–0,juventus
+343,2021-04-18,torino,3–1,roma
+344,2021-04-18,napoli,1–1,inter
+346,2021-04-20,hellas verona,1–2,fiorentina
+347,2021-04-21,milan,1–2,sassuolo
+348,2021-04-21,bologna,1–1,torino
+349,2021-04-21,spezia,1–1,inter
+350,2021-04-21,udinese,0–1,cagliari
+351,2021-04-21,genoa,2–2,benevento
+352,2021-04-21,juventus,3–1,parma
+353,2021-04-21,crotone,0–1,sampdoria
+354,2021-04-22,roma,1–1,atalanta
+355,2021-04-22,napoli,5–2,lazio
+357,2021-04-24,genoa,2–0,spezia
+358,2021-04-24,parma,3–4,crotone
+359,2021-04-24,sassuolo,1–0,sampdoria
+360,2021-04-25,benevento,2–4,udinese
+361,2021-04-25,inter,1–0,hellas verona
+362,2021-04-25,fiorentina,1–1,juventus
+363,2021-04-25,cagliari,3–2,roma
+364,2021-04-25,atalanta,5–0,bologna
+365,2021-04-26,torino,0–2,napoli
+366,2021-04-26,lazio,3–0,milan
+368,2021-05-01,hellas verona,1–1,spezia
+369,2021-05-01,crotone,0–2,inter
+370,2021-05-01,milan,2–0,benevento
+371,2021-05-02,lazio,4–3,genoa
+372,2021-05-02,napoli,1–1,cagliari
+373,2021-05-02,bologna,3–3,fiorentina
+374,2021-05-02,sassuolo,1–1,atalanta
+375,2021-05-02,udinese,1–2,juventus
+376,2021-05-02,sampdoria,2–0,roma
+377,2021-05-03,torino,1–0,parma
+379,2021-05-08,spezia,1–4,napoli
+380,2021-05-08,udinese,1–1,bologna
+381,2021-05-08,inter,5–1,sampdoria
+382,2021-05-08,fiorentina,2–0,lazio
+383,2021-05-09,genoa,1–2,sassuolo
+384,2021-05-09,parma,2–5,atalanta
+385,2021-05-09,benevento,1–3,cagliari
+386,2021-05-09,hellas verona,1–1,torino
+387,2021-05-09,roma,5–0,crotone
+388,2021-05-09,juventus,0–3,milan
+390,2021-05-11,napoli,5–1,udinese
+391,2021-05-12,cagliari,0–0,fiorentina
+392,2021-05-12,sassuolo,1–3,juventus
+393,2021-05-12,sampdoria,2–2,spezia
+394,2021-05-12,bologna,0–2,genoa
+395,2021-05-12,inter,3–1,roma
+396,2021-05-12,lazio,1–0,parma
+397,2021-05-12,torino,0–7,milan
+398,2021-05-12,atalanta,2–0,benevento
+399,2021-05-13,crotone,2–1,hellas verona
+401,2021-05-15,spezia,4–1,torino
+402,2021-05-15,genoa,3–4,atalanta
+403,2021-05-15,juventus,3–2,inter
+404,2021-05-15,roma,2–0,lazio
+405,2021-05-16,fiorentina,0–2,napoli
+406,2021-05-16,udinese,0–1,sampdoria
+407,2021-05-16,benevento,1–1,crotone
+408,2021-05-16,parma,1–3,sassuolo
+409,2021-05-16,milan,0–0,cagliari
+410,2021-05-17,hellas verona,2–2,bologna
+412,2021-05-18,lazio,0–0,torino
+414,2021-05-22,cagliari,0–1,genoa
+415,2021-05-22,crotone,0–0,fiorentina
+416,2021-05-22,sampdoria,3–0,parma
+417,2021-05-23,inter,5–1,udinese
+418,2021-05-23,spezia,2–2,roma
+419,2021-05-23,sassuolo,2–0,lazio
+420,2021-05-23,atalanta,0–2,milan
+421,2021-05-23,torino,1–1,benevento
+422,2021-05-23,bologna,1–4,juventus
+423,2021-05-23,napoli,1–1,hellas verona
