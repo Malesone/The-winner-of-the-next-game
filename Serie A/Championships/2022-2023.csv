@@ -79,46 +79,46 @@
 8,sassuolo,salernitana,V,2022-10-02
 8,sampdoria,monza,P,2022-10-02
 8,hellas verona,udinese,P,2022-10-03
-9,sassuolo,inter,P,2022-10-08
-11,milan,juventus,V,2022-10-08
-9,bologna,sampdoria,N,2022-10-08
-11,roma,lecce,V,2022-10-09
-9,cremonese,napoli,P,2022-10-09
-9,salernitana,hellas verona,V,2022-10-09
-9,torino,empoli,N,2022-10-09
-9,monza,spezia,V,2022-10-09
-9,udinese,atalanta,N,2022-10-09
-13,fiorentina,lazio,P,2022-10-10
-10,empoli,monza,V,2022-10-15
-9,atalanta,sassuolo,V,2022-10-15
-10,torino,juventus,P,2022-10-15
-10,hellas verona,milan,P,2022-10-16
-13,napoli,bologna,V,2022-10-16
-13,inter,salernitana,V,2022-10-16
-13,lazio,udinese,N,2022-10-16
-10,spezia,cremonese,N,2022-10-16
-10,lecce,fiorentina,N,2022-10-17
-10,sampdoria,roma,P,2022-10-17
-14,juventus,empoli,V,2022-10-21
-11,salernitana,spezia,V,2022-10-22
-16,fiorentina,inter,P,2022-10-22
-14,milan,monza,V,2022-10-22
-10,atalanta,lazio,P,2022-10-23
-12,bologna,lecce,V,2022-10-23
-14,roma,napoli,P,2022-10-23
-12,udinese,torino,P,2022-10-23
-11,sassuolo,hellas verona,V,2022-10-24
-12,cremonese,sampdoria,P,2022-10-24
-16,inter,sampdoria,V,2022-10-29
-16,napoli,sassuolo,V,2022-10-29
-12,lecce,juventus,P,2022-10-29
-13,torino,milan,V,2022-10-30
-13,spezia,fiorentina,P,2022-10-30
-13,cremonese,udinese,N,2022-10-30
-16,lazio,salernitana,P,2022-10-30
-12,empoli,atalanta,P,2022-10-30
-12,hellas verona,roma,P,2022-10-31
-13,monza,bologna,P,2022-10-31
+9,sassuolo,inter,,2022-10-08
+11,milan,juventus,,2022-10-08
+9,bologna,sampdoria,,2022-10-08
+11,roma,lecce,,2022-10-09
+9,cremonese,napoli,,2022-10-09
+9,salernitana,hellas verona,,2022-10-09
+9,torino,empoli,,2022-10-09
+9,monza,spezia,,2022-10-09
+9,udinese,atalanta,,2022-10-09
+13,fiorentina,lazio,,2022-10-10
+10,empoli,monza,,2022-10-15
+9,atalanta,sassuolo,,2022-10-15
+10,torino,juventus,,2022-10-15
+10,hellas verona,milan,,2022-10-16
+13,napoli,bologna,,2022-10-16
+13,inter,salernitana,,2022-10-16
+13,lazio,udinese,,2022-10-16
+10,spezia,cremonese,,2022-10-16
+10,lecce,fiorentina,,2022-10-17
+10,sampdoria,roma,,2022-10-17
+14,juventus,empoli,,2022-10-21
+11,salernitana,spezia,,2022-10-22
+16,fiorentina,inter,,2022-10-22
+14,milan,monza,,2022-10-22
+10,atalanta,lazio,,2022-10-23
+12,bologna,lecce,,2022-10-23
+14,roma,napoli,,2022-10-23
+12,udinese,torino,,2022-10-23
+11,sassuolo,hellas verona,,2022-10-24
+12,cremonese,sampdoria,,2022-10-24
+16,inter,sampdoria,,2022-10-29
+16,napoli,sassuolo,,2022-10-29
+12,lecce,juventus,,2022-10-29
+13,torino,milan,,2022-10-30
+13,spezia,fiorentina,,2022-10-30
+13,cremonese,udinese,,2022-10-30
+16,lazio,salernitana,,2022-10-30
+12,empoli,atalanta,,2022-10-30
+12,hellas verona,roma,,2022-10-31
+13,monza,bologna,,2022-10-31
 14,udinese,lecce,,2022-11-04
 13,empoli,sassuolo,,2022-11-05
 12,atalanta,napoli,,2022-11-05

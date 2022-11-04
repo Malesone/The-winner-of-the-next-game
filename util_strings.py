@@ -17,21 +17,26 @@ completed_dataset = path_stats+'completed_dataset.csv' #dataset completo, con st
 ranks = path_stats+'Ranks/'
 ranking = ranks+'{}.csv' 
 
-cleaned_matches_description = football_predictions+'cleaned_descriptions.csv' 
+cleaned_matches_description = football_predictions+'cleaned_news.csv' 
 championship_actual_season = championship.format('2022-2023')
     
     ###### CSV completi ######
 next_matches = path_stats+'next_matches.csv'
-final_dataset = path_stats+'final_dataset.csv' #dataset con i nomi delle squadre convertiti, con le statistiche e la predizione sul testo
+final_dataset = path_stats+'{} final_dataset.csv' #dataset con i nomi delle squadre convertiti, con le statistiche e la predizione sul testo
     ###### CSV completi ######
 ###### CSV FILES ######
 
 ###### ML MODEL ######
 path_ML = 'ML Model/'
-vectorizer = path_ML+'vectorizer.pk'
-text_analysis = path_ML+'DT text analysis.model'
-classificator_FP = path_ML+'DT text analysis.model'
-classificator = path_ML+'RF final model.model'
+## con TfidfVectorizer
+TfidfVectorizer = path_ML+'Tfidf_vectorizer.pk'
+classificatorTfIdf = path_ML+'Tfidf_text_DecisionTree.model'
+final_classificator_Tfidf = path_ML+'Tfidf_final_model_RF.model' #classificatore con Tfidf
+## con CountVectorizer
+CountVectorizer = path_ML+'CV_vectorizer.pk'
+classificatorCV = path_ML+'CV_text_DecisionTree.model'
+classificatorCV_LR = path_ML+'CV_text_LogisticRegression.model'
+final_classificator_CV = path_ML+'CV_final_model_RF.model' #classificatore con CV
 ###### ML MODEL ######
 
 json_link_matches = football_predictions+'links.json' #file json con chiave il 

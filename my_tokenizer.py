@@ -5,7 +5,7 @@ import nltk
 from nltk.corpus import stopwords
 import spacy
 from nltk.stem import PorterStemmer, WordNetLemmatizer
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
 import util_strings as utils
 import pickle
@@ -90,12 +90,12 @@ class MyTokenizer:
         for i, doc in self.dataset.iterrows():
             doc_text = self.word_tokenization(doc.description)
             doc_text = [self.stemmer.stem(word) for word in doc_text]
-            self.dataset.at[i, 'description'] = list(nltk.bigrams(doc_text))
+            self.dataset.at[i, 'description'] = list(nltk.trigrams(doc_text))
             doc_text = ' '.join(doc_text)
             self.cleaned_corpus.append(doc_text)
         
-    def set_bigram_and_get_sets(self): 
-        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) #vectorizer sarà il nostro modello da allenare
+    def set_bigram_and_get_sets(self, vectorizer): 
+        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) if vectorizer else CountVectorizer(ngram_range=(3, 3)) #vectorizer sarà il nostro modello da allenare
         tokenized_text = self.vectorizer.fit_transform(self.cleaned_corpus)
 
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
