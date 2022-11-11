@@ -52,7 +52,7 @@ class DownloadDati:
         table = self.soup.select('table.stats_table')[0]
         a_hrefs = table.find_all('a')
         self.teams = [a_href for a_href in a_hrefs if '/squadre/' in str(a_href)]        
-        self.teams.sort(key=lambda x: x.contents[0]) #ordinamento per titolo
+        self.teams.sort(key=lambda x: x.contents[0]) #ordinamento per titolo"""
         
     def get_matches(self):
         self.all_matches = pd.DataFrame()
