@@ -9,6 +9,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
 import util_strings as utils
 import pickle
+import re
 
 class MyTokenizer:
     def __init__(self, dataset):
@@ -88,7 +89,8 @@ class MyTokenizer:
     def clean_text(self):
         self.cleaned_corpus = []
         for i, doc in self.dataset.iterrows():
-            doc_text = self.word_tokenization(doc.description)
+            doc_text = re.sub('[^a-zA-Z]', ' ', doc.description)
+            doc_text = self.word_tokenization(doc_text)
             doc_text = [self.stemmer.stem(word) for word in doc_text]
             self.dataset.at[i, 'description'] = list(nltk.trigrams(doc_text))
             doc_text = ' '.join(doc_text)
