@@ -97,13 +97,22 @@ class MyTokenizer:
             self.cleaned_corpus.append(doc_text)
         
     def set_bigram_and_get_sets(self, vectorizer): 
-        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) if vectorizer else CountVectorizer(ngram_range=(3, 3)) #vectorizer sarà il nostro modello da allenare
+        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) if vectorizer else CountVectorizer(ngram_range=(3, 3)) 
         tokenized_text = self.vectorizer.fit_transform(self.cleaned_corpus)
 
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
         tokenized_text, self.dataset.prediction, test_size=0.2, shuffle=False)
 
         return self.X_train, self.X_test, self.y_train, self.y_test
+
+    def set_bigram_and_get_sets2(self, vectorizer): 
+        self.vectorizer = TfidfVectorizer(ngram_range=(3,3)) if vectorizer else CountVectorizer(ngram_range=(3, 3)) 
+
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(
+        self.cleaned_corpus, self.dataset.prediction, test_size=0.2, shuffle=False)
+
+        return self.X_train, self.X_test, self.y_train, self.y_test
+
 
     def set_label_prediction(self, y_pred):
         for i in range(len(self.y_train)):
