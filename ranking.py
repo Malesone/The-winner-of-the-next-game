@@ -30,7 +30,7 @@ class Ranking:
              
             matches.Casa = matches.Casa.str.lower()
             matches.Ospiti = matches.Ospiti.str.lower()
-            matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+            matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #I have to convert the date otherwise it gives me problems when i read it
 
             matches.to_csv(path.format(season))
             self.all_previous_seasons_matches[(self.year2-(i+1))] = matches
@@ -45,7 +45,7 @@ class Ranking:
         matches.Casa = matches.Casa.str.lower()
         matches.Ospiti = matches.Ospiti.str.lower()
 
-        matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego       
+        matches['Data'] = pd.to_datetime(matches['Data'], format='%d-%m-%Y') #I have to convert the date otherwise it gives me problems when i read it
 
         matches.to_csv(path)
         self.all_previous_seasons_matches[year] = matches
@@ -54,12 +54,12 @@ class Ranking:
         for i in range(seasons+1):        
             season = str(self.year1-i)+'-'+str(self.year2-i)
             csv_file = Path(path.format(season))
-            #se non trovo il file scarico i risultati 
+            #if I can't find the file, I download the results
             if csv_file.is_file() == False:
                 self.download_season(season, path.format(season), (self.year2-i))
 
             matches = pd.read_csv(path.format(season), index_col=0)
-            matches['Data'] = pd.to_datetime(matches['Data'], format='%Y-%m-%d') #devo convertire la data altrimenti mi dà problemi 
+            matches['Data'] = pd.to_datetime(matches['Data'], format='%Y-%m-%d') #I have to convert the date otherwise it gives me problems 
             self.all_previous_seasons_matches[(self.year2-i)] = matches
 
     def get_rank(self, team_name1, team_name2, date, season):
@@ -68,7 +68,7 @@ class Ranking:
         
         seasons_to_check = [x for x in sorted(self.all_previous_seasons_matches.keys()) if x <= int(season)]
         
-        #per il rank ho bisogno dei match nelle stagioni precedenti
+        #for the rank i need the matches in the previous seasonss
         for season_to_check in seasons_to_check: 
             matches = self.all_previous_seasons_matches[season_to_check] 
             matches = matches[matches.Data < date]

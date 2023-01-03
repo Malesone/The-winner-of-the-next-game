@@ -21,7 +21,7 @@ class FootballPredictions:
         self.originalNotation = np.append(self.matches.away.unique(), self.originalNotation)
         sorted(np.unique(self.originalNotation))
 
-### INIZIO ___________ GESTIONE URL PER DATA
+### START ___________ URL MANAGEMENT BY DATE
     def get_urls(self):
         #permette di ottenere tutti i link che portano alla pagina contenente le partite di un determinato giorno. Il giorno viene settato nel link
         #ho notato che i link relativi alle news di Serie A contengono la parola serieapredictions, quindi ottengo tutti i link e poi filtro per quelli contenente la parola
@@ -56,9 +56,9 @@ class FootballPredictions:
         file_links = open(path)  
         self.links_of_pages_by_date = json.load(file_links)
         file_links.close()
-### FINE ___________ GESTIONE URL PER DATA
+### END ___________ URL MANAGEMENT BY DATE
     
-### INIZIO ___________ DOWNLOAD PREDIZIONI
+### START ___________ PREDICTIONS DOWNLOAD
     def get_predictions(self, path, set_season):
         self.df = pd.DataFrame()
         count = 0
@@ -153,7 +153,7 @@ class FootballPredictions:
 
         #dato che il procedimento di scaricamento delle descrizioni è molto lungo, tutti i dati sono salvati nel seguente csv. Il problema è che i dati devono essere elaborati, quindi guardare le sezioni successive
     
-    ### INIZIO ___________ FIX PREDIZIONI MANCANTI
+    ### START ___________ FIX OF MISSING PREDICTIONS
     def read_all_predictions(self, path):
         self.df = pd.read_csv(path, index_col=0)
         self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')
@@ -240,8 +240,8 @@ class FootballPredictions:
         self.df.sort_values(by=["date"], inplace=True)
         self.df.to_csv(path)
         
-    ### FINE ___________ FIX PREDIZIONI MANCANTI
-### FINE ___________ DOWNLOAD PREDIZIONI
+    ### END ___________ FIX OF MISSING PREDICTIONS
+### ENDL ___________ PREDICTIONS DOWNLOAD
     def read_cleaned_predictions(self, path):
         self.df = pd.read_csv(path, index_col=0)
         self.df['date'] = pd.to_datetime(self.df['date'], format='%Y-%m-%d')

@@ -37,7 +37,7 @@ class MatchAnalysis:
         self.matches_fe_team.reset_index(drop=True, inplace=True)
 
     def create_team_dataset(self):
-        #per ogni squadra nel campionato viene creato un dataset che contiene tutte le partite giocate dalla squadra con le relative statistiche
+        #for each team in the championship a dataset is created which contains all the games played by the team with the relative statistics
         self.matches_by_team = []
         self.matches_fe_team['date'] = pd.to_datetime(self.matches_fe_team['date'], format='%Y-%m-%d') 
 
@@ -45,7 +45,8 @@ class MatchAnalysis:
             self.matches_by_team.append(Team(number, team.lower(), self.matches_fe_team[self.matches_fe_team.team1 == team]))
 
     def divide_and_merge_home_away(self):
-        #dato che il dataset scaricato contiene le informazioni relative alle statistiche delle squadre, ci saranno per ogni partita 2 record che si riferiscono alla stessa partita: un record per la squadra di casa e uno per la squadra di trasferta. Divido quindi chi gioca in casa da chi gioca in trasferta andando a considerare il campo "Stadio" che dice appunto se la squadra gioca in casa o in trasferta (la squadra presa di riferimento è quella su cui vengono prese le statistiche). Successivamente i 2 record che si riferiscono alla stessa partita (uno nel dataset home_games, uno nel dataset away_games) vengono combinati ed alla fine ottengo un dataset 
+        #since the downloaded dataset contains information relating to the team's statistics, there will be 2 records for each match that refer to the same match: one record for the home team and one for the away team. I therefore divide who plays at home from who plays away by considering the "Stadio" field which precisely says whether the team plays at home or away (the team taken as a reference is the one on which the statistics are taken). Subsequently the 2 records that refer to the same game (one in the home_games dataset, one in the away_games dataset) are combined and in the end I obtain a dataset
+        
         home_games = self.matches_fe_team[self.matches_fe_team.stadium =='Casa']
         away_games = self.matches_fe_team[self.matches_fe_team.stadium =='Ospiti']
         
@@ -73,7 +74,7 @@ class MatchAnalysis:
         self.diff_dataset = pd.read_csv("files/diff_matches.csv", index_col=0)
 
     def reduce_dataset_with_avg(self, number, path):
-        #devo convertire il tipo delle colonne perché la media tra i valori mi dà un numero con la virgola (da int a float)
+        #I have to convert the type of the columns because the average between the values ​​gives me a number with a comma (from int to float)
         float_features_and_avg = [x for x in self.diff_dataset.columns if x != 'home' and x != 'away' and x != 'date' and x != 'result' and x != 'rank_h' and x != 'rank_a' and x != 'season']
         self.diff_dataset[float_features_and_avg] = self.diff_dataset[float_features_and_avg].astype(float)
         self.diff_dataset['date'] = pd.to_datetime(self.diff_dataset['date'], format='%Y-%m-%d') 
@@ -114,7 +115,7 @@ class MatchAnalysis:
         team1, team2 = (0, 0)
         seasons_to_check = [x for x in sorted(self.ranking.all_previous_seasons_matches.keys()) if x <= int(season)]
         
-        #per il rank ho bisogno dei match nelle stagioni precedenti, quindi scansiono ogni stagione e sommo i rank
+        #for the rank I need the matches in the previous seasons, so I scan each season and add up the ranks
         for season_to_check in seasons_to_check: 
             matches = self.ranking.all_previous_seasons_matches[season_to_check] 
             teams = matches.Casa.unique()
@@ -126,7 +127,7 @@ class MatchAnalysis:
                 team1, team2 = team1 + 2, team2 
             else:
                 v1, v2 = self.ranking.get_result(matches, match_value.home, match_value.away, match_value.date)
-        
+
                 team1 += v1
                 team2 += v2
                 

@@ -11,9 +11,9 @@ from IPython.display import display
 
 class DownloadDati:
     """
-    dizionario che contiene:
-    * come chiave i nomi delle colonne trovati nei vari dataset
-    * come valore i nuovi nomi delle colonne che verranno utilizzati nel codice
+    dictionary that contains:
+    * as key the names of the columns found in the various datasets
+    * as value the new column names that will be used in the code
     """
     rename_fields = {
         'Squadra': 'team1',
@@ -40,7 +40,7 @@ class DownloadDati:
         self.competition = competition
 
     def connect(self, page):
-        #setta i parametri necessari alla connessione
+        #set the parameters necessary for the connection
         headers = {'User-Agent': 
                 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'}
 
@@ -52,7 +52,7 @@ class DownloadDati:
         table = self.soup.select('table.stats_table')[0]
         a_hrefs = table.find_all('a')
         self.teams = [a_href for a_href in a_hrefs if '/squadre/' in str(a_href)]        
-        self.teams.sort(key=lambda x: x.contents[0]) #ordinamento per titolo"""
+        self.teams.sort(key=lambda x: x.contents[0]) #ordinamento per titolo
         
     def get_matches(self):
         self.all_matches = pd.DataFrame()
@@ -74,7 +74,7 @@ class DownloadDati:
             href_links = [l.get("href") for l in links]
 
             matches = self.get_old_matches(matches)
-            #ha senso prendere solo le partite che sono già state giocate, quelle con il risultato nullo (nan) significa che non sono ancora state giocate, quindi vengono "scartate"
+            #it makes sense to take only the games that have already been played, those with a null result (nan) means that they have not been played yet, so they are "discarded"
             
             self.get_stats_matches(matches, href_links) 
             
@@ -86,25 +86,25 @@ class DownloadDati:
 
     def get_stats_matches(self, matches, href_links):
         """
-        per ciascuna squadra nella lista di squadre viene effettuato scraping dei vari dataset necessari per ottenere le statistiche di ciascun match
+        for each team in the team list the various datasets necessary to obtain the statistics of each match are scraped
         """
-        #la ricerca effettua il merge del dataset contenenti i match
+        #the search merges the dataset containing the matches
         for href_key, section_value in self.util_hrefs.items():
             div_links = [l for l in href_links if l and href_key in l]
             html = requests.get(f"https://fbref.com{div_links[0]}")
             
-            section, columns = section_value.items() #dal dizionario ottengo la sezione 
+            section, columns = section_value.items() #from the dictionary I get the section
             section, columns = section[1], columns[1]
 
-            #ottengo il dataset della pima sezione indicata nel match
+            #I get the dataset of the first section indicated in the match
             dataset_section = pd.read_html(html.text, match=section)[0]
-            #elimino l'intestazione "Di: NomeSquadra"
+            #I remove the header "Di: NomeSquadra"
             dataset_section.columns = dataset_section.columns.droplevel()
-            #filtro il dataset per la competizione
+            #filter the dataset for the competition
             dataset_section = dataset_section[dataset_section['Competizione'] == self.competition]
-            #filtro il dataset per le colonne selezionate
+            #filter the dataset for the selected columns
             dataset_section = dataset_section[[col for col in columns]]
-            #print(dataset_section.columns)
+        
             if section == 'Passaggi':
                 column_names = dataset_section.columns.values
                 column_names[1] = 'Compl'
@@ -112,19 +112,18 @@ class DownloadDati:
                 dataset_section = dataset_section[['Data','Compl','Tent']]
 
             matches = pd.merge(matches, dataset_section, on = ["Data"])
-            #matches.to_csv("../SerieA/Season21_22/Matches/"+team_name+".csv")
 
         self.all_matches = self.all_matches.append(matches) 
         
     def save_matches(self, path):
         """
-        prima di salvare i match devono essere eseguite diverse operazioni: 
-        * rinominazione dei campi
-        * conversione data da stringa a datetime
-        * ordinamento per data
+        before saving the matches several operations must be performed:
+        * renaming of fields
+        * conversion date from string to datetime
+        * sort matches by date
         """
         self.all_matches.rename(columns=self.rename_fields, inplace=True)
-        self.all_matches['date'] = pd.to_datetime(self.all_matches['date'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+        self.all_matches['date'] = pd.to_datetime(self.all_matches['date'], format='%d-%m-%Y') #I have to convert the date otherwise it gives me problems when i read it
 
         self.all_matches.sort_values(by=["date"], inplace=True)
         self.all_matches.to_csv(path) #matches for each team
@@ -132,7 +131,7 @@ class DownloadDati:
     def save_championship_games(self, path):
         self.championship_games.rename(columns=self.rename_fields, inplace=True)
         self.championship_games = self.championship_games[self.championship_games.stadium=='Casa']
-        self.championship_games['date'] = pd.to_datetime(self.championship_games['date'], format='%d-%m-%Y') #devo convertire la data altrimenti mi dà problemi quando la lego         
+        self.championship_games['date'] = pd.to_datetime(self.championship_games['date'], format='%d-%m-%Y') #I have to convert the date otherwise it gives me problems when i read it
         self.championship_games = self.championship_games[['team1', 'team2', 'result', 'date']]
         self.championship_games.sort_values(by=["date"], inplace=True)
         self.championship_games.to_csv(path) #matches for each team
@@ -142,14 +141,13 @@ class DownloadDati:
         self.all_matches['date'] = pd.to_datetime(self.all_matches['date'], format='%d-%m-%Y')
     
     def set_util_hrefs(self): 
-        """il dizionario contiene:
-        * come chiave parti di link contenuti in bottoni che permettono di creare dei link che portano ai vari dataset delle squadre 
-        * come valori: 
-            - il nome della sezione html che permette di accedere al dataset
-            - le colonne utili da estrarre dai dataset per ottenere le statistiche utili
         """
-        #array = ['completed_passings','total_passings', 'corners']
-
+        the dictionary contains:
+        * as key parts of links contained in buttons that allow you to create links that lead to the various datasets of the teams
+        * as values:
+            - the name of the html section that allows access to the dataset
+            - useful columns to extract from datasets to obtain useful statistics
+        """
         self.util_hrefs = {
             'all_comps/shooting/': {
                 'section': 'Tiri',
@@ -165,16 +163,5 @@ class DownloadDati:
                 }
             
         }
-        """
-        Vecchie sezioni che mi hanno fatto ottenere un'accuratezza minore
-        'all_comps/passing/': {
-            'section': 'Passaggi',
-            'columns': ['Data', 'Compl.', 'Tent,']
-            },
-        'all_comps/passing_types': {
-            'section': 'Tipologie di passaggi',
-            'columns': ['Data', 'Angoli']
-            },
-        """
 
    
